@@ -4,7 +4,7 @@
 #SBATCH --nodes=1
 #SBATCH --time=00:30:00
 #SBATCH --mem=32G
-#SBATCH --error=:compute_snp_stats.err
+#SBATCH --error=compute_snp_stats.err
 #SBATCH --output=compute_snp_stats.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=pirku@evolbio.mpg.de

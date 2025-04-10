@@ -1,0 +1,12 @@
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_10.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density

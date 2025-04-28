@@ -1,0 +1,4289 @@
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_10.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 7.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_10.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 41.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_10.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 40.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_10.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 7.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_10.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 40.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_10.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 41.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_10.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 7.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_10.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 41.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_10.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_10.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1403771 out of a possible 1403771 Sites
+Run Time = 40.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_11.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 6.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_11.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 36.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_11.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 35.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_11.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 6.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_11.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 36.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_11.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 35.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_11.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 6.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_11.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 35.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_11.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_11.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1225110 out of a possible 1225110 Sites
+Run Time = 36.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_12.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_12.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 33.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_12.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 34.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_12.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_12.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 33.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_12.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 33.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_12.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 6.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_12.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 33.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_12.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_12.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1135405 out of a possible 1135405 Sites
+Run Time = 33.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_13.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_13.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_13.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_13.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_13.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_13.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 31.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_13.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 6.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_13.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_13.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_13.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1095140 out of a possible 1095140 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_14.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_14.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_14.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_14.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_14.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_14.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_14.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_14.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_14.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_14.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1094529 out of a possible 1094529 Sites
+Run Time = 32.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_15.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_15.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 27.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_15.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 28.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_15.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_15.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 29.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_15.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 27.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_15.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_15.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 28.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_15.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_15.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 956162 out of a possible 956162 Sites
+Run Time = 27.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_16.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 5.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_16.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 25.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_16.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 26.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_16.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_16.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 25.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_16.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 26.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_16.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_16.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 26.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_16.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_16.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 876267 out of a possible 876267 Sites
+Run Time = 25.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_17.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_17.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 24.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_17.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 23.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_17.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_17.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 23.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_17.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 24.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_17.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_17.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 23.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_17.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_17.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 811282 out of a possible 811282 Sites
+Run Time = 24.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_18.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_18.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 22.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_18.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 22.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_18.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_18.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 22.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_18.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 22.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_18.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_18.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 23.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_18.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_18.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 757499 out of a possible 757499 Sites
+Run Time = 22.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_19.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_19.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 20.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_19.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 19.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_19.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_19.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 19.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_19.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 19.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_19.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_19.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 19.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_19.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_19.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 670162 out of a possible 670162 Sites
+Run Time = 20.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_1.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 38.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_1.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 236.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_1.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 232.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_1.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 38.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_1.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 233.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_1.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 231.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_1.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 38.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_1.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 234.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_1.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_1.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 8078637 out of a possible 8078637 Sites
+Run Time = 230.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_20.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_20.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 18.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_20.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 19.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_20.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_20.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 18.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_20.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 19.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_20.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_20.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 19.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_20.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_20.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 636261 out of a possible 636261 Sites
+Run Time = 18.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_21.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_21.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 18.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_21.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 18.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_21.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_21.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 17.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_21.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 18.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_21.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_21.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 17.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_21.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_21.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 610186 out of a possible 610186 Sites
+Run Time = 18.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_22.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_22.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_22.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_22.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_22.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_22.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_22.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_22.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_22.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_22.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 431709 out of a possible 431709 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_23.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_23.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 14.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_23.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_23.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_23.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_23.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_23.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_23.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 14.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_23.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_23.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 453262 out of a possible 453262 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_24.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_24.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_24.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_24.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_24.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_24.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_24.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_24.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_24.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_24.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 423504 out of a possible 423504 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_25.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_25.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_25.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 11.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_25.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_25.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_25.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_25.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_25.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_25.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_25.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 403058 out of a possible 403058 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_26.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_26.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_26.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_26.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_26.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_26.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 7.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_26.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_26.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_26.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_26.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 275227 out of a possible 275227 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_27.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_27.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_27.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_27.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_27.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_27.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_27.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_27.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_27.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_27.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 279255 out of a possible 279255 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_28.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_28.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_28.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_28.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_28.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_28.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_28.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 2.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_28.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 8.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_28.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_28.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 297204 out of a possible 297204 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_29.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_29.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_29.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_29.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_29.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_29.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_29.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_29.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_29.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_29.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 122260 out of a possible 122260 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_2.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 31.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_2.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 187.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_2.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 182.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_2.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 30.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_2.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 186.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_2.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 183.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_2.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 31.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_2.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 184.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_2.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_2.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 6344873 out of a possible 6344873 Sites
+Run Time = 183.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_30.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_30.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_30.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_30.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_30.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 4.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_30.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_30.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_30.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_30.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_30.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 108784 out of a possible 108784 Sites
+Run Time = 3.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_31.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_31.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_31.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_31.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_31.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_31.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_31.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_31.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_31.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_31.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 24639 out of a possible 24639 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_32.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_32.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_32.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_32.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_32.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_32.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_32.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_32.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_32.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_32.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 9526 out of a possible 9526 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_33.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_33.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_33.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_33.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_33.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_33.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_33.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_33.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 1.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_33.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_33.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 23896 out of a possible 23896 Sites
+Run Time = 0.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_3.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 31.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_3.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 174.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_3.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 173.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_3.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 29.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_3.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 176.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_3.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 173.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_3.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 28.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_3.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 174.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_3.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_3.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 6015921 out of a possible 6015921 Sites
+Run Time = 173.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_4.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 21.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_4.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 123.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_4.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 122.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_4.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 20.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_4.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 124.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_4.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 123.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_4.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 20.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_4.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 124.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_4.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_4.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 4252632 out of a possible 4252632 Sites
+Run Time = 122.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_5.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 20.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_5.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 119.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_5.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 119.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_5.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 20.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_5.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 136.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_5.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 118.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_5.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 19.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_5.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 119.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_5.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_5.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 4100562 out of a possible 4100562 Sites
+Run Time = 118.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_6.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 17.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_6.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 102.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_6.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 102.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_6.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 17.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_6.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 100.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_6.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 101.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_6.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 16.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_6.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 102.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_6.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_6.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 3494747 out of a possible 3494747 Sites
+Run Time = 101.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_7.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 10.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_7.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 64.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_7.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 61.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_7.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 10.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_7.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 63.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_7.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 61.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_7.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 10.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_7.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 62.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_7.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_7.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2128868 out of a possible 2128868 Sites
+Run Time = 61.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_8.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 10.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_8.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 60.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_8.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 59.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_8.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 10.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_8.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 59.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_8.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 59.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_8.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 10.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_8.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 59.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_8.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_8.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2040807 out of a possible 2040807 Sites
+Run Time = 59.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_9.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_9.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 50.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_9.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 50.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_9.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_9.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 50.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_9.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 50.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_9.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting SNP density
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 9.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_9.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 49.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_9.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_9.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 179 out of 179 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 1717812 out of a possible 1717812 Sites
+Run Time = 49.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/snp_density_10000_sorted_chr_Z.phased
+	--SNPdensity 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting SNP density
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 13.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/window_pi_10000_sorted_chr_Z.phased
+	--window-pi 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 72.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/tajimaD_10000_sorted_chr_Z.phased
+	--TajimaD 10000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 73.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/snp_density_100000_sorted_chr_Z.phased
+	--SNPdensity 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting SNP density
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/window_pi_100000_sorted_chr_Z.phased
+	--window-pi 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 73.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/tajimaD_100000_sorted_chr_Z.phased
+	--TajimaD 100000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 73.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/snp_density_1000000_sorted_chr_Z.phased
+	--SNPdensity 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting SNP density
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 12.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/window_pi_1000000_sorted_chr_Z.phased
+	--window-pi 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting Windowed Nucleotide Diversity Statistics...
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 73.00 seconds
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /home/pirku/Masters_Thesis/vcf/sorted_chr_Z.phased.vcf.gz
+	--out vcf_stats/tajimaD_1000000_sorted_chr_Z.phased
+	--TajimaD 1000000
+
+Using zlib version: 1.2.7
+After filtering, kept 167 out of 167 Individuals
+Outputting Tajima's D Statistic...
+After filtering, kept 2669800 out of a possible 2669800 Sites
+Run Time = 73.00 seconds
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.

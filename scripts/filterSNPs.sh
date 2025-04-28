@@ -1,4 +1,15 @@
 #!/bin/bash
+#SBATCH --job-name=Filter_VCFs
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --time=00:10:00
+#SBATCH --mem=64G
+#SBATCH --error=job.%J.err
+#SBATCH --output=job.%J.out
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=pirku@evolbio.mpg.de
+#SBATCH --partition=standard
+modu
 #set -x
 # parse command line arguments
 ARGS=$(getopt -o d:a:hv: --long vcf-directory:,min-allele-count:,help,verbose -- "$@")

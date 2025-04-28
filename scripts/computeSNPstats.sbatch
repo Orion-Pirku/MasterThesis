@@ -1,13 +1,14 @@
 #!/bin/bash
-#BATCH --ntasks=20
-#BATCH --nodes=1
-#BATCH --time=24:00:00
-#BATCH --mem=32G
-#BATCH --error=compute_snp_stats.err
-#BATCH --output=compute_snp_stats.out
-#BATCH --mail-type=ALL
-#BATCH --mail-user=pirku@evolbio.mpg.de
-#BATCH --partition=fast
+#SBATCH --job-name=COMPUTE_SNP_STATS
+#SBATCH --ntasks=20
+#SBATCH --nodes=1
+#SBATCH --time=24:00:00
+#SBATCH --mem=64G
+#SBATCH --error=compute_snp_stats.err
+#SBATCH --output=compute_snp_stats.out
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=pirku@evolbio.mpg.de
+#SBATCH --partition=fast
 
 # Load necessary modules
 module load gcc/6.2.1

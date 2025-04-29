@@ -71,12 +71,6 @@ if [ ! -d "vcf_stats" ]; then
     echo "Error: Directory vcf_stats does not exist. Skipping git commit and push."
     exit 1
 fi
-
-# Commit and push changes to git
-git add vcf_stats || { echo "Failed to add changes to git."; exit 1; }
-git commit -m "computed SNP density, nucleotide diversity and Tajima's D for sorted VCF files with minor allele count 1" || { echo "Failed to commit changes to git."; exit 1; }
-git push origin main || { echo "Failed to push changes to git."; exit 1; }
-
 # Notify when done
-echo "SNP statistics computation and git push completed successfully."
+echo "SNP statistics computation completed successfully."
 

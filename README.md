@@ -1,6 +1,6 @@
 # MasterThesis
-##Repository where I save bioinformatics and data analytics pipelines generated for my master's thesis.
-###Brief Overview
+## Repository where I save bioinformatics and data analytics pipelines generated for my master's thesis.
+### Brief Overview
 
 My thesis focuses on the computational identification of meiotic recombination hotspots in bird populations of *Sylvia atricapilla* (European Blackcap). Understanding the mechanisms and functionality of these recombination hotspots in birds is crucial, particularly because they lack the *Prdm9* gene.
 

@@ -1,14 +1,14 @@
-#!/usr/bin/env python3
 import os
 import polars as pl
 import matplotlib.pyplot as plt
 import seaborn
 import glob
 import pandas as pd
-from typing import Dict, List
+from typing import Dict, List, Union
 import pyarrow
 import argparse
 from os import sep
+import sys
 
 def load_files_from_directory(directory_path: str, file_pattern: str) -> Dict[str, pl.DataFrame]:
     """
@@ -102,7 +102,8 @@ def chrom_numeric_label(chrom: str) -> Union[str, int]:
          
 def plot_chromosome_density(dataFrame: pl.DataFrame, 
                             xValues: str, 
-                            yValues: str, 
+                            yValues: str,
+                            yAxisTitle: str, 
                             plotLineColor: str, 
                             outFileName: str, 
                             outFileFormat: str):
@@ -134,10 +135,10 @@ def plot_chromosome_density(dataFrame: pl.DataFrame,
             x=xValues,
             y=yValues,
             color=plotLineColor,
-            ax=axes[i]
+            ax=axes[i] # type: ignore
         )
         axes[i].set_xlabel(f"Chromosome {chrom_label}", fontsize=12)
-        axes[i].set_ylabel("SNP Variants/Kb", fontsize=12)
+        axes[i].set_ylabel(yAxisTitle, fontsize=12)
 
     plt.tight_layout()
     
@@ -163,21 +164,100 @@ def CommandLineArguments():
                         required=True, 
                         type=str, 
                         help="format of output figure e.g., svg, png, jpeg.")
-    parser.add_argument('-p', '--file_pattern', 
-                        type=str, 
-                        required=True,
-                        help='input the pattern of the files whose stats you want to plot e.g., *_SNP_Density_10kb*')
     parser.add_argument('-X', '--X_axis_values', 
-                        type=str
+                        type=str,
                         required=True,
-                        help='Name of Column from input files to be plotted on the Y-axis')
+                        help='Name of Column from input files to be plotted on the X-axis')
     parser.add_argument('-Y', '--Y_axis_values',
-                        type=str
+                        type=str,
                         required=True,
                         help='Name of Column from input files to be plotted on the Y-axis')
+    parser.add_argument('-y', '--y_axis_title',
+                        type=str,
+                        required=True,
+                        help='Name of y-axis')
     parser.add_argument('-c', '--plot_line_color',
                         required=True,
                         type=str,
                         help='color of the lineplot') 
     cl_arguments = parser.parse_args()
-    return cl_arguments 
+    return cl_arguments
+
+if __name__ == "__main__":
+    
+    try:
+        parsedArguments = CommandLineArguments()
+    except Exception as e:
+        print(f"Could not parse args, error: {e}")
+        sys.exit(1)
+
+    try:
+        loadedFile = load_files_from_directory(
+            parsedArguments.input_directory,
+            parsedArguments.file_pattern
+        )
+    except Exception as e:
+        print(f"Could not load files: {e}")
+        sys.exit(1)
+
+    if not loadedFile:
+        print("No files were loaded. Exiting.")
+        sys.exit(1)
+
+    try:
+        first_file_key = next(iter(loadedFile))
+        mergedDataFrames = merge_dataframes_from_dict(loadedFile, first_file_key)
+        sorted_merged_dataFrame = sort_by_chromosome(mergedDataFrames)
+    except Exception as e:
+        print(f"Could not merge data frames from files: {e}")
+        sys.exit(1)
+
+    try:
+        plot_chromosome_density(
+            dataFrame=sorted_merged_dataFrame,
+            xValues=parsedArguments.X_axis_values,
+            yValues=parsedArguments.Y_axis_values,
+            yAxisTitle=parsedArguments.y_axis_title,
+            plotLineColor=parsedArguments.plot_line_color,
+            outFileName=parsedArguments.output_file,
+            outFileFormat=parsedArguments.output_file_format
+        )
+    except Exception as e:
+        print(f"Could not generate plot! Error: {e}")
+        sys.exit(1)
+if __name__ == "__main__":
+    
+    try:
+        parsedArguments = CommandLineArguments()
+    except Exception as e:
+        print(f"Could not parse args, error {e}")
+        sys.exit(1)
+
+    try:
+        loadedFile = load_files_from_directory(parsedArguments.input_directory, parsedArguments.file_pattern)
+    except Exception as e:
+        print(f"Could not load files {e}")
+        sys.exit(1)
+    
+    try:
+        first_key = next(iter(loadedFile))
+        mergedDataFrames = merge_dataframes_from_dict(loadedFile, first_key)
+        sorted_merged_dataFrame = sort_by_chromosome(mergedDataFrames)
+    except Exception as e:
+        print(f"Could not marge data frames from files")
+        sys.exit(1)
+    
+    try:
+        plot_chromosome_density(
+            dataFrame=sorted_merged_dataFrame,
+            xValues=parsedArguments.X_axis_values,
+            yValues=parsedArguments.Y_axis_values,
+            yAxisTitle=parsedArguments.y_axis_title,
+            plotLineColor=parsedArguments.plot_line_color,
+            outFileName=parsedArguments.output_file,
+            outFileFormat=parsedArguments.output_file_format
+            
+        )
+    except Exception as e:
+        print(f"could not generate plot!\nError: {e}")
+        sys.exit(1) 

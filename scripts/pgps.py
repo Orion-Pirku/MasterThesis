@@ -47,26 +47,38 @@ def load_files_from_directory(directory_path: str, file_pattern: str) -> Dict[st
     
     return loaded_files_dict
 
-def merge_dataframes_from_dict(dataFrames: Dict[str, pl.DataFrame], first_file_keyName: str) -> pl.DataFrame:
-    """
-    Merges DataFrames stored in a dictionary based on a common column ('CHROM').
-    Only the first DataFrame's column names will be preserved.
+def inspect_column_types(dataFrames: dict[str, pl.DataFrame], column: str = "CHROM"):
+    print(f"Inspecting column types for '{column}':")
+    for key, df in dataFrames.items():
+        if column in df.columns:
+            dtype = df.schema[column]
+            print(f" - {key}: {column} -> {dtype}")
+        else:
+            print(f" - {key}: {column} column NOT FOUND")
 
-    Args:
-    - dataframes: A dictionary where the keys are file names and the values are DataFrames.
-    - first_file_keyName: The key name for the first DataFrame to use as the base for column names.
 
-    Returns:
-    - A single merged DataFrame with rows from all DataFrames, retaining the column names of the first DataFrame.
+def merge_dataframes_from_dict(dataFrames: dict[str, pl.DataFrame], first_file_keyName: str) -> pl.DataFrame:
     """
-    # Get the first DataFrame from the dictionary
-    merged_df: pl.DataFrame = dataFrames.get(first_file_keyName, None) # type: ignore
-    
-    # Iterate over the rest of the DataFrames and merge them
+    Vertically stacks DataFrames stored in a dictionary.
+    Assumes all DataFrames have the same schema.
+    """
+
+    if first_file_keyName not in dataFrames:
+        raise ValueError(f"Key '{first_file_keyName}' not found in dataFrames.")
+
+    # Optional: Cast all CHROM columns to string to prevent type mismatch
+    for key in dataFrames:
+        if "CHROM" in dataFrames[key].columns:
+            dataFrames[key] = dataFrames[key].with_columns([pl.col("CHROM").cast(pl.Utf8), pl.col("TajimaD").cast(pl.Float64)])
+        else:
+            raise KeyError(f"'CHROM' column missing in DataFrame with key '{key}'.")
+
+    merged_df = dataFrames[first_file_keyName]
+
     for key, df in dataFrames.items():
         if key != first_file_keyName:
-            merged_df = merged_df.merge_sorted(df, key="CHROM", )
-    
+            merged_df = merged_df.vstack(df)
+
     return merged_df
 
 def sort_by_chromosome(dataFrame: pl.DataFrame) -> pl.DataFrame:

@@ -67,11 +67,11 @@ def merge_dataframes_from_dict(dataFrames: dict[str, pl.DataFrame], first_file_k
         raise ValueError(f"Key '{first_file_keyName}' not found in dataFrames.")
 
     # Optional: Cast all CHROM columns to string to prevent type mismatch
-    for key in dataFrames:
-        if "CHROM" in dataFrames[key].columns:
-            dataFrames[key] = dataFrames[key].with_columns([pl.col("CHROM").cast(pl.Utf8), pl.col("TajimaD").cast(pl.Float64)])
-        else:
-            raise KeyError(f"'CHROM' column missing in DataFrame with key '{key}'.")
+    #for key in dataFrames:
+     #   if "CHROM" in dataFrames[key].columns:
+      #      dataFrames[key] = dataFrames[key].with_columns([pl.col("CHROM").cast(pl.Utf8), pl.col("TajimaD").cast(pl.Float64)])
+       # else:
+        #    raise KeyError(f"'CHROM' column missing in DataFrame with key '{key}'.")
 
     merged_df = dataFrames[first_file_keyName]
 

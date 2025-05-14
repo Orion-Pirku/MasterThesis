@@ -112,7 +112,7 @@ def chrom_numeric_label(chrom: str) -> Union[str, int]:
     chrom = chrom.lower().replace("chr_", "").replace("chr", "")
     return chrom.upper() if not chrom.isdigit() else int(chrom)
          
-def plot_chromosome_density(dataFrame: pl.DataFrame, 
+def plot_popGen(dataFrame: pl.DataFrame, 
                             xValues: str, 
                             yValues: str,
                             yAxisTitle: str, 
@@ -225,7 +225,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     try:
-        plot_chromosome_density(
+        plot_popGen(
             dataFrame=sorted_merged_dataFrame,
             xValues=parsedArguments.X_axis_values,
             yValues=parsedArguments.Y_axis_values,
@@ -237,39 +237,3 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Could not generate plot! Error: {e}")
         sys.exit(1)
-if __name__ == "__main__":
-    
-    try:
-        parsedArguments = CommandLineArguments()
-    except Exception as e:
-        print(f"Could not parse args, error {e}")
-        sys.exit(1)
-
-    try:
-        loadedFile = load_files_from_directory(parsedArguments.input_directory, parsedArguments.file_pattern)
-    except Exception as e:
-        print(f"Could not load files {e}")
-        sys.exit(1)
-    
-    try:
-        first_key = next(iter(loadedFile))
-        mergedDataFrames = merge_dataframes_from_dict(loadedFile, first_key)
-        sorted_merged_dataFrame = sort_by_chromosome(mergedDataFrames)
-    except Exception as e:
-        print(f"Could not marge data frames from files")
-        sys.exit(1)
-    
-    try:
-        plot_chromosome_density(
-            dataFrame=sorted_merged_dataFrame,
-            xValues=parsedArguments.X_axis_values,
-            yValues=parsedArguments.Y_axis_values,
-            yAxisTitle=parsedArguments.y_axis_title,
-            plotLineColor=parsedArguments.plot_line_color,
-            outFileName=parsedArguments.output_file,
-            outFileFormat=parsedArguments.output_file_format
-            
-        )
-    except Exception as e:
-        print(f"could not generate plot!\nError: {e}")
-        sys.exit(1) 

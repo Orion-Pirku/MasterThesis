@@ -2,49 +2,60 @@ import os
 import polars as pl
 import matplotlib.pyplot as plt
 import seaborn
-import glob
+from glob import glob
 import pandas as pd
-from typing import Dict, List, Union
+from typing import Dict, List, Union, Tuple, Optional, Pattern
 import pyarrow
 import argparse
 from os import sep
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import re
 
-def load_files_from_directory(directory_path: str, file_pattern: str) -> Dict[str, pl.DataFrame]:
+def load_files(directory_path: str, file_pattern: str) -> Dict[str, pl.DataFrame]:
     """
-    Loads files matching a specific pattern from a directory using Polars and stores them
-    with their base file name (without extension) as the key in a dictionary.
-    
-    Args:
-    - directory_path (str): The directory to scan for files.
-    - file_pattern (str): The glob pattern to match files (e.g., '*_10000_*.phased.snpden').
-
-    Returns:
-    - Dict[str, pl.DataFrame]: A dictionary with base file names as keys and Polars DataFrames as values.
+    Optimized: Loads files matching a specific pattern from a directory using Polars
+    and stores them with their chromosome label as key.
     """
     loaded_files_dict: Dict[str, pl.DataFrame] = {}
-    
-    # Use glob to get a list of files matching the pattern
-    files: List[str] = glob.glob(os.path.join(directory_path, file_pattern))
-    
+    files: List[str] = glob(os.path.join(directory_path, file_pattern))
+
     if not files:
-        print(f"No files matching the pattern '{file_pattern}' were found in the directory '{directory_path}'.")
+        print(f"No files matching the pattern '{file_pattern}' were found in '{directory_path}'.")
         return loaded_files_dict
 
-    # Loop through all matching files
-    for file in files:
-        if os.path.isfile(file):  # Ensure it's a file
-            # Extract the base file name (without path and extension)
-            file_basename: str = os.path.splitext(os.path.basename(file))[0]
+    # Precompile regex
+    chr_pattern: Pattern[str] = re.compile(r"chr_(\d+|[A-Z])")
 
-            try:
-                # Read the CSV file into a Polars DataFrame
-                df: pl.DataFrame = pl.read_csv(file, separator='\t')
-                loaded_files_dict[file_basename] = df
-            except Exception as e:
-                print(f"Error reading {file}: {e}")
-                continue
-    
+    def read_and_parse(file: str) -> Optional[Tuple[str, pl.DataFrame]]:
+        if not os.path.isfile(file):
+            return None
+
+        basename = os.path.basename(file)
+        file_basename = os.path.splitext(basename)[0]
+        match = chr_pattern.search(file_basename)
+
+        if not match:
+            print(f"Skipping file without valid chr label: {basename}")
+            return None
+
+        chr_label = match.group()
+        try:
+            df = pl.read_csv(file, separator='\t')
+            return chr_label, df
+        except Exception as e:
+            print(f"Error reading {file}: {e}")
+            return None
+
+    # Use threads for parallel I/O (safe for Polars)
+    with ThreadPoolExecutor(max_workers=os.cpu_count() or 4) as executor:
+        futures = {executor.submit(read_and_parse, f): f for f in files}
+        for future in as_completed(futures):
+            result = future.result()
+            if result:
+                chr_label, df = result
+                loaded_files_dict[chr_label] = df
+
     return loaded_files_dict
 
 def inspect_column_types(dataFrames: dict[str, pl.DataFrame], column: str = "CHROM"):
@@ -157,42 +168,43 @@ def plot_popGen(dataFrame: pl.DataFrame,
     return plt.savefig(outFileName, format=outFileFormat, dpi=600, bbox_inches="tight")
     
 def CommandLineArguments():
-    parser = argparse.ArgumentParser(prog="pgsp",
+    plot_stats = argparse.ArgumentParser(prog="pgsp",
                                      usage='%(prog)s [options]', 
                                      description="Population Genomics Statistics Plotter")
-    parser.add_argument('-i', '--input_directory', 
+    plot_stats.add_argument('-i', '--input_directory', 
                         required=True, 
                         type=str, 
                         help='input directory of files of type snpdens, tajimaD or window.pi' )
-    parser.add_argument('-p', '--file_pattern', 
+    plot_stats.add_argument('-p', '--file_pattern', 
                         type=str, 
                         required=True,
                         help='input the pattern of the files whose stats you want to plot e.g., *_SNP_Density_10kb*')
-    parser.add_argument('-o', '--output_file', 
+    plot_stats.add_argument('-o', '--output_file', 
                         required=True, 
                         type=str,
                         help='name of output file (plot)')
-    parser.add_argument('-f', '--output_file_format', 
+    plot_stats.add_argument('-f', '--output_file_format', 
                         required=True, 
                         type=str, 
                         help="format of output figure e.g., svg, png, jpeg.")
-    parser.add_argument('-X', '--X_axis_values', 
+    plot_stats.add_argument('-X', '--X_axis_values', 
                         type=str,
                         required=True,
                         help='Name of Column from input files to be plotted on the X-axis')
-    parser.add_argument('-Y', '--Y_axis_values',
+    plot_stats.add_argument('-Y', '--Y_axis_values',
                         type=str,
                         required=True,
                         help='Name of Column from input files to be plotted on the Y-axis')
-    parser.add_argument('-y', '--y_axis_title',
+    plot_stats.add_argument('-y', '--y_axis_title',
                         type=str,
                         required=True,
                         help='Name of y-axis')
-    parser.add_argument('-c', '--plot_line_color',
+    plot_stats.add_argument('-c', '--plot_line_color',
                         required=True,
                         type=str,
-                        help='color of the lineplot') 
-    cl_arguments = parser.parse_args()
+                        help='color of the lineplot')
+     
+    cl_arguments = plot_stats.parse_args()
     return cl_arguments
 
 if __name__ == "__main__":
@@ -204,7 +216,7 @@ if __name__ == "__main__":
         sys.exit(1)
 
     try:
-        loadedFile = load_files_from_directory(
+        loadedFile = load_files(
             parsedArguments.input_directory,
             parsedArguments.file_pattern
         )

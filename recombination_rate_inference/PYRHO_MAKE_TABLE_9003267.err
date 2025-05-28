@@ -1,0 +1,6 @@
+python(6):ERROR:105: Unable to locate a modulefile for 'python/3.9.12'
+/var/spool/slurmd/job9003267/slurm_script: line 21: cd: /home/pirku/MastersThesis/recombination_rate_inference/: No such file or directory
+/home/pirku/pyrho/lib/python3.9/site-packages/pyrho/hyperparameter_optimizer.py:15: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream
+/home/pirku/pyrho/lib/python3.9/site-packages/pyrho/size_reader.py:25: FutureWarning: The 'delim_whitespace' keyword in pd.read_csv is deprecated and will be removed in a future version. Use ``sep='\s+'`` instead
+  size_history = pd.read_csv(fname,

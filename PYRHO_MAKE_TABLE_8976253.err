@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/data/modules/python/3.6.0/bin/pyrho", line 11, in <module>
+    load_entry_point('pyrho==0.1.3', 'console_scripts', 'pyrho')()
+  File "/data/modules/python/3.6.0/lib/python3.6/site-packages/pyrho/frontend.py", line 66, in main
+    logging.basicConfig(filename=args.log, level=50 - args.verbosity)
+AttributeError: 'Namespace' object has no attribute 'log'

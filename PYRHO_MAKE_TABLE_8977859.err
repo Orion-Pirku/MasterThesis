@@ -1,0 +1,2004 @@
+INFO:root:Size history to be used when computing lookup table is
+Scaled Size	Scaled Left Time	Scaled Right Time
+2.976248544039674	0	0.052
+1.7915656198089958	0.052	0.08399999999999999
+2.9050441508973175	0.08399999999999999	0.128
+4.418363434207442	0.128	0.176
+6.489066012992765	0.176	0.23999999999999996
+8.638592952890706	0.23999999999999996	0.32
+10.59463164717122	0.32	0.412
+12.821215521748147	0.412	0.532
+16.03147298776959	0.532	0.6799999999999998
+21.860512916716488	0.6799999999999998	1.092
+23.63589533526566	1.092	1.7399999999999995
+18.923472059730045	1.7399999999999995	2.192
+14.369633440622382	2.192	3.4759999999999995
+11.508458211408266	3.4759999999999995	6.991999999999999
+9.215965554407143	6.991999999999999	8.847999999999999
+7.481655914903645	8.847999999999999	11.207999999999998
+5.883222446846924	11.207999999999998	14.216
+4.704072351820579	14.216	37.288000000000004
+12.395728679811508	37.288000000000004	60.83599999999999
+54.868894206599215	60.83599999999999	inf
+INFO:root:Beginning Lookup Table.  This may take a while
+INFO:root:Constructed approx states in 0.841838 seconds
+INFO:root:2.203365 seconds to build symmetry matrices
+INFO:root:Constructed recombination rate matrix in 0.086545 seconds
+INFO:root:Constructed mut rate matrix in 0.043864 seconds
+INFO:root:Constructed copying rate matrix in 0.086700 seconds
+INFO:root:0.003473 seconds to construct rates for rho=100.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 15 iterations, 0.020056 seconds 
+INFO:root:0.002945 seconds to construct rates for rho=99.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003562 seconds 
+INFO:root:0.002346 seconds to construct rates for rho=98.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003502 seconds 
+INFO:root:0.002349 seconds to construct rates for rho=97.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003495 seconds 
+INFO:root:0.002344 seconds to construct rates for rho=96.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003483 seconds 
+INFO:root:0.002332 seconds to construct rates for rho=95.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003467 seconds 
+INFO:root:0.002340 seconds to construct rates for rho=94.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003475 seconds 
+INFO:root:0.002339 seconds to construct rates for rho=93.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003469 seconds 
+INFO:root:0.002340 seconds to construct rates for rho=92.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003481 seconds 
+INFO:root:0.002345 seconds to construct rates for rho=91.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003532 seconds 
+INFO:root:0.002403 seconds to construct rates for rho=90.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003484 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=89.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003522 seconds 
+INFO:root:0.003170 seconds to construct rates for rho=88.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003492 seconds 
+INFO:root:0.002510 seconds to construct rates for rho=87.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003499 seconds 
+INFO:root:0.002755 seconds to construct rates for rho=86.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003499 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=85.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003473 seconds 
+INFO:root:0.002421 seconds to construct rates for rho=84.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003495 seconds 
+INFO:root:0.002494 seconds to construct rates for rho=83.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003492 seconds 
+INFO:root:0.002345 seconds to construct rates for rho=82.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003494 seconds 
+INFO:root:0.002348 seconds to construct rates for rho=81.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003500 seconds 
+INFO:root:0.002345 seconds to construct rates for rho=80.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003469 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=79.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003497 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=78.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003469 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=77.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003498 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=76.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003468 seconds 
+INFO:root:0.002737 seconds to construct rates for rho=75.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003491 seconds 
+INFO:root:0.002348 seconds to construct rates for rho=74.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003474 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=73.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003475 seconds 
+INFO:root:0.002340 seconds to construct rates for rho=72.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003453 seconds 
+INFO:root:0.002348 seconds to construct rates for rho=71.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003496 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=70.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003450 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=69.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003485 seconds 
+INFO:root:0.003105 seconds to construct rates for rho=68.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004625 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=67.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003486 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=66.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003510 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=65.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004629 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=64.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003484 seconds 
+INFO:root:0.002363 seconds to construct rates for rho=63.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003536 seconds 
+INFO:root:0.002359 seconds to construct rates for rho=62.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004617 seconds 
+INFO:root:0.002362 seconds to construct rates for rho=61.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003483 seconds 
+INFO:root:0.002808 seconds to construct rates for rho=60.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004642 seconds 
+INFO:root:0.002959 seconds to construct rates for rho=59.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003507 seconds 
+INFO:root:0.002359 seconds to construct rates for rho=58.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004594 seconds 
+INFO:root:0.002366 seconds to construct rates for rho=57.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004639 seconds 
+INFO:root:0.002383 seconds to construct rates for rho=56.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003511 seconds 
+INFO:root:0.002356 seconds to construct rates for rho=55.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004605 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=54.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004627 seconds 
+INFO:root:0.002352 seconds to construct rates for rho=53.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004631 seconds 
+INFO:root:0.002351 seconds to construct rates for rho=52.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004602 seconds 
+INFO:root:0.002356 seconds to construct rates for rho=51.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004636 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=50.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004599 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=49.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004606 seconds 
+INFO:root:0.002375 seconds to construct rates for rho=48.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005732 seconds 
+INFO:root:0.002352 seconds to construct rates for rho=47.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004611 seconds 
+INFO:root:0.002993 seconds to construct rates for rho=46.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005750 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=45.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004641 seconds 
+INFO:root:0.002349 seconds to construct rates for rho=44.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005724 seconds 
+INFO:root:0.002352 seconds to construct rates for rho=43.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005740 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=42.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005725 seconds 
+INFO:root:0.002639 seconds to construct rates for rho=41.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005750 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=40.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005765 seconds 
+INFO:root:0.002363 seconds to construct rates for rho=39.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005737 seconds 
+INFO:root:0.002365 seconds to construct rates for rho=38.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006855 seconds 
+INFO:root:0.002350 seconds to construct rates for rho=37.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005702 seconds 
+INFO:root:0.002382 seconds to construct rates for rho=36.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006820 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=35.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006823 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=34.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006829 seconds 
+INFO:root:0.002560 seconds to construct rates for rho=33.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006831 seconds 
+INFO:root:0.002379 seconds to construct rates for rho=32.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007931 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=31.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007961 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=30.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007965 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=29.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007942 seconds 
+INFO:root:0.002352 seconds to construct rates for rho=28.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009097 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=27.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009126 seconds 
+INFO:root:0.002374 seconds to construct rates for rho=26.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009065 seconds 
+INFO:root:0.002359 seconds to construct rates for rho=25.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010170 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=24.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010242 seconds 
+INFO:root:0.002349 seconds to construct rates for rho=23.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010252 seconds 
+INFO:root:0.002887 seconds to construct rates for rho=22.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011322 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=21.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011297 seconds 
+INFO:root:0.002359 seconds to construct rates for rho=20.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.012416 seconds 
+INFO:root:0.002351 seconds to construct rates for rho=19.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.012378 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=18.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.013503 seconds 
+INFO:root:0.002356 seconds to construct rates for rho=17.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.014619 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=16.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.015696 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=15.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.015715 seconds 
+INFO:root:0.002346 seconds to construct rates for rho=14.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.017950 seconds 
+INFO:root:0.002349 seconds to construct rates for rho=13.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.017942 seconds 
+INFO:root:0.002352 seconds to construct rates for rho=12.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 16 iterations, 0.020128 seconds 
+INFO:root:0.002978 seconds to construct rates for rho=11.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 17 iterations, 0.021263 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=10.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 19 iterations, 0.023513 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=9.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006834 seconds 
+INFO:root:0.002344 seconds to construct rates for rho=9.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006815 seconds 
+INFO:root:0.002356 seconds to construct rates for rho=9.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006847 seconds 
+INFO:root:0.002683 seconds to construct rates for rho=9.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007946 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=9.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006840 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=9.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007987 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=9.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007945 seconds 
+INFO:root:0.002366 seconds to construct rates for rho=9.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006869 seconds 
+INFO:root:0.002344 seconds to construct rates for rho=9.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.008006 seconds 
+INFO:root:0.002373 seconds to construct rates for rho=9.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007967 seconds 
+INFO:root:0.003105 seconds to construct rates for rho=8.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007994 seconds 
+INFO:root:0.002378 seconds to construct rates for rho=8.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007969 seconds 
+INFO:root:0.002515 seconds to construct rates for rho=8.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007982 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=8.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007978 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=8.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009066 seconds 
+INFO:root:0.002356 seconds to construct rates for rho=8.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007979 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=8.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009080 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=8.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.007964 seconds 
+INFO:root:0.002352 seconds to construct rates for rho=8.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009078 seconds 
+INFO:root:0.002352 seconds to construct rates for rho=8.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009093 seconds 
+INFO:root:0.002366 seconds to construct rates for rho=7.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009090 seconds 
+INFO:root:0.003148 seconds to construct rates for rho=7.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009109 seconds 
+INFO:root:0.002369 seconds to construct rates for rho=7.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009096 seconds 
+INFO:root:0.002383 seconds to construct rates for rho=7.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009087 seconds 
+INFO:root:0.002414 seconds to construct rates for rho=7.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009123 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=7.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010181 seconds 
+INFO:root:0.002365 seconds to construct rates for rho=7.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009082 seconds 
+INFO:root:0.002365 seconds to construct rates for rho=7.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010188 seconds 
+INFO:root:0.002365 seconds to construct rates for rho=7.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.009088 seconds 
+INFO:root:0.002356 seconds to construct rates for rho=7.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010290 seconds 
+INFO:root:0.002374 seconds to construct rates for rho=6.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010217 seconds 
+INFO:root:0.002366 seconds to construct rates for rho=6.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010206 seconds 
+INFO:root:0.002365 seconds to construct rates for rho=6.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010263 seconds 
+INFO:root:0.002747 seconds to construct rates for rho=6.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010371 seconds 
+INFO:root:0.002527 seconds to construct rates for rho=6.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011364 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=6.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.010191 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=6.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011314 seconds 
+INFO:root:0.002362 seconds to construct rates for rho=6.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011286 seconds 
+INFO:root:0.002343 seconds to construct rates for rho=6.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011362 seconds 
+INFO:root:0.002359 seconds to construct rates for rho=6.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011325 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=5.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011324 seconds 
+INFO:root:0.002351 seconds to construct rates for rho=5.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.012422 seconds 
+INFO:root:0.002362 seconds to construct rates for rho=5.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.011316 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=5.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.012471 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=5.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.012403 seconds 
+INFO:root:0.003076 seconds to construct rates for rho=5.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.012436 seconds 
+INFO:root:0.002369 seconds to construct rates for rho=5.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.012436 seconds 
+INFO:root:0.002430 seconds to construct rates for rho=5.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.013617 seconds 
+INFO:root:0.002356 seconds to construct rates for rho=5.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.012510 seconds 
+INFO:root:0.002375 seconds to construct rates for rho=5.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.013703 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=4.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.013560 seconds 
+INFO:root:0.002405 seconds to construct rates for rho=4.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.013610 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=4.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.014773 seconds 
+INFO:root:0.002367 seconds to construct rates for rho=4.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.014644 seconds 
+INFO:root:0.002350 seconds to construct rates for rho=4.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.014667 seconds 
+INFO:root:0.002346 seconds to construct rates for rho=4.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.014741 seconds 
+INFO:root:0.002349 seconds to construct rates for rho=4.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.015775 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=4.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.015781 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=4.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.015794 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=4.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.015847 seconds 
+INFO:root:0.002372 seconds to construct rates for rho=3.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 13 iterations, 0.016866 seconds 
+INFO:root:0.002356 seconds to construct rates for rho=3.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 13 iterations, 0.016970 seconds 
+INFO:root:0.002673 seconds to construct rates for rho=3.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 13 iterations, 0.016932 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=3.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.018026 seconds 
+INFO:root:0.002367 seconds to construct rates for rho=3.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.018060 seconds 
+INFO:root:0.002366 seconds to construct rates for rho=3.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.017978 seconds 
+INFO:root:0.002416 seconds to construct rates for rho=3.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 15 iterations, 0.019088 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=3.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 15 iterations, 0.019095 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=3.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 15 iterations, 0.019199 seconds 
+INFO:root:0.002373 seconds to construct rates for rho=3.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 16 iterations, 0.020365 seconds 
+INFO:root:0.002752 seconds to construct rates for rho=2.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 16 iterations, 0.020304 seconds 
+INFO:root:0.002364 seconds to construct rates for rho=2.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 17 iterations, 0.021322 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=2.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 17 iterations, 0.021395 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=2.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 18 iterations, 0.022499 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=2.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 19 iterations, 0.023666 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=2.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 19 iterations, 0.023556 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=2.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 20 iterations, 0.024657 seconds 
+INFO:root:0.002359 seconds to construct rates for rho=2.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 21 iterations, 0.025800 seconds 
+INFO:root:0.002362 seconds to construct rates for rho=2.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 22 iterations, 0.026909 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=2.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 22 iterations, 0.027103 seconds 
+INFO:root:0.002494 seconds to construct rates for rho=1.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 24 iterations, 0.029343 seconds 
+INFO:root:0.002371 seconds to construct rates for rho=1.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 24 iterations, 0.029470 seconds 
+INFO:root:0.002362 seconds to construct rates for rho=1.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 26 iterations, 0.031615 seconds 
+INFO:root:0.002362 seconds to construct rates for rho=1.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 27 iterations, 0.032549 seconds 
+INFO:root:0.002374 seconds to construct rates for rho=1.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 28 iterations, 0.033691 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=1.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 30 iterations, 0.035904 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=1.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 31 iterations, 0.036932 seconds 
+INFO:root:0.002346 seconds to construct rates for rho=1.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 33 iterations, 0.039336 seconds 
+INFO:root:0.002359 seconds to construct rates for rho=1.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 35 iterations, 0.041480 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=1.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 38 iterations, 0.048162 seconds 
+INFO:root:0.004241 seconds to construct rates for rho=0.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 40 iterations, 0.047755 seconds 
+INFO:root:0.002459 seconds to construct rates for rho=0.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 44 iterations, 0.051758 seconds 
+INFO:root:0.002520 seconds to construct rates for rho=0.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 48 iterations, 0.056151 seconds 
+INFO:root:0.002629 seconds to construct rates for rho=0.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 52 iterations, 0.060558 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=0.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 57 iterations, 0.066440 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=0.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 64 iterations, 0.073894 seconds 
+INFO:root:0.002414 seconds to construct rates for rho=0.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 72 iterations, 0.083199 seconds 
+INFO:root:0.002376 seconds to construct rates for rho=0.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 82 iterations, 0.094294 seconds 
+INFO:root:0.002352 seconds to construct rates for rho=0.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 98 iterations, 0.112042 seconds 
+INFO:root:0.002220 seconds to construct rates for rho=0.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 122 iterations, 0.134019 seconds 
+INFO:root:0.012644 seconds to construct rates for rho=100.000000,theta=0.000500,N=54.868894
+INFO:root:0.012599 seconds to construct rates for rho=95.000000,theta=0.000500,N=54.868894
+INFO:root:0.012729 seconds to construct rates for rho=90.000000,theta=0.000500,N=54.868894
+INFO:root:0.012775 seconds to construct rates for rho=85.000000,theta=0.000500,N=54.868894
+INFO:root:0.012903 seconds to construct rates for rho=80.000000,theta=0.000500,N=54.868894
+INFO:root:0.012852 seconds to construct rates for rho=75.000000,theta=0.000500,N=54.868894
+INFO:root:0.008411 seconds to construct rates for rho=70.000000,theta=0.000500,N=54.868894
+INFO:root:0.013101 seconds to construct rates for rho=65.000000,theta=0.000500,N=54.868894
+INFO:root:0.013124 seconds to construct rates for rho=60.000000,theta=0.000500,N=54.868894
+INFO:root:0.012607 seconds to construct rates for rho=55.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 84540 iterations, 106.590666 seconds 
+INFO:root:0.005168 seconds to construct rates for rho=55.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 90952 iterations, 115.167772 seconds 
+INFO:root:0.010932 seconds to construct rates for rho=60.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 97304 iterations, 123.634984 seconds 
+INFO:root:0.011971 seconds to construct rates for rho=65.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 103605 iterations, 132.097979 seconds 
+INFO:root:0.010907 seconds to construct rates for rho=70.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 30.112016 seconds for rho=55.000000,N=12.395729,t=23.548000
+INFO:root:0.004929 seconds to construct rates for rho=55.000000,theta=0.000500,N=4.704072
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 109852 iterations, 138.508853 seconds 
+INFO:root:0.005507 seconds to construct rates for rho=75.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 116052 iterations, 146.093991 seconds 
+INFO:root:0.004711 seconds to construct rates for rho=80.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 33.085571 seconds for rho=60.000000,N=12.395729,t=23.548000
+INFO:root:0.004734 seconds to construct rates for rho=60.000000,theta=0.000500,N=4.704072
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 122208 iterations, 154.074396 seconds 
+INFO:root:0.005175 seconds to construct rates for rho=85.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 34.409662 seconds for rho=65.000000,N=12.395729,t=23.548000
+INFO:root:0.004013 seconds to construct rates for rho=65.000000,theta=0.000500,N=4.704072
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 128325 iterations, 161.437326 seconds 
+INFO:root:0.004678 seconds to construct rates for rho=90.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 37.543510 seconds for rho=70.000000,N=12.395729,t=23.548000
+INFO:root:0.003979 seconds to construct rates for rho=70.000000,theta=0.000500,N=4.704072
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 134400 iterations, 170.535537 seconds 
+INFO:root:0.005376 seconds to construct rates for rho=95.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 39.459801 seconds for rho=75.000000,N=12.395729,t=23.548000
+INFO:root:0.006031 seconds to construct rates for rho=75.000000,theta=0.000500,N=4.704072
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 140438 iterations, 178.427098 seconds 
+INFO:root:0.011687 seconds to construct rates for rho=100.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 42.797300 seconds for rho=55.000000,N=4.704072,t=23.072000
+INFO:root:0.004194 seconds to construct rates for rho=55.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 5.195492 seconds for rho=55.000000,N=5.883222,t=3.008000
+INFO:root:0.004242 seconds to construct rates for rho=55.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 3.705228 seconds for rho=55.000000,N=7.481656,t=2.360000
+INFO:root:0.004569 seconds to construct rates for rho=55.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 43.033422 seconds for rho=80.000000,N=12.395729,t=23.548000
+INFO:root:0.005678 seconds to construct rates for rho=80.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 3.095414 seconds for rho=55.000000,N=9.215966,t=1.856000
+INFO:root:0.004133 seconds to construct rates for rho=55.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 44.210361 seconds for rho=60.000000,N=4.704072,t=23.072000
+INFO:root:0.005681 seconds to construct rates for rho=60.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 4.921681 seconds for rho=55.000000,N=11.508458,t=3.516000
+INFO:root:0.004161 seconds to construct rates for rho=55.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 5.434390 seconds for rho=60.000000,N=5.883222,t=3.008000
+INFO:root:0.004397 seconds to construct rates for rho=60.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 44.214279 seconds for rho=85.000000,N=12.395729,t=23.548000
+INFO:root:0.005360 seconds to construct rates for rho=85.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 2.218640 seconds for rho=55.000000,N=14.369633,t=1.284000
+INFO:root:0.011668 seconds to construct rates for rho=55.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.140900 seconds for rho=55.000000,N=18.923472,t=0.452000
+INFO:root:0.004947 seconds to construct rates for rho=55.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.262664 seconds for rho=55.000000,N=23.635895,t=0.648000
+INFO:root:0.004045 seconds to construct rates for rho=55.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.773184 seconds for rho=55.000000,N=21.860513,t=0.412000
+INFO:root:0.003994 seconds to construct rates for rho=55.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 4.431690 seconds for rho=60.000000,N=7.481656,t=2.360000
+INFO:root:0.004061 seconds to construct rates for rho=60.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 0.505980 seconds for rho=55.000000,N=16.031473,t=0.148000
+INFO:root:0.003776 seconds to construct rates for rho=55.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.980570 seconds for rho=55.000000,N=12.821216,t=0.120000
+INFO:root:0.003903 seconds to construct rates for rho=55.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.707851 seconds for rho=55.000000,N=10.594632,t=0.092000
+INFO:root:0.005351 seconds to construct rates for rho=55.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.425292 seconds for rho=55.000000,N=8.638593,t=0.080000
+INFO:root:0.004188 seconds to construct rates for rho=55.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.478777 seconds for rho=55.000000,N=6.489066,t=0.064000
+INFO:root:0.004297 seconds to construct rates for rho=55.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.558461 seconds for rho=55.000000,N=4.418363,t=0.048000
+INFO:root:0.004303 seconds to construct rates for rho=55.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.486303 seconds for rho=55.000000,N=2.905044,t=0.044000
+INFO:root:0.003386 seconds to construct rates for rho=55.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.326816 seconds for rho=55.000000,N=1.791566,t=0.032000
+INFO:root:0.003091 seconds to construct rates for rho=55.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 48.506497 seconds for rho=65.000000,N=4.704072,t=23.072000
+INFO:root:0.005535 seconds to construct rates for rho=65.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 0.539724 seconds for rho=55.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 4.615950 seconds for rho=60.000000,N=9.215966,t=1.856000
+INFO:root:0.004769 seconds to construct rates for rho=60.000000,theta=0.000500,N=11.508458
+INFO:root:0.024564 seconds to construct rates for rho=50.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 46.565146 seconds for rho=90.000000,N=12.395729,t=23.548000
+INFO:root:0.006659 seconds to construct rates for rho=90.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 5.822038 seconds for rho=60.000000,N=11.508458,t=3.516000
+INFO:root:0.004200 seconds to construct rates for rho=60.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 6.370538 seconds for rho=65.000000,N=5.883222,t=3.008000
+INFO:root:0.004320 seconds to construct rates for rho=65.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 2.423782 seconds for rho=60.000000,N=14.369633,t=1.284000
+INFO:root:0.003367 seconds to construct rates for rho=60.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.343460 seconds for rho=60.000000,N=18.923472,t=0.452000
+INFO:root:0.003157 seconds to construct rates for rho=60.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.254152 seconds for rho=60.000000,N=23.635895,t=0.648000
+INFO:root:0.003564 seconds to construct rates for rho=60.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 5.582692 seconds for rho=65.000000,N=7.481656,t=2.360000
+INFO:root:0.006336 seconds to construct rates for rho=65.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 1.051394 seconds for rho=60.000000,N=21.860513,t=0.412000
+INFO:root:0.003628 seconds to construct rates for rho=60.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 49.097271 seconds for rho=95.000000,N=12.395729,t=23.548000
+INFO:root:0.005157 seconds to construct rates for rho=95.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 0.966177 seconds for rho=60.000000,N=16.031473,t=0.148000
+INFO:root:0.011767 seconds to construct rates for rho=60.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.618059 seconds for rho=60.000000,N=12.821216,t=0.120000
+INFO:root:0.003672 seconds to construct rates for rho=60.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.464058 seconds for rho=60.000000,N=10.594632,t=0.092000
+INFO:root:0.004720 seconds to construct rates for rho=60.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.629830 seconds for rho=60.000000,N=8.638593,t=0.080000
+INFO:root:0.004408 seconds to construct rates for rho=60.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.415128 seconds for rho=60.000000,N=6.489066,t=0.064000
+INFO:root:0.004615 seconds to construct rates for rho=60.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.410389 seconds for rho=60.000000,N=4.418363,t=0.048000
+INFO:root:0.004460 seconds to construct rates for rho=60.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.584474 seconds for rho=60.000000,N=2.905044,t=0.044000
+INFO:root:0.003450 seconds to construct rates for rho=60.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 4.603207 seconds for rho=65.000000,N=9.215966,t=1.856000
+INFO:root:0.004761 seconds to construct rates for rho=65.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 54.068401 seconds for rho=70.000000,N=4.704072,t=23.072000
+INFO:root:0.006513 seconds to construct rates for rho=70.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 0.965551 seconds for rho=60.000000,N=1.791566,t=0.032000
+INFO:root:0.003410 seconds to construct rates for rho=60.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.709323 seconds for rho=60.000000,N=2.976249,t=0.052000
+INFO:root:0.009751 seconds to construct rates for rho=45.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 6.472379 seconds for rho=65.000000,N=11.508458,t=3.516000
+INFO:root:0.005560 seconds to construct rates for rho=65.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 51.489894 seconds for rho=100.000000,N=12.395729,t=23.548000
+INFO:root:0.006473 seconds to construct rates for rho=100.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 6.818074 seconds for rho=70.000000,N=5.883222,t=3.008000
+INFO:root:0.004303 seconds to construct rates for rho=70.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 2.377171 seconds for rho=65.000000,N=14.369633,t=1.284000
+INFO:root:0.004831 seconds to construct rates for rho=65.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 54.177480 seconds for rho=75.000000,N=4.704072,t=23.072000
+INFO:root:0.005790 seconds to construct rates for rho=75.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 1.320184 seconds for rho=65.000000,N=18.923472,t=0.452000
+INFO:root:0.003693 seconds to construct rates for rho=65.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.272291 seconds for rho=65.000000,N=23.635895,t=0.648000
+INFO:root:0.003896 seconds to construct rates for rho=65.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.791815 seconds for rho=65.000000,N=21.860513,t=0.412000
+INFO:root:0.003770 seconds to construct rates for rho=65.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.423194 seconds for rho=65.000000,N=16.031473,t=0.148000
+INFO:root:0.003756 seconds to construct rates for rho=65.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 5.434374 seconds for rho=70.000000,N=7.481656,t=2.360000
+INFO:root:0.005491 seconds to construct rates for rho=70.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 0.446148 seconds for rho=65.000000,N=12.821216,t=0.120000
+INFO:root:0.003877 seconds to construct rates for rho=65.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.744843 seconds for rho=65.000000,N=10.594632,t=0.092000
+INFO:root:0.004587 seconds to construct rates for rho=65.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.425873 seconds for rho=65.000000,N=8.638593,t=0.080000
+INFO:root:0.004407 seconds to construct rates for rho=65.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.407535 seconds for rho=65.000000,N=6.489066,t=0.064000
+INFO:root:0.004014 seconds to construct rates for rho=65.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.431588 seconds for rho=65.000000,N=4.418363,t=0.048000
+INFO:root:0.004338 seconds to construct rates for rho=65.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.660192 seconds for rho=65.000000,N=2.905044,t=0.044000
+INFO:root:0.003417 seconds to construct rates for rho=65.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.566938 seconds for rho=65.000000,N=1.791566,t=0.032000
+INFO:root:0.003181 seconds to construct rates for rho=65.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 7.624818 seconds for rho=75.000000,N=5.883222,t=3.008000
+INFO:root:0.004389 seconds to construct rates for rho=75.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 4.415073 seconds for rho=70.000000,N=9.215966,t=1.856000
+INFO:root:0.003787 seconds to construct rates for rho=70.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.143807 seconds for rho=65.000000,N=2.976249,t=0.052000
+INFO:root:0.006282 seconds to construct rates for rho=40.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 5.602209 seconds for rho=75.000000,N=7.481656,t=2.360000
+INFO:root:0.006931 seconds to construct rates for rho=75.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 6.278912 seconds for rho=70.000000,N=11.508458,t=3.516000
+INFO:root:0.005486 seconds to construct rates for rho=70.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 2.446315 seconds for rho=70.000000,N=14.369633,t=1.284000
+INFO:root:0.005308 seconds to construct rates for rho=70.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 3.787931 seconds for rho=75.000000,N=9.215966,t=1.856000
+INFO:root:0.004668 seconds to construct rates for rho=75.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 60.279542 seconds for rho=80.000000,N=4.704072,t=23.072000
+INFO:root:0.004999 seconds to construct rates for rho=80.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 1.419685 seconds for rho=70.000000,N=18.923472,t=0.452000
+INFO:root:0.004089 seconds to construct rates for rho=70.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.472717 seconds for rho=70.000000,N=23.635895,t=0.648000
+INFO:root:0.003793 seconds to construct rates for rho=70.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.863567 seconds for rho=70.000000,N=21.860513,t=0.412000
+INFO:root:0.004082 seconds to construct rates for rho=70.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.524082 seconds for rho=70.000000,N=16.031473,t=0.148000
+INFO:root:0.004090 seconds to construct rates for rho=70.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.479771 seconds for rho=70.000000,N=12.821216,t=0.120000
+INFO:root:0.004397 seconds to construct rates for rho=70.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.567990 seconds for rho=70.000000,N=10.594632,t=0.092000
+INFO:root:0.004132 seconds to construct rates for rho=70.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.377033 seconds for rho=70.000000,N=8.638593,t=0.080000
+INFO:root:0.003868 seconds to construct rates for rho=70.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.387525 seconds for rho=70.000000,N=6.489066,t=0.064000
+INFO:root:0.004231 seconds to construct rates for rho=70.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.336789 seconds for rho=70.000000,N=4.418363,t=0.048000
+INFO:root:0.004025 seconds to construct rates for rho=70.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.366590 seconds for rho=70.000000,N=2.905044,t=0.044000
+INFO:root:0.004211 seconds to construct rates for rho=70.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 6.868916 seconds for rho=75.000000,N=11.508458,t=3.516000
+INFO:root:0.004824 seconds to construct rates for rho=75.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 7.035511 seconds for rho=80.000000,N=5.883222,t=3.008000
+INFO:root:0.005040 seconds to construct rates for rho=80.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 0.821800 seconds for rho=70.000000,N=1.791566,t=0.032000
+INFO:root:0.003716 seconds to construct rates for rho=70.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.922522 seconds for rho=70.000000,N=2.976249,t=0.052000
+INFO:root:0.009920 seconds to construct rates for rho=35.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 3.005540 seconds for rho=75.000000,N=14.369633,t=1.284000
+INFO:root:0.010306 seconds to construct rates for rho=75.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.975343 seconds for rho=75.000000,N=18.923472,t=0.452000
+INFO:root:0.003501 seconds to construct rates for rho=75.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 62.018929 seconds for rho=85.000000,N=4.704072,t=23.072000
+INFO:root:0.005504 seconds to construct rates for rho=85.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 1.378626 seconds for rho=75.000000,N=23.635895,t=0.648000
+INFO:root:0.003726 seconds to construct rates for rho=75.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 5.975643 seconds for rho=80.000000,N=7.481656,t=2.360000
+INFO:root:0.006256 seconds to construct rates for rho=80.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 1.186570 seconds for rho=75.000000,N=21.860513,t=0.412000
+INFO:root:0.003668 seconds to construct rates for rho=75.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.977969 seconds for rho=75.000000,N=16.031473,t=0.148000
+INFO:root:0.006985 seconds to construct rates for rho=75.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.420649 seconds for rho=75.000000,N=12.821216,t=0.120000
+INFO:root:0.004882 seconds to construct rates for rho=75.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.679955 seconds for rho=75.000000,N=10.594632,t=0.092000
+INFO:root:0.004224 seconds to construct rates for rho=75.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.513668 seconds for rho=75.000000,N=8.638593,t=0.080000
+INFO:root:0.004280 seconds to construct rates for rho=75.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.604838 seconds for rho=75.000000,N=6.489066,t=0.064000
+INFO:root:0.004188 seconds to construct rates for rho=75.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.635042 seconds for rho=75.000000,N=4.418363,t=0.048000
+INFO:root:0.004207 seconds to construct rates for rho=75.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 4.630207 seconds for rho=80.000000,N=9.215966,t=1.856000
+INFO:root:0.004626 seconds to construct rates for rho=80.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.609581 seconds for rho=75.000000,N=2.905044,t=0.044000
+INFO:root:0.003899 seconds to construct rates for rho=75.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 7.519516 seconds for rho=85.000000,N=5.883222,t=3.008000
+INFO:root:0.004713 seconds to construct rates for rho=85.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 0.884061 seconds for rho=75.000000,N=1.791566,t=0.032000
+INFO:root:0.003341 seconds to construct rates for rho=75.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.822619 seconds for rho=75.000000,N=2.976249,t=0.052000
+INFO:root:0.009830 seconds to construct rates for rho=30.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 62.885199 seconds for rho=90.000000,N=4.704072,t=23.072000
+INFO:root:0.006547 seconds to construct rates for rho=90.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 5.170731 seconds for rho=85.000000,N=7.481656,t=2.360000
+INFO:root:0.005416 seconds to construct rates for rho=85.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 7.642154 seconds for rho=80.000000,N=11.508458,t=3.516000
+INFO:root:0.006020 seconds to construct rates for rho=80.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 4.080777 seconds for rho=85.000000,N=9.215966,t=1.856000
+INFO:root:0.005808 seconds to construct rates for rho=85.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 3.017136 seconds for rho=80.000000,N=14.369633,t=1.284000
+INFO:root:0.005638 seconds to construct rates for rho=80.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 7.693509 seconds for rho=90.000000,N=5.883222,t=3.008000
+INFO:root:0.006820 seconds to construct rates for rho=90.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 1.431842 seconds for rho=80.000000,N=18.923472,t=0.452000
+INFO:root:0.004547 seconds to construct rates for rho=80.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.287218 seconds for rho=80.000000,N=23.635895,t=0.648000
+INFO:root:0.003940 seconds to construct rates for rho=80.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.914500 seconds for rho=80.000000,N=21.860513,t=0.412000
+INFO:root:0.004001 seconds to construct rates for rho=80.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.543451 seconds for rho=80.000000,N=16.031473,t=0.148000
+INFO:root:0.007162 seconds to construct rates for rho=80.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.741345 seconds for rho=80.000000,N=12.821216,t=0.120000
+INFO:root:0.004066 seconds to construct rates for rho=80.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.523037 seconds for rho=80.000000,N=10.594632,t=0.092000
+INFO:root:0.003812 seconds to construct rates for rho=80.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 5.290249 seconds for rho=90.000000,N=7.481656,t=2.360000
+INFO:root:0.005613 seconds to construct rates for rho=90.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 0.642707 seconds for rho=80.000000,N=8.638593,t=0.080000
+INFO:root:0.006726 seconds to construct rates for rho=80.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 7.149012 seconds for rho=85.000000,N=11.508458,t=3.516000
+INFO:root:0.005733 seconds to construct rates for rho=85.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.734612 seconds for rho=80.000000,N=6.489066,t=0.064000
+INFO:root:0.004220 seconds to construct rates for rho=80.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.701471 seconds for rho=80.000000,N=4.418363,t=0.048000
+INFO:root:0.004543 seconds to construct rates for rho=80.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 65.919173 seconds for rho=95.000000,N=4.704072,t=23.072000
+INFO:root:0.006518 seconds to construct rates for rho=95.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 0.641881 seconds for rho=80.000000,N=2.905044,t=0.044000
+INFO:root:0.004433 seconds to construct rates for rho=80.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.842197 seconds for rho=80.000000,N=1.791566,t=0.032000
+INFO:root:0.004036 seconds to construct rates for rho=80.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.566198 seconds for rho=80.000000,N=2.976249,t=0.052000
+INFO:root:0.009840 seconds to construct rates for rho=25.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 3.710088 seconds for rho=85.000000,N=14.369633,t=1.284000
+INFO:root:0.003659 seconds to construct rates for rho=85.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 4.810222 seconds for rho=90.000000,N=9.215966,t=1.856000
+INFO:root:0.005143 seconds to construct rates for rho=90.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.397377 seconds for rho=85.000000,N=18.923472,t=0.452000
+INFO:root:0.005205 seconds to construct rates for rho=85.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.359745 seconds for rho=85.000000,N=23.635895,t=0.648000
+INFO:root:0.003801 seconds to construct rates for rho=85.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.988740 seconds for rho=85.000000,N=21.860513,t=0.412000
+INFO:root:0.003738 seconds to construct rates for rho=85.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.571774 seconds for rho=85.000000,N=16.031473,t=0.148000
+INFO:root:0.003756 seconds to construct rates for rho=85.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.491826 seconds for rho=85.000000,N=12.821216,t=0.120000
+INFO:root:0.005175 seconds to construct rates for rho=85.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.473748 seconds for rho=85.000000,N=10.594632,t=0.092000
+INFO:root:0.005776 seconds to construct rates for rho=85.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.491439 seconds for rho=85.000000,N=8.638593,t=0.080000
+INFO:root:0.004187 seconds to construct rates for rho=85.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.851055 seconds for rho=85.000000,N=6.489066,t=0.064000
+INFO:root:0.004365 seconds to construct rates for rho=85.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.608577 seconds for rho=85.000000,N=4.418363,t=0.048000
+INFO:root:0.004320 seconds to construct rates for rho=85.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 10.056335 seconds for rho=95.000000,N=5.883222,t=3.008000
+INFO:root:0.005009 seconds to construct rates for rho=95.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 0.452142 seconds for rho=85.000000,N=2.905044,t=0.044000
+INFO:root:0.004387 seconds to construct rates for rho=85.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 7.639391 seconds for rho=90.000000,N=11.508458,t=3.516000
+INFO:root:0.014237 seconds to construct rates for rho=90.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.909721 seconds for rho=85.000000,N=1.791566,t=0.032000
+INFO:root:0.003461 seconds to construct rates for rho=85.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.919917 seconds for rho=85.000000,N=2.976249,t=0.052000
+INFO:root:0.008983 seconds to construct rates for rho=20.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 3.235557 seconds for rho=90.000000,N=14.369633,t=1.284000
+INFO:root:0.004459 seconds to construct rates for rho=90.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 70.686196 seconds for rho=100.000000,N=4.704072,t=23.072000
+INFO:root:0.005705 seconds to construct rates for rho=100.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 1.339865 seconds for rho=90.000000,N=18.923472,t=0.452000
+INFO:root:0.003437 seconds to construct rates for rho=90.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 6.300061 seconds for rho=95.000000,N=7.481656,t=2.360000
+INFO:root:0.004685 seconds to construct rates for rho=95.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 1.662111 seconds for rho=90.000000,N=23.635895,t=0.648000
+INFO:root:0.004382 seconds to construct rates for rho=90.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.218515 seconds for rho=90.000000,N=21.860513,t=0.412000
+INFO:root:0.003781 seconds to construct rates for rho=90.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.740259 seconds for rho=90.000000,N=16.031473,t=0.148000
+INFO:root:0.003889 seconds to construct rates for rho=90.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.517761 seconds for rho=90.000000,N=12.821216,t=0.120000
+INFO:root:0.003556 seconds to construct rates for rho=90.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.556502 seconds for rho=90.000000,N=10.594632,t=0.092000
+INFO:root:0.003546 seconds to construct rates for rho=90.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.542379 seconds for rho=90.000000,N=8.638593,t=0.080000
+INFO:root:0.003561 seconds to construct rates for rho=90.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 4.661383 seconds for rho=95.000000,N=9.215966,t=1.856000
+INFO:root:0.010506 seconds to construct rates for rho=95.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.499145 seconds for rho=90.000000,N=6.489066,t=0.064000
+INFO:root:0.012950 seconds to construct rates for rho=90.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.885606 seconds for rho=90.000000,N=4.418363,t=0.048000
+INFO:root:0.003894 seconds to construct rates for rho=90.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.358199 seconds for rho=90.000000,N=2.905044,t=0.044000
+INFO:root:0.004180 seconds to construct rates for rho=90.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.341581 seconds for rho=90.000000,N=1.791566,t=0.032000
+INFO:root:0.003277 seconds to construct rates for rho=90.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.407795 seconds for rho=90.000000,N=2.976249,t=0.052000
+INFO:root:0.009990 seconds to construct rates for rho=15.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 8.707501 seconds for rho=100.000000,N=5.883222,t=3.008000
+INFO:root:0.004348 seconds to construct rates for rho=100.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 7.938812 seconds for rho=95.000000,N=11.508458,t=3.516000
+INFO:root:0.009611 seconds to construct rates for rho=95.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 6.573356 seconds for rho=100.000000,N=7.481656,t=2.360000
+INFO:root:0.005617 seconds to construct rates for rho=100.000000,theta=0.000500,N=9.215966
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 78065 iterations, 110.680670 seconds 
+INFO:root:0.004436 seconds to construct rates for rho=50.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 3.476898 seconds for rho=95.000000,N=14.369633,t=1.284000
+INFO:root:0.006227 seconds to construct rates for rho=95.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.651850 seconds for rho=95.000000,N=18.923472,t=0.452000
+INFO:root:0.006047 seconds to construct rates for rho=95.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 4.775330 seconds for rho=100.000000,N=9.215966,t=1.856000
+INFO:root:0.004239 seconds to construct rates for rho=100.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.908675 seconds for rho=95.000000,N=23.635895,t=0.648000
+INFO:root:0.003666 seconds to construct rates for rho=95.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.283636 seconds for rho=95.000000,N=21.860513,t=0.412000
+INFO:root:0.005910 seconds to construct rates for rho=95.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.798274 seconds for rho=95.000000,N=16.031473,t=0.148000
+INFO:root:0.004192 seconds to construct rates for rho=95.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.456087 seconds for rho=95.000000,N=12.821216,t=0.120000
+INFO:root:0.003794 seconds to construct rates for rho=95.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.463789 seconds for rho=95.000000,N=10.594632,t=0.092000
+INFO:root:0.003742 seconds to construct rates for rho=95.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.418341 seconds for rho=95.000000,N=8.638593,t=0.080000
+INFO:root:0.003762 seconds to construct rates for rho=95.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.859482 seconds for rho=95.000000,N=6.489066,t=0.064000
+INFO:root:0.004359 seconds to construct rates for rho=95.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.455347 seconds for rho=95.000000,N=4.418363,t=0.048000
+INFO:root:0.005625 seconds to construct rates for rho=95.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.478991 seconds for rho=95.000000,N=2.905044,t=0.044000
+INFO:root:0.004301 seconds to construct rates for rho=95.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.372750 seconds for rho=95.000000,N=1.791566,t=0.032000
+INFO:root:0.005839 seconds to construct rates for rho=95.000000,theta=0.000500,N=2.976249
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 71519 iterations, 102.715225 seconds 
+INFO:root:0.004597 seconds to construct rates for rho=45.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 0.561289 seconds for rho=95.000000,N=2.976249,t=0.052000
+INFO:root:0.005292 seconds to construct rates for rho=10.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 8.636545 seconds for rho=100.000000,N=11.508458,t=3.516000
+INFO:root:0.005558 seconds to construct rates for rho=100.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 2.855873 seconds for rho=100.000000,N=14.369633,t=1.284000
+INFO:root:0.003924 seconds to construct rates for rho=100.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.195960 seconds for rho=100.000000,N=18.923472,t=0.452000
+INFO:root:0.005116 seconds to construct rates for rho=100.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.610519 seconds for rho=100.000000,N=23.635895,t=0.648000
+INFO:root:0.003701 seconds to construct rates for rho=100.000000,theta=0.000500,N=21.860513
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 64895 iterations, 94.284514 seconds 
+INFO:root:0.008984 seconds to construct rates for rho=40.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 1.159139 seconds for rho=100.000000,N=21.860513,t=0.412000
+INFO:root:0.003902 seconds to construct rates for rho=100.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.761786 seconds for rho=100.000000,N=16.031473,t=0.148000
+INFO:root:0.003776 seconds to construct rates for rho=100.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.730889 seconds for rho=100.000000,N=12.821216,t=0.120000
+INFO:root:0.003721 seconds to construct rates for rho=100.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.412076 seconds for rho=100.000000,N=10.594632,t=0.092000
+INFO:root:0.003717 seconds to construct rates for rho=100.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.436705 seconds for rho=100.000000,N=8.638593,t=0.080000
+INFO:root:0.005327 seconds to construct rates for rho=100.000000,theta=0.000500,N=6.489066
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 51379 iterations, 70.005252 seconds 
+INFO:root:0.004484 seconds to construct rates for rho=30.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 0.521710 seconds for rho=100.000000,N=6.489066,t=0.064000
+INFO:root:0.004465 seconds to construct rates for rho=100.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.946527 seconds for rho=100.000000,N=4.418363,t=0.048000
+INFO:root:0.004442 seconds to construct rates for rho=100.000000,theta=0.000500,N=2.905044
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 58187 iterations, 82.328206 seconds 
+INFO:root:0.004412 seconds to construct rates for rho=35.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 0.836798 seconds for rho=100.000000,N=2.905044,t=0.044000
+INFO:root:0.004473 seconds to construct rates for rho=100.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.772009 seconds for rho=100.000000,N=1.791566,t=0.032000
+INFO:root:0.004403 seconds to construct rates for rho=100.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.630942 seconds for rho=100.000000,N=2.976249,t=0.052000
+INFO:root:0.009984 seconds to construct rates for rho=9.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 29.574181 seconds for rho=50.000000,N=12.395729,t=23.548000
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 37414 iterations, 49.817583 seconds 
+INFO:root:0.004040 seconds to construct rates for rho=50.000000,theta=0.000500,N=4.704072
+INFO:root:0.004574 seconds to construct rates for rho=20.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 44462 iterations, 62.252061 seconds 
+INFO:root:0.004757 seconds to construct rates for rho=25.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 30211 iterations, 42.523609 seconds 
+INFO:root:0.004400 seconds to construct rates for rho=15.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 28.743387 seconds for rho=45.000000,N=12.395729,t=23.548000
+INFO:root:0.004592 seconds to construct rates for rho=45.000000,theta=0.000500,N=4.704072
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 22821 iterations, 31.731765 seconds 
+INFO:root:0.009839 seconds to construct rates for rho=10.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 21.647178 seconds for rho=30.000000,N=12.395729,t=23.548000
+INFO:root:0.004021 seconds to construct rates for rho=30.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 26.220099 seconds for rho=40.000000,N=12.395729,t=23.548000
+INFO:root:0.006205 seconds to construct rates for rho=40.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 24.068077 seconds for rho=35.000000,N=12.395729,t=23.548000
+INFO:root:0.003953 seconds to construct rates for rho=35.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 17.311679 seconds for rho=20.000000,N=12.395729,t=23.548000
+INFO:root:0.003968 seconds to construct rates for rho=20.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 14.823629 seconds for rho=15.000000,N=12.395729,t=23.548000
+INFO:root:0.004035 seconds to construct rates for rho=15.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 19.571673 seconds for rho=25.000000,N=12.395729,t=23.548000
+INFO:root:0.004266 seconds to construct rates for rho=25.000000,theta=0.000500,N=4.704072
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 22060 iterations, 28.904601 seconds 
+INFO:root:0.004498 seconds to construct rates for rho=9.500000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 12.526714 seconds for rho=10.000000,N=12.395729,t=23.548000
+INFO:root:0.004915 seconds to construct rates for rho=10.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 11.831860 seconds for rho=9.500000,N=12.395729,t=23.548000
+INFO:root:0.004551 seconds to construct rates for rho=9.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 40.748728 seconds for rho=50.000000,N=4.704072,t=23.072000
+INFO:root:0.004566 seconds to construct rates for rho=50.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 24.979721 seconds for rho=15.000000,N=4.704072,t=23.072000
+INFO:root:0.004758 seconds to construct rates for rho=15.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 31.445129 seconds for rho=30.000000,N=4.704072,t=23.072000
+INFO:root:0.004035 seconds to construct rates for rho=30.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 27.652377 seconds for rho=20.000000,N=4.704072,t=23.072000
+INFO:root:0.004625 seconds to construct rates for rho=20.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 5.205129 seconds for rho=50.000000,N=5.883222,t=3.008000
+INFO:root:0.004215 seconds to construct rates for rho=50.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 38.076656 seconds for rho=45.000000,N=4.704072,t=23.072000
+INFO:root:0.005667 seconds to construct rates for rho=45.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.606563 seconds for rho=15.000000,N=5.883222,t=3.008000
+INFO:root:0.004141 seconds to construct rates for rho=15.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 22.923923 seconds for rho=10.000000,N=4.704072,t=23.072000
+INFO:root:0.004856 seconds to construct rates for rho=10.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.570813 seconds for rho=20.000000,N=5.883222,t=3.008000
+INFO:root:0.004076 seconds to construct rates for rho=20.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 4.489195 seconds for rho=30.000000,N=5.883222,t=3.008000
+INFO:root:0.004131 seconds to construct rates for rho=30.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 2.995015 seconds for rho=15.000000,N=7.481656,t=2.360000
+INFO:root:0.004808 seconds to construct rates for rho=15.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 5.113302 seconds for rho=50.000000,N=7.481656,t=2.360000
+INFO:root:0.004327 seconds to construct rates for rho=50.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 2.832450 seconds for rho=20.000000,N=7.481656,t=2.360000
+INFO:root:0.004983 seconds to construct rates for rho=20.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 4.518494 seconds for rho=10.000000,N=5.883222,t=3.008000
+INFO:root:0.004592 seconds to construct rates for rho=10.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 5.375520 seconds for rho=45.000000,N=5.883222,t=3.008000
+INFO:root:0.004234 seconds to construct rates for rho=45.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 2.870209 seconds for rho=15.000000,N=9.215966,t=1.856000
+INFO:root:0.004239 seconds to construct rates for rho=15.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 4.539324 seconds for rho=30.000000,N=7.481656,t=2.360000
+INFO:root:0.004076 seconds to construct rates for rho=30.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 31.785635 seconds for rho=25.000000,N=4.704072,t=23.072000
+INFO:root:0.013050 seconds to construct rates for rho=25.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 36.845658 seconds for rho=35.000000,N=4.704072,t=23.072000
+INFO:root:0.004556 seconds to construct rates for rho=35.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 40.195346 seconds for rho=40.000000,N=4.704072,t=23.072000
+INFO:root:0.028178 seconds to construct rates for rho=40.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.116074 seconds for rho=20.000000,N=9.215966,t=1.856000
+INFO:root:0.004111 seconds to construct rates for rho=20.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 3.772280 seconds for rho=10.000000,N=7.481656,t=2.360000
+INFO:root:0.005816 seconds to construct rates for rho=10.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 5.081151 seconds for rho=50.000000,N=9.215966,t=1.856000
+INFO:root:0.004881 seconds to construct rates for rho=50.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 4.878816 seconds for rho=45.000000,N=7.481656,t=2.360000
+INFO:root:0.005419 seconds to construct rates for rho=45.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 3.745693 seconds for rho=30.000000,N=9.215966,t=1.856000
+INFO:root:0.004031 seconds to construct rates for rho=30.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 4.485419 seconds for rho=15.000000,N=11.508458,t=3.516000
+INFO:root:0.005164 seconds to construct rates for rho=15.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 2.219280 seconds for rho=10.000000,N=9.215966,t=1.856000
+INFO:root:0.004028 seconds to construct rates for rho=10.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 4.244779 seconds for rho=20.000000,N=11.508458,t=3.516000
+INFO:root:0.004408 seconds to construct rates for rho=20.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.878817 seconds for rho=15.000000,N=14.369633,t=1.284000
+INFO:root:0.004210 seconds to construct rates for rho=15.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 5.944993 seconds for rho=25.000000,N=5.883222,t=3.008000
+INFO:root:0.004466 seconds to construct rates for rho=25.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 1.032252 seconds for rho=15.000000,N=18.923472,t=0.452000
+INFO:root:0.005049 seconds to construct rates for rho=15.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 2.178123 seconds for rho=20.000000,N=14.369633,t=1.284000
+INFO:root:0.005225 seconds to construct rates for rho=20.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 7.082184 seconds for rho=40.000000,N=5.883222,t=3.008000
+INFO:root:0.005678 seconds to construct rates for rho=40.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 8.234374 seconds for rho=35.000000,N=5.883222,t=3.008000
+INFO:root:0.004205 seconds to construct rates for rho=35.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 3.840617 seconds for rho=10.000000,N=11.508458,t=3.516000
+INFO:root:0.013059 seconds to construct rates for rho=10.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.407298 seconds for rho=15.000000,N=23.635895,t=0.648000
+INFO:root:0.004374 seconds to construct rates for rho=15.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.672041 seconds for rho=20.000000,N=18.923472,t=0.452000
+INFO:root:0.004398 seconds to construct rates for rho=20.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.374358 seconds for rho=15.000000,N=21.860513,t=0.412000
+INFO:root:0.004196 seconds to construct rates for rho=15.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 6.262724 seconds for rho=45.000000,N=9.215966,t=1.856000
+INFO:root:0.004168 seconds to construct rates for rho=45.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.188169 seconds for rho=15.000000,N=16.031473,t=0.148000
+INFO:root:0.003017 seconds to construct rates for rho=15.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.079500 seconds for rho=15.000000,N=12.821216,t=0.120000
+INFO:root:0.002907 seconds to construct rates for rho=15.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 1.763914 seconds for rho=10.000000,N=14.369633,t=1.284000
+INFO:root:0.004855 seconds to construct rates for rho=10.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.136924 seconds for rho=15.000000,N=10.594632,t=0.092000
+INFO:root:0.012432 seconds to construct rates for rho=15.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 6.598003 seconds for rho=30.000000,N=11.508458,t=3.516000
+INFO:root:0.012800 seconds to construct rates for rho=30.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.152242 seconds for rho=15.000000,N=8.638593,t=0.080000
+INFO:root:0.003339 seconds to construct rates for rho=15.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 1.731520 seconds for rho=20.000000,N=23.635895,t=0.648000
+INFO:root:0.014298 seconds to construct rates for rho=20.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.434557 seconds for rho=15.000000,N=6.489066,t=0.064000
+INFO:root:0.026467 seconds to construct rates for rho=15.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.392893 seconds for rho=15.000000,N=4.418363,t=0.048000
+INFO:root:0.024879 seconds to construct rates for rho=15.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.307327 seconds for rho=15.000000,N=2.905044,t=0.044000
+INFO:root:0.003265 seconds to construct rates for rho=15.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 5.750472 seconds for rho=25.000000,N=7.481656,t=2.360000
+INFO:root:0.013767 seconds to construct rates for rho=25.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 1.760786 seconds for rho=10.000000,N=18.923472,t=0.452000
+INFO:root:Computed action in 9.417574 seconds for rho=50.000000,N=11.508458,t=3.516000
+INFO:root:0.015281 seconds to construct rates for rho=10.000000,theta=0.000500,N=23.635895
+INFO:root:0.019161 seconds to construct rates for rho=50.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.885577 seconds for rho=15.000000,N=1.791566,t=0.032000
+INFO:root:0.004600 seconds to construct rates for rho=15.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 1.869058 seconds for rho=20.000000,N=21.860513,t=0.412000
+INFO:root:0.027561 seconds to construct rates for rho=20.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 2.427929 seconds for rho=30.000000,N=14.369633,t=1.284000
+INFO:root:0.012880 seconds to construct rates for rho=30.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.103474 seconds for rho=15.000000,N=2.976249,t=0.052000
+INFO:root:0.007686 seconds to construct rates for rho=9.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 1.821534 seconds for rho=10.000000,N=23.635895,t=0.648000
+INFO:root:0.003972 seconds to construct rates for rho=10.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.211114 seconds for rho=20.000000,N=16.031473,t=0.148000
+INFO:root:0.016966 seconds to construct rates for rho=20.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.107366 seconds for rho=20.000000,N=12.821216,t=0.120000
+INFO:root:0.003597 seconds to construct rates for rho=20.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.077154 seconds for rho=20.000000,N=10.594632,t=0.092000
+INFO:root:0.003104 seconds to construct rates for rho=20.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.077211 seconds for rho=20.000000,N=8.638593,t=0.080000
+INFO:root:0.003069 seconds to construct rates for rho=20.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 1.318687 seconds for rho=30.000000,N=18.923472,t=0.452000
+INFO:root:0.006514 seconds to construct rates for rho=30.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.136416 seconds for rho=20.000000,N=6.489066,t=0.064000
+INFO:root:0.003060 seconds to construct rates for rho=20.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.153465 seconds for rho=20.000000,N=4.418363,t=0.048000
+INFO:root:0.011905 seconds to construct rates for rho=20.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 6.814324 seconds for rho=40.000000,N=7.481656,t=2.360000
+INFO:root:0.004660 seconds to construct rates for rho=40.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 0.306552 seconds for rho=20.000000,N=2.905044,t=0.044000
+INFO:root:0.015723 seconds to construct rates for rho=20.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 1.150320 seconds for rho=10.000000,N=21.860513,t=0.412000
+INFO:root:Computed action in 6.598516 seconds for rho=35.000000,N=7.481656,t=2.360000
+INFO:root:0.004169 seconds to construct rates for rho=35.000000,theta=0.000500,N=9.215966
+INFO:root:0.023952 seconds to construct rates for rho=10.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.179331 seconds for rho=10.000000,N=16.031473,t=0.148000
+INFO:root:0.003158 seconds to construct rates for rho=10.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.210181 seconds for rho=10.000000,N=12.821216,t=0.120000
+INFO:root:0.018892 seconds to construct rates for rho=10.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.182824 seconds for rho=10.000000,N=10.594632,t=0.092000
+INFO:root:0.003151 seconds to construct rates for rho=10.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 3.615809 seconds for rho=50.000000,N=14.369633,t=1.284000
+INFO:root:0.026366 seconds to construct rates for rho=50.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.230393 seconds for rho=10.000000,N=8.638593,t=0.080000
+INFO:root:0.003127 seconds to construct rates for rho=10.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 1.088531 seconds for rho=20.000000,N=1.791566,t=0.032000
+INFO:root:0.012994 seconds to construct rates for rho=20.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.185168 seconds for rho=10.000000,N=6.489066,t=0.064000
+INFO:root:0.012069 seconds to construct rates for rho=10.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 1.964175 seconds for rho=30.000000,N=23.635895,t=0.648000
+INFO:root:0.012599 seconds to construct rates for rho=30.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.143862 seconds for rho=10.000000,N=4.418363,t=0.048000
+INFO:root:0.003313 seconds to construct rates for rho=10.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.373264 seconds for rho=10.000000,N=2.905044,t=0.044000
+INFO:root:0.003625 seconds to construct rates for rho=10.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 5.146713 seconds for rho=25.000000,N=9.215966,t=1.856000
+INFO:root:0.020610 seconds to construct rates for rho=25.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.883550 seconds for rho=10.000000,N=1.791566,t=0.032000
+INFO:root:0.003931 seconds to construct rates for rho=10.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 1.569401 seconds for rho=20.000000,N=2.976249,t=0.052000
+INFO:root:0.015992 seconds to construct rates for rho=8.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 2.206665 seconds for rho=50.000000,N=18.923472,t=0.452000
+INFO:root:0.013599 seconds to construct rates for rho=50.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.716538 seconds for rho=30.000000,N=21.860513,t=0.412000
+INFO:root:0.005565 seconds to construct rates for rho=30.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.780786 seconds for rho=10.000000,N=2.976249,t=0.052000
+INFO:root:0.013093 seconds to construct rates for rho=8.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 0.974272 seconds for rho=30.000000,N=16.031473,t=0.148000
+INFO:root:0.003271 seconds to construct rates for rho=30.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 36.959851 seconds for rho=9.500000,N=4.704072,t=23.072000
+INFO:root:0.007488 seconds to construct rates for rho=9.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 4.346894 seconds for rho=35.000000,N=9.215966,t=1.856000
+INFO:root:0.003839 seconds to construct rates for rho=35.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.492881 seconds for rho=30.000000,N=12.821216,t=0.120000
+INFO:root:0.024946 seconds to construct rates for rho=30.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 1.779593 seconds for rho=50.000000,N=23.635895,t=0.648000
+INFO:root:0.004333 seconds to construct rates for rho=50.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.967542 seconds for rho=30.000000,N=10.594632,t=0.092000
+INFO:root:0.003327 seconds to construct rates for rho=30.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 10.366079 seconds for rho=45.000000,N=11.508458,t=3.516000
+INFO:root:0.021396 seconds to construct rates for rho=45.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.239968 seconds for rho=30.000000,N=8.638593,t=0.080000
+INFO:root:0.003227 seconds to construct rates for rho=30.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.184307 seconds for rho=30.000000,N=6.489066,t=0.064000
+INFO:root:0.002995 seconds to construct rates for rho=30.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.183992 seconds for rho=30.000000,N=4.418363,t=0.048000
+INFO:root:0.002961 seconds to construct rates for rho=30.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 1.496346 seconds for rho=50.000000,N=21.860513,t=0.412000
+INFO:root:0.004396 seconds to construct rates for rho=50.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 6.666265 seconds for rho=40.000000,N=9.215966,t=1.856000
+INFO:root:0.018018 seconds to construct rates for rho=40.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.547552 seconds for rho=30.000000,N=2.905044,t=0.044000
+INFO:root:0.003211 seconds to construct rates for rho=30.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 1.207746 seconds for rho=50.000000,N=16.031473,t=0.148000
+INFO:root:0.003535 seconds to construct rates for rho=50.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 5.396329 seconds for rho=25.000000,N=11.508458,t=3.516000
+INFO:root:Computed action in 0.831500 seconds for rho=30.000000,N=1.791566,t=0.032000
+INFO:root:0.004727 seconds to construct rates for rho=25.000000,theta=0.000500,N=14.369633
+INFO:root:0.003296 seconds to construct rates for rho=30.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 2.307112 seconds for rho=45.000000,N=14.369633,t=1.284000
+INFO:root:0.020996 seconds to construct rates for rho=45.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 4.055882 seconds for rho=9.500000,N=5.883222,t=3.008000
+INFO:root:0.004306 seconds to construct rates for rho=9.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 1.300911 seconds for rho=50.000000,N=12.821216,t=0.120000
+INFO:root:0.015033 seconds to construct rates for rho=50.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 1.543944 seconds for rho=30.000000,N=2.976249,t=0.052000
+INFO:root:0.005147 seconds to construct rates for rho=7.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 2.172566 seconds for rho=25.000000,N=14.369633,t=1.284000
+INFO:root:0.013526 seconds to construct rates for rho=25.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.045331 seconds for rho=50.000000,N=10.594632,t=0.092000
+INFO:root:0.003588 seconds to construct rates for rho=50.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 2.644631 seconds for rho=45.000000,N=18.923472,t=0.452000
+INFO:root:0.003991 seconds to construct rates for rho=45.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.007649 seconds for rho=50.000000,N=8.638593,t=0.080000
+INFO:root:Computed action in 1.188465 seconds for rho=25.000000,N=18.923472,t=0.452000
+INFO:root:0.012491 seconds to construct rates for rho=50.000000,theta=0.000500,N=6.489066
+INFO:root:0.004798 seconds to construct rates for rho=25.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 7.626787 seconds for rho=35.000000,N=11.508458,t=3.516000
+INFO:root:0.004120 seconds to construct rates for rho=35.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.261260 seconds for rho=50.000000,N=6.489066,t=0.064000
+INFO:root:0.003615 seconds to construct rates for rho=50.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.203547 seconds for rho=50.000000,N=4.418363,t=0.048000
+INFO:root:0.003454 seconds to construct rates for rho=50.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 1.655236 seconds for rho=25.000000,N=23.635895,t=0.648000
+INFO:root:0.012973 seconds to construct rates for rho=25.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 2.077246 seconds for rho=45.000000,N=23.635895,t=0.648000
+INFO:root:0.005099 seconds to construct rates for rho=45.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 5.215629 seconds for rho=9.500000,N=7.481656,t=2.360000
+INFO:root:0.014156 seconds to construct rates for rho=9.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 1.544524 seconds for rho=50.000000,N=2.905044,t=0.044000
+INFO:root:0.003604 seconds to construct rates for rho=50.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 1.516643 seconds for rho=45.000000,N=21.860513,t=0.412000
+INFO:root:0.004142 seconds to construct rates for rho=45.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 8.034753 seconds for rho=40.000000,N=11.508458,t=3.516000
+INFO:root:Computed action in 1.810971 seconds for rho=25.000000,N=21.860513,t=0.412000
+INFO:root:0.013208 seconds to construct rates for rho=40.000000,theta=0.000500,N=14.369633
+INFO:root:0.017955 seconds to construct rates for rho=25.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 1.070457 seconds for rho=50.000000,N=1.791566,t=0.032000
+INFO:root:0.014451 seconds to construct rates for rho=50.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 1.245481 seconds for rho=45.000000,N=16.031473,t=0.148000
+INFO:root:0.012779 seconds to construct rates for rho=45.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 1.447060 seconds for rho=25.000000,N=16.031473,t=0.148000
+INFO:root:0.013115 seconds to construct rates for rho=25.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 1.017413 seconds for rho=50.000000,N=2.976249,t=0.052000
+INFO:root:0.013311 seconds to construct rates for rho=7.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 4.369708 seconds for rho=35.000000,N=14.369633,t=1.284000
+INFO:root:0.013374 seconds to construct rates for rho=35.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.419904 seconds for rho=45.000000,N=12.821216,t=0.120000
+INFO:root:0.003898 seconds to construct rates for rho=45.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.945121 seconds for rho=25.000000,N=12.821216,t=0.120000
+INFO:root:0.003909 seconds to construct rates for rho=25.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.164861 seconds for rho=25.000000,N=10.594632,t=0.092000
+INFO:root:0.005120 seconds to construct rates for rho=25.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.177863 seconds for rho=25.000000,N=8.638593,t=0.080000
+INFO:root:0.005279 seconds to construct rates for rho=25.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 3.789503 seconds for rho=9.500000,N=9.215966,t=1.856000
+INFO:root:0.004409 seconds to construct rates for rho=9.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.165722 seconds for rho=25.000000,N=6.489066,t=0.064000
+INFO:root:0.003384 seconds to construct rates for rho=25.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.165741 seconds for rho=25.000000,N=4.418363,t=0.048000
+INFO:root:0.003403 seconds to construct rates for rho=25.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.218377 seconds for rho=25.000000,N=2.905044,t=0.044000
+INFO:root:0.003409 seconds to construct rates for rho=25.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 3.612643 seconds for rho=40.000000,N=14.369633,t=1.284000
+INFO:root:0.019759 seconds to construct rates for rho=40.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.242434 seconds for rho=45.000000,N=10.594632,t=0.092000
+INFO:root:Computed action in 1.536990 seconds for rho=35.000000,N=18.923472,t=0.452000
+INFO:root:0.003735 seconds to construct rates for rho=45.000000,theta=0.000500,N=8.638593
+INFO:root:0.005019 seconds to construct rates for rho=35.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.398586 seconds for rho=25.000000,N=1.791566,t=0.032000
+INFO:root:0.003511 seconds to construct rates for rho=25.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 1.390697 seconds for rho=45.000000,N=8.638593,t=0.080000
+INFO:root:0.004529 seconds to construct rates for rho=45.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.784741 seconds for rho=25.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 1.960315 seconds for rho=40.000000,N=18.923472,t=0.452000
+INFO:root:0.006392 seconds to construct rates for rho=40.000000,theta=0.000500,N=23.635895
+INFO:root:0.013521 seconds to construct rates for rho=6.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 2.317484 seconds for rho=35.000000,N=23.635895,t=0.648000
+INFO:root:0.004426 seconds to construct rates for rho=35.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.949948 seconds for rho=45.000000,N=6.489066,t=0.064000
+INFO:root:0.004122 seconds to construct rates for rho=45.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.185971 seconds for rho=45.000000,N=4.418363,t=0.048000
+INFO:root:0.003325 seconds to construct rates for rho=45.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 3.661896 seconds for rho=9.500000,N=11.508458,t=3.516000
+INFO:root:0.005060 seconds to construct rates for rho=9.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.112741 seconds for rho=45.000000,N=2.905044,t=0.044000
+INFO:root:0.004074 seconds to construct rates for rho=45.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 1.822545 seconds for rho=35.000000,N=21.860513,t=0.412000
+INFO:root:0.013041 seconds to construct rates for rho=35.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 2.303696 seconds for rho=40.000000,N=23.635895,t=0.648000
+INFO:root:0.014318 seconds to construct rates for rho=40.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.772270 seconds for rho=45.000000,N=1.791566,t=0.032000
+INFO:root:0.012063 seconds to construct rates for rho=45.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 2.142164 seconds for rho=9.500000,N=14.369633,t=1.284000
+INFO:root:0.003972 seconds to construct rates for rho=9.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.106813 seconds for rho=45.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 1.435139 seconds for rho=35.000000,N=16.031473,t=0.148000
+INFO:root:0.003572 seconds to construct rates for rho=35.000000,theta=0.000500,N=12.821216
+INFO:root:0.013237 seconds to construct rates for rho=6.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 1.836724 seconds for rho=40.000000,N=21.860513,t=0.412000
+INFO:root:0.004476 seconds to construct rates for rho=40.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 1.231428 seconds for rho=9.500000,N=18.923472,t=0.452000
+INFO:root:0.024866 seconds to construct rates for rho=9.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.226691 seconds for rho=35.000000,N=12.821216,t=0.120000
+INFO:root:0.003299 seconds to construct rates for rho=35.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 1.283169 seconds for rho=40.000000,N=16.031473,t=0.148000
+INFO:root:0.034733 seconds to construct rates for rho=40.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 1.287687 seconds for rho=9.500000,N=23.635895,t=0.648000
+INFO:root:0.014861 seconds to construct rates for rho=9.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.241519 seconds for rho=35.000000,N=10.594632,t=0.092000
+INFO:root:0.011791 seconds to construct rates for rho=35.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 1.114632 seconds for rho=9.500000,N=21.860513,t=0.412000
+INFO:root:0.003965 seconds to construct rates for rho=9.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 1.298826 seconds for rho=40.000000,N=12.821216,t=0.120000
+INFO:root:0.004067 seconds to construct rates for rho=40.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.178138 seconds for rho=9.500000,N=16.031473,t=0.148000
+INFO:root:0.003179 seconds to construct rates for rho=9.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.820494 seconds for rho=35.000000,N=8.638593,t=0.080000
+INFO:root:0.003297 seconds to construct rates for rho=35.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.141119 seconds for rho=9.500000,N=12.821216,t=0.120000
+INFO:root:0.003200 seconds to construct rates for rho=9.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.141294 seconds for rho=35.000000,N=6.489066,t=0.064000
+INFO:root:0.003242 seconds to construct rates for rho=35.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.089440 seconds for rho=35.000000,N=4.418363,t=0.048000
+INFO:root:Computed action in 0.132635 seconds for rho=9.500000,N=10.594632,t=0.092000
+INFO:root:0.003123 seconds to construct rates for rho=35.000000,theta=0.000500,N=2.905044
+INFO:root:0.007869 seconds to construct rates for rho=9.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.199740 seconds for rho=9.500000,N=8.638593,t=0.080000
+INFO:root:0.003179 seconds to construct rates for rho=9.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.073617 seconds for rho=9.500000,N=6.489066,t=0.064000
+INFO:root:0.003801 seconds to construct rates for rho=9.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.746928 seconds for rho=40.000000,N=10.594632,t=0.092000
+INFO:root:0.011540 seconds to construct rates for rho=40.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.108364 seconds for rho=9.500000,N=4.418363,t=0.048000
+INFO:root:0.011864 seconds to construct rates for rho=9.500000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.191349 seconds for rho=9.500000,N=2.905044,t=0.044000
+INFO:root:0.011838 seconds to construct rates for rho=9.500000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.812263 seconds for rho=35.000000,N=2.905044,t=0.044000
+INFO:root:0.014767 seconds to construct rates for rho=35.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 1.097912 seconds for rho=40.000000,N=8.638593,t=0.080000
+INFO:root:0.003934 seconds to construct rates for rho=40.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.841990 seconds for rho=9.500000,N=1.791566,t=0.032000
+INFO:root:0.004478 seconds to construct rates for rho=9.500000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.798924 seconds for rho=35.000000,N=1.791566,t=0.032000
+INFO:root:0.003364 seconds to construct rates for rho=35.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.279419 seconds for rho=40.000000,N=6.489066,t=0.064000
+INFO:root:0.013258 seconds to construct rates for rho=40.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.295094 seconds for rho=40.000000,N=4.418363,t=0.048000
+INFO:root:0.011719 seconds to construct rates for rho=40.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.809052 seconds for rho=9.500000,N=2.976249,t=0.052000
+INFO:root:0.013412 seconds to construct rates for rho=5.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 1.156942 seconds for rho=35.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 0.842603 seconds for rho=40.000000,N=2.905044,t=0.044000
+INFO:root:0.003772 seconds to construct rates for rho=40.000000,theta=0.000500,N=1.791566
+INFO:root:0.013546 seconds to construct rates for rho=5.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 0.675959 seconds for rho=40.000000,N=1.791566,t=0.032000
+INFO:root:0.003575 seconds to construct rates for rho=40.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.661043 seconds for rho=40.000000,N=2.976249,t=0.052000
+INFO:root:0.009665 seconds to construct rates for rho=4.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 21295 iterations, 43.234934 seconds 
+INFO:root:0.004601 seconds to construct rates for rho=9.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 19759 iterations, 39.657418 seconds 
+INFO:root:0.004646 seconds to construct rates for rho=8.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 20528 iterations, 41.432379 seconds 
+INFO:root:0.004688 seconds to construct rates for rho=8.500000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 18987 iterations, 35.605557 seconds 
+INFO:root:0.004746 seconds to construct rates for rho=7.500000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 18213 iterations, 32.648040 seconds 
+INFO:root:0.004471 seconds to construct rates for rho=7.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 17436 iterations, 28.788624 seconds 
+INFO:root:0.017600 seconds to construct rates for rho=6.500000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 16658 iterations, 26.336248 seconds 
+INFO:root:0.004713 seconds to construct rates for rho=6.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 15099 iterations, 20.580146 seconds 
+INFO:root:0.004420 seconds to construct rates for rho=5.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 14318 iterations, 19.831779 seconds 
+INFO:root:0.017544 seconds to construct rates for rho=4.500000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 15879 iterations, 22.444663 seconds 
+INFO:root:0.004612 seconds to construct rates for rho=5.500000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 13.893950 seconds for rho=9.000000,N=12.395729,t=23.548000
+INFO:root:0.006138 seconds to construct rates for rho=9.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 12.049657 seconds for rho=7.500000,N=12.395729,t=23.548000
+INFO:root:0.004501 seconds to construct rates for rho=7.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 13.750090 seconds for rho=8.000000,N=12.395729,t=23.548000
+INFO:root:0.004851 seconds to construct rates for rho=8.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 13.035237 seconds for rho=8.500000,N=12.395729,t=23.548000
+INFO:root:0.003632 seconds to construct rates for rho=8.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 12.487784 seconds for rho=6.500000,N=12.395729,t=23.548000
+INFO:root:0.005011 seconds to construct rates for rho=6.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 12.681159 seconds for rho=7.000000,N=12.395729,t=23.548000
+INFO:root:0.004473 seconds to construct rates for rho=7.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 10.656563 seconds for rho=4.500000,N=12.395729,t=23.548000
+INFO:root:0.004848 seconds to construct rates for rho=4.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 12.291508 seconds for rho=6.000000,N=12.395729,t=23.548000
+INFO:root:0.003251 seconds to construct rates for rho=6.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 11.796044 seconds for rho=5.000000,N=12.395729,t=23.548000
+INFO:root:0.012233 seconds to construct rates for rho=5.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 11.490488 seconds for rho=5.500000,N=12.395729,t=23.548000
+INFO:root:0.003369 seconds to construct rates for rho=5.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 24.123677 seconds for rho=7.500000,N=4.704072,t=23.072000
+INFO:root:0.004622 seconds to construct rates for rho=7.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 24.086742 seconds for rho=8.000000,N=4.704072,t=23.072000
+INFO:root:0.004694 seconds to construct rates for rho=8.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 25.356744 seconds for rho=9.000000,N=4.704072,t=23.072000
+INFO:root:0.006800 seconds to construct rates for rho=9.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 25.002657 seconds for rho=8.500000,N=4.704072,t=23.072000
+INFO:root:0.005410 seconds to construct rates for rho=8.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.157606 seconds for rho=7.500000,N=5.883222,t=3.008000
+INFO:root:0.004242 seconds to construct rates for rho=7.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 3.434709 seconds for rho=8.000000,N=5.883222,t=3.008000
+INFO:root:0.004303 seconds to construct rates for rho=8.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 23.490844 seconds for rho=6.500000,N=4.704072,t=23.072000
+INFO:root:0.005349 seconds to construct rates for rho=6.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.759693 seconds for rho=9.000000,N=5.883222,t=3.008000
+INFO:root:0.004545 seconds to construct rates for rho=9.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 23.250231 seconds for rho=4.500000,N=4.704072,t=23.072000
+INFO:root:0.013774 seconds to construct rates for rho=4.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 23.116400 seconds for rho=5.000000,N=4.704072,t=23.072000
+INFO:root:0.006116 seconds to construct rates for rho=5.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.918541 seconds for rho=8.500000,N=5.883222,t=3.008000
+INFO:root:0.012630 seconds to construct rates for rho=8.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 25.336672 seconds for rho=7.000000,N=4.704072,t=23.072000
+INFO:root:Computed action in 23.303327 seconds for rho=5.500000,N=4.704072,t=23.072000
+INFO:root:0.005733 seconds to construct rates for rho=7.000000,theta=0.000500,N=5.883222
+INFO:root:0.013973 seconds to construct rates for rho=5.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 25.417630 seconds for rho=6.000000,N=4.704072,t=23.072000
+INFO:root:0.005075 seconds to construct rates for rho=6.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.855865 seconds for rho=7.500000,N=7.481656,t=2.360000
+INFO:root:0.005113 seconds to construct rates for rho=7.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 3.863042 seconds for rho=8.000000,N=7.481656,t=2.360000
+INFO:root:0.005544 seconds to construct rates for rho=8.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 3.298826 seconds for rho=9.000000,N=7.481656,t=2.360000
+INFO:root:0.006602 seconds to construct rates for rho=9.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 4.488420 seconds for rho=6.500000,N=5.883222,t=3.008000
+INFO:root:0.004704 seconds to construct rates for rho=6.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 3.477421 seconds for rho=8.500000,N=7.481656,t=2.360000
+INFO:root:0.005092 seconds to construct rates for rho=8.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 2.072628 seconds for rho=7.500000,N=9.215966,t=1.856000
+INFO:root:0.003900 seconds to construct rates for rho=7.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 2.328548 seconds for rho=8.000000,N=9.215966,t=1.856000
+INFO:root:0.004657 seconds to construct rates for rho=8.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 5.050777 seconds for rho=5.000000,N=5.883222,t=3.008000
+INFO:root:0.004561 seconds to construct rates for rho=5.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 5.585823 seconds for rho=4.500000,N=5.883222,t=3.008000
+INFO:root:0.004512 seconds to construct rates for rho=4.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 2.679971 seconds for rho=9.000000,N=9.215966,t=1.856000
+INFO:root:0.018968 seconds to construct rates for rho=9.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 4.556087 seconds for rho=7.000000,N=5.883222,t=3.008000
+INFO:root:0.004419 seconds to construct rates for rho=7.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 5.227936 seconds for rho=5.500000,N=5.883222,t=3.008000
+INFO:root:0.014359 seconds to construct rates for rho=5.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 3.523046 seconds for rho=6.500000,N=7.481656,t=2.360000
+INFO:root:0.005377 seconds to construct rates for rho=6.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 5.387414 seconds for rho=6.000000,N=5.883222,t=3.008000
+INFO:root:0.005468 seconds to construct rates for rho=6.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 3.787031 seconds for rho=8.500000,N=9.215966,t=1.856000
+INFO:root:0.004508 seconds to construct rates for rho=8.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 2.893132 seconds for rho=5.000000,N=7.481656,t=2.360000
+INFO:root:0.005538 seconds to construct rates for rho=5.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 3.734431 seconds for rho=7.500000,N=11.508458,t=3.516000
+INFO:root:0.012937 seconds to construct rates for rho=7.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 3.564790 seconds for rho=8.000000,N=11.508458,t=3.516000
+INFO:root:0.024742 seconds to construct rates for rho=8.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 3.598175 seconds for rho=4.500000,N=7.481656,t=2.360000
+INFO:root:0.004609 seconds to construct rates for rho=4.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 4.021484 seconds for rho=7.000000,N=7.481656,t=2.360000
+INFO:root:0.018367 seconds to construct rates for rho=7.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 4.454736 seconds for rho=9.000000,N=11.508458,t=3.516000
+INFO:root:0.004752 seconds to construct rates for rho=9.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.845548 seconds for rho=7.500000,N=14.369633,t=1.284000
+INFO:root:0.021945 seconds to construct rates for rho=7.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 4.068734 seconds for rho=5.500000,N=7.481656,t=2.360000
+INFO:root:0.021180 seconds to construct rates for rho=5.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 3.579108 seconds for rho=6.500000,N=9.215966,t=1.856000
+INFO:root:0.013960 seconds to construct rates for rho=6.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 2.746724 seconds for rho=8.000000,N=14.369633,t=1.284000
+INFO:root:0.023927 seconds to construct rates for rho=8.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 4.042849 seconds for rho=6.000000,N=7.481656,t=2.360000
+INFO:root:0.023111 seconds to construct rates for rho=6.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 1.605748 seconds for rho=7.500000,N=18.923472,t=0.452000
+INFO:root:0.004503 seconds to construct rates for rho=7.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 3.692465 seconds for rho=5.000000,N=9.215966,t=1.856000
+INFO:root:0.013282 seconds to construct rates for rho=5.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 3.727500 seconds for rho=4.500000,N=9.215966,t=1.856000
+INFO:root:0.004981 seconds to construct rates for rho=4.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.459918 seconds for rho=8.000000,N=18.923472,t=0.452000
+INFO:root:0.004191 seconds to construct rates for rho=8.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 3.397648 seconds for rho=9.000000,N=14.369633,t=1.284000
+INFO:root:0.004612 seconds to construct rates for rho=9.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.764560 seconds for rho=7.500000,N=23.635895,t=0.648000
+INFO:root:0.007672 seconds to construct rates for rho=7.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 3.589068 seconds for rho=7.000000,N=9.215966,t=1.856000
+INFO:root:0.011422 seconds to construct rates for rho=7.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.060772 seconds for rho=8.000000,N=23.635895,t=0.648000
+INFO:root:0.004452 seconds to construct rates for rho=8.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 3.553354 seconds for rho=5.500000,N=9.215966,t=1.856000
+INFO:root:0.012676 seconds to construct rates for rho=5.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 3.042023 seconds for rho=5.000000,N=11.508458,t=3.516000
+INFO:root:0.004370 seconds to construct rates for rho=5.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 7.279116 seconds for rho=8.500000,N=11.508458,t=3.516000
+INFO:root:0.021483 seconds to construct rates for rho=8.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.931141 seconds for rho=7.500000,N=21.860513,t=0.412000
+INFO:root:0.019508 seconds to construct rates for rho=7.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 1.574958 seconds for rho=8.000000,N=21.860513,t=0.412000
+INFO:root:0.025802 seconds to construct rates for rho=8.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.229660 seconds for rho=7.500000,N=16.031473,t=0.148000
+INFO:root:0.003338 seconds to construct rates for rho=7.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 2.301198 seconds for rho=9.000000,N=18.923472,t=0.452000
+INFO:root:0.005540 seconds to construct rates for rho=9.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.186434 seconds for rho=8.000000,N=16.031473,t=0.148000
+INFO:root:0.003386 seconds to construct rates for rho=8.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.153069 seconds for rho=7.500000,N=12.821216,t=0.120000
+INFO:root:0.003225 seconds to construct rates for rho=7.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.116513 seconds for rho=8.000000,N=12.821216,t=0.120000
+INFO:root:0.012112 seconds to construct rates for rho=8.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.131638 seconds for rho=7.500000,N=10.594632,t=0.092000
+INFO:root:0.003227 seconds to construct rates for rho=7.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.122820 seconds for rho=8.000000,N=10.594632,t=0.092000
+INFO:root:0.003204 seconds to construct rates for rho=8.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.071417 seconds for rho=7.500000,N=8.638593,t=0.080000
+INFO:root:0.003067 seconds to construct rates for rho=7.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.066378 seconds for rho=7.500000,N=6.489066,t=0.064000
+INFO:root:0.003064 seconds to construct rates for rho=7.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.133227 seconds for rho=8.000000,N=8.638593,t=0.080000
+INFO:root:0.012079 seconds to construct rates for rho=8.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.075817 seconds for rho=7.500000,N=4.418363,t=0.048000
+INFO:root:0.003010 seconds to construct rates for rho=7.500000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 4.556043 seconds for rho=6.000000,N=9.215966,t=1.856000
+INFO:root:0.005616 seconds to construct rates for rho=6.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.142170 seconds for rho=8.000000,N=6.489066,t=0.064000
+INFO:root:Computed action in 0.102956 seconds for rho=7.500000,N=2.905044,t=0.044000
+INFO:root:0.011953 seconds to construct rates for rho=7.500000,theta=0.000500,N=1.791566
+INFO:root:0.060971 seconds to construct rates for rho=8.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.213233 seconds for rho=8.000000,N=4.418363,t=0.048000
+INFO:root:0.003320 seconds to construct rates for rho=8.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.187844 seconds for rho=8.000000,N=2.905044,t=0.044000
+INFO:root:0.003097 seconds to construct rates for rho=8.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 4.185544 seconds for rho=4.500000,N=11.508458,t=3.516000
+INFO:root:0.013470 seconds to construct rates for rho=4.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 6.151651 seconds for rho=6.500000,N=11.508458,t=3.516000
+INFO:root:0.022724 seconds to construct rates for rho=6.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.156544 seconds for rho=7.500000,N=1.791566,t=0.032000
+INFO:root:0.015086 seconds to construct rates for rho=7.500000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 2.409475 seconds for rho=9.000000,N=23.635895,t=0.648000
+INFO:root:0.004801 seconds to construct rates for rho=9.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 3.372884 seconds for rho=5.000000,N=14.369633,t=1.284000
+INFO:root:Computed action in 1.430644 seconds for rho=8.000000,N=1.791566,t=0.032000
+INFO:root:0.013618 seconds to construct rates for rho=8.000000,theta=0.000500,N=2.976249
+INFO:root:0.025733 seconds to construct rates for rho=5.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 3.401530 seconds for rho=8.500000,N=14.369633,t=1.284000
+INFO:root:0.004217 seconds to construct rates for rho=8.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.362233 seconds for rho=7.500000,N=2.976249,t=0.052000
+INFO:root:0.013959 seconds to construct rates for rho=4.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 1.032080 seconds for rho=8.000000,N=2.976249,t=0.052000
+INFO:root:0.013882 seconds to construct rates for rho=3.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 1.543773 seconds for rho=9.000000,N=21.860513,t=0.412000
+INFO:root:0.004408 seconds to construct rates for rho=9.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 1.481606 seconds for rho=5.000000,N=18.923472,t=0.452000
+INFO:root:0.004324 seconds to construct rates for rho=5.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.086294 seconds for rho=9.000000,N=16.031473,t=0.148000
+INFO:root:0.003126 seconds to construct rates for rho=9.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 1.166667 seconds for rho=8.500000,N=18.923472,t=0.452000
+INFO:root:Computed action in 2.958659 seconds for rho=4.500000,N=14.369633,t=1.284000
+INFO:root:0.005155 seconds to construct rates for rho=8.500000,theta=0.000500,N=23.635895
+INFO:root:0.004199 seconds to construct rates for rho=4.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 5.616429 seconds for rho=5.500000,N=11.508458,t=3.516000
+INFO:root:0.005491 seconds to construct rates for rho=5.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.076729 seconds for rho=9.000000,N=12.821216,t=0.120000
+INFO:root:0.003548 seconds to construct rates for rho=9.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.090589 seconds for rho=9.000000,N=10.594632,t=0.092000
+INFO:root:0.003244 seconds to construct rates for rho=9.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.133544 seconds for rho=9.000000,N=8.638593,t=0.080000
+INFO:root:0.003401 seconds to construct rates for rho=9.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.150747 seconds for rho=9.000000,N=6.489066,t=0.064000
+INFO:root:0.003404 seconds to construct rates for rho=9.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 6.790900 seconds for rho=7.000000,N=11.508458,t=3.516000
+INFO:root:0.011961 seconds to construct rates for rho=7.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.160128 seconds for rho=9.000000,N=4.418363,t=0.048000
+INFO:root:0.012157 seconds to construct rates for rho=9.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 3.445037 seconds for rho=6.500000,N=14.369633,t=1.284000
+INFO:root:0.028287 seconds to construct rates for rho=6.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.189219 seconds for rho=9.000000,N=2.905044,t=0.044000
+INFO:root:0.012271 seconds to construct rates for rho=9.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 1.607977 seconds for rho=5.000000,N=23.635895,t=0.648000
+INFO:root:0.022454 seconds to construct rates for rho=5.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.767931 seconds for rho=4.500000,N=18.923472,t=0.452000
+INFO:root:0.013618 seconds to construct rates for rho=4.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.503526 seconds for rho=9.000000,N=1.791566,t=0.032000
+INFO:root:0.013032 seconds to construct rates for rho=9.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 2.526060 seconds for rho=8.500000,N=23.635895,t=0.648000
+INFO:root:0.004162 seconds to construct rates for rho=8.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.235532 seconds for rho=5.000000,N=21.860513,t=0.412000
+INFO:root:0.004522 seconds to construct rates for rho=5.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 2.082338 seconds for rho=6.500000,N=18.923472,t=0.452000
+INFO:root:Computed action in 0.129163 seconds for rho=5.000000,N=16.031473,t=0.148000
+INFO:root:0.003168 seconds to construct rates for rho=5.000000,theta=0.000500,N=12.821216
+INFO:root:0.013407 seconds to construct rates for rho=6.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.182341 seconds for rho=5.000000,N=12.821216,t=0.120000
+INFO:root:0.011540 seconds to construct rates for rho=5.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 1.356863 seconds for rho=4.500000,N=23.635895,t=0.648000
+INFO:root:Computed action in 2.659696 seconds for rho=7.000000,N=14.369633,t=1.284000
+INFO:root:0.013672 seconds to construct rates for rho=4.500000,theta=0.000500,N=21.860513
+INFO:root:0.013188 seconds to construct rates for rho=7.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.330528 seconds for rho=5.000000,N=10.594632,t=0.092000
+INFO:root:0.003399 seconds to construct rates for rho=5.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 1.169872 seconds for rho=9.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 3.498303 seconds for rho=5.500000,N=14.369633,t=1.284000
+INFO:root:0.005237 seconds to construct rates for rho=5.500000,theta=0.000500,N=18.923472
+INFO:root:0.013776 seconds to construct rates for rho=3.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 7.315152 seconds for rho=6.000000,N=11.508458,t=3.516000
+INFO:root:Computed action in 0.331820 seconds for rho=5.000000,N=8.638593,t=0.080000
+INFO:root:0.049889 seconds to construct rates for rho=6.000000,theta=0.000500,N=14.369633
+INFO:root:0.029284 seconds to construct rates for rho=5.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.316710 seconds for rho=5.000000,N=6.489066,t=0.064000
+INFO:root:0.026227 seconds to construct rates for rho=5.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 1.627464 seconds for rho=8.500000,N=21.860513,t=0.412000
+INFO:root:0.024548 seconds to construct rates for rho=8.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.351171 seconds for rho=5.000000,N=4.418363,t=0.048000
+INFO:root:0.022897 seconds to construct rates for rho=5.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.399070 seconds for rho=8.500000,N=16.031473,t=0.148000
+INFO:root:0.004115 seconds to construct rates for rho=8.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 1.801717 seconds for rho=6.500000,N=23.635895,t=0.648000
+INFO:root:0.004955 seconds to construct rates for rho=6.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.551669 seconds for rho=4.500000,N=21.860513,t=0.412000
+INFO:root:0.004043 seconds to construct rates for rho=4.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.280874 seconds for rho=5.000000,N=2.905044,t=0.044000
+INFO:root:0.003338 seconds to construct rates for rho=5.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.313450 seconds for rho=8.500000,N=12.821216,t=0.120000
+INFO:root:0.003302 seconds to construct rates for rho=8.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.309730 seconds for rho=4.500000,N=16.031473,t=0.148000
+INFO:root:0.026119 seconds to construct rates for rho=4.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.118616 seconds for rho=8.500000,N=10.594632,t=0.092000
+INFO:root:0.003401 seconds to construct rates for rho=8.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.065164 seconds for rho=8.500000,N=8.638593,t=0.080000
+INFO:root:0.003083 seconds to construct rates for rho=8.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 1.984972 seconds for rho=7.000000,N=18.923472,t=0.452000
+INFO:root:0.013676 seconds to construct rates for rho=7.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.662513 seconds for rho=5.500000,N=18.923472,t=0.452000
+INFO:root:0.004651 seconds to construct rates for rho=5.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.074332 seconds for rho=8.500000,N=6.489066,t=0.064000
+INFO:root:0.003182 seconds to construct rates for rho=8.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.205024 seconds for rho=8.500000,N=4.418363,t=0.048000
+INFO:root:Computed action in 0.361716 seconds for rho=4.500000,N=12.821216,t=0.120000
+INFO:root:0.012854 seconds to construct rates for rho=8.500000,theta=0.000500,N=2.905044
+INFO:root:0.003354 seconds to construct rates for rho=4.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.286874 seconds for rho=8.500000,N=2.905044,t=0.044000
+INFO:root:Computed action in 0.281868 seconds for rho=4.500000,N=10.594632,t=0.092000
+INFO:root:0.012456 seconds to construct rates for rho=8.500000,theta=0.000500,N=1.791566
+INFO:root:0.003351 seconds to construct rates for rho=4.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.193954 seconds for rho=4.500000,N=8.638593,t=0.080000
+INFO:root:0.012721 seconds to construct rates for rho=4.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 1.169382 seconds for rho=5.000000,N=1.791566,t=0.032000
+INFO:root:0.013573 seconds to construct rates for rho=5.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.196651 seconds for rho=4.500000,N=6.489066,t=0.064000
+INFO:root:Computed action in 1.457700 seconds for rho=6.500000,N=21.860513,t=0.412000
+INFO:root:0.012417 seconds to construct rates for rho=4.500000,theta=0.000500,N=4.418363
+INFO:root:0.004070 seconds to construct rates for rho=6.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.220458 seconds for rho=4.500000,N=4.418363,t=0.048000
+INFO:root:0.003249 seconds to construct rates for rho=4.500000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 1.273020 seconds for rho=7.000000,N=23.635895,t=0.648000
+INFO:root:0.004243 seconds to construct rates for rho=7.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.309122 seconds for rho=6.500000,N=16.031473,t=0.148000
+INFO:root:0.003349 seconds to construct rates for rho=6.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.199804 seconds for rho=4.500000,N=2.905044,t=0.044000
+INFO:root:0.003267 seconds to construct rates for rho=4.500000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 1.544119 seconds for rho=5.500000,N=23.635895,t=0.648000
+INFO:root:0.014144 seconds to construct rates for rho=5.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.324332 seconds for rho=6.500000,N=12.821216,t=0.120000
+INFO:root:0.005053 seconds to construct rates for rho=6.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 3.057906 seconds for rho=6.000000,N=14.369633,t=1.284000
+INFO:root:0.013020 seconds to construct rates for rho=6.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.118803 seconds for rho=8.500000,N=1.791566,t=0.032000
+INFO:root:0.012315 seconds to construct rates for rho=8.500000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.234911 seconds for rho=6.500000,N=10.594632,t=0.092000
+INFO:root:0.023639 seconds to construct rates for rho=6.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 1.218892 seconds for rho=5.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 0.254694 seconds for rho=6.500000,N=8.638593,t=0.080000
+INFO:root:0.003816 seconds to construct rates for rho=6.500000,theta=0.000500,N=6.489066
+INFO:root:0.013740 seconds to construct rates for rho=2.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 0.237772 seconds for rho=6.500000,N=6.489066,t=0.064000
+INFO:root:0.012349 seconds to construct rates for rho=6.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.229623 seconds for rho=6.500000,N=4.418363,t=0.048000
+INFO:root:Computed action in 1.370732 seconds for rho=7.000000,N=21.860513,t=0.412000
+INFO:root:0.012319 seconds to construct rates for rho=6.500000,theta=0.000500,N=2.905044
+INFO:root:0.013213 seconds to construct rates for rho=7.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.087321 seconds for rho=7.000000,N=16.031473,t=0.148000
+INFO:root:0.003172 seconds to construct rates for rho=7.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 1.087808 seconds for rho=6.000000,N=18.923472,t=0.452000
+INFO:root:0.004464 seconds to construct rates for rho=6.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.433688 seconds for rho=4.500000,N=1.791566,t=0.032000
+INFO:root:Computed action in 0.184186 seconds for rho=6.500000,N=2.905044,t=0.044000
+INFO:root:0.003322 seconds to construct rates for rho=6.500000,theta=0.000500,N=1.791566
+INFO:root:0.005655 seconds to construct rates for rho=4.500000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 1.193325 seconds for rho=8.500000,N=2.976249,t=0.052000
+INFO:root:Computed action in 1.346948 seconds for rho=5.500000,N=21.860513,t=0.412000
+INFO:root:0.004157 seconds to construct rates for rho=5.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.067493 seconds for rho=5.500000,N=16.031473,t=0.148000
+INFO:root:0.003279 seconds to construct rates for rho=5.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.257340 seconds for rho=7.000000,N=12.821216,t=0.120000
+INFO:root:0.026577 seconds to construct rates for rho=7.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.065734 seconds for rho=5.500000,N=12.821216,t=0.120000
+INFO:root:0.004791 seconds to construct rates for rho=5.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.063575 seconds for rho=5.500000,N=10.594632,t=0.092000
+INFO:root:0.013240 seconds to construct rates for rho=2.000000,theta=0.000500,N=54.868894
+INFO:root:0.003381 seconds to construct rates for rho=5.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.063756 seconds for rho=5.500000,N=8.638593,t=0.080000
+INFO:root:0.003752 seconds to construct rates for rho=5.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.065058 seconds for rho=5.500000,N=6.489066,t=0.064000
+INFO:root:0.003213 seconds to construct rates for rho=5.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.249923 seconds for rho=7.000000,N=10.594632,t=0.092000
+INFO:root:0.003293 seconds to construct rates for rho=7.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.076182 seconds for rho=5.500000,N=4.418363,t=0.048000
+INFO:root:0.003664 seconds to construct rates for rho=5.500000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.095045 seconds for rho=5.500000,N=2.905044,t=0.044000
+INFO:root:0.003157 seconds to construct rates for rho=5.500000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.265216 seconds for rho=7.000000,N=8.638593,t=0.080000
+INFO:root:0.018246 seconds to construct rates for rho=7.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.248172 seconds for rho=7.000000,N=6.489066,t=0.064000
+INFO:root:0.012797 seconds to construct rates for rho=7.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 1.049697 seconds for rho=4.500000,N=2.976249,t=0.052000
+INFO:root:Computed action in 0.140191 seconds for rho=7.000000,N=4.418363,t=0.048000
+INFO:root:0.003046 seconds to construct rates for rho=7.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 1.164456 seconds for rho=6.500000,N=1.791566,t=0.032000
+INFO:root:0.005023 seconds to construct rates for rho=6.500000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 1.265385 seconds for rho=6.000000,N=23.635895,t=0.648000
+INFO:root:0.004452 seconds to construct rates for rho=6.000000,theta=0.000500,N=21.860513
+INFO:root:0.035765 seconds to construct rates for rho=1.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 0.672016 seconds for rho=5.500000,N=1.791566,t=0.032000
+INFO:root:Computed action in 0.146240 seconds for rho=7.000000,N=2.905044,t=0.044000
+INFO:root:0.003857 seconds to construct rates for rho=5.500000,theta=0.000500,N=2.976249
+INFO:root:0.003243 seconds to construct rates for rho=7.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.994903 seconds for rho=5.500000,N=2.976249,t=0.052000
+INFO:root:Computed action in 1.071802 seconds for rho=7.000000,N=1.791566,t=0.032000
+INFO:root:0.004183 seconds to construct rates for rho=7.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 1.228401 seconds for rho=6.500000,N=2.976249,t=0.052000
+INFO:root:0.005852 seconds to construct rates for rho=1.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 1.307486 seconds for rho=6.000000,N=21.860513,t=0.412000
+INFO:root:0.004565 seconds to construct rates for rho=6.000000,theta=0.000500,N=16.031473
+INFO:root:0.014027 seconds to construct rates for rho=0.500000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 0.075980 seconds for rho=6.000000,N=16.031473,t=0.148000
+INFO:root:0.003722 seconds to construct rates for rho=6.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.066814 seconds for rho=6.000000,N=12.821216,t=0.120000
+INFO:root:0.005277 seconds to construct rates for rho=6.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.065197 seconds for rho=6.000000,N=10.594632,t=0.092000
+INFO:root:0.003538 seconds to construct rates for rho=6.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.118025 seconds for rho=6.000000,N=8.638593,t=0.080000
+INFO:root:0.004209 seconds to construct rates for rho=6.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.118773 seconds for rho=6.000000,N=6.489066,t=0.064000
+INFO:root:0.003733 seconds to construct rates for rho=6.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.602343 seconds for rho=7.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 0.079661 seconds for rho=6.000000,N=4.418363,t=0.048000
+INFO:root:0.004296 seconds to construct rates for rho=6.000000,theta=0.000500,N=2.905044
+INFO:root:0.009184 seconds to construct rates for rho=0.000000,theta=0.000500,N=54.868894
+INFO:root:Computed action in 0.096811 seconds for rho=6.000000,N=2.905044,t=0.044000
+INFO:root:0.003630 seconds to construct rates for rho=6.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.322498 seconds for rho=6.000000,N=1.791566,t=0.032000
+INFO:root:0.008548 seconds to construct rates for rho=6.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.357471 seconds for rho=6.000000,N=2.976249,t=0.052000
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 12764 iterations, 23.779198 seconds 
+INFO:root:0.004773 seconds to construct rates for rho=3.500000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 12211 iterations, 20.426373 seconds 
+INFO:root:0.004688 seconds to construct rates for rho=3.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 11910 iterations, 17.033976 seconds 
+INFO:root:0.004683 seconds to construct rates for rho=2.500000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 11655 iterations, 16.483541 seconds 
+INFO:root:0.017028 seconds to construct rates for rho=2.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 13540 iterations, 25.673192 seconds 
+INFO:root:0.018407 seconds to construct rates for rho=4.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 11441 iterations, 15.398115 seconds 
+INFO:root:0.008870 seconds to construct rates for rho=1.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 11475 iterations, 17.855917 seconds 
+INFO:root:0.009113 seconds to construct rates for rho=1.500000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 11783 iterations, 16.751300 seconds 
+INFO:root:0.004647 seconds to construct rates for rho=0.500000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 9.215127 seconds for rho=2.500000,N=12.395729,t=23.548000
+INFO:root:0.004780 seconds to construct rates for rho=2.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 10.509487 seconds for rho=3.500000,N=12.395729,t=23.548000
+INFO:root:0.014011 seconds to construct rates for rho=3.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 9.699979 seconds for rho=2.000000,N=12.395729,t=23.548000
+INFO:root:0.006785 seconds to construct rates for rho=2.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 9.125078 seconds for rho=1.000000,N=12.395729,t=23.548000
+INFO:root:0.013676 seconds to construct rates for rho=1.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 11.303665 seconds for rho=3.000000,N=12.395729,t=23.548000
+INFO:root:0.005637 seconds to construct rates for rho=3.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 10.950388 seconds for rho=4.000000,N=12.395729,t=23.548000
+INFO:root:0.005543 seconds to construct rates for rho=4.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 9.635738 seconds for rho=1.500000,N=12.395729,t=23.548000
+INFO:root:0.005779 seconds to construct rates for rho=1.500000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 9.882554 seconds for rho=0.500000,N=12.395729,t=23.548000
+INFO:root:0.004379 seconds to construct rates for rho=0.500000,theta=0.000500,N=4.704072
+INFO:root:Computed stationary with L-1.000000 stopping, epsilon=1e-08,in 23346 iterations, 30.213461 seconds 
+INFO:root:0.004555 seconds to construct rates for rho=0.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 8.105801 seconds for rho=0.000000,N=12.395729,t=23.548000
+INFO:root:0.003820 seconds to construct rates for rho=0.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 22.374684 seconds for rho=2.500000,N=4.704072,t=23.072000
+INFO:root:0.005461 seconds to construct rates for rho=2.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 22.024158 seconds for rho=2.000000,N=4.704072,t=23.072000
+INFO:root:0.005279 seconds to construct rates for rho=2.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 22.772372 seconds for rho=3.500000,N=4.704072,t=23.072000
+INFO:root:0.004243 seconds to construct rates for rho=3.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 22.088532 seconds for rho=1.000000,N=4.704072,t=23.072000
+INFO:root:0.014117 seconds to construct rates for rho=1.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 23.127883 seconds for rho=4.000000,N=4.704072,t=23.072000
+INFO:root:Computed action in 22.205119 seconds for rho=1.500000,N=4.704072,t=23.072000
+INFO:root:0.006529 seconds to construct rates for rho=4.000000,theta=0.000500,N=5.883222
+INFO:root:0.006762 seconds to construct rates for rho=1.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.154645 seconds for rho=2.500000,N=5.883222,t=3.008000
+INFO:root:0.004391 seconds to construct rates for rho=2.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 23.928257 seconds for rho=3.000000,N=4.704072,t=23.072000
+INFO:root:0.013507 seconds to construct rates for rho=3.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.684991 seconds for rho=2.000000,N=5.883222,t=3.008000
+INFO:root:0.004007 seconds to construct rates for rho=2.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 3.381035 seconds for rho=1.000000,N=5.883222,t=3.008000
+INFO:root:0.004257 seconds to construct rates for rho=1.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 4.287548 seconds for rho=3.500000,N=5.883222,t=3.008000
+INFO:root:0.009971 seconds to construct rates for rho=3.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 2.984883 seconds for rho=2.500000,N=7.481656,t=2.360000
+INFO:root:0.004894 seconds to construct rates for rho=2.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 2.095235 seconds for rho=2.000000,N=7.481656,t=2.360000
+INFO:root:0.012838 seconds to construct rates for rho=2.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 2.004688 seconds for rho=1.000000,N=7.481656,t=2.360000
+INFO:root:0.004382 seconds to construct rates for rho=1.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 25.394459 seconds for rho=0.500000,N=4.704072,t=23.072000
+INFO:root:0.006098 seconds to construct rates for rho=0.500000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 4.093144 seconds for rho=3.000000,N=5.883222,t=3.008000
+INFO:root:0.004470 seconds to construct rates for rho=3.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 4.571024 seconds for rho=1.500000,N=5.883222,t=3.008000
+INFO:root:0.004344 seconds to construct rates for rho=1.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 2.999445 seconds for rho=3.500000,N=7.481656,t=2.360000
+INFO:root:0.005629 seconds to construct rates for rho=3.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 5.039783 seconds for rho=4.000000,N=5.883222,t=3.008000
+INFO:root:0.006073 seconds to construct rates for rho=4.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 1.810053 seconds for rho=1.000000,N=9.215966,t=1.856000
+INFO:root:0.004240 seconds to construct rates for rho=1.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 2.363842 seconds for rho=2.000000,N=9.215966,t=1.856000
+INFO:root:0.004401 seconds to construct rates for rho=2.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 2.563485 seconds for rho=2.500000,N=9.215966,t=1.856000
+INFO:root:0.032328 seconds to construct rates for rho=2.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 3.326369 seconds for rho=0.500000,N=5.883222,t=3.008000
+INFO:root:0.004180 seconds to construct rates for rho=0.500000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 2.317426 seconds for rho=3.500000,N=9.215966,t=1.856000
+INFO:root:0.005121 seconds to construct rates for rho=3.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 3.314453 seconds for rho=3.000000,N=7.481656,t=2.360000
+INFO:root:0.005034 seconds to construct rates for rho=3.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 3.153145 seconds for rho=1.500000,N=7.481656,t=2.360000
+INFO:root:0.004987 seconds to construct rates for rho=1.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 3.166247 seconds for rho=1.000000,N=11.508458,t=3.516000
+INFO:root:0.004150 seconds to construct rates for rho=1.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 2.802626 seconds for rho=2.500000,N=11.508458,t=3.516000
+INFO:root:0.005419 seconds to construct rates for rho=2.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 4.048175 seconds for rho=4.000000,N=7.481656,t=2.360000
+INFO:root:0.013752 seconds to construct rates for rho=4.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 3.462159 seconds for rho=2.000000,N=11.508458,t=3.516000
+INFO:root:0.004952 seconds to construct rates for rho=2.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 2.889770 seconds for rho=0.500000,N=7.481656,t=2.360000
+INFO:root:0.018195 seconds to construct rates for rho=0.500000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 2.104969 seconds for rho=1.500000,N=9.215966,t=1.856000
+INFO:root:0.017170 seconds to construct rates for rho=1.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.504758 seconds for rho=1.000000,N=14.369633,t=1.284000
+INFO:root:0.005080 seconds to construct rates for rho=1.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 2.286794 seconds for rho=3.000000,N=9.215966,t=1.856000
+INFO:root:0.012828 seconds to construct rates for rho=3.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.571288 seconds for rho=2.500000,N=14.369633,t=1.284000
+INFO:root:0.004407 seconds to construct rates for rho=2.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.870063 seconds for rho=2.000000,N=14.369633,t=1.284000
+INFO:root:0.004571 seconds to construct rates for rho=2.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.238471 seconds for rho=1.000000,N=18.923472,t=0.452000
+INFO:root:0.013204 seconds to construct rates for rho=1.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.182159 seconds for rho=2.500000,N=18.923472,t=0.452000
+INFO:root:0.004083 seconds to construct rates for rho=2.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.821998 seconds for rho=2.000000,N=18.923472,t=0.452000
+INFO:root:Computed action in 4.615467 seconds for rho=3.500000,N=11.508458,t=3.516000
+INFO:root:0.004059 seconds to construct rates for rho=2.000000,theta=0.000500,N=23.635895
+INFO:root:0.014833 seconds to construct rates for rho=3.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 3.246878 seconds for rho=4.000000,N=9.215966,t=1.856000
+INFO:root:0.004529 seconds to construct rates for rho=4.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.656459 seconds for rho=1.000000,N=23.635895,t=0.648000
+INFO:root:0.017559 seconds to construct rates for rho=1.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.586498 seconds for rho=2.500000,N=23.635895,t=0.648000
+INFO:root:0.015590 seconds to construct rates for rho=2.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 3.304348 seconds for rho=0.500000,N=9.215966,t=1.856000
+INFO:root:0.013122 seconds to construct rates for rho=0.500000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 0.500358 seconds for rho=1.000000,N=21.860513,t=0.412000
+INFO:root:0.004457 seconds to construct rates for rho=1.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.061212 seconds for rho=1.000000,N=16.031473,t=0.148000
+INFO:root:0.003068 seconds to construct rates for rho=1.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 1.561309 seconds for rho=2.000000,N=23.635895,t=0.648000
+INFO:root:0.004479 seconds to construct rates for rho=2.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.062609 seconds for rho=1.000000,N=12.821216,t=0.120000
+INFO:root:0.003298 seconds to construct rates for rho=1.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.193533 seconds for rho=1.000000,N=10.594632,t=0.092000
+INFO:root:0.003262 seconds to construct rates for rho=1.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 3.963306 seconds for rho=1.500000,N=11.508458,t=3.516000
+INFO:root:0.014399 seconds to construct rates for rho=1.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.948120 seconds for rho=3.500000,N=14.369633,t=1.284000
+INFO:root:0.011633 seconds to construct rates for rho=3.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.195572 seconds for rho=1.000000,N=8.638593,t=0.080000
+INFO:root:0.003125 seconds to construct rates for rho=1.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.324563 seconds for rho=1.000000,N=6.489066,t=0.064000
+INFO:root:Computed action in 4.284665 seconds for rho=3.000000,N=11.508458,t=3.516000
+INFO:root:0.024024 seconds to construct rates for rho=1.000000,theta=0.000500,N=4.418363
+INFO:root:0.004473 seconds to construct rates for rho=3.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.993046 seconds for rho=2.000000,N=21.860513,t=0.412000
+INFO:root:Computed action in 1.498730 seconds for rho=2.500000,N=21.860513,t=0.412000
+INFO:root:0.013211 seconds to construct rates for rho=2.000000,theta=0.000500,N=16.031473
+INFO:root:0.022069 seconds to construct rates for rho=2.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.245369 seconds for rho=1.000000,N=4.418363,t=0.048000
+INFO:root:0.003325 seconds to construct rates for rho=1.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.196424 seconds for rho=2.000000,N=16.031473,t=0.148000
+INFO:root:0.003233 seconds to construct rates for rho=2.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.197399 seconds for rho=2.500000,N=16.031473,t=0.148000
+INFO:root:0.003554 seconds to construct rates for rho=2.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.289437 seconds for rho=1.000000,N=2.905044,t=0.044000
+INFO:root:0.003299 seconds to construct rates for rho=1.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.194594 seconds for rho=2.500000,N=12.821216,t=0.120000
+INFO:root:0.003317 seconds to construct rates for rho=2.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.233763 seconds for rho=2.000000,N=12.821216,t=0.120000
+INFO:root:0.014833 seconds to construct rates for rho=2.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.124819 seconds for rho=2.500000,N=10.594632,t=0.092000
+INFO:root:0.003340 seconds to construct rates for rho=2.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.063843 seconds for rho=2.500000,N=8.638593,t=0.080000
+INFO:root:0.003265 seconds to construct rates for rho=2.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.205366 seconds for rho=2.000000,N=10.594632,t=0.092000
+INFO:root:0.003775 seconds to construct rates for rho=2.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.065233 seconds for rho=2.500000,N=6.489066,t=0.064000
+INFO:root:0.003144 seconds to construct rates for rho=2.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.090631 seconds for rho=2.000000,N=8.638593,t=0.080000
+INFO:root:Computed action in 0.074030 seconds for rho=2.500000,N=4.418363,t=0.048000
+INFO:root:0.003322 seconds to construct rates for rho=2.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 1.355192 seconds for rho=3.500000,N=18.923472,t=0.452000
+INFO:root:0.003100 seconds to construct rates for rho=2.500000,theta=0.000500,N=2.905044
+INFO:root:0.006168 seconds to construct rates for rho=3.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.064067 seconds for rho=2.000000,N=6.489066,t=0.064000
+INFO:root:0.003512 seconds to construct rates for rho=2.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.494857 seconds for rho=1.000000,N=1.791566,t=0.032000
+INFO:root:0.003789 seconds to construct rates for rho=1.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.074459 seconds for rho=2.000000,N=4.418363,t=0.048000
+INFO:root:0.003181 seconds to construct rates for rho=2.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.146078 seconds for rho=2.500000,N=2.905044,t=0.044000
+INFO:root:0.011814 seconds to construct rates for rho=2.500000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 1.630615 seconds for rho=1.500000,N=14.369633,t=1.284000
+INFO:root:Computed action in 0.095537 seconds for rho=2.000000,N=2.905044,t=0.044000
+INFO:root:0.003323 seconds to construct rates for rho=2.000000,theta=0.000500,N=1.791566
+INFO:root:0.013229 seconds to construct rates for rho=1.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.524389 seconds for rho=3.000000,N=14.369633,t=1.284000
+INFO:root:0.027784 seconds to construct rates for rho=3.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.185896 seconds for rho=1.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 1.291235 seconds for rho=2.500000,N=1.791566,t=0.032000
+INFO:root:Computed action in 1.216916 seconds for rho=2.000000,N=1.791566,t=0.032000
+INFO:root:0.003469 seconds to construct rates for rho=2.000000,theta=0.000500,N=2.976249
+INFO:root:0.019960 seconds to construct rates for rho=2.500000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 1.234112 seconds for rho=1.500000,N=18.923472,t=0.452000
+INFO:root:0.004944 seconds to construct rates for rho=1.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.614441 seconds for rho=3.500000,N=23.635895,t=0.648000
+INFO:root:0.024910 seconds to construct rates for rho=3.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 4.049665 seconds for rho=0.500000,N=11.508458,t=3.516000
+INFO:root:0.012443 seconds to construct rates for rho=0.500000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.548985 seconds for rho=3.000000,N=18.923472,t=0.452000
+INFO:root:0.026090 seconds to construct rates for rho=3.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 1.241077 seconds for rho=2.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 5.658228 seconds for rho=4.000000,N=11.508458,t=3.516000
+INFO:root:0.021322 seconds to construct rates for rho=4.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 1.480072 seconds for rho=2.500000,N=2.976249,t=0.052000
+INFO:root:Computed action in 1.559930 seconds for rho=1.500000,N=23.635895,t=0.648000
+INFO:root:0.004628 seconds to construct rates for rho=1.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.659246 seconds for rho=3.500000,N=21.860513,t=0.412000
+INFO:root:0.019978 seconds to construct rates for rho=3.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.191158 seconds for rho=3.500000,N=16.031473,t=0.148000
+INFO:root:0.003447 seconds to construct rates for rho=3.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.134547 seconds for rho=3.500000,N=12.821216,t=0.120000
+INFO:root:0.011812 seconds to construct rates for rho=3.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.681123 seconds for rho=1.500000,N=21.860513,t=0.412000
+INFO:root:0.004532 seconds to construct rates for rho=1.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.101893 seconds for rho=3.500000,N=10.594632,t=0.092000
+INFO:root:Computed action in 1.587611 seconds for rho=3.000000,N=23.635895,t=0.648000
+INFO:root:0.003480 seconds to construct rates for rho=3.500000,theta=0.000500,N=8.638593
+INFO:root:0.005884 seconds to construct rates for rho=3.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.066806 seconds for rho=1.500000,N=16.031473,t=0.148000
+INFO:root:0.005206 seconds to construct rates for rho=1.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.071162 seconds for rho=3.500000,N=8.638593,t=0.080000
+INFO:root:0.012234 seconds to construct rates for rho=3.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.141240 seconds for rho=1.500000,N=12.821216,t=0.120000
+INFO:root:0.020315 seconds to construct rates for rho=1.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.124447 seconds for rho=3.500000,N=6.489066,t=0.064000
+INFO:root:0.012165 seconds to construct rates for rho=3.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 2.064892 seconds for rho=0.500000,N=14.369633,t=1.284000
+INFO:root:0.004135 seconds to construct rates for rho=0.500000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.090693 seconds for rho=1.500000,N=10.594632,t=0.092000
+INFO:root:0.003468 seconds to construct rates for rho=1.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.098786 seconds for rho=3.500000,N=4.418363,t=0.048000
+INFO:root:0.003285 seconds to construct rates for rho=3.500000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.061803 seconds for rho=1.500000,N=8.638593,t=0.080000
+INFO:root:0.003134 seconds to construct rates for rho=1.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.094681 seconds for rho=3.500000,N=2.905044,t=0.044000
+INFO:root:0.003123 seconds to construct rates for rho=3.500000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.063749 seconds for rho=1.500000,N=6.489066,t=0.064000
+INFO:root:0.003222 seconds to construct rates for rho=1.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.125152 seconds for rho=1.500000,N=4.418363,t=0.048000
+INFO:root:0.006326 seconds to construct rates for rho=1.500000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.188809 seconds for rho=1.500000,N=2.905044,t=0.044000
+INFO:root:0.003220 seconds to construct rates for rho=1.500000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 2.104383 seconds for rho=4.000000,N=14.369633,t=1.284000
+INFO:root:0.012656 seconds to construct rates for rho=4.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 1.281516 seconds for rho=3.000000,N=21.860513,t=0.412000
+INFO:root:0.026624 seconds to construct rates for rho=3.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 1.129340 seconds for rho=0.500000,N=18.923472,t=0.452000
+INFO:root:Computed action in 0.952152 seconds for rho=3.500000,N=1.791566,t=0.032000
+INFO:root:0.004339 seconds to construct rates for rho=3.500000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.622795 seconds for rho=1.500000,N=1.791566,t=0.032000
+INFO:root:0.005784 seconds to construct rates for rho=1.500000,theta=0.000500,N=2.976249
+INFO:root:0.013557 seconds to construct rates for rho=0.500000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.075772 seconds for rho=3.000000,N=16.031473,t=0.148000
+INFO:root:0.003217 seconds to construct rates for rho=3.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.113349 seconds for rho=3.000000,N=12.821216,t=0.120000
+INFO:root:0.011736 seconds to construct rates for rho=3.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.185682 seconds for rho=3.000000,N=10.594632,t=0.092000
+INFO:root:0.003094 seconds to construct rates for rho=3.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.193587 seconds for rho=3.000000,N=8.638593,t=0.080000
+INFO:root:0.012030 seconds to construct rates for rho=3.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.182398 seconds for rho=3.000000,N=6.489066,t=0.064000
+INFO:root:0.016037 seconds to construct rates for rho=3.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.813252 seconds for rho=3.500000,N=2.976249,t=0.052000
+INFO:root:Computed action in 0.099703 seconds for rho=3.000000,N=4.418363,t=0.048000
+INFO:root:0.003195 seconds to construct rates for rho=3.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.848606 seconds for rho=1.500000,N=2.976249,t=0.052000
+INFO:root:Computed action in 1.173012 seconds for rho=4.000000,N=18.923472,t=0.452000
+INFO:root:0.004436 seconds to construct rates for rho=4.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.094419 seconds for rho=3.000000,N=2.905044,t=0.044000
+INFO:root:0.002938 seconds to construct rates for rho=3.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 31.016028 seconds for rho=0.000000,N=4.704072,t=23.072000
+INFO:root:0.005587 seconds to construct rates for rho=0.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 1.232735 seconds for rho=0.500000,N=23.635895,t=0.648000
+INFO:root:0.010383 seconds to construct rates for rho=0.500000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 1.061486 seconds for rho=3.000000,N=1.791566,t=0.032000
+INFO:root:0.005934 seconds to construct rates for rho=3.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.873976 seconds for rho=0.500000,N=21.860513,t=0.412000
+INFO:root:0.004625 seconds to construct rates for rho=0.500000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 1.240368 seconds for rho=4.000000,N=23.635895,t=0.648000
+INFO:root:0.004463 seconds to construct rates for rho=4.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.169413 seconds for rho=0.500000,N=16.031473,t=0.148000
+INFO:root:0.014543 seconds to construct rates for rho=0.500000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.155952 seconds for rho=0.500000,N=12.821216,t=0.120000
+INFO:root:Computed action in 0.476088 seconds for rho=3.000000,N=2.976249,t=0.052000
+INFO:root:0.011352 seconds to construct rates for rho=0.500000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.119292 seconds for rho=0.500000,N=10.594632,t=0.092000
+INFO:root:0.003061 seconds to construct rates for rho=0.500000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.124473 seconds for rho=0.500000,N=8.638593,t=0.080000
+INFO:root:0.003069 seconds to construct rates for rho=0.500000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.104440 seconds for rho=0.500000,N=6.489066,t=0.064000
+INFO:root:0.002820 seconds to construct rates for rho=0.500000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.697186 seconds for rho=4.000000,N=21.860513,t=0.412000
+INFO:root:0.005366 seconds to construct rates for rho=4.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.065333 seconds for rho=4.000000,N=16.031473,t=0.148000
+INFO:root:Computed action in 0.073093 seconds for rho=0.500000,N=4.418363,t=0.048000
+INFO:root:0.003103 seconds to construct rates for rho=4.000000,theta=0.000500,N=12.821216
+INFO:root:0.003238 seconds to construct rates for rho=0.500000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.064694 seconds for rho=4.000000,N=12.821216,t=0.120000
+INFO:root:0.002953 seconds to construct rates for rho=4.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.091875 seconds for rho=0.500000,N=2.905044,t=0.044000
+INFO:root:0.003071 seconds to construct rates for rho=0.500000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.094845 seconds for rho=4.000000,N=10.594632,t=0.092000
+INFO:root:0.003117 seconds to construct rates for rho=4.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.131082 seconds for rho=4.000000,N=8.638593,t=0.080000
+INFO:root:0.002826 seconds to construct rates for rho=4.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.123883 seconds for rho=4.000000,N=6.489066,t=0.064000
+INFO:root:0.002743 seconds to construct rates for rho=4.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.453146 seconds for rho=0.500000,N=1.791566,t=0.032000
+INFO:root:0.005783 seconds to construct rates for rho=0.500000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.130603 seconds for rho=4.000000,N=4.418363,t=0.048000
+INFO:root:0.002724 seconds to construct rates for rho=4.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.093971 seconds for rho=4.000000,N=2.905044,t=0.044000
+INFO:root:0.002732 seconds to construct rates for rho=4.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.598343 seconds for rho=0.500000,N=2.976249,t=0.052000
+INFO:root:Computed action in 0.520530 seconds for rho=4.000000,N=1.791566,t=0.032000
+INFO:root:0.003899 seconds to construct rates for rho=4.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 3.054972 seconds for rho=0.000000,N=5.883222,t=3.008000
+INFO:root:0.004175 seconds to construct rates for rho=0.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 0.491419 seconds for rho=4.000000,N=2.976249,t=0.052000
+INFO:root:Computed action in 1.620064 seconds for rho=0.000000,N=7.481656,t=2.360000
+INFO:root:0.004207 seconds to construct rates for rho=0.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 0.917554 seconds for rho=0.000000,N=9.215966,t=1.856000
+INFO:root:0.003711 seconds to construct rates for rho=0.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 1.288676 seconds for rho=0.000000,N=11.508458,t=3.516000
+INFO:root:0.003661 seconds to construct rates for rho=0.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 0.510182 seconds for rho=0.000000,N=14.369633,t=1.284000
+INFO:root:0.004307 seconds to construct rates for rho=0.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.308379 seconds for rho=0.000000,N=18.923472,t=0.452000
+INFO:root:0.003367 seconds to construct rates for rho=0.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 0.301350 seconds for rho=0.000000,N=23.635895,t=0.648000
+INFO:root:0.003363 seconds to construct rates for rho=0.000000,theta=0.000500,N=21.860513
+INFO:root:Computed action in 0.280989 seconds for rho=0.000000,N=21.860513,t=0.412000
+INFO:root:0.003552 seconds to construct rates for rho=0.000000,theta=0.000500,N=16.031473
+INFO:root:Computed action in 0.050531 seconds for rho=0.000000,N=16.031473,t=0.148000
+INFO:root:0.002466 seconds to construct rates for rho=0.000000,theta=0.000500,N=12.821216
+INFO:root:Computed action in 0.050000 seconds for rho=0.000000,N=12.821216,t=0.120000
+INFO:root:0.002330 seconds to construct rates for rho=0.000000,theta=0.000500,N=10.594632
+INFO:root:Computed action in 0.048716 seconds for rho=0.000000,N=10.594632,t=0.092000
+INFO:root:0.002259 seconds to construct rates for rho=0.000000,theta=0.000500,N=8.638593
+INFO:root:Computed action in 0.049953 seconds for rho=0.000000,N=8.638593,t=0.080000
+INFO:root:0.002244 seconds to construct rates for rho=0.000000,theta=0.000500,N=6.489066
+INFO:root:Computed action in 0.051210 seconds for rho=0.000000,N=6.489066,t=0.064000
+INFO:root:0.002256 seconds to construct rates for rho=0.000000,theta=0.000500,N=4.418363
+INFO:root:Computed action in 0.059863 seconds for rho=0.000000,N=4.418363,t=0.048000
+INFO:root:0.002295 seconds to construct rates for rho=0.000000,theta=0.000500,N=2.905044
+INFO:root:Computed action in 0.074705 seconds for rho=0.000000,N=2.905044,t=0.044000
+INFO:root:0.002250 seconds to construct rates for rho=0.000000,theta=0.000500,N=1.791566
+INFO:root:Computed action in 0.240005 seconds for rho=0.000000,N=1.791566,t=0.032000
+INFO:root:0.002908 seconds to construct rates for rho=0.000000,theta=0.000500,N=2.976249
+INFO:root:Computed action in 0.234722 seconds for rho=0.000000,N=2.976249,t=0.052000
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/data/modules/python/3.6.0/lib/python3.6/multiprocessing/pool.py", line 119, in worker
+    result = (True, func(*args, **kwds))
+  File "/data/modules/python/3.6.0/lib/python3.6/multiprocessing/pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "/data/modules/python/3.6.0/lib/python3.6/site-packages/ldpop/lookup_table.py", line 52, in getColumnHelper
+    return getColumn(*args)
+  File "/data/modules/python/3.6.0/lib/python3.6/site-packages/ldpop/lookup_table.py", line 62, in getColumn
+    lastEpochInit=init)
+  File "/data/modules/python/3.6.0/lib/python3.6/site-packages/ldpop/compute_likelihoods.py", line 110, in folded_likelihoods
+    assert abs(currTime) < 1e-15, str(currTime)
+AssertionError: 1.7763568394002505e-15
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/modules/python/3.6.0/bin/pyrho", line 11, in <module>
+    load_entry_point('pyrho==0.1.3', 'console_scripts', 'pyrho')()
+  File "/data/modules/python/3.6.0/lib/python3.6/site-packages/pyrho/frontend.py", line 67, in main
+    func(args)
+  File "/data/modules/python/3.6.0/lib/python3.6/site-packages/pyrho/make_table.py", line 122, in _main
+    load_stationary=args.load_stationary).table
+  File "/data/modules/python/3.6.0/lib/python3.6/site-packages/ldpop/lookup_table.py", line 170, in __init__
+    load_stationary)
+  File "/data/modules/python/3.6.0/lib/python3.6/site-packages/ldpop/lookup_table.py", line 101, in computeLikelihoods
+    for rho, prevInit in zip(reversed(rhoGrid), inits)])
+  File "/data/modules/python/3.6.0/lib/python3.6/multiprocessing/pool.py", line 260, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "/data/modules/python/3.6.0/lib/python3.6/multiprocessing/pool.py", line 608, in get
+    raise self._value
+AssertionError: 1.7763568394002505e-15

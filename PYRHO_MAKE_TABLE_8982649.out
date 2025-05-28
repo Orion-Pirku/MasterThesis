@@ -1,0 +1,8 @@
+Error: Exactly 2 arguments required.
+Usage: /var/spool/slurmd/job8982649/slurm_script <input_filename> <output_filename> <population_size> <moran_population_size>
+
+Arguments:
+  input_filename   Name of the file in input/msmc2_pop_size/ (no path)
+  output_filename  Desired output file name in lists/
+  population_size  Number of haploids
+  moran_population_size moran population

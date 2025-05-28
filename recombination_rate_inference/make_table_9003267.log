@@ -1,0 +1,498 @@
+INFO:root:Size history to be used when computing lookup table is
+Scaled Size	Scaled Left Time	Scaled Right Time
+2.9762485440396738	0	0.05199999999999999
+1.7915656198089958	0.05199999999999999	0.08399999999999999
+2.905044150897319	0.08399999999999999	0.128
+4.418363434207442	0.128	0.176
+6.489066012992765	0.176	0.24
+8.638592952890708	0.24	0.32
+10.59463164717122	0.32	0.412
+12.821215521748147	0.412	0.532
+16.03147298776959	0.532	0.68
+21.86051291671649	0.68	1.092
+23.635895335265655	1.092	1.74
+18.923472059730045	1.74	2.1919999999999997
+14.36963344062238	2.1919999999999997	3.4759999999999995
+11.508458211408266	3.4759999999999995	6.991999999999999
+9.215965554407143	6.991999999999999	8.847999999999999
+7.481655914903645	8.847999999999999	11.207999999999998
+5.883222446846924	11.207999999999998	14.216
+4.704072351820579	14.216	37.288000000000004
+12.395728679811508	37.288000000000004	60.83599999999999
+54.868894206599215	60.83599999999999	inf
+INFO:root:Beginning Lookup Table.  This may take a while
+INFO:root:Constructed approx states in 0.661045 seconds
+INFO:root:2.081764 seconds to build symmetry matrices
+INFO:root:Constructed recombination rate matrix in 0.078695 seconds
+INFO:root:Constructed mut rate matrix in 0.040054 seconds
+INFO:root:Constructed copying rate matrix in 0.078606 seconds
+INFO:root:0.002843 seconds to construct rates for rho=100.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 17 iterations, 0.017656 seconds 
+INFO:root:0.003112 seconds to construct rates for rho=99.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003608 seconds 
+INFO:root:0.002446 seconds to construct rates for rho=98.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003533 seconds 
+INFO:root:0.002346 seconds to construct rates for rho=97.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003496 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=96.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003492 seconds 
+INFO:root:0.002326 seconds to construct rates for rho=95.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003475 seconds 
+INFO:root:0.002324 seconds to construct rates for rho=94.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003482 seconds 
+INFO:root:0.002321 seconds to construct rates for rho=93.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003462 seconds 
+INFO:root:0.002321 seconds to construct rates for rho=92.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003483 seconds 
+INFO:root:0.002391 seconds to construct rates for rho=91.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003479 seconds 
+INFO:root:0.002323 seconds to construct rates for rho=90.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003455 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=89.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003468 seconds 
+INFO:root:0.002326 seconds to construct rates for rho=88.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003468 seconds 
+INFO:root:0.002345 seconds to construct rates for rho=87.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003453 seconds 
+INFO:root:0.002378 seconds to construct rates for rho=86.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003468 seconds 
+INFO:root:0.002332 seconds to construct rates for rho=85.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003543 seconds 
+INFO:root:0.002369 seconds to construct rates for rho=84.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003529 seconds 
+INFO:root:0.002392 seconds to construct rates for rho=83.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003552 seconds 
+INFO:root:0.002927 seconds to construct rates for rho=82.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003677 seconds 
+INFO:root:0.002301 seconds to construct rates for rho=81.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003528 seconds 
+INFO:root:0.002502 seconds to construct rates for rho=80.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003591 seconds 
+INFO:root:0.002351 seconds to construct rates for rho=79.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003522 seconds 
+INFO:root:0.002289 seconds to construct rates for rho=78.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003489 seconds 
+INFO:root:0.002376 seconds to construct rates for rho=77.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003565 seconds 
+INFO:root:0.002701 seconds to construct rates for rho=76.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004302 seconds 
+INFO:root:0.002320 seconds to construct rates for rho=75.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003553 seconds 
+INFO:root:0.002385 seconds to construct rates for rho=74.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003552 seconds 
+INFO:root:0.002246 seconds to construct rates for rho=73.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003586 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=72.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004328 seconds 
+INFO:root:0.002374 seconds to construct rates for rho=71.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003510 seconds 
+INFO:root:0.002362 seconds to construct rates for rho=70.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004241 seconds 
+INFO:root:0.002411 seconds to construct rates for rho=69.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003489 seconds 
+INFO:root:0.002332 seconds to construct rates for rho=68.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004386 seconds 
+INFO:root:0.002295 seconds to construct rates for rho=67.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003587 seconds 
+INFO:root:0.002343 seconds to construct rates for rho=66.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004224 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=65.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 1 iterations, 0.003488 seconds 
+INFO:root:0.002376 seconds to construct rates for rho=64.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004216 seconds 
+INFO:root:0.002357 seconds to construct rates for rho=63.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004305 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=62.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004242 seconds 
+INFO:root:0.002345 seconds to construct rates for rho=61.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004339 seconds 
+INFO:root:0.002359 seconds to construct rates for rho=60.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004343 seconds 
+INFO:root:0.002380 seconds to construct rates for rho=59.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004346 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=58.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004292 seconds 
+INFO:root:0.002390 seconds to construct rates for rho=57.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004304 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=56.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004307 seconds 
+INFO:root:0.002459 seconds to construct rates for rho=55.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004681 seconds 
+INFO:root:0.002348 seconds to construct rates for rho=54.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005199 seconds 
+INFO:root:0.002391 seconds to construct rates for rho=53.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004345 seconds 
+INFO:root:0.002311 seconds to construct rates for rho=52.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004379 seconds 
+INFO:root:0.002314 seconds to construct rates for rho=51.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005158 seconds 
+INFO:root:0.002527 seconds to construct rates for rho=50.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005240 seconds 
+INFO:root:0.002280 seconds to construct rates for rho=49.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 2 iterations, 0.004351 seconds 
+INFO:root:0.002267 seconds to construct rates for rho=48.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005178 seconds 
+INFO:root:0.002327 seconds to construct rates for rho=47.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005152 seconds 
+INFO:root:0.002344 seconds to construct rates for rho=46.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005181 seconds 
+INFO:root:0.002365 seconds to construct rates for rho=45.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005139 seconds 
+INFO:root:0.002631 seconds to construct rates for rho=44.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005268 seconds 
+INFO:root:0.002335 seconds to construct rates for rho=43.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.005960 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=42.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 3 iterations, 0.005207 seconds 
+INFO:root:0.002306 seconds to construct rates for rho=41.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.005985 seconds 
+INFO:root:0.002331 seconds to construct rates for rho=40.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006069 seconds 
+INFO:root:0.002319 seconds to construct rates for rho=39.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.005962 seconds 
+INFO:root:0.002336 seconds to construct rates for rho=38.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006030 seconds 
+INFO:root:0.002960 seconds to construct rates for rho=37.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006960 seconds 
+INFO:root:0.002325 seconds to construct rates for rho=36.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 4 iterations, 0.006030 seconds 
+INFO:root:0.002394 seconds to construct rates for rho=35.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006845 seconds 
+INFO:root:0.002340 seconds to construct rates for rho=34.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006941 seconds 
+INFO:root:0.002312 seconds to construct rates for rho=33.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006898 seconds 
+INFO:root:0.002762 seconds to construct rates for rho=32.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007767 seconds 
+INFO:root:0.002339 seconds to construct rates for rho=31.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007742 seconds 
+INFO:root:0.002310 seconds to construct rates for rho=30.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007722 seconds 
+INFO:root:0.002323 seconds to construct rates for rho=29.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007693 seconds 
+INFO:root:0.002322 seconds to construct rates for rho=28.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008607 seconds 
+INFO:root:0.002306 seconds to construct rates for rho=27.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008519 seconds 
+INFO:root:0.002321 seconds to construct rates for rho=26.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009361 seconds 
+INFO:root:0.002286 seconds to construct rates for rho=25.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009418 seconds 
+INFO:root:0.002346 seconds to construct rates for rho=24.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009411 seconds 
+INFO:root:0.002342 seconds to construct rates for rho=23.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.010263 seconds 
+INFO:root:0.002823 seconds to construct rates for rho=22.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.011227 seconds 
+INFO:root:0.002410 seconds to construct rates for rho=21.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.011163 seconds 
+INFO:root:0.002394 seconds to construct rates for rho=20.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.011893 seconds 
+INFO:root:0.002371 seconds to construct rates for rho=19.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.011876 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=18.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.012760 seconds 
+INFO:root:0.002280 seconds to construct rates for rho=17.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 13 iterations, 0.013613 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=16.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.014444 seconds 
+INFO:root:0.002358 seconds to construct rates for rho=15.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 15 iterations, 0.015315 seconds 
+INFO:root:0.002314 seconds to construct rates for rho=14.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 16 iterations, 0.016217 seconds 
+INFO:root:0.002926 seconds to construct rates for rho=13.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 17 iterations, 0.017192 seconds 
+INFO:root:0.002339 seconds to construct rates for rho=12.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 19 iterations, 0.018626 seconds 
+INFO:root:0.002333 seconds to construct rates for rho=11.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 20 iterations, 0.019537 seconds 
+INFO:root:0.002344 seconds to construct rates for rho=10.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 22 iterations, 0.021248 seconds 
+INFO:root:0.002418 seconds to construct rates for rho=9.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006966 seconds 
+INFO:root:0.002368 seconds to construct rates for rho=9.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006928 seconds 
+INFO:root:0.002532 seconds to construct rates for rho=9.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006937 seconds 
+INFO:root:0.002346 seconds to construct rates for rho=9.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006853 seconds 
+INFO:root:0.002310 seconds to construct rates for rho=9.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006899 seconds 
+INFO:root:0.002340 seconds to construct rates for rho=9.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007725 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=9.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007766 seconds 
+INFO:root:0.003017 seconds to construct rates for rho=9.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 5 iterations, 0.006975 seconds 
+INFO:root:0.002378 seconds to construct rates for rho=9.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007776 seconds 
+INFO:root:0.002376 seconds to construct rates for rho=9.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007735 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=8.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007725 seconds 
+INFO:root:0.002456 seconds to construct rates for rho=8.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007749 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=8.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007782 seconds 
+INFO:root:0.002353 seconds to construct rates for rho=8.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007835 seconds 
+INFO:root:0.002330 seconds to construct rates for rho=8.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007801 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=8.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008589 seconds 
+INFO:root:0.002315 seconds to construct rates for rho=8.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007828 seconds 
+INFO:root:0.002447 seconds to construct rates for rho=8.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008632 seconds 
+INFO:root:0.002377 seconds to construct rates for rho=8.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 6 iterations, 0.007778 seconds 
+INFO:root:0.002280 seconds to construct rates for rho=8.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008576 seconds 
+INFO:root:0.002274 seconds to construct rates for rho=7.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008567 seconds 
+INFO:root:0.002519 seconds to construct rates for rho=7.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008537 seconds 
+INFO:root:0.002337 seconds to construct rates for rho=7.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008541 seconds 
+INFO:root:0.002327 seconds to construct rates for rho=7.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008595 seconds 
+INFO:root:0.002366 seconds to construct rates for rho=7.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008582 seconds 
+INFO:root:0.002379 seconds to construct rates for rho=7.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009461 seconds 
+INFO:root:0.002350 seconds to construct rates for rho=7.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 7 iterations, 0.008570 seconds 
+INFO:root:0.002719 seconds to construct rates for rho=7.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009544 seconds 
+INFO:root:0.002298 seconds to construct rates for rho=7.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009480 seconds 
+INFO:root:0.002313 seconds to construct rates for rho=7.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009530 seconds 
+INFO:root:0.002796 seconds to construct rates for rho=6.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009567 seconds 
+INFO:root:0.002275 seconds to construct rates for rho=6.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009405 seconds 
+INFO:root:0.002317 seconds to construct rates for rho=6.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009449 seconds 
+INFO:root:0.002343 seconds to construct rates for rho=6.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.010250 seconds 
+INFO:root:0.002330 seconds to construct rates for rho=6.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 8 iterations, 0.009416 seconds 
+INFO:root:0.002304 seconds to construct rates for rho=6.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.010218 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=6.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.010346 seconds 
+INFO:root:0.002984 seconds to construct rates for rho=6.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.010388 seconds 
+INFO:root:0.002413 seconds to construct rates for rho=6.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.010364 seconds 
+INFO:root:0.002344 seconds to construct rates for rho=6.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.011059 seconds 
+INFO:root:0.002322 seconds to construct rates for rho=5.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 9 iterations, 0.010314 seconds 
+INFO:root:0.002306 seconds to construct rates for rho=5.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.011174 seconds 
+INFO:root:0.002367 seconds to construct rates for rho=5.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.011187 seconds 
+INFO:root:0.002333 seconds to construct rates for rho=5.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.011194 seconds 
+INFO:root:0.002339 seconds to construct rates for rho=5.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 10 iterations, 0.011047 seconds 
+INFO:root:0.002373 seconds to construct rates for rho=5.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.011964 seconds 
+INFO:root:0.002350 seconds to construct rates for rho=5.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.012003 seconds 
+INFO:root:0.002328 seconds to construct rates for rho=5.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.011890 seconds 
+INFO:root:0.002312 seconds to construct rates for rho=5.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.011934 seconds 
+INFO:root:0.002304 seconds to construct rates for rho=5.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 11 iterations, 0.011861 seconds 
+INFO:root:0.003183 seconds to construct rates for rho=4.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.012897 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=4.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.012738 seconds 
+INFO:root:0.002684 seconds to construct rates for rho=4.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.012731 seconds 
+INFO:root:0.002350 seconds to construct rates for rho=4.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 12 iterations, 0.012618 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=4.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 13 iterations, 0.013559 seconds 
+INFO:root:0.002337 seconds to construct rates for rho=4.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 13 iterations, 0.013550 seconds 
+INFO:root:0.002286 seconds to construct rates for rho=4.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 13 iterations, 0.013601 seconds 
+INFO:root:0.002564 seconds to construct rates for rho=4.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.014423 seconds 
+INFO:root:0.002311 seconds to construct rates for rho=4.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.014402 seconds 
+INFO:root:0.002345 seconds to construct rates for rho=4.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.014415 seconds 
+INFO:root:0.002314 seconds to construct rates for rho=3.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 14 iterations, 0.014563 seconds 
+INFO:root:0.002406 seconds to construct rates for rho=3.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 15 iterations, 0.015405 seconds 
+INFO:root:0.002351 seconds to construct rates for rho=3.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 15 iterations, 0.015321 seconds 
+INFO:root:0.002758 seconds to construct rates for rho=3.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 16 iterations, 0.016105 seconds 
+INFO:root:0.002372 seconds to construct rates for rho=3.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 16 iterations, 0.016217 seconds 
+INFO:root:0.002351 seconds to construct rates for rho=3.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 16 iterations, 0.016130 seconds 
+INFO:root:0.002349 seconds to construct rates for rho=3.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 17 iterations, 0.017013 seconds 
+INFO:root:0.002368 seconds to construct rates for rho=3.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 17 iterations, 0.016979 seconds 
+INFO:root:0.002379 seconds to construct rates for rho=3.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 18 iterations, 0.017844 seconds 
+INFO:root:0.002397 seconds to construct rates for rho=3.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 18 iterations, 0.017878 seconds 
+INFO:root:0.002348 seconds to construct rates for rho=2.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 19 iterations, 0.018627 seconds 
+INFO:root:0.002354 seconds to construct rates for rho=2.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 19 iterations, 0.018655 seconds 
+INFO:root:0.002401 seconds to construct rates for rho=2.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 20 iterations, 0.019527 seconds 
+INFO:root:0.002372 seconds to construct rates for rho=2.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 21 iterations, 0.020397 seconds 
+INFO:root:0.002360 seconds to construct rates for rho=2.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 21 iterations, 0.020444 seconds 
+INFO:root:0.002337 seconds to construct rates for rho=2.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 22 iterations, 0.021363 seconds 
+INFO:root:0.002361 seconds to construct rates for rho=2.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 23 iterations, 0.022135 seconds 
+INFO:root:0.002355 seconds to construct rates for rho=2.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 24 iterations, 0.022987 seconds 
+INFO:root:0.002378 seconds to construct rates for rho=2.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 25 iterations, 0.023758 seconds 
+INFO:root:0.002344 seconds to construct rates for rho=2.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 25 iterations, 0.023900 seconds 
+INFO:root:0.002365 seconds to construct rates for rho=1.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 27 iterations, 0.025379 seconds 
+INFO:root:0.002347 seconds to construct rates for rho=1.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 28 iterations, 0.026454 seconds 
+INFO:root:0.002389 seconds to construct rates for rho=1.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 29 iterations, 0.027058 seconds 
+INFO:root:0.002322 seconds to construct rates for rho=1.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 30 iterations, 0.028039 seconds 
+INFO:root:0.002415 seconds to construct rates for rho=1.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 32 iterations, 0.029721 seconds 
+INFO:root:0.002372 seconds to construct rates for rho=1.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 33 iterations, 0.030654 seconds 
+INFO:root:0.002395 seconds to construct rates for rho=1.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 35 iterations, 0.032169 seconds 
+INFO:root:0.002320 seconds to construct rates for rho=1.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 37 iterations, 0.033904 seconds 
+INFO:root:0.002385 seconds to construct rates for rho=1.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 40 iterations, 0.036194 seconds 
+INFO:root:0.002791 seconds to construct rates for rho=1.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 42 iterations, 0.038341 seconds 
+INFO:root:0.002365 seconds to construct rates for rho=0.900000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 46 iterations, 0.041293 seconds 
+INFO:root:0.002326 seconds to construct rates for rho=0.800000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 49 iterations, 0.043845 seconds 
+INFO:root:0.002421 seconds to construct rates for rho=0.700000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 53 iterations, 0.047669 seconds 
+INFO:root:0.002395 seconds to construct rates for rho=0.600000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 58 iterations, 0.051935 seconds 
+INFO:root:0.002350 seconds to construct rates for rho=0.500000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 63 iterations, 0.055698 seconds 
+INFO:root:0.002341 seconds to construct rates for rho=0.400000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 70 iterations, 0.062225 seconds 
+INFO:root:0.002293 seconds to construct rates for rho=0.300000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 78 iterations, 0.068149 seconds 
+INFO:root:0.002389 seconds to construct rates for rho=0.200000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 89 iterations, 0.078614 seconds 
+INFO:root:0.002299 seconds to construct rates for rho=0.100000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 105 iterations, 0.091521 seconds 
+INFO:root:0.002596 seconds to construct rates for rho=0.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=0.01,in 129 iterations, 0.101784 seconds 
+INFO:root:0.014508 seconds to construct rates for rho=100.000000,theta=0.000500,N=54.868894
+INFO:root:0.015846 seconds to construct rates for rho=95.000000,theta=0.000500,N=54.868894
+INFO:root:0.013374 seconds to construct rates for rho=90.000000,theta=0.000500,N=54.868894
+INFO:root:0.016162 seconds to construct rates for rho=85.000000,theta=0.000500,N=54.868894
+INFO:root:0.016006 seconds to construct rates for rho=80.000000,theta=0.000500,N=54.868894
+INFO:root:0.015004 seconds to construct rates for rho=75.000000,theta=0.000500,N=54.868894
+INFO:root:0.009462 seconds to construct rates for rho=70.000000,theta=0.000500,N=54.868894
+INFO:root:0.014068 seconds to construct rates for rho=65.000000,theta=0.000500,N=54.868894
+INFO:root:0.010409 seconds to construct rates for rho=60.000000,theta=0.000500,N=54.868894
+INFO:root:0.015615 seconds to construct rates for rho=55.000000,theta=0.000500,N=54.868894
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 5070 iterations, 5.047348 seconds 
+INFO:root:0.005303 seconds to construct rates for rho=60.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 4883 iterations, 5.547929 seconds 
+INFO:root:0.009163 seconds to construct rates for rho=55.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 5426 iterations, 6.289342 seconds 
+INFO:root:0.005412 seconds to construct rates for rho=70.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 5251 iterations, 6.475040 seconds 
+INFO:root:0.007075 seconds to construct rates for rho=65.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 5915 iterations, 7.461552 seconds 
+INFO:root:0.019470 seconds to construct rates for rho=85.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 5755 iterations, 7.543178 seconds 
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 5589 iterations, 7.548719 seconds 
+INFO:root:0.035473 seconds to construct rates for rho=80.000000,theta=0.000500,N=12.395729
+INFO:root:0.007489 seconds to construct rates for rho=75.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 6065 iterations, 7.874372 seconds 
+INFO:root:0.041533 seconds to construct rates for rho=90.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 6363 iterations, 9.080041 seconds 
+INFO:root:0.020463 seconds to construct rates for rho=100.000000,theta=0.000500,N=12.395729
+INFO:root:Computed stationary with L-inf stopping, epsilon=1e-08,in 6210 iterations, 9.563320 seconds 
+INFO:root:0.012928 seconds to construct rates for rho=95.000000,theta=0.000500,N=12.395729
+INFO:root:Computed action in 33.247048 seconds for rho=55.000000,N=12.395729,t=23.548000
+INFO:root:0.005877 seconds to construct rates for rho=55.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 35.311951 seconds for rho=60.000000,N=12.395729,t=23.548000
+INFO:root:0.006011 seconds to construct rates for rho=60.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 37.342674 seconds for rho=65.000000,N=12.395729,t=23.548000
+INFO:root:0.005438 seconds to construct rates for rho=65.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 39.554149 seconds for rho=70.000000,N=12.395729,t=23.548000
+INFO:root:0.007882 seconds to construct rates for rho=70.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 41.104082 seconds for rho=75.000000,N=12.395729,t=23.548000
+INFO:root:0.005507 seconds to construct rates for rho=75.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 42.648589 seconds for rho=80.000000,N=12.395729,t=23.548000
+INFO:root:0.005731 seconds to construct rates for rho=80.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 46.003143 seconds for rho=85.000000,N=12.395729,t=23.548000
+INFO:root:0.006664 seconds to construct rates for rho=85.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 47.837969 seconds for rho=90.000000,N=12.395729,t=23.548000
+INFO:root:0.005746 seconds to construct rates for rho=90.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 50.030148 seconds for rho=95.000000,N=12.395729,t=23.548000
+INFO:root:0.006332 seconds to construct rates for rho=95.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 51.453243 seconds for rho=100.000000,N=12.395729,t=23.548000
+INFO:root:0.006985 seconds to construct rates for rho=100.000000,theta=0.000500,N=4.704072
+INFO:root:Computed action in 45.764924 seconds for rho=55.000000,N=4.704072,t=23.072000
+INFO:root:0.006062 seconds to construct rates for rho=55.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 46.631422 seconds for rho=60.000000,N=4.704072,t=23.072000
+INFO:root:0.006346 seconds to construct rates for rho=60.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 5.914360 seconds for rho=55.000000,N=5.883222,t=3.008000
+INFO:root:0.005518 seconds to construct rates for rho=55.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 6.009321 seconds for rho=60.000000,N=5.883222,t=3.008000
+INFO:root:0.004045 seconds to construct rates for rho=60.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 49.657780 seconds for rho=65.000000,N=4.704072,t=23.072000
+INFO:root:0.005697 seconds to construct rates for rho=65.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 4.121609 seconds for rho=55.000000,N=7.481656,t=2.360000
+INFO:root:0.003578 seconds to construct rates for rho=55.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 4.261624 seconds for rho=60.000000,N=7.481656,t=2.360000
+INFO:root:0.005396 seconds to construct rates for rho=60.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 51.720444 seconds for rho=70.000000,N=4.704072,t=23.072000
+INFO:root:0.006408 seconds to construct rates for rho=70.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 3.191783 seconds for rho=55.000000,N=9.215966,t=1.856000
+INFO:root:0.003798 seconds to construct rates for rho=55.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 6.465519 seconds for rho=65.000000,N=5.883222,t=3.008000
+INFO:root:0.003816 seconds to construct rates for rho=65.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 3.547371 seconds for rho=60.000000,N=9.215966,t=1.856000
+INFO:root:0.003445 seconds to construct rates for rho=60.000000,theta=0.000500,N=11.508458
+INFO:root:Computed action in 53.776930 seconds for rho=75.000000,N=4.704072,t=23.072000
+INFO:root:0.005377 seconds to construct rates for rho=75.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 5.510158 seconds for rho=55.000000,N=11.508458,t=3.516000
+INFO:root:0.003759 seconds to construct rates for rho=55.000000,theta=0.000500,N=14.369633
+INFO:root:Computed action in 7.129654 seconds for rho=70.000000,N=5.883222,t=3.008000
+INFO:root:0.004087 seconds to construct rates for rho=70.000000,theta=0.000500,N=7.481656
+INFO:root:Computed action in 4.820874 seconds for rho=65.000000,N=7.481656,t=2.360000
+INFO:root:0.004382 seconds to construct rates for rho=65.000000,theta=0.000500,N=9.215966
+INFO:root:Computed action in 2.302932 seconds for rho=55.000000,N=14.369633,t=1.284000
+INFO:root:0.003661 seconds to construct rates for rho=55.000000,theta=0.000500,N=18.923472
+INFO:root:Computed action in 0.855962 seconds for rho=55.000000,N=18.923472,t=0.452000
+INFO:root:0.003491 seconds to construct rates for rho=55.000000,theta=0.000500,N=23.635895
+INFO:root:Computed action in 56.612025 seconds for rho=80.000000,N=4.704072,t=23.072000
+INFO:root:0.006345 seconds to construct rates for rho=80.000000,theta=0.000500,N=5.883222
+INFO:root:Computed action in 6.280581 seconds for rho=60.000000,N=11.508458,t=3.516000
+INFO:root:0.003560 seconds to construct rates for rho=60.000000,theta=0.000500,N=14.369633

@@ -1,1 +1,44 @@
 Agent pid 1384
+[main 7cc06a0] Auto-commit after job 9003270 run on Wed May 28 10:24:15 CEST 2025
+ 42 files changed, 13166 insertions(+)
+ create mode 100644 PYRHO_MAKE_TABLE_8976253.err
+ create mode 100644 PYRHO_MAKE_TABLE_8976253.out
+ create mode 100644 PYRHO_MAKE_TABLE_8976693.err
+ create mode 100644 PYRHO_MAKE_TABLE_8976693.out
+ create mode 100644 PYRHO_MAKE_TABLE_8977672.err
+ create mode 100644 PYRHO_MAKE_TABLE_8977672.out
+ create mode 100644 PYRHO_MAKE_TABLE_8977859.err
+ create mode 100644 PYRHO_MAKE_TABLE_8977859.out
+ create mode 100644 PYRHO_MAKE_TABLE_8978271.err
+ create mode 100644 PYRHO_MAKE_TABLE_8978271.out
+ create mode 100644 PYRHO_MAKE_TABLE_8982649.err
+ create mode 100644 PYRHO_MAKE_TABLE_8982649.out
+ create mode 100644 PYRHO_MAKE_TABLE_8982716.err
+ create mode 100644 PYRHO_MAKE_TABLE_8982716.out
+ create mode 100644 PYRHO_MAKE_TABLE_8982872.err
+ create mode 100644 PYRHO_MAKE_TABLE_8982872.out
+ create mode 100644 recombination_rate_inference/PYRHO_COMMIT_001.9003270.err
+ create mode 100644 recombination_rate_inference/PYRHO_COMMIT_001.9003270.out
+ create mode 100644 recombination_rate_inference/PYRHO_MAKE_TABLE_9003267.err
+ create mode 100644 recombination_rate_inference/PYRHO_MAKE_TABLE_9003267.out
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/cont_Georgia_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/cont_medlong_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/cont_resident_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/cont_short_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/isl_Azores_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/isl_Canary_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/isl_CapeVerde_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/isl_Crete_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/isl_Madeira_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/isl_Mallorca_whole_genome.final.txt (100%)
+ rename recombination_rate_inference/{lists/msmc2_pyrho_input => input/msmc2_pop_size}/joined_msmc2.txt (100%)
+ create mode 100644 recombination_rate_inference/input/msmc2_pop_size/msmc2.txt
+ create mode 100644 recombination_rate_inference/input/msmc2_pop_size/msmc2_file.txt
+ create mode 100644 recombination_rate_inference/make_table_9003267.log
+ create mode 100644 recombination_rate_inference/scripts/PYRHO_MAKE_TABLE_001.8812769.err
+ create mode 100644 recombination_rate_inference/scripts/PYRHO_MAKE_TABLE_001.8812769.out
+ create mode 100644 recombination_rate_inference/scripts/PYRHO_MAKE_TABLE_001.8931342.err
+ create mode 100644 recombination_rate_inference/scripts/PYRHO_MAKE_TABLE_001.8931342.out
+ create mode 100644 recombination_rate_inference/scripts/git_commit.sh
+ create mode 100644 recombination_rate_inference/scripts/make_table.sh
+ create mode 100755 recombination_rate_inference/scripts/merge_msmc2_tables.py

@@ -19,7 +19,7 @@ eval "$(ssh-agent -s)"
 ssh-add $HOME/.ssh/masterThesis
 
 git add -A
-git commit -m "Auto-commit after job $SLURM_JOB_ID run on $(date)"
+git commit -m "hyperparametized the pyrho table to compute optimal  parameters for the demography data to generate recombination rate maps  $SLURM_JOB_ID run on $(date)"
 git push origin main
 
 

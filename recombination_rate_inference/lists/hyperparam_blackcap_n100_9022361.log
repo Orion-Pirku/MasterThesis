@@ -1,0 +1,643 @@
+INFO:root:Searching over Windowsizes [25.0, 30.0, 50.0, 100.0], and Block Penalties [10.0, 20.0, 30.0, 50.0, 100.0]
+INFO:root:Simulating data...
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=3.93024e+06 nodes=37664 edges=211862
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=4.84981e+06 nodes=43335 edges=243100
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=3.59315e+06 nodes=28569 edges=159444
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=3.75583e+06 nodes=42449 edges=238348
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=4.69163e+06 nodes=20000 edges=111236
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=3.1441e+06 nodes=10704 edges=58270
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=3.97458e+06 nodes=63157 edges=355163
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=3.45272e+06 nodes=27404 edges=152240
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=3.95972e+06 nodes=55016 edges=308695
+INFO:msprime.ancestry:Starting replicate 0
+INFO:msprime.ancestry:model[0] {'name': 'hudson'} started at time=0 nodes=100 edges=0
+INFO:msprime.ancestry:Running model {'name': 'hudson'} until max time: inf
+INFO:msprime.ancestry:Completed at time=4.68146e+06 nodes=18655 edges=104005
+INFO:root:	done simulating
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 10.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 20.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 30.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 50.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 25, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 30, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 50, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing
+INFO:root:Windowsize = 100, Block Penalty = 100.000000
+INFO:root:Stitching results with overlap = 100
+INFO:root:Done optimizing

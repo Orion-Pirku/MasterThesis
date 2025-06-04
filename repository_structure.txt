@@ -1,0 +1,1089 @@
+.
+├── compute_snp_stats_9022385.err
+├── compute_snp_stats_9022385.out
+├── compute_snp_stats_9022386.err
+├── compute_snp_stats_9022386.out
+├── data_analytics_requirements.txt
+├── FILTER_VCF_9024294.err
+├── FILTER_VCF_9024294.out
+├── FILTER_VCF_9024299.err
+├── FILTER_VCF_9024299.out
+├── FILTER_VCF_9024301.err
+├── FILTER_VCF_9024301.out
+├── LICENSE
+├── logs
+│   ├── PYRHO_MAKE_TABLE_8976253.err
+│   ├── PYRHO_MAKE_TABLE_8976253.out
+│   ├── PYRHO_MAKE_TABLE_8976693.err
+│   ├── PYRHO_MAKE_TABLE_8976693.out
+│   ├── PYRHO_MAKE_TABLE_8977672.err
+│   ├── PYRHO_MAKE_TABLE_8977672.out
+│   ├── PYRHO_MAKE_TABLE_8977859.err
+│   ├── PYRHO_MAKE_TABLE_8977859.out
+│   ├── PYRHO_MAKE_TABLE_8978271.err
+│   ├── PYRHO_MAKE_TABLE_8978271.out
+│   ├── PYRHO_MAKE_TABLE_8982649.err
+│   ├── PYRHO_MAKE_TABLE_8982649.out
+│   ├── PYRHO_MAKE_TABLE_8982716.err
+│   ├── PYRHO_MAKE_TABLE_8982716.out
+│   ├── PYRHO_MAKE_TABLE_8982872.err
+│   └── PYRHO_MAKE_TABLE_8982872.out
+├── population_genomics_stats
+│   ├── output
+│   │   ├── compute_snp_stats.err
+│   │   ├── compute_snp_stats.out
+│   │   ├── plots
+│   │   │   ├── SNPDensity_100kb.png
+│   │   │   ├── SNPDensity_1Mb.png
+│   │   │   ├── snp_density.png
+│   │   │   ├── tajimaD_100kb.png
+│   │   │   ├── tajimaD_10kb.png
+│   │   │   ├── tajimaD_1Mb.png
+│   │   │   ├── variants_per_kb.png
+│   │   │   ├── window_pi_100kb.png
+│   │   │   ├── window_pi_10kb.png
+│   │   │   └── window_pi_1Mb.png
+│   │   └── vcf_stats
+│   │       ├── snp_density_1000000_sorted_chr_10.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_11.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_12.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_13.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_14.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_15.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_16.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_17.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_18.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_19.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_1.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_20.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_21.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_22.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_23.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_24.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_25.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_26.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_27.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_28.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_29.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_2.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_30.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_31.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_32.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_33.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_3.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_4.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_5.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_6.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_7.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_8.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_9.phased.snpden
+│   │       ├── snp_density_1000000_sorted_chr_Z.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_10.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_11.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_12.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_13.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_14.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_15.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_16.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_17.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_18.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_19.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_1.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_20.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_21.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_22.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_23.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_24.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_25.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_26.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_27.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_28.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_29.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_2.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_30.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_31.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_32.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_33.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_3.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_4.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_5.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_6.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_7.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_8.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_9.phased.snpden
+│   │       ├── snp_density_100000_sorted_chr_Z.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_10.phased.log
+│   │       ├── snp_density_10000_sorted_chr_10.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_11.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_12.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_13.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_14.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_15.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_16.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_17.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_18.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_19.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_1.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_20.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_21.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_22.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_23.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_24.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_25.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_26.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_27.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_28.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_29.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_2.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_30.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_31.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_32.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_33.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_3.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_4.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_5.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_6.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_7.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_8.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_9.phased.snpden
+│   │       ├── snp_density_10000_sorted_chr_Z.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_10.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_11.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_12.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_13.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_14.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_15.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_16.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_17.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_18.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_19.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_1.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_20.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_21.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_22.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_23.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_24.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_25.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_26.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_27.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_28.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_29.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_2.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_30.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_31.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_32.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_33.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_3.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_4.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_5.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_6.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_7.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_8.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_9.phased.snpden
+│   │       ├── snp_density_1000_sorted_chr_Z.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_10.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_11.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_12.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_13.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_14.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_15.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_16.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_17.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_18.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_19.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_1.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_20.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_21.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_22.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_23.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_24.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_25.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_26.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_27.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_28.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_29.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_2.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_30.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_31.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_32.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_33.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_3.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_4.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_5.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_6.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_7.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_8.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_9.phased.snpden
+│   │       ├── snp_density_100_sorted_chr_Z.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_10.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_11.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_12.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_13.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_14.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_15.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_16.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_17.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_18.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_19.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_1.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_20.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_21.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_22.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_23.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_24.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_25.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_26.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_27.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_28.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_29.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_2.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_30.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_31.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_32.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_33.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_3.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_4.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_5.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_6.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_7.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_8.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_9.phased.snpden
+│   │       ├── snp_density_5000_sorted_chr_Z.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_10.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_11.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_12.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_13.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_14.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_15.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_16.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_17.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_18.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_19.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_1.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_20.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_21.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_22.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_23.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_24.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_25.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_26.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_27.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_28.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_29.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_2.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_30.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_31.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_32.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_33.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_3.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_4.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_5.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_6.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_7.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_8.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_9.phased.snpden
+│   │       ├── snp_density_500_sorted_chr_Z.phased.snpden
+│   │       ├── tajimaD_1000000_sorted_chr_10.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_11.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_12.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_13.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_14.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_15.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_16.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_17.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_18.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_19.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_1.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_20.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_21.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_22.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_23.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_24.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_25.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_26.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_27.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_28.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_29.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_2.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_30.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_31.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_32.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_33.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_3.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_4.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_5.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_6.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_7.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_8.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_9.phased.Tajima.D
+│   │       ├── tajimaD_1000000_sorted_chr_Z.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_10.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_11.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_12.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_13.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_14.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_15.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_16.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_17.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_18.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_19.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_1.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_20.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_21.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_22.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_23.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_24.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_25.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_26.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_27.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_28.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_29.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_2.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_30.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_31.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_32.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_33.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_3.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_4.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_5.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_6.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_7.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_8.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_9.phased.Tajima.D
+│   │       ├── tajimaD_100000_sorted_chr_Z.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_10.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_11.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_12.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_13.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_14.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_15.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_16.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_17.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_18.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_19.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_1.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_20.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_21.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_22.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_23.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_24.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_25.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_26.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_27.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_28.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_29.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_2.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_30.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_31.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_32.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_33.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_3.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_4.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_5.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_6.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_7.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_8.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_9.phased.Tajima.D
+│   │       ├── tajimaD_10000_sorted_chr_Z.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_10.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_11.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_12.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_13.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_14.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_15.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_16.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_17.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_18.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_19.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_1.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_20.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_21.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_22.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_23.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_24.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_25.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_26.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_27.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_28.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_29.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_2.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_30.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_31.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_32.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_33.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_3.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_4.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_5.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_6.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_7.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_8.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_9.phased.Tajima.D
+│   │       ├── tajimaD_1000_sorted_chr_Z.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_10.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_11.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_12.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_13.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_14.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_15.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_16.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_17.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_18.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_19.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_1.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_20.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_21.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_22.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_23.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_24.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_25.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_26.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_27.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_28.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_29.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_2.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_30.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_31.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_32.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_33.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_3.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_4.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_5.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_6.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_7.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_8.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_9.phased.Tajima.D
+│   │       ├── tajimaD_100_sorted_chr_Z.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_10.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_11.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_12.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_13.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_14.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_15.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_16.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_17.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_18.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_19.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_1.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_20.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_21.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_22.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_23.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_24.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_25.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_26.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_27.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_28.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_29.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_2.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_30.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_31.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_32.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_33.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_3.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_4.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_5.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_6.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_7.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_8.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_9.phased.Tajima.D
+│   │       ├── tajimaD_5000_sorted_chr_Z.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_10.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_11.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_12.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_13.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_14.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_15.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_16.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_17.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_18.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_19.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_1.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_20.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_21.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_22.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_23.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_24.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_25.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_26.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_27.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_28.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_29.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_2.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_30.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_31.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_32.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_33.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_3.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_4.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_5.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_6.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_7.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_8.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_9.phased.Tajima.D
+│   │       ├── tajimaD_500_sorted_chr_Z.phased.Tajima.D
+│   │       ├── window_pi_1000000_sorted_chr_10.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_11.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_12.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_13.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_14.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_15.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_16.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_17.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_18.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_19.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_1.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_20.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_21.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_22.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_23.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_24.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_25.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_26.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_27.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_28.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_29.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_2.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_30.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_31.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_32.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_33.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_3.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_4.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_5.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_6.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_7.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_8.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_9.phased.windowed.pi
+│   │       ├── window_pi_1000000_sorted_chr_Z.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_10.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_11.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_12.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_13.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_14.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_15.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_16.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_17.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_18.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_19.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_1.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_20.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_21.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_22.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_23.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_24.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_25.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_26.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_27.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_28.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_29.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_2.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_30.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_31.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_32.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_33.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_3.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_4.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_5.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_6.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_7.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_8.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_9.phased.windowed.pi
+│   │       ├── window_pi_100000_sorted_chr_Z.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_10.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_11.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_12.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_13.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_14.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_15.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_16.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_17.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_18.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_19.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_1.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_20.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_21.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_22.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_23.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_24.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_25.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_26.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_27.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_28.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_29.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_2.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_30.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_31.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_32.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_33.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_3.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_4.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_5.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_6.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_7.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_8.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_9.phased.windowed.pi
+│   │       ├── window_pi_10000_sorted_chr_Z.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_10.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_11.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_12.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_13.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_14.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_15.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_16.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_17.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_18.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_19.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_1.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_20.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_21.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_22.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_23.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_24.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_25.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_26.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_27.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_28.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_29.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_2.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_30.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_31.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_32.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_33.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_3.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_4.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_5.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_6.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_7.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_8.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_9.phased.windowed.pi
+│   │       ├── window_pi_1000_sorted_chr_Z.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_10.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_11.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_12.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_13.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_14.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_15.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_16.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_17.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_18.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_19.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_1.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_20.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_21.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_22.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_23.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_24.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_25.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_26.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_27.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_28.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_29.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_2.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_30.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_31.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_32.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_33.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_3.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_4.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_5.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_6.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_7.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_8.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_9.phased.windowed.pi
+│   │       ├── window_pi_100_sorted_chr_Z.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_10.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_11.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_12.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_13.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_14.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_15.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_16.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_17.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_18.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_19.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_1.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_20.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_21.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_22.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_23.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_24.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_25.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_26.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_27.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_28.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_29.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_2.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_30.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_31.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_32.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_33.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_3.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_4.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_5.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_6.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_7.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_8.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_9.phased.windowed.pi
+│   │       ├── window_pi_5000_sorted_chr_Z.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_10.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_11.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_12.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_13.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_14.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_15.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_16.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_17.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_18.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_19.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_1.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_20.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_21.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_22.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_23.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_24.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_25.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_26.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_27.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_28.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_29.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_2.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_30.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_31.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_32.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_33.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_3.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_4.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_5.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_6.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_7.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_8.phased.windowed.pi
+│   │       ├── window_pi_500_sorted_chr_9.phased.windowed.pi
+│   │       └── window_pi_500_sorted_chr_Z.phased.windowed.pi
+│   └── scripts
+│       ├── arguments.py
+│       ├── computeSNPstats.sbatch
+│       ├── filterSNPs.sh
+│       ├── pgps.py
+│       ├── SNPDensity.ipynb
+│       ├── TajimaD_histogram_10kb.png
+│       ├── Variants_per_Kb_100Kb_Histogram.png
+│       ├── Variants_per_Kb_10Kb_Histogram.png
+│       └── Variants_per_Kb_1Mb_Histogram.png
+├── PYRHO_COMMIT_001.9022362.err
+├── PYRHO_COMMIT_001.9022362.out
+├── PYRHO_HYPERPARAM_9022358.err
+├── PYRHO_HYPERPARAM_9022358.out
+├── PYRHO_HYPERPARAM_9022361.err
+├── PYRHO_HYPERPARAM_9022361.out
+├── PYRHO_OPTIMIZE_9024350_0.err
+├── PYRHO_OPTIMIZE_9024350_0.out
+├── PYRHO_OPTIMIZE_9024350_10.err
+├── PYRHO_OPTIMIZE_9024350_10.out
+├── PYRHO_OPTIMIZE_9024350_11.err
+├── PYRHO_OPTIMIZE_9024350_11.out
+├── PYRHO_OPTIMIZE_9024350_12.err
+├── PYRHO_OPTIMIZE_9024350_12.out
+├── PYRHO_OPTIMIZE_9024350_13.err
+├── PYRHO_OPTIMIZE_9024350_13.out
+├── PYRHO_OPTIMIZE_9024350_14.err
+├── PYRHO_OPTIMIZE_9024350_14.out
+├── PYRHO_OPTIMIZE_9024350_15.err
+├── PYRHO_OPTIMIZE_9024350_15.out
+├── PYRHO_OPTIMIZE_9024350_16.err
+├── PYRHO_OPTIMIZE_9024350_16.out
+├── PYRHO_OPTIMIZE_9024350_17.err
+├── PYRHO_OPTIMIZE_9024350_17.out
+├── PYRHO_OPTIMIZE_9024350_18.err
+├── PYRHO_OPTIMIZE_9024350_18.out
+├── PYRHO_OPTIMIZE_9024350_19.err
+├── PYRHO_OPTIMIZE_9024350_19.out
+├── PYRHO_OPTIMIZE_9024350_1.err
+├── PYRHO_OPTIMIZE_9024350_1.out
+├── PYRHO_OPTIMIZE_9024350_20.err
+├── PYRHO_OPTIMIZE_9024350_20.out
+├── PYRHO_OPTIMIZE_9024350_21.err
+├── PYRHO_OPTIMIZE_9024350_21.out
+├── PYRHO_OPTIMIZE_9024350_22.err
+├── PYRHO_OPTIMIZE_9024350_22.out
+├── PYRHO_OPTIMIZE_9024350_23.err
+├── PYRHO_OPTIMIZE_9024350_23.out
+├── PYRHO_OPTIMIZE_9024350_24.err
+├── PYRHO_OPTIMIZE_9024350_24.out
+├── PYRHO_OPTIMIZE_9024350_25.err
+├── PYRHO_OPTIMIZE_9024350_25.out
+├── PYRHO_OPTIMIZE_9024350_26.err
+├── PYRHO_OPTIMIZE_9024350_26.out
+├── PYRHO_OPTIMIZE_9024350_27.err
+├── PYRHO_OPTIMIZE_9024350_27.out
+├── PYRHO_OPTIMIZE_9024350_28.err
+├── PYRHO_OPTIMIZE_9024350_28.out
+├── PYRHO_OPTIMIZE_9024350_29.err
+├── PYRHO_OPTIMIZE_9024350_29.out
+├── PYRHO_OPTIMIZE_9024350_2.err
+├── PYRHO_OPTIMIZE_9024350_2.out
+├── PYRHO_OPTIMIZE_9024350_30.err
+├── PYRHO_OPTIMIZE_9024350_30.out
+├── PYRHO_OPTIMIZE_9024350_31.err
+├── PYRHO_OPTIMIZE_9024350_31.out
+├── PYRHO_OPTIMIZE_9024350_32.err
+├── PYRHO_OPTIMIZE_9024350_32.out
+├── PYRHO_OPTIMIZE_9024350_33.err
+├── PYRHO_OPTIMIZE_9024350_33.out
+├── PYRHO_OPTIMIZE_9024350_3.err
+├── PYRHO_OPTIMIZE_9024350_3.out
+├── PYRHO_OPTIMIZE_9024350_4.err
+├── PYRHO_OPTIMIZE_9024350_4.out
+├── PYRHO_OPTIMIZE_9024350_5.err
+├── PYRHO_OPTIMIZE_9024350_5.out
+├── PYRHO_OPTIMIZE_9024350_6.err
+├── PYRHO_OPTIMIZE_9024350_6.out
+├── PYRHO_OPTIMIZE_9024350_7.err
+├── PYRHO_OPTIMIZE_9024350_7.out
+├── PYRHO_OPTIMIZE_9024350_8.err
+├── PYRHO_OPTIMIZE_9024350_8.out
+├── PYRHO_OPTIMIZE_9024350_9.err
+├── PYRHO_OPTIMIZE_9024350_9.out
+├── rand_n50_individuals.txt
+├── README.md
+├── recombination_rate_inference
+│   ├── input
+│   │   └── msmc2_pop_size
+│   │       ├── cont_Georgia_whole_genome.final.txt
+│   │       ├── cont_medlong_whole_genome.final.txt
+│   │       ├── cont_resident_whole_genome.final.txt
+│   │       ├── cont_short_whole_genome.final.txt
+│   │       ├── isl_Azores_whole_genome.final.txt
+│   │       ├── isl_Canary_whole_genome.final.txt
+│   │       ├── isl_CapeVerde_whole_genome.final.txt
+│   │       ├── isl_Crete_whole_genome.final.txt
+│   │       ├── isl_Madeira_whole_genome.final.txt
+│   │       ├── isl_Mallorca_whole_genome.final.txt
+│   │       ├── joined_msmc2.txt
+│   │       ├── msmc2_file.txt
+│   │       └── msmc2.txt
+│   ├── lists
+│   │   ├── blackcap_n100_hyperparam.txt
+│   │   ├── blackcap_n100_N100.hdf
+│   │   └── hyperparam_blackcap_n100_9022361.log
+│   ├── make_table_9003267.log
+│   ├── output
+│   │   ├── n50_chr_10_W100_P20.rmap
+│   │   ├── n50_chr_11_W100_P20.rmap
+│   │   ├── n50_chr_12_W100_P20.rmap
+│   │   ├── n50_chr_13_W100_P20.rmap
+│   │   ├── n50_chr_14_W100_P20.rmap
+│   │   ├── n50_chr_15_W100_P20.rmap
+│   │   ├── n50_chr_16_W100_P20.rmap
+│   │   ├── n50_chr_17_W100_P20.rmap
+│   │   ├── n50_chr_18_W100_P20.rmap
+│   │   ├── n50_chr_19_W100_P20.rmap
+│   │   ├── n50_chr_20_W100_P20.rmap
+│   │   ├── n50_chr_21_W100_P20.rmap
+│   │   ├── n50_chr_22_W100_P20.rmap
+│   │   ├── n50_chr_23_W100_P20.rmap
+│   │   ├── n50_chr_24_W100_P20.rmap
+│   │   ├── n50_chr_25_W100_P20.rmap
+│   │   ├── n50_chr_26_W100_P20.rmap
+│   │   ├── n50_chr_27_W100_P20.rmap
+│   │   ├── n50_chr_28_W100_P20.rmap
+│   │   ├── n50_chr_29_W100_P20.rmap
+│   │   ├── n50_chr_30_W100_P20.rmap
+│   │   ├── n50_chr_31_W100_P20.rmap
+│   │   ├── n50_chr_32_W100_P20.rmap
+│   │   └── n50_chr_33_W100_P20.rmap
+│   ├── PYRHO_COMMIT_001.9003270.err
+│   ├── PYRHO_COMMIT_001.9003270.out
+│   ├── PYRHO_COMMIT_001.9003271.err
+│   ├── PYRHO_COMMIT_001.9003271.out
+│   ├── PYRHO_MAKE_TABLE_9003267.err
+│   ├── PYRHO_MAKE_TABLE_9003267.out
+│   └── scripts
+│       ├── filter_vcf.sh
+│       ├── git_commit.sh
+│       ├── hyperparam.sh
+│       ├── make_table.sh
+│       ├── merge_msmc2_tables.py
+│       ├── plot_hyperparam.ipynb
+│       ├── PYRHO_MAKE_TABLE_001.8812769.err
+│       ├── PYRHO_MAKE_TABLE_001.8812769.out
+│       ├── PYRHO_MAKE_TABLE_001.8931342.err
+│       ├── PYRHO_MAKE_TABLE_001.8931342.out
+│       └── pyrho_optimize.sh
+├── repository_structure.txt
+├── Untitled.ipynb
+└── vcf
+    ├── blackcap_id_pops.list
+    ├── blackcap_list1.poplabels
+    ├── blackcap_relate.poplabels
+    ├── chr_10.phased.vcf.gz
+    ├── chr_10.phased.vcf.gz.csi
+    ├── chr_10.phased.vcf.gz.tbi
+    ├── chr_11.phased.vcf.gz
+    ├── chr_11.phased.vcf.gz.csi
+    ├── chr_11.phased.vcf.gz.tbi
+    ├── chr_12.phased.vcf.gz
+    ├── chr_12.phased.vcf.gz.csi
+    ├── chr_12.phased.vcf.gz.tbi
+    ├── chr_13.phased.vcf.gz
+    ├── chr_13.phased.vcf.gz.csi
+    ├── chr_13.phased.vcf.gz.tbi
+    ├── chr_14.phased.vcf.gz
+    ├── chr_14.phased.vcf.gz.csi
+    ├── chr_14.phased.vcf.gz.tbi
+    ├── chr_15.phased.vcf.gz
+    ├── chr_15.phased.vcf.gz.csi
+    ├── chr_15.phased.vcf.gz.tbi
+    ├── chr_16.phased.vcf.gz
+    ├── chr_16.phased.vcf.gz.csi
+    ├── chr_16.phased.vcf.gz.tbi
+    ├── chr_17.phased.vcf.gz
+    ├── chr_17.phased.vcf.gz.csi
+    ├── chr_17.phased.vcf.gz.tbi
+    ├── chr_18.phased.vcf.gz
+    ├── chr_18.phased.vcf.gz.csi
+    ├── chr_18.phased.vcf.gz.tbi
+    ├── chr_19.phased.vcf.gz
+    ├── chr_19.phased.vcf.gz.csi
+    ├── chr_19.phased.vcf.gz.tbi
+    ├── chr_1.phased.vcf.gz
+    ├── chr_1.phased.vcf.gz.csi
+    ├── chr_1.phased.vcf.gz.tbi
+    ├── chr_20.phased.vcf.gz
+    ├── chr_20.phased.vcf.gz.csi
+    ├── chr_20.phased.vcf.gz.tbi
+    ├── chr_21.phased.vcf.gz
+    ├── chr_21.phased.vcf.gz.csi
+    ├── chr_21.phased.vcf.gz.tbi
+    ├── chr_22.phased.vcf.gz
+    ├── chr_22.phased.vcf.gz.csi
+    ├── chr_22.phased.vcf.gz.tbi
+    ├── chr_23.phased.vcf.gz
+    ├── chr_23.phased.vcf.gz.csi
+    ├── chr_23.phased.vcf.gz.tbi
+    ├── chr_24.phased.vcf.gz
+    ├── chr_24.phased.vcf.gz.csi
+    ├── chr_24.phased.vcf.gz.tbi
+    ├── chr_25.phased.vcf.gz
+    ├── chr_25.phased.vcf.gz.csi
+    ├── chr_25.phased.vcf.gz.tbi
+    ├── chr_26.phased.vcf.gz
+    ├── chr_26.phased.vcf.gz.csi
+    ├── chr_26.phased.vcf.gz.tbi
+    ├── chr_27.phased.vcf.gz
+    ├── chr_27.phased.vcf.gz.csi
+    ├── chr_27.phased.vcf.gz.tbi
+    ├── chr_28.phased.vcf.gz
+    ├── chr_28.phased.vcf.gz.csi
+    ├── chr_28.phased.vcf.gz.tbi
+    ├── chr_29.phased.vcf.gz
+    ├── chr_29.phased.vcf.gz.csi
+    ├── chr_29.phased.vcf.gz.tbi
+    ├── chr_2.phased.vcf.gz
+    ├── chr_2.phased.vcf.gz.csi
+    ├── chr_2.phased.vcf.gz.tbi
+    ├── chr_30.phased.vcf.gz
+    ├── chr_30.phased.vcf.gz.csi
+    ├── chr_30.phased.vcf.gz.tbi
+    ├── chr_31.phased.vcf.gz
+    ├── chr_31.phased.vcf.gz.csi
+    ├── chr_31.phased.vcf.gz.tbi
+    ├── chr_32.phased.vcf.gz
+    ├── chr_32.phased.vcf.gz.csi
+    ├── chr_32.phased.vcf.gz.tbi
+    ├── chr_33.phased.vcf.gz
+    ├── chr_33.phased.vcf.gz.csi
+    ├── chr_33.phased.vcf.gz.tbi
+    ├── chr_3.phased.vcf.gz
+    ├── chr_3.phased.vcf.gz.csi
+    ├── chr_3.phased.vcf.gz.tbi
+    ├── chr_4.phased.vcf.gz
+    ├── chr_4.phased.vcf.gz.csi
+    ├── chr_4.phased.vcf.gz.tbi
+    ├── chr_5.phased.vcf.gz
+    ├── chr_5.phased.vcf.gz.csi
+    ├── chr_5.phased.vcf.gz.tbi
+    ├── chr_6.phased.vcf.gz
+    ├── chr_6.phased.vcf.gz.csi
+    ├── chr_6.phased.vcf.gz.tbi
+    ├── chr_7.phased.vcf.gz
+    ├── chr_7.phased.vcf.gz.csi
+    ├── chr_7.phased.vcf.gz.tbi
+    ├── chr_8.phased.vcf.gz
+    ├── chr_8.phased.vcf.gz.csi
+    ├── chr_8.phased.vcf.gz.tbi
+    ├── chr_9.phased.vcf.gz
+    ├── chr_9.phased.vcf.gz.csi
+    ├── chr_9.phased.vcf.gz.tbi
+    ├── chr_Z.phased.vcf.gz
+    ├── chr_Z.phased.vcf.gz.csi
+    ├── chr_Z.phased.vcf.gz.tbi
+    ├── filtered_vcf
+    │   ├── n50_chr_10.phased.vcf.gz
+    │   ├── n50_chr_11.phased.vcf.gz
+    │   ├── n50_chr_12.phased.vcf.gz
+    │   ├── n50_chr_13.phased.vcf.gz
+    │   ├── n50_chr_14.phased.vcf.gz
+    │   ├── n50_chr_15.phased.vcf.gz
+    │   ├── n50_chr_16.phased.vcf.gz
+    │   ├── n50_chr_17.phased.vcf.gz
+    │   ├── n50_chr_18.phased.vcf.gz
+    │   ├── n50_chr_19.phased.vcf.gz
+    │   ├── n50_chr_1.phased.vcf.gz
+    │   ├── n50_chr_20.phased.vcf.gz
+    │   ├── n50_chr_21.phased.vcf.gz
+    │   ├── n50_chr_22.phased.vcf.gz
+    │   ├── n50_chr_23.phased.vcf.gz
+    │   ├── n50_chr_24.phased.vcf.gz
+    │   ├── n50_chr_25.phased.vcf.gz
+    │   ├── n50_chr_26.phased.vcf.gz
+    │   ├── n50_chr_27.phased.vcf.gz
+    │   ├── n50_chr_28.phased.vcf.gz
+    │   ├── n50_chr_29.phased.vcf.gz
+    │   ├── n50_chr_2.phased.vcf.gz
+    │   ├── n50_chr_30.phased.vcf.gz
+    │   ├── n50_chr_31.phased.vcf.gz
+    │   ├── n50_chr_32.phased.vcf.gz
+    │   ├── n50_chr_33.phased.vcf.gz
+    │   ├── n50_chr_3.phased.vcf.gz
+    │   ├── n50_chr_4.phased.vcf.gz
+    │   ├── n50_chr_5.phased.vcf.gz
+    │   ├── n50_chr_6.phased.vcf.gz
+    │   ├── n50_chr_7.phased.vcf.gz
+    │   ├── n50_chr_8.phased.vcf.gz
+    │   └── n50_chr_9.phased.vcf.gz
+    ├── sorted_chr_10.phased.vcf.gz
+    ├── sorted_chr_11.phased.vcf.gz
+    ├── sorted_chr_12.phased.vcf.gz
+    ├── sorted_chr_13.phased.vcf.gz
+    ├── sorted_chr_14.phased.vcf.gz
+    ├── sorted_chr_15.phased.vcf.gz
+    ├── sorted_chr_16.phased.vcf.gz
+    ├── sorted_chr_17.phased.vcf.gz
+    ├── sorted_chr_18.phased.vcf.gz
+    ├── sorted_chr_19.phased.vcf.gz
+    ├── sorted_chr_1.phased.vcf.gz
+    ├── sorted_chr_20.phased.vcf.gz
+    ├── sorted_chr_21.phased.vcf.gz
+    ├── sorted_chr_22.phased.vcf.gz
+    ├── sorted_chr_23.phased.vcf.gz
+    ├── sorted_chr_24.phased.vcf.gz
+    ├── sorted_chr_25.phased.vcf.gz
+    ├── sorted_chr_26.phased.vcf.gz
+    ├── sorted_chr_27.phased.vcf.gz
+    ├── sorted_chr_28.phased.vcf.gz
+    ├── sorted_chr_29.phased.vcf.gz
+    ├── sorted_chr_2.phased.vcf.gz
+    ├── sorted_chr_30.phased.vcf.gz
+    ├── sorted_chr_31.phased.vcf.gz
+    ├── sorted_chr_32.phased.vcf.gz
+    ├── sorted_chr_33.phased.vcf.gz
+    ├── sorted_chr_3.phased.vcf.gz
+    ├── sorted_chr_4.phased.vcf.gz
+    ├── sorted_chr_5.phased.vcf.gz
+    ├── sorted_chr_6.phased.vcf.gz
+    ├── sorted_chr_7.phased.vcf.gz
+    ├── sorted_chr_8.phased.vcf.gz
+    ├── sorted_chr_9.phased.vcf.gz
+    └── sorted_chr_Z.phased.vcf.gz
+
+14 directories, 1072 files

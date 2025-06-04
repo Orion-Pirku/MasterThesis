@@ -1,44 +1,50 @@
 #!/bin/bash
- 
-#SBATCH --job-name=PYRHO_OPTIMIZE_%J
-#SBATCH --ntasks=20
+#SBATCH --array=0-33%10  
+#SBATCH --job-name=PYRHO_OPTIMIZE_A%_a%
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=5
 #SBATCH --nodes=1
 #SBATCH --time=24:00:00
-#SBATCH --mem=200G
-#SBATCH --error=PYRHO_OPTIMIZE_%J.err
-#SBATCH --output=PYRHO_OPTIMIZE_%J.out
+#SBATCH --mem=94G
+#SBATCH --error=PYRHO_OPTIMIZE_%A_%a.err
+#SBATCH --output=PYRHO_OPTIMIZE_%A_%a.out
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=pirku@evolbio.mpg.de
 #SBATCH --partition=highmemnew
 
 module load gcc/6.2.1
+module load cmake/3.20.3
 
-if [[ -x "$HOME/pyrho/bin/activate" ]]; then
-  source $HOME/pyrho/bin/activate
-else
-  echo "Error: Virtual Environment: $HOME/pyrho/bin/activate not found"
+source "$HOME/pyrho/bin/activate"
+
+cd "$HOME/MasterThesis" || exit 1
+mkdir -p recombination_rate_inference/output/
+
+# 1) Build a sorted array of all your phased‐VCF paths:
+VCF_LIST=( vcf/filtered_vcf/*.phased.vcf.gz )
+
+# 2) Pick exactly one VCF for this array index:
+VCF="${VCF_LIST[$SLURM_ARRAY_TASK_ID]}"
+if [[ ! -f "$VCF" ]]; then
+  echo "[ERROR] VCF not found: $VCF" >&2
   exit 1
 fi
 
-if [[ -d "$HOME/MasterThesis" ]]; then
-  cd "$HOME/MasterThesis"
-else
-  echo "$HOME/MasterThesis does not exist"
+PREFIX=$(basename "$VCF" .phased.vcf.gz)
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Array ID $SLURM_ARRAY_TASK_ID → running Pyrho on $VCF with 5 threads…"
+
+pyrho optimize \
+  --vcffile "$VCF" \
+  --tablefile recombination_rate_inference/lists/blackcap_n100_N100.hdf \
+  --windowsize 100 \
+  --blockpenalty 20 \
+  --ploidy 2 \
+  --numthreads 5 \
+  --outfile "recombination_rate_inference/output/${PREFIX}_W100_P20.rmap"
+
+if [[ $? -ne 0 ]]; then
+  echo "[ERROR] Pyrho failed on $VCF" >&2
   exit 1
 fi
 
-VCF_FILES=(vcf/filtered_vcf/*)
-for VCF in "${VCF_FILES[@]}"; do
-  if [[ -f "$VCF" ]]; then
-    echo "Computing Recombination Maps for $VCF"
-    OUTFILE_PREF=$(basename "$VCF" .phased.vcf.gz)
-    pyrho optimize \
-      --tablefile recombination_rate_inference/lists/blackcap_n100_N100.hdf \
-      --windowsize 50 \
-      --blockpenalty 20 \
-      --ploidy 2 \
-      --outfile "recombination_rate_inference/output/${OUTFILE_PREF}_W50_P20.rmap"
-  else
-    echo "Error: $VCF is not a file or doesn't exists"
-  fi
-done
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Finished $VCF → output at recombination_rate_inference/output/${PREFIX}_W100_P20.rmap"

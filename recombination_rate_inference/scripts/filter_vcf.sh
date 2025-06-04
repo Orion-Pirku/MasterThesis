@@ -19,8 +19,8 @@ else
   echo "$HOME/MasterThesis does not exist"
   exit 1
 fi
-
-VCF_FILES=(vcf/chr_*.vcf.gz)
+shopt -s nullglob
+VCF_FILES=(vcf/chr_{1..33}.phased.vcf.gz)
 OUTDIR="vcf/filtered_vcf"
 mkdir -p "$OUTDIR"
 

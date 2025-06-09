@@ -1,0 +1,42 @@
+name: omics
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scikit-image
+  - h5py
+  - cyvcf2
+  - biopython
+  - pysam
+  - pybedtools
+  - snakemake
+  - fastqc
+  - multiqc
+  - samtools
+  - bedtools
+  - bwa
+  - bowtie2
+  - hisat2
+  - star
+  - htseq
+  - picard
+  - kallisto
+  - salmon
+  - r-base
+  - r-essentials
+  - r-ggplot2
+  - r-dplyr
+  - r-tidyr
+  - r-readr
+  - bioconductor-edgeR
+  - bioconductor-limma
+  - openjdk  # for Picard, GATK, etc.
+

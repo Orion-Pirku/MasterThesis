@@ -2,3 +2,6 @@ scripts/rsa_pub.id
 scripts/rsa_pub
 vcf
 recombination_rate_inference/output/.ipynb_checkpoints
+.virtual_documents/
+.spyproject/
+.jupyter/

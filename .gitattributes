@@ -33,3 +33,4 @@ recombination_rate_inference/output/n50_chr_19_W100_P20.rmap filter=lfs diff=lfs
 recombination_rate_inference/output/n50_chr_3_W100_P20.rmap filter=lfs diff=lfs merge=lfs -text
 recombination_rate_inference/output/*.rmap filter=lfs diff=lfs merge=lfs -text
 recombination_rate_inference/input/*.gff filter=lfs diff=lfs merge=lfs -text
+recombination_rate_inference/output/transforned* filter=lfs diff=lfs merge=lfs -text

@@ -12,13 +12,13 @@
 #SBATCH --partition=highmemnew
 
 module load gcc/6.2.1
-module load python/3.9.12
+module load python/3.9.13
 
 
 source $HOME/pyrho/bin/activate
 export JOB_ID=$SLURM_JOB_ID
 
-cd $HOME/MastersThesis/recombination_rate_inference/
+cd $HOME/MasterThesis/recombination_rate_inference/
 
 usage() {
   echo "Usage: $0 <input_filename> <output_filename> <population_size> <moran_population_size>"

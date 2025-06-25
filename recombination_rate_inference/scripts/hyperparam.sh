@@ -18,13 +18,13 @@ source $HOME/pyrho/bin/activate
 export JOB_ID=$SLURM_JOB_ID
 cd $HOME/MasterThesis/recombination_rate_inference/
 
-pyrho hyperparam -n 100 \
+pyrho hyperparam -n 200 \
   --ploidy 2 \
   --mu 4.6e-9 \
   --blockpenalty 10,20,30,50,100 \
-  --windowsize 25,30,50,100 \
-  --tablefile lists/blackcap_n100_N100.hdf \
+  --windowsize 25,30,50,100,1000 \
+  --tablefile lists/blackcap_n200_N200.hdf \
   --msmc_file input/msmc2_pop_size/msmc2.txt \
-  --outfile lists/blackcap_n100_hyperparam.txt \
+  --outfile lists/blackcap_n200_hyperparam.txt \
   --num_sim 10 \
-  --logfile lists/hyperparam_blackcap_n100_"${JOB_ID}".log 
+  --logfile lists/hyperparam_blackcap_n200_"${JOB_ID}".log 

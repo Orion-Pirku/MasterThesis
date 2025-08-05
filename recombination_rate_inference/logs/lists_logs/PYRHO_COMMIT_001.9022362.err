@@ -1,0 +1,6 @@
+Identity added: /home/pirku/.ssh/masterThesis (pirku@evolbio.mpg.de)
+remote: warning: See https://gh.io/lfs for more information.[K
+remote: warning: File population_genomics_stats/output/vcf_stats/window_pi_100_sorted_chr_1.phased.windowed.pi is 53.29 MB; this is larger than GitHub's recommended maximum file size of 50.00 MB[K
+remote: warning: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.[K
+To git@github.com:Orion-Pirku/MasterThesis.git
+   639f1e8..852c035  main -> main

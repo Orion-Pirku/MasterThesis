@@ -1,7 +1,7 @@
-from hotspotter_transformation import *
-from hotspotter_plotting import *
-import hotspotter_io
-from hotspotter_analysis import *
+from recombination_rate_inference.src.transform import *
+from recombination_rate_inference.src.plotting import *
+import recombination_rate_inference.src.io as io
+from recombination_rate_inference.src.summarizing import *
 from pybedtools import BedTool
 from typing import cast
 from pathlib import Path
@@ -10,7 +10,7 @@ from pathlib import Path
 
 if __name__=="__main__":
     
-    rec_rate_bed = hotspotter_io.load_bed_files(
+    rec_rate_bed = io.load_bed_files(
         "/home/orion/MasterThesis-main/recombination_rate_inference/output/processed/10kb_windows/*", 
         return_type="bed"
         )

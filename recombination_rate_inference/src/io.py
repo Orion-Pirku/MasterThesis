@@ -9,7 +9,7 @@ from pybedtools import BedTool
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 
-def parse_rmap_file(rmap_file: str) -> pd.DataFrame:
+def _parse_rmap_file(rmap_file: str) -> pd.DataFrame:
     """
     Parse a single recombination map file into a standardized DataFrame.
 
@@ -37,7 +37,7 @@ def load_recombination_maps(rmap_files: str) -> List[pd.DataFrame]:
     """
     rmap_file_names = glob(rmap_files, recursive=True)
     with Pool(processes=max(1, cpu_count() // 2)) as pool:
-        dataframes = pool.map(parse_rmap_file, rmap_file_names)
+        dataframes = pool.map(_parse_rmap_file, rmap_file_names)
     return dataframes
 
 def save_transformed_data(datasets: List[pd.DataFrame], prefix="transformed") -> None:
@@ -47,7 +47,7 @@ def save_transformed_data(datasets: List[pd.DataFrame], prefix="transformed") ->
         filename = f"{prefix}_{chrom_name}_w{window_size}.tsv"
         data.to_csv(filename, sep="\t", header=True, index=False)
 
-def parse_bed_file(file: str) -> pd.DataFrame:
+def _parse_bed_file(file: str) -> pd.DataFrame:
     """
     Parse a BED file into a DataFrame with standardized columns.
     Assumes the first line is a header to skip.
@@ -76,7 +76,7 @@ def load_bed_files(
     file_paths = glob(input_files, recursive=True)
     
     with Pool(processes=max(1, cpu_count() // 2)) as pool:
-        dfs = pool.map(parse_bed_file, file_paths)
+        dfs = pool.map(_parse_bed_file, file_paths)
 
     merged_df = (
         pd.concat(dfs, ignore_index=True)
@@ -95,7 +95,7 @@ def load_fasta_file(fasta_file: str) -> List[SeqRecord]:
     fasta_file_path = Path(fasta_file)
     return list(SeqIO.parse(fasta_file_path, "fasta"))
 
-def parse_fasta_file(
+def parse_and_rename_fasta_file(
     fasta_file: str,
     mapping: Dict[str, str]) -> Union[int, Exception]:
     

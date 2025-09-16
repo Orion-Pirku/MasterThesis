@@ -11,3 +11,4 @@ recombination_rate_inference/data/
 .ipynb_checkpoints
 recombination_rate_inference/output/
 .vscode/
+population_genomics_stats/output/

@@ -81,3 +81,8 @@ def _split_by_feature(
                 raise ValueError(f"Unknown return_type: {return_type}")
     
     return feature_dict
+
+
+def _compute_midpoint(DataFrame: pd.DataFrame) -> pd.DataFrame:
+    DataFrame['Midpoint'] = (DataFrame['Start'] + DataFrame['End']) // 2
+    return DataFrame

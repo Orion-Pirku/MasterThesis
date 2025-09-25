@@ -6,13 +6,33 @@ from pybedtools import BedTool
 from typing import Literal, Union, List, Dict, overload, Any
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
-from recombination_rate_inference.src.transformation_utils import (
+from hotspotter.transform_utils import (
     _convert_to_dataframe,
     _validate_required_columns,
     _transform_dataframe,
     _convert_to_output,
-    _split_by_feature
+    _split_by_feature,
+    _compute_midpoint
 )
+import numpy.typing as npt
+
+def interpolate_recombination_rate(
+        sorted_recombination_maps: list[pd.DataFrame] | pd.DataFrame
+        ) -> tuple[list[npt.NDArray[np.float64]], list[npt.NDArray[np.int64]]]:
+
+    if isinstance(sorted_recombination_maps, pd.DataFrame):
+        sorted_recombination_maps = [sorted_recombination_maps]
+    
+    recombination_maps: list[pd.DataFrame] = [_compute_midpoint(df) for df in sorted_recombination_maps]
+    recombination_rates: list[npt.NDArray[np.float64]] = [df['Rho'].to_numpy(dtype=float) for df in recombination_maps]
+    midpoints: list[npt.NDArray[np.int64]] = [df['Midpoint'].to_numpy(dtype=int) for df in recombination_maps]
+    genomic_bins: list[npt.NDArray[np.int64]] = [np.arange(mid.min(), mid.max() + 50, 50) for mid in midpoints]
+    binned_rec_rates = [
+        np.interp(bins, mid, rho)
+        for bins, mid, rho in zip(genomic_bins, midpoints, recombination_rates)
+    ] 
+    binned_rec_rates = [rec_rate * 1e8 for rec_rate in binned_rec_rates]
+    return binned_rec_rates, genomic_bins
 
 def transform_gff_table(
     gff_object: Union[pd.DataFrame, BedTool, pr.PyRanges],
@@ -24,8 +44,6 @@ def transform_gff_table(
     _validate_required_columns(df)
     df = _transform_dataframe(df, chr_pattern)
     return _convert_to_output(df, return_type)
-
-
 
 def split_bedtool_by_feature(
     input_bed: pr.PyRanges | pd.DataFrame | BedTool,

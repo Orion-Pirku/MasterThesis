@@ -7,6 +7,7 @@ import pyranges as pr
 import numpy.typing as npt
 from scipy.stats import pearsonr
 import scipy.signal as ss
+import scipy.ndimage as sn
 
 def get_score_strength_per_chrom(
     input_windows: Union[BedTool, pd.DataFrame]
@@ -43,7 +44,6 @@ def get_score_strength_per_chrom(
     chrom_order = [f"chr{i}" for i in range(1, 34)]
     merged["chrom"] = pd.Categorical(merged["chrom"], categories=chrom_order, ordered=True)
     return merged.sort_values(['chrom', 'score_strength']), min_max_per_label
-
 
 def compute_genomic_feature_correlation(
     bed_feature: BedTool,
@@ -86,9 +86,70 @@ def compute_genomic_feature_correlation(
         alternative="two-sided"
     )
 
-def call_recombination_hotspots(
-    input_bed: Union[BedTool, pd.DataFrame], 
-    score_column_idx: int
-    ) -> npt.NDArray[np.int32]:
+def _compute_optimal_threshold(
+    data: npt.NDArray[np.float64],
+    k_min: float,
+    k_max: float,
+    sigma: float) -> float:
+    # Build k grid (ensure at least two points)
+    k = np.arange(k_min, k_max, 1.0, dtype=float)
+    if k.size < 2:
+        # fall back to a single candidate
+        k = np.array([k_min], dtype=float)
+
+    n_peaks = np.empty(k.shape, dtype=np.int64)
+
+    # Count peaks for each candidate
+    for idx, ki in enumerate(k):
+        # Tune wlen/distance as you like; ensure they are <= len(data) where applicable
+        peaks, _ = ss.find_peaks(data, prominence=ki * sigma, wlen=50_001, distance=10_000)
+        n_peaks[idx] = peaks.size
+
+    # Normalize x in [0,1]; guard zero range
+    denom_x = (k.max() - k.min())
+    x = (k - k.min()) / denom_x if denom_x != 0 else np.zeros_like(k, dtype=float)
+
+    # Normalize y in [0,1]; guard zero range
+    denom_y = (n_peaks.max() - n_peaks.min())
+    y = (n_peaks - n_peaks.min()) / denom_y if denom_y != 0 else np.zeros_like(n_peaks, dtype=float)
+
+    # Line from first to last point
+    x0, y0 = x[0], y[0]
+    x1, y1 = x[-1], y[-1]
+
+    # Perpendicular distance of each (x,y) to the first-last line (a standard "kneedle"/L-method style)
+    num = np.abs((y1 - y0) * x - (x1 - x0) * y + x1 * y0 - y1 * x0)
+    den = np.hypot(y1 - y0, x1 - x0)
+
+    # If all points are identical, just pick the first k
+    if den == 0:
+        return float(k[0])
+
+    dist = num / den
+    idx_star = int(np.argmax(dist))
+    return float(k[idx_star])
+
+def _calculate_robust_sigma(
+    smoothed_signal: npt.NDArray[np.float64], 
+    window_size: int) -> float:
     
-    
+    if window_size % 2 == 0:
+        raise ValueError("Error: window_size must be an odd number")
+    baseline: npt.NDArray[np.float64] = sn.median_filter(smoothed_signal, size=window_size, mode='reflect')
+    contrast: npt.NDArray[np.float64] = smoothed_signal - baseline
+    mad = np.median(np.abs(contrast - np.median(contrast))) + 1e-12
+    sigma = 1.4826 * mad
+    return float(sigma)
+
+def call_hotspots(raw_signal: npt.NDArray[np.float64]) -> tuple[npt.NDArray[np.float64], npt.NDArray[np.int64], dict[str, npt.NDArray[np.float64]]]:
+    smoothed_signal: npt.NDArray[np.float64] = ss.savgol_filter(raw_signal, window_length=2001, polyorder=1)
+    robust_sigma = float(_calculate_robust_sigma(smoothed_signal, window_size=50_001))
+    optimal_threshold = float(_compute_optimal_threshold(smoothed_signal, k_min=1, k_max=30, sigma=robust_sigma))
+    peaks, properties = ss.find_peaks(
+        smoothed_signal, 
+        prominence=optimal_threshold*robust_sigma, 
+        wlen=50_001
+        )
+    peaks = peaks.astype(np.int64, copy=False)
+    properties = {k: np.asarray(v, dtype=np.float64) for k, v in properties.items()}
+    return smoothed_signal, peaks, properties

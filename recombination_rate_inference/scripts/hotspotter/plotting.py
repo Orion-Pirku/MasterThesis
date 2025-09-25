@@ -5,6 +5,9 @@ import math
 from plotly.subplots import make_subplots
 from typing import List, Dict, Union, Tuple
 from pybedtools import BedTool
+import matplotlib.pyplot as plt
+import numpy.typing as npt
+import numpy as np
 
 def pval_to_stars(p: float):
         if p <= 0.0001:
@@ -17,53 +20,66 @@ def pval_to_stars(p: float):
             return "*"
         else:
             return ""
-def plot_jaccard_test_results(jaccard_results: pd.DataFrame) -> None:
+        
+def plot_jaccard_test_results_matplotlib(jaccard_results: pd.DataFrame) -> None:
+    # Calculate error bars
     jaccard_results['error_lower'] = jaccard_results['shuffled_jaccard_mean'] - jaccard_results['ci_lower_95%']
     jaccard_results['error_upper'] = jaccard_results['ci_upper_95%'] - jaccard_results['shuffled_jaccard_mean']
-    jaccard_results["group"] = "Shuffled Recombination Rate Windows"
+    
+    features = jaccard_results['feature']
+    x = np.arange(len(features))  # X locations for groups
+    width = 0.35  # Width of bars
 
-    fig = px.bar(
-        jaccard_results,
-        x="feature",
-        y="shuffled_jaccard_mean",
-        error_y="error_upper",
-        error_y_minus="error_lower",
-        color="group",
-        title="Jaccard Index Comparison of True vs. Shuffled\nRecombination Rate Windows with Genomic Features",
-        labels={"feature": "Genomic Feature", "shuffled_jaccard_mean": "Jaccard Index", "group": "Legend"},
-        width=900,
-        height=600,
+    fig, ax = plt.subplots(figsize=(12, 6))
+
+    # Bar plot for shuffled values with error bars
+    ax.bar(
+        x - width/2,
+        jaccard_results['shuffled_jaccard_mean'],
+        width,
+        yerr=[jaccard_results['error_lower'], jaccard_results['error_upper']],
+        label='Shuffled Recombination Rate Windows',
+        capsize=5,
+        color='lightblue',
+        edgecolor='black'
     )
 
-    fig.add_trace(go.Bar(
-        x = jaccard_results["feature"],
-        y = jaccard_results["observed_jaccard"],
-        name = "True Recombination Rate Windows",
-    ))
-
-    p_values = [
-        dict(
-            x=row["feature"],
-            y=0.55,
-            text=pval_to_stars(row['p_value_two_tailed']),
-            showarrow=False,
-            font=dict(size=20, color="black"),
-            yanchor="bottom"
-        )
-        for _, row in jaccard_results.iterrows()
-        if pval_to_stars(row['p_value_two_tailed']) != ""  # Only add annotation if there's a star
-    ]
-
-    fig.update_layout(
-        barmode="group",
-        yaxis=dict(range=[0, 1]),
-        xaxis_tickangle=-45,
-        annotations=p_values,
-        showlegend=True
+    # Bar plot for observed values
+    ax.bar(
+        x + width/2,
+        jaccard_results['observed_jaccard'],
+        width,
+        label='True Recombination Rate Windows',
+        color='steelblue',
+        edgecolor='black'
     )
-    fig.show()
-    fig.write_html("True_vs_Shuffled_Jaccard.html")
-    fig.write_image("True_vs_Shuffled_Jaccard.png", format="png", width = 800, height=600, scale = 3)
+
+    # Add p-value stars
+    for idx, (_, row) in enumerate(jaccard_results.iterrows()):
+        stars = pval_to_stars(row['p_value_two_tailed'])
+        if stars:
+            ax.text(
+                x[idx],
+                0.55,  # You can dynamically place this above the bars if needed
+                stars,
+                ha='center',
+                va='bottom',
+                fontsize=16,
+                color='black'
+            )
+
+    # Formatting
+    ax.set_xticks(x)
+    ax.set_xticklabels(features, rotation=45, ha='right')
+    ax.set_ylim(0, 1)
+    ax.set_ylabel("Jaccard Index")
+    ax.set_xlabel("Genomic Feature")
+    ax.set_title("Jaccard Index Comparison of True vs. Shuffled\nRecombination Rate Windows with Genomic Features")
+    ax.legend()
+
+    plt.tight_layout()
+    plt.savefig("True_vs_Shuffled_Jaccard.png", dpi=300)
+
 
 def get_score_strength_per_chrom(input_windows: BedTool | pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
     if not isinstance(input_windows, pd.DataFrame):
@@ -269,3 +285,20 @@ def plot_rho_distribution(data: List[pd.DataFrame], plot_name: str | None = None
             raise RuntimeError(f"Failed to save plot to {plot_name}: {e}")
     
     figure.show()
+
+def plot_recombination_hotspots(smoothed_signal: npt.NDArray[np.float64],
+                                midpoint_bins: npt.NDArray[np.int64], 
+                                peak_indeces: list[int], 
+                                chromosome_number: int | None = None,
+                                output_name: str = 'recombination_hotspots.png'):
+    
+    plt.style.use('seaborn-v0_8-darkgrid')
+    plt.figure(figsize=(12,6), dpi=200)
+    
+    plt.plot(midpoint_bins, smoothed_signal, color='black', lw=1, alpha=0.4)
+    plt.scatter(midpoint_bins[peak_indeces], smoothed_signal[peak_indeces], marker='X', s=40, color='red', edgecolors='black')
+    plt.xlabel("Genomic Position")
+    plt.ylabel(r'Recombination Rate  $\frac{\mathrm{cM}}{\mathrm{Mb}}$')
+    plt.title(f'Chromosome {chromosome_number}')
+    plt.tight_layout()
+    plt.savefig(output_name)

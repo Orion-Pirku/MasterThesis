@@ -19,3 +19,28 @@ recombination_rate_inference/output/
 .vscode/
 
 population_genomics_stats/output/
+
+# Ignore data directory
+data/
+
+# Ignore raw and processed data
+*.csv
+*.tsv
+*.vcf
+*.bam
+*.sam
+*.fasta
+*.fa
+*.gfasta
+*.fastq
+*.rmap
+*.txt
+
+# Logs and checkpoints
+*.out
+*.err
+*.log
+.ipynb_checkpoints/
+
+# System files
+.DS_Store

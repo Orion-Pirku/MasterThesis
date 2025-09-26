@@ -1,2 +1,0 @@
-/home/pirku/pyrho/lib/python3.9/site-packages/pyrho/hyperparameter_optimizer.py:15: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
-  from pkg_resources import resource_stream

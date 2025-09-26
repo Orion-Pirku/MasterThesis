@@ -1,46 +1,10 @@
-
-scripts/rsa_pub.id
-
-scripts/rsa_pub
-
-vcf
-
-recombination_rate_inference/output/.ipynb_checkpoints
-.virtual_documents/
-.spyproject/
 .jupyter/
-recombination_rate_inference/scripts/.ipynb_checkpoints/
-/home/orion/MasterThesis-main/recombination_rate_inference/scripts/.ipynb_checkpoints
 
-recombination_rate_inference/data/
 .ipynb_checkpoints
 
-recombination_rate_inference/output/
 .vscode/
-
-population_genomics_stats/output/
 
 # Ignore data directory
 data/
 
-# Ignore raw and processed data
-*.csv
-*.tsv
-*.vcf
-*.bam
-*.sam
-*.fasta
-*.fa
-*.gfasta
-*.fastq
-*.rmap
-*.txt
 
-# Logs and checkpoints
-*.out
-*.err
-*.log
-.ipynb_checkpoints/
-
-# System files
-.DS_Store

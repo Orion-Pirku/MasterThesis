@@ -1,3 +1,4 @@
+from networkx import maximal_independent_set
 import numpy as np
 import pandas as pd
 import re
@@ -6,6 +7,7 @@ from pybedtools import BedTool
 from typing import Literal, Union, List, Dict, overload, Any
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
+
 from hotspotter.transform_utils import (
     _convert_to_dataframe,
     _validate_required_columns,
@@ -15,6 +17,26 @@ from hotspotter.transform_utils import (
     _compute_midpoint
 )
 import numpy.typing as npt
+
+def preprocess_vc_stats(feature_dataframes: list[pd.DataFrame]) -> pd.DataFrame:
+    sorted_bed_object: list[pd.DataFrame] = sort_windows(feature_dataframes)
+    
+    for df in sorted_bed_object:
+        col_names: pd.Index = df.columns
+        # Case-insensitive check for 'end' column
+        if "end" not in df.columns.str.lower().tolist() and "bin_end" not in df.columns.str.lower().tolist():
+            # Calculate window sizes (difference between next start and current start)
+            window_size: pd.Series = df[col_names[1]].shift(-1) - df[col_names[1]]            
+            # Fill last window size with the previous window size (to avoid NaN)
+            window_size.iloc[-1] = window_size.iloc[-2]
+            window_size = window_size.astype(int)
+            # Create new BIN_END column (end = start + window_size - 1)
+            bin_end: pd.Series = df[col_names[1]].astype(int) + window_size - 1
+            # Insert BIN_END at position 2 (3rd column)
+            df.insert(loc=2, column="BIN_END", value=bin_end)
+    return concatenate_windows(sorted_bed_object)
+
+
 
 def interpolate_recombination_rate(
         sorted_recombination_maps: list[pd.DataFrame] | pd.DataFrame
@@ -60,21 +82,32 @@ def split_bedtool_by_feature(
 
 def make_windows(df: pd.DataFrame, window_size: int) -> pd.DataFrame:
     raw = df.to_numpy()
-    midpoints = (raw[:, 1].astype(int) + raw[:, 2].astype(int)) // 2
-    bin_ids = midpoints // window_size
-
-    unique_bins, inv_indices = np.unique(bin_ids, return_inverse=True)
+    start_raw = raw[:,1].astype(int)
+    end_raw = raw[:,2].astype(int)
+    
+    midpoints = (start_raw + end_raw) // 2
+    
+    max_end = end_raw.max()
+    num_bins = (max_end//window_size) + 1
+    
+    bins = np.arange(0, num_bins *  window_size + 1, window_size)
+    
+    bin_indeces = np.digitize(midpoints, bins) - 1
+    
+    
+    unique_bins = np.arange(len(bins)-1)
     sums = np.zeros(len(unique_bins))
     counts = np.zeros(len(unique_bins))
 
-    np.add.at(sums, inv_indices, raw[:, 3].astype(float))
-    np.add.at(counts, inv_indices, 1)
+    np.add.at(sums, bin_indeces, raw[:, 3].astype(float))
+    np.add.at(counts, bin_indeces, 1)
 
-    means = (sums / counts) * 100 * 1e6  # scaling factor
+    means = np.divide(sums, counts, out=np.zeros_like(sums), where=counts!=0)
+    means = means * 100 * 1e6
 
-    starts = unique_bins * window_size
-    ends = starts + window_size
-    midpoints = (starts + ends) // 2
+    starts = bins[:-1]
+    ends = bins[1:] - 1
+    midpoints = (starts + ends) //2
     chrom = raw[0, 0]
 
     result = np.column_stack([
@@ -85,17 +118,17 @@ def make_windows(df: pd.DataFrame, window_size: int) -> pd.DataFrame:
         midpoints
     ])
 
-    return pd.DataFrame(result, columns=["Chrom", "Start", "End", "Score(cM/Mb)", "Midpoint"]).astype({
-        "Chrom": str,
-        "Start": int,
-        "End": int,
+    return pd.DataFrame(result, columns=["CHROM", "START", "END", "cM/Mb", "MIDPOINT"]).astype({
+        "CHROM": str,
+        "START": int,
+        "END": int,
         "cM/Mb": float,
-        "Midpoint": int
+        "MIDPOINT": int
     })
 
 
 def chr_sort_key(df: pd.DataFrame) -> int | float:
-    chrom = str(df.iloc[0]["Chrom"])
+    chrom = str(df.iloc[0]["CHROM"])
     match = re.match(r"chr(\d+)", chrom)
     if match:
         return int(match.group(1))

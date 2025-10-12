@@ -45,10 +45,10 @@ def get_score_strength_per_chrom(
     merged["chrom"] = pd.Categorical(merged["chrom"], categories=chrom_order, ordered=True)
     return merged.sort_values(['chrom', 'score_strength']), min_max_per_label
 
-def compute_genomic_feature_correlation(
-    bed_feature: BedTool,
-    score_one_idx: int,
-    score_two_idx: int
+def compute_feature_correlation(
+    intersection_object: BedTool | pd.DataFrame,
+    score_A_idx: int,
+    score_B_idx: int
     ) -> Tuple[float, float]:
     """
     Computes the Pearson correlation between two feature score columns 
@@ -69,16 +69,26 @@ def compute_genomic_feature_correlation(
         Pearson correlation coefficient and two-tailed p-value.
     """
 
-    df = bed_feature.to_dataframe(names=None)
+    if isinstance(intersection_object, BedTool):
+        intersection_df = intersection_object.to_dataframe()
+    elif isinstance(intersection_object, pd.DataFrame):
+        intersection_df = intersection_object
+    else:
+        raise TypeError("intersection_object must be a BedTool or a DataFrame")
 
-    if df.empty:
+    if intersection_df.empty:
         raise ValueError("The provided BedTool object resulted in an empty DataFrame.")
 
-    if score_one_idx >= df.shape[1] or score_two_idx >= df.shape[1]:
+    if score_A_idx >= intersection_df.shape[1] or score_B_idx >= intersection_df.shape[1]:
         raise IndexError("Score index out of bounds")
+    a = pd.to_numeric(intersection_df.iloc[:, score_A_idx], errors="coerce")
+    b = pd.to_numeric(intersection_df.iloc[:, score_B_idx], errors="coerce")
 
-    feature_one_array = df.iloc[:, score_one_idx].astype(float).to_numpy()
-    feature_two_array = df.iloc[:, score_two_idx].astype(float).to_numpy()
+    mask = a.notna() & b.notna()  # keep only rows where both are numeric
+
+    feature_one_array = a[mask].to_numpy(dtype=float)
+    feature_two_array = b[mask].to_numpy(dtype=float)
+
 
     return pearsonr(
         x=feature_one_array,

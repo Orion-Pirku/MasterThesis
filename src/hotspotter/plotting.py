@@ -4,6 +4,7 @@ import pandas as pd
 import math
 from plotly.subplots import make_subplots
 from typing import List, Dict, Union, Tuple
+from polars import Boolean
 from pybedtools import BedTool
 import matplotlib.pyplot as plt
 import numpy.typing as npt
@@ -286,11 +287,13 @@ def plot_rho_distribution(data: List[pd.DataFrame], plot_name: str | None = None
     
     figure.show()
 
-def plot_recombination_hotspots(smoothed_signal: npt.NDArray[np.float64],
-                                midpoint_bins: npt.NDArray[np.int64], 
-                                peak_indeces: list[int], 
-                                chromosome_number: int | None = None,
-                                output_name: str = 'recombination_hotspots.png'):
+def plot_recombination_hotspots(
+    smoothed_signal: npt.NDArray[np.float64],
+    midpoint_bins: npt.NDArray[np.int64], 
+    peak_indeces: list[int], 
+    chromosome_number: int | None = None,
+    output_name: str = 'recombination_hotspots.png'
+    ):
     
     plt.style.use('seaborn-v0_8-darkgrid')
     plt.figure(figsize=(12,6), dpi=200)

@@ -18,7 +18,76 @@ from hotspotter.transform_utils import (
 )
 import numpy.typing as npt
 
-def preprocess_vc_stats(feature_dataframes: list[pd.DataFrame]) -> pd.DataFrame:
+
+def _extract_feature_name(attribute: pd.Series) -> pd.Series:
+    match = re.search(r"Name=([^;]+)", attribute)
+    return match.group(1) if match else None
+
+def clean_raw_gff(file_path: str, genomic_feature: str) -> pd.DataFrame:
+    gff: pd.DataFrame = pd.read_csv(
+            file_path,
+            sep="\t",
+            comment="#",
+            header=None,
+            names=["SEQ_ID", "SOURCE", "TYPE", "START", "END", "SCORE", "STRAND", "PHASE", "ATTRIBUTES"]
+            )
+    feature = gff[gff["TYPE"] == genomic_feature.lower()].copy()
+    feature["NAME"] = feature["ATTRIBUTES"].apply(_extract_feature_name)
+    return feature[["SEQ_ID", "START", "END", "SCORE", "TYPE", "NAME"]]
+
+
+def compute_gene_density(
+        gene_dataframe: pd.DataFrame, 
+        window_size: int, 
+        genome_sizes: str | pd.DataFrame
+        ) -> pd.DataFrame:
+    if isinstance(genome_sizes, str):
+        genome_df: pd.DataFrame = pd.read_csv(
+            genome_sizes, sep=r"\s+", header=None, names=["CHROM", "SIZE"]
+        )
+    else:
+        genome_df = genome_sizes.copy()
+
+    # --- Build fixed windows per chromosome ---
+    window_dfs: list[pd.DataFrame] = []
+    for _, row in genome_df.iterrows():
+        chrom: str = str(row["CHROM"])
+        length: int = int(row["SIZE"])
+        starts = list(range(0, length, window_size))
+        ends = [min(s + window_size, length) for s in starts]
+        window_dfs.append(
+            pd.DataFrame({
+                "Chromosome": chrom,
+                "Start": starts,
+                "End": ends
+            })
+        )
+
+    windows_df: pd.DataFrame = pd.concat(window_dfs, ignore_index=True)
+    windows: pr.PyRanges = pr.PyRanges(windows_df)
+    if not {"CHROM", "START", "END"}.issubset(gene_dataframe.columns):
+        raise ValueError("gene_dataframe must contain columns: CHROM, START, END")
+
+    gene_coords = gene_dataframe[["CHROM", "START", "END"]].copy()
+    gene_coords = gene_coords.rename(columns={
+        "CHROM": "Chromosome",
+        "START": "Start",
+        "END": "End"
+    })
+    genes: pr.PyRanges = pr.PyRanges(df=gene_coords)     
+
+    overlap_counts: pr.PyRanges = windows.count_overlaps(genes)
+    overlap_df: pd.DataFrame = overlap_counts.df.rename(columns={"NumberOverlaps": "GENE_COUNT"})
+
+    # --- Compute density ---
+    overlap_df["WINDOW_SIZE"] = overlap_df["End"] - overlap_df["Start"]
+    overlap_df["GENE_DENSITY"] = overlap_df["GENE_COUNT"] / overlap_df["WINDOW_SIZE"]
+
+    # --- Standardize columns ---
+    return overlap_df[["Chromosome", "Start", "End", "GENE_COUNT", "GENE_DENSITY"]]
+
+
+def preprocess_popgen_stats(feature_dataframes: list[pd.DataFrame]) -> list[pd.DataFrame]:
     sorted_bed_object: list[pd.DataFrame] = sort_windows(feature_dataframes)
     
     for df in sorted_bed_object:
@@ -33,8 +102,11 @@ def preprocess_vc_stats(feature_dataframes: list[pd.DataFrame]) -> pd.DataFrame:
             # Create new BIN_END column (end = start + window_size - 1)
             bin_end: pd.Series = df[col_names[1]].astype(int) + window_size - 1
             # Insert BIN_END at position 2 (3rd column)
-            df.insert(loc=2, column="BIN_END", value=bin_end)
-    return concatenate_windows(sorted_bed_object)
+            df.insert(2, "BIN_END", bin_end)
+
+        df = df.rename(columns={"CHROM": "Chromosome","BIN_START": "Start", "BIN_END": "End"}, inplace=True)
+            
+    return sorted_bed_object
 
 
 

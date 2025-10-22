@@ -8,6 +8,50 @@ import numpy.typing as npt
 from scipy.stats import pearsonr
 import scipy.signal as ss
 import scipy.ndimage as sn
+import pyranges as pr
+from itertools import combinations
+
+
+def compute_intersections(
+        beds: dict[str, pr.PyRanges]
+        ) -> dict[str, pr.PyRanges]:
+    return {
+        f"{n1}_x_{n2}": b1.join(b2)
+        for (n1, b1), (n2, b2) in combinations(beds.items(), 2)
+    }
+
+
+def fill_correlation_matrices(
+        results: dict[str, tuple[float, float]], 
+        labels: list[str]
+        ) -> tuple[pd.DataFrame, pd.DataFrame]:
+
+    idx = {name: i for i, name in enumerate(labels)}
+    R = np.full((len(labels), len(labels)), np.nan, dtype=np.float64)
+    P = np.full((len(labels), len(labels)), np.nan, dtype=np.float64)
+    np.fill_diagonal(R, 1.0)
+    np.fill_diagonal(P, 0.0)
+
+    for key, (rval, pval) in results.items():
+        n1, n2 = key.split("_x_")
+        i, j = idx[n1], idx[n2]
+        if i > j:
+            R[i, j], P[i, j] = rval, pval
+        else:
+            R[j, i], P[j, i] = rval, pval
+    return (
+            pd.DataFrame(
+            R, 
+            index=labels, 
+            columns=labels), 
+            pd.DataFrame(
+            P, 
+            index=labels, 
+            columns=labels
+            )
+        )
+
+
 
 def get_score_strength_per_chrom(
     input_windows: Union[BedTool, pd.DataFrame]
@@ -45,11 +89,12 @@ def get_score_strength_per_chrom(
     merged["chrom"] = pd.Categorical(merged["chrom"], categories=chrom_order, ordered=True)
     return merged.sort_values(['chrom', 'score_strength']), min_max_per_label
 
+
 def compute_feature_correlation(
-    intersection_object: BedTool | pd.DataFrame,
+    intersection_object: pr.PyRanges | pd.DataFrame,
     score_A_idx: int,
     score_B_idx: int
-    ) -> Tuple[float, float]:
+    ) -> tuple[float, float]:
     """
     Computes the Pearson correlation between two feature score columns 
     from a BedTool intersect result.
@@ -69,8 +114,8 @@ def compute_feature_correlation(
         Pearson correlation coefficient and two-tailed p-value.
     """
 
-    if isinstance(intersection_object, BedTool):
-        intersection_df = intersection_object.to_dataframe()
+    if isinstance(intersection_object, pr.PyRanges):
+        intersection_df = intersection_object.df
     elif isinstance(intersection_object, pd.DataFrame):
         intersection_df = intersection_object
     else:
@@ -79,8 +124,11 @@ def compute_feature_correlation(
     if intersection_df.empty:
         raise ValueError("The provided BedTool object resulted in an empty DataFrame.")
 
-    if score_A_idx >= intersection_df.shape[1] or score_B_idx >= intersection_df.shape[1]:
-        raise IndexError("Score index out of bounds")
+    num_cols = intersection_df.shape[1]
+
+    if score_A_idx >= num_cols or score_B_idx >= num_cols:
+        score_A_idx = min(score_A_idx, num_cols)
+        score_B_idx = min(score_B_idx, num_cols)
     a = pd.to_numeric(intersection_df.iloc[:, score_A_idx], errors="coerce")
     b = pd.to_numeric(intersection_df.iloc[:, score_B_idx], errors="coerce")
 
@@ -131,7 +179,7 @@ def _compute_optimal_threshold(
     num = np.abs((y1 - y0) * x - (x1 - x0) * y + x1 * y0 - y1 * x0)
     den = np.hypot(y1 - y0, x1 - x0)
 
-    # If all points are identical, just pick the first k
+    # If all points are identical, just pick the: first k
     if den == 0:
         return float(k[0])
 

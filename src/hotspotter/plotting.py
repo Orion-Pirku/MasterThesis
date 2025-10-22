@@ -9,6 +9,61 @@ from pybedtools import BedTool
 import matplotlib.pyplot as plt
 import numpy.typing as npt
 import numpy as np
+import seaborn as sns
+
+def plot_correlation_matrix(
+        R_df: pd.DataFrame, 
+        P_df: pd.DataFrame, 
+        labels: list[str], 
+        output_dir: str
+        ) -> None:
+    # annotate with stars
+    f = np.vectorize(lambda p: f"{pval_to_stars(p)}" if not np.isnan(p) else "")
+    annot_df = pd.DataFrame(
+            f(P_df.values), 
+            index=P_df.index, 
+            columns=P_df.columns
+            )
+
+    plt.figure(figsize=(8, 6), dpi=200)
+    ax = sns.heatmap(
+        R_df, vmin=0, vmax=1, cmap='coolwarm',
+        xticklabels=labels, yticklabels=labels, square=True,
+        annot=annot_df, fmt="",
+        annot_kws={"size": 12, "fontweight": "bold"},
+        cbar_kws={"label": "Pearson Correlation"}
+    )
+    cbar = ax.collections[0].colorbar
+    cbar.set_label(
+            "Pearson Correlation", 
+            size=12, 
+            weight='bold', 
+            labelpad=25
+            )  # type: ignore
+    
+    plt.xticks(
+            fontsize=12, 
+            rotation=45, 
+            ha='right', 
+            fontweight='bold'
+            )
+
+    plt.yticks(
+            fontsize=12, 
+            rotation=0, 
+            fontweight='bold'
+            )
+    
+    plt.tight_layout()
+    
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    
+    out_png = Path(output_dir)/"feature_correlation_plot.png"
+    
+    plt.savefig(out_png, format="png")
+    
+    print(f"[INFO] wrote {out_png}")
+
 
 def pval_to_stars(p: float):
         if p <= 0.0001:

@@ -8,3 +8,6 @@
 data/
 
 vcf/
+.ipynb_checkpoints 
+
+.jupyter 

@@ -12,6 +12,31 @@ import numpy.typing as npt
 import numpy as np
 import pandas as pd
 from regex import D
+import pyranges as pr
+from .transform import (
+    concatenate_windows, 
+    compute_gene_density
+)
+
+
+def _classify_feature(label: str) -> str | None:
+    label_lower = label.lower()
+    if "gene_density" in label_lower or "genes" in label_lower:
+        return "gene_density"
+    if "gc_content" in label_lower:
+        return "gc_content"
+    if any(k in label_lower for k in ("snp_density", "tajima_d", "window_pi")):
+        return "popgen"
+    return None
+
+
+def _normalize_paths(
+    paths: list[str] | str
+) -> list[str]:
+    if isinstance(paths, str):
+        return [paths]
+    return paths
+
 
 def save_hotspots_as_bed(
     chrom_name: str, 
@@ -19,7 +44,6 @@ def save_hotspots_as_bed(
     smoothed_signal: npt.NDArray[np.float64],
     output_file_name: str,
     hotspot_index: npt.NDArray[np.int64]) -> None:
-    
     start: npt.NDArray[np.int64] = genomic_midpoint - 50
     end: npt.NDArray[np.int64] = genomic_midpoint + 50
     bed_object: pd.DataFrame = pd.DataFrame(

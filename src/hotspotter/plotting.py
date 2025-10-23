@@ -2,6 +2,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 import math
+import re
 from plotly.subplots import make_subplots
 from typing import List, Dict, Union, Tuple
 from polars import Boolean
@@ -10,6 +11,8 @@ import matplotlib.pyplot as plt
 import numpy.typing as npt
 import numpy as np
 import seaborn as sns
+import pyranges as pr
+from pathlib import Path
 
 def plot_correlation_matrix(
         R_df: pd.DataFrame, 
@@ -34,12 +37,12 @@ def plot_correlation_matrix(
         cbar_kws={"label": "Pearson Correlation"}
     )
     cbar = ax.collections[0].colorbar
-    cbar.set_label(
+    cbar.set_label(                     # type: ignore
             "Pearson Correlation", 
             size=12, 
             weight='bold', 
             labelpad=25
-            )  # type: ignore
+            )  
     
     plt.xticks(
             fontsize=12, 
@@ -64,6 +67,100 @@ def plot_correlation_matrix(
     
     print(f"[INFO] wrote {out_png}")
 
+def plot_pop_gen_stats(
+    data_frame: pd.DataFrame | pr.PyRanges,
+    plotLineColor: str = "black",
+    outFileName: str = "plot",
+    outFileFormat: str = "png",
+    y_axis_title: str = "",
+    title: str = ""
+):
+    # Convert PyRanges → DataFrame
+    if isinstance(data_frame, pr.PyRanges):
+        data_frame = data_frame.df
+
+    sns.set_style("dark")
+
+    # Ensure a MIDPOINT column exists
+    cols = data_frame.columns
+    if "midpoint" not in cols.str.lower():
+        midpoint = (data_frame.iloc[:, 1] + data_frame.iloc[:, 2]) // 2
+        data_frame.insert(loc=3, column="MIDPOINT", value=midpoint)
+
+    chromosomes = data_frame.iloc[:, 0].unique()
+    n_chromosomes = len(chromosomes)
+
+    # Pick Y column
+    if data_frame.shape[1] > 5:
+        def y_series(df): return df.iloc[:, 5]
+    else:
+        num_cols = data_frame.select_dtypes(include="number").columns
+        ycol = num_cols[-1]
+        def y_series(df): return df[ycol]
+
+    # === CASE 1: only one chromosome ===
+    if n_chromosomes == 1:
+        chrom = chromosomes[0]
+        fig, ax = plt.subplots(figsize=(10, 4), constrained_layout=True)
+        chrom_df = data_frame[data_frame.iloc[:, 0] == chrom]
+
+        sns.lineplot(
+            data=chrom_df,
+            x="MIDPOINT",
+            y=y_series(chrom_df),
+            color=plotLineColor,
+            ax=ax,
+            legend=False
+        )
+
+        ax.set_xlabel(f"Chromosome {re.sub(r"[-_A-Za-z]+", "", chrom)}",
+                      fontsize=9, weight="bold")
+        ax.set_ylabel(re.sub(r"[-_]", " ", y_axis_title),
+                      fontsize=9, weight="bold")
+        ax.grid(True, alpha=0.3)
+        fig.suptitle(title, fontsize=14, weight='bold')
+
+    # === CASE 2: multiple chromosomes ===
+    else:
+        n_cols = 3
+        n_rows = math.ceil(n_chromosomes / n_cols)
+        fig, axes = plt.subplots(
+            n_rows, n_cols,
+            figsize=(10, 3.5 * n_rows),
+            squeeze=False,
+            constrained_layout=True,
+            sharey=True
+        )
+        axes = axes.flatten()
+
+        for i, chrom in enumerate(chromosomes):
+            chrom_df = data_frame[data_frame.iloc[:, 0] == chrom]
+            sns.lineplot(
+                data=chrom_df,
+                x="MIDPOINT",
+                y=y_series(chrom_df),
+                color=plotLineColor,
+                ax=axes[i],
+                legend=False
+            )
+            axes[i].set_xlabel(f"Chromosome {str(chrom).replace('chr', '')}",
+                               fontsize=8, weight="bold")
+            axes[i].set_ylabel(re.sub(r"[-_]", " ", y_axis_title),
+                               fontsize=8, weight="bold")
+            axes[i].grid(True, alpha=0.3)
+
+        # Remove unused panels
+        for j in range(len(chromosomes), len(axes)):
+            fig.delaxes(axes[j])
+
+        fig.suptitle(title, fontsize=14, weight='bold')
+
+    # === Save & show ===
+    if outFileName and outFileFormat:
+        fig.savefig(outFileName, format=outFileFormat, dpi=300, bbox_inches="tight")
+
+    plt.show()
+    plt.close(fig)
 
 def pval_to_stars(p: float):
         if p <= 0.0001:
@@ -133,7 +230,7 @@ def plot_jaccard_test_results_matplotlib(jaccard_results: pd.DataFrame) -> None:
     ax.set_title("Jaccard Index Comparison of True vs. Shuffled\nRecombination Rate Windows with Genomic Features")
     ax.legend()
 
-    plt.tight_layout()
+    plt.tight_layout(pad=3.0)
     plt.savefig("True_vs_Shuffled_Jaccard.png", dpi=300)
 
 

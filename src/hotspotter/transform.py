@@ -19,9 +19,9 @@ from hotspotter.transform_utils import (
 import numpy.typing as npt
 
 
-def _extract_feature_name(attribute: pd.Series) -> pd.Series:
+def _extract_feature_name(attribute: str) -> str | None:
     match = re.search(r"Name=([^;]+)", attribute)
-    return match.group(1) if match else None
+    return match.group(1) if match else None 
 
 def clean_raw_gff(file_path: str, genomic_feature: str) -> pd.DataFrame:
     gff: pd.DataFrame = pd.read_csv(
@@ -32,7 +32,7 @@ def clean_raw_gff(file_path: str, genomic_feature: str) -> pd.DataFrame:
             names=["SEQ_ID", "SOURCE", "TYPE", "START", "END", "SCORE", "STRAND", "PHASE", "ATTRIBUTES"]
             )
     feature = gff[gff["TYPE"] == genomic_feature.lower()].copy()
-    feature["NAME"] = feature["ATTRIBUTES"].apply(_extract_feature_name)
+    feature["NAME"] = feature["ATTRIBUTES"].astype(str).apply(_extract_feature_name)
     return feature[["SEQ_ID", "START", "END", "SCORE", "TYPE", "NAME"]]
 
 
@@ -47,7 +47,14 @@ def compute_gene_density(
         )
     else:
         genome_df = genome_sizes.copy()
+    
+    valid_chroms = set(gene_dataframe["CHROM"].unique())
+    genome_df = genome_df[genome_df["CHROM"].isin(valid_chroms)]
 
+    if genome_df.empty:
+        raise ValueError(
+            "No overlapping chromosomes between gene_dataframe and genome_sizes!"
+        )
     # --- Build fixed windows per chromosome ---
     window_dfs: list[pd.DataFrame] = []
     for _, row in genome_df.iterrows():
@@ -66,7 +73,9 @@ def compute_gene_density(
     windows_df: pd.DataFrame = pd.concat(window_dfs, ignore_index=True)
     windows: pr.PyRanges = pr.PyRanges(windows_df)
     if not {"CHROM", "START", "END"}.issubset(gene_dataframe.columns):
-        raise ValueError("gene_dataframe must contain columns: CHROM, START, END")
+        raise ValueError(
+            "gene_dataframe must contain columns: CHROM, START, END"
+            )
 
     gene_coords = gene_dataframe[["CHROM", "START", "END"]].copy()
     gene_coords = gene_coords.rename(columns={
@@ -77,7 +86,9 @@ def compute_gene_density(
     genes: pr.PyRanges = pr.PyRanges(df=gene_coords)     
 
     overlap_counts: pr.PyRanges = windows.count_overlaps(genes)
-    overlap_df: pd.DataFrame = overlap_counts.df.rename(columns={"NumberOverlaps": "GENE_COUNT"})
+    overlap_df: pd.DataFrame = overlap_counts.df.rename(
+        columns={"NumberOverlaps": "GENE_COUNT"}
+        )
 
     # --- Compute density ---
     overlap_df["WINDOW_SIZE"] = overlap_df["End"] - overlap_df["Start"]

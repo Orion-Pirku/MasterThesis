@@ -6,13 +6,14 @@ from glob import glob
 import pandas as pd
 import argparse
 import sys
-from hotspotter.io import load_and_prepare_feature
+from hotspotter.io import load_and_prepare_feature, load_recombination_maps
 from hotspotter.plotting import plot_pop_gen_stats
 from hotspotter.transform import (
     preprocess_popgen_stats,
     concatenate_windows,
     sort_windows,
-    compute_gene_density
+    compute_gene_density,
+    make_windows
 )
 import pyranges as pr
 
@@ -117,13 +118,18 @@ def main():
             label, *files = feature_label
             if len(files) == 0:
                 raise ValueError(f"--feature {label} has no files")
+            if label in any("rho", "cM/Mb", "rec-rate"):
+                rec_rates = load_recombination_maps(files)
+                rec_rates = [make_windows(df, args.window_size) for df in rec_rates]
+                sorted_rec_rates = sort_windows(rec_rates)
+                concat_rec_rates = concatenate_windows(sorted_rec_rates)
+                features[label] = concat_rec_rates
             features[label] = load_and_prepare_feature(
                 label, 
                 files, 
-                window_size=args.window_size, 
+                window_size=args.window_size,
                 genome_sizes_file=args.genome_sizes
             ).df
-            
 
     except FileNotFoundError as e:
         print(f"File not found: {e.filename}")

@@ -41,13 +41,13 @@ def fill_correlation_matrices(
             R[j, i], P[j, i] = rval, pval
     return (
             pd.DataFrame(
-            R, 
-            index=labels, 
-            columns=labels), 
+                R,
+                index=labels,
+                columns=labels),
             pd.DataFrame(
-            P, 
-            index=labels, 
-            columns=labels
+                P,
+                index=labels,
+                columns=labels
             )
         )
 
@@ -56,20 +56,6 @@ def fill_correlation_matrices(
 def get_score_strength_per_chrom(
     input_windows: Union[BedTool, pd.DataFrame]
     ) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    """
-    Splits the recombination rate per chromosome on three quantiles based on its strength
-
-    Parameters
-    -------------
-    input_windows: 
-    Genomic windows of BedTool or DataFrame format whose 4th column contains recombination rate or score
-
-    Returns
-    -------------
-    Tuple[pd.DataFrame, pd.DataFrame]:
-    sorted Score strength per chromosome and min max values per quantile
-
-    """
 
     if not isinstance(input_windows, pd.DataFrame):
         genomic_windows = input_windows.to_dataframe(disable_auto_names=True, 
@@ -91,28 +77,7 @@ def get_score_strength_per_chrom(
 
 
 def compute_feature_correlation(
-    intersection_object: pr.PyRanges | pd.DataFrame,
-    score_A_idx: int,
-    score_B_idx: int
-    ) -> tuple[float, float]:
-    """
-    Computes the Pearson correlation between two feature score columns 
-    from a BedTool intersect result.
-
-    Parameters
-    ----------
-    bed_feature : BedTool
-        A BedTool object, resulting from BedTool.intersect(a, b, wa=True, wb=True).
-    score_one_idx : int
-        Column index for the score found in bed_feature coming from the first BED input.
-    score_two_idx : int
-        Column index for the score found in bed_feature coming from the second BED input.
-
-    Returns
-    -------
-    Tuple[float, float]
-        Pearson correlation coefficient and two-tailed p-value.
-    """
+    intersection_object: pr.PyRanges | pd.DataFrame) -> tuple[float, float]:
 
     if isinstance(intersection_object, pr.PyRanges):
         intersection_df = intersection_object.df
@@ -124,13 +89,12 @@ def compute_feature_correlation(
     if intersection_df.empty:
         raise ValueError("The provided BedTool object resulted in an empty DataFrame.")
 
-    num_cols = intersection_df.shape[1]
-
-    if score_A_idx >= num_cols or score_B_idx >= num_cols:
-        score_A_idx = min(score_A_idx, num_cols)
-        score_B_idx = min(score_B_idx, num_cols)
-    a = pd.to_numeric(intersection_df.iloc[:, score_A_idx], errors="coerce")
-    b = pd.to_numeric(intersection_df.iloc[:, score_B_idx], errors="coerce")
+    float_cols = intersection_df.select_dtypes(include=["float64"]).columns[:2]
+    print(float_cols)
+    if len(float_cols) < 2:
+        raise ValueError(f"Need ≥2 numeric columns, found {list(float_cols)}")
+    a = pd.to_numeric(intersection_df[float_cols[0]], errors="coerce")
+    b = pd.to_numeric(intersection_df[float_cols[1]], errors="coerce")
 
     mask = a.notna() & b.notna()  # keep only rows where both are numeric
 

@@ -38,14 +38,10 @@ def _check_file_type(input_files: list[str]) -> None:
 def _classify_feature(label: str) -> str | None:
     label_lower = label.lower().replace("_", " ")
     if "gene density" in label_lower or "genes" in label_lower:
-        return "gene_density"
+        return "gene density"
     if "gc content" in label_lower:
         return "gc content"
-    return next(
-        (
-            k for k in ("snp density", "tajima d", "window pi") if k in label_lower),
-            None
-        )
+    return next((k for k in ("snp density", "tajima d", "window pi") if k in label_lower), None)
 
 
 def _normalize_paths(
@@ -85,13 +81,15 @@ def load_and_prepare_feature(
     multiple = len(loaded_dfs) > 1
 
     # ---- Dispatch per feature, concatenating ONLY if multiple files ----
-    if feature_kind == "gene_density":
+    if feature_kind == "gene density":
         df_in = concatenate_windows(loaded_dfs) if multiple else loaded_dfs[0]  # type: ignore[name-defined]
         processed = compute_gene_density(  # type: ignore[name-defined]
-            df_in, genome_sizes=genome_sizes_file, window_size=window_size
+            df_in,
+            genome_sizes=genome_sizes_file,
+            window_size=window_size
         )
 
-    elif feature_kind == "gc_content":
+    elif feature_kind == "gc content":
         processed = concatenate_windows(loaded_dfs) if multiple else loaded_dfs[0]  # type: ignore[name-defined]
 
     elif feature_kind in ("snp density", "tajima d", "window pi"):

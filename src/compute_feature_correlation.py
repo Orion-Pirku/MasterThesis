@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import argparse
 import sys
-
 import pyranges as pr
 
 # your package imports
@@ -69,7 +68,6 @@ def parse_arguments() -> argparse.Namespace:
     if not args.feature or len(args.feature) == 0:
         parser.error("Provide at least one --feature <label> <beds...>")
         sys.exit(1)
-
     return args
 
 
@@ -109,16 +107,15 @@ def main() -> None:
         print(f"[ERROR] {type(e).__name__}: {e}")
         sys.exit(1)
 
-    # Pairwise intersects and correlations
     pairwise_intersections = compute_intersections(beds)
     results = {
-        name: compute_feature_correlation(bt, score_A_idx=3, score_B_idx=9)
+        name: compute_feature_correlation(bt)
         for name, bt in pairwise_intersections.items()
     }
 
     labels = list(beds.keys())
     R_df, P_df = fill_correlation_matrices(results, labels)
-    plot_correlation_matrix(R_df, P_df, labels, outdir)
+    plot_correlation_matrix(R_df, P_df, labels, outdir, window_size=args.window_size)
 
 
 if __name__ == "__main__":

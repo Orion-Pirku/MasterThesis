@@ -71,8 +71,9 @@ while [[ "$#" -gt 0 ]]; do
     esac
 done
 
+printf "Chromosome\tStart\tEnd\tGC\n" > "$OUTPUT"
 bedtools makewindows -g "$GENOME_SIZE" -w "$WINDOW_SIZE" | \
     bedtools nuc -bed - -fi "$FASTA_FILE" | \
-    awk 'BEGIN{OFS="\t"} {print $1, $2, $3, $5}' > "$OUTPUT"
+    awk 'BEGIN{OFS="\t"} NR>1{print $1, $2, $3, $5}' >> "$OUTPUT" 
 
 

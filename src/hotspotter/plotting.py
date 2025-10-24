@@ -1,37 +1,40 @@
-import plotly.express as px
-import plotly.graph_objects as go
 import pandas as pd
 import math
 import re
-from plotly.subplots import make_subplots
 from typing import List, Dict, Union, Tuple
-from polars import Boolean
 from pybedtools import BedTool
 import matplotlib.pyplot as plt
 import numpy.typing as npt
-import numpy as np
 import seaborn as sns
 import pyranges as pr
 from pathlib import Path
+import numpy as np
+from matplotlib.gridspec import GridSpec
 
 def plot_correlation_matrix(
         R_df: pd.DataFrame, 
         P_df: pd.DataFrame, 
         labels: list[str], 
-        output_dir: str
+        output_dir: str,
+        window_size: int
         ) -> None:
     # annotate with stars
-    f = np.vectorize(lambda p: f"{pval_to_stars(p)}" if not np.isnan(p) else "")
+    formatted_labels = [label.replace("_", " ") for label in labels]
+    f = np.vectorize(
+        lambda p: f"{pval_to_stars(p)}" if not np.isnan(p) else ""
+        )
     annot_df = pd.DataFrame(
             f(P_df.values), 
             index=P_df.index, 
             columns=P_df.columns
             )
 
-    plt.figure(figsize=(8, 6), dpi=200)
+    plt.figure(figsize=(8, 6))
     ax = sns.heatmap(
         R_df, vmin=0, vmax=1, cmap='coolwarm',
-        xticklabels=labels, yticklabels=labels, square=True,
+        xticklabels=formatted_labels,
+        yticklabels=formatted_labels,
+        square=True,
         annot=annot_df, fmt="",
         annot_kws={"size": 12, "fontweight": "bold"},
         cbar_kws={"label": "Pearson Correlation"}
@@ -61,9 +64,9 @@ def plot_correlation_matrix(
     
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     
-    out_png = Path(output_dir)/"feature_correlation_plot.png"
+    out_png = Path(output_dir)/f"feature_correlation_plot_{window_size}.png"
     
-    plt.savefig(out_png, format="png")
+    plt.savefig(out_png, dpi=200, format="png")
     
     print(f"[INFO] wrote {out_png}")
 
@@ -174,18 +177,22 @@ def pval_to_stars(p: float):
         else:
             return ""
         
-def plot_jaccard_test_results_matplotlib(jaccard_results: pd.DataFrame) -> None:
-    # Calculate error bars
-    jaccard_results['error_lower'] = jaccard_results['shuffled_jaccard_mean'] - jaccard_results['ci_lower_95%']
-    jaccard_results['error_upper'] = jaccard_results['ci_upper_95%'] - jaccard_results['shuffled_jaccard_mean']
+def plot_jaccard_test_results_matplotlib(
+    jaccard_results: pd.DataFrame
+    ) -> None:
+    jaccard_results['error_lower'] = (
+        jaccard_results['shuffled_jaccard_mean'] - jaccard_results['ci_lower_95%']
+        )
+    jaccard_results['error_upper'] = (
+        jaccard_results['ci_upper_95%'] - jaccard_results['shuffled_jaccard_mean']
+    )
     
     features = jaccard_results['feature']
-    x = np.arange(len(features))  # X locations for groups
-    width = 0.35  # Width of bars
+    x = np.arange(len(features))  
+    width = 0.35  
 
     fig, ax = plt.subplots(figsize=(12, 6))
 
-    # Bar plot for shuffled values with error bars
     ax.bar(
         x - width/2,
         jaccard_results['shuffled_jaccard_mean'],
@@ -197,7 +204,6 @@ def plot_jaccard_test_results_matplotlib(jaccard_results: pd.DataFrame) -> None:
         edgecolor='black'
     )
 
-    # Bar plot for observed values
     ax.bar(
         x + width/2,
         jaccard_results['observed_jaccard'],
@@ -207,45 +213,63 @@ def plot_jaccard_test_results_matplotlib(jaccard_results: pd.DataFrame) -> None:
         edgecolor='black'
     )
 
-    # Add p-value stars
     for idx, (_, row) in enumerate(jaccard_results.iterrows()):
         stars = pval_to_stars(row['p_value_two_tailed'])
         if stars:
             ax.text(
                 x[idx],
-                0.55,  # You can dynamically place this above the bars if needed
+                0.55,  
                 stars,
                 ha='center',
                 va='bottom',
                 fontsize=16,
                 color='black'
             )
-
-    # Formatting
     ax.set_xticks(x)
     ax.set_xticklabels(features, rotation=45, ha='right')
     ax.set_ylim(0, 1)
     ax.set_ylabel("Jaccard Index")
     ax.set_xlabel("Genomic Feature")
-    ax.set_title("Jaccard Index Comparison of True vs. Shuffled\nRecombination Rate Windows with Genomic Features")
+    ax.set_title(
+        "Jaccard Index Comparison of True "
+        + 
+        "vs. Shuffled\nRecombination Rate Windows with Genomic Features"
+        )
     ax.legend()
 
     plt.tight_layout(pad=3.0)
     plt.savefig("True_vs_Shuffled_Jaccard.png", dpi=300)
 
 
-def get_score_strength_per_chrom(input_windows: BedTool | pd.DataFrame) -> Tuple[pd.DataFrame, pd.DataFrame]:
+def get_score_strength_per_chrom(
+    input_windows: BedTool | pd.DataFrame
+    ) -> Tuple[pd.DataFrame, pd.DataFrame]:
     if not isinstance(input_windows, pd.DataFrame):
-        genomic_windows = input_windows.to_dataframe(disable_auto_names=True, 
-                                     names=["chrom", "start", "end", "score(cM/Mb)", "midpoint"])
+        genomic_windows = input_windows.to_dataframe(
+            disable_auto_names=True, 
+            names=["chrom", "start", "end", "score(cM/Mb)", "midpoint"]
+            )
     else:
         genomic_windows = input_windows.iloc[:, :5].copy()
         genomic_windows.columns = ["chrom", "start", "end", "score(cM/Mb)", "midpoint"]
         
-    genomic_windows["score_strength"] = pd.qcut(genomic_windows["score(cM/Mb)"], q=3, labels=["low", "medium", "high"])
-    min_max_per_label = genomic_windows.groupby("score_strength")["score(cM/Mb)"].agg(['min', 'max']).reset_index()
+    genomic_windows["score_strength"] = pd.qcut(
+        genomic_windows["score(cM/Mb)"],
+        q=3,
+        labels=["low", "medium", "high"]
+        )
+    min_max_per_label = (
+        genomic_windows.groupby("score_strength")["score(cM/Mb)"]
+        .agg(['min', 'max'])
+        .reset_index()
+        )
     min_max_per_label.to_csv("Recombination_Rate_Strength.csv", sep = "\t") 
-    counts = genomic_windows.groupby(["chrom", "score_strength"]).size().reset_index(name="count")
+    counts = (
+        genomic_windows
+        .groupby(["chrom", "score_strength"])
+        .size()
+        .reset_index(name="count")
+    )
     total_per_chrom = genomic_windows.groupby("chrom").size().reset_index(name="total")
     merged = pd.merge(counts, total_per_chrom, on="chrom")
     merged['percent'] = (merged['count'] / merged['total']) * 100
@@ -254,190 +278,137 @@ def get_score_strength_per_chrom(input_windows: BedTool | pd.DataFrame) -> Tuple
     return merged.sort_values(['chrom', 'score_strength']), min_max_per_label
 
 
+
 def plot_score_strength_per_chrom(
     input_data: pd.DataFrame, 
     save_figure: bool = False) -> None:
-    
-    score_strength, score_ranges = get_score_strength_per_chrom(input_data)
-    from plotly.subplots import make_subplots
-    unique_chromosomes = input_data.iloc[:, 0].unique()
+    _, score_ranges = get_score_strength_per_chrom(input_data)
+    unique_chromosomes = list(input_data.iloc[:, 0].unique())
     chromosome_number = len(unique_chromosomes)
-    pie_number = math.ceil(chromosome_number / 4)
-    row_number = pie_number + 1
     column_number = 4
-    specs = [[{"type": "pie"}] * column_number for _ in range(pie_number)]
-    specs.append([{"type": "table"}, {"type": "table"}, {}, {}])
-    subplot_titles = [f"Chromosome {i+1}" for i in range(chromosome_number)] + ["Recombination Rate Strength Range"]
-    
-    figure = make_subplots(
-        rows = row_number, 
-        cols = column_number,
-        specs=specs,
-        subplot_titles=subplot_titles
-        )
-    
+    pie_number = math.ceil(chromosome_number / column_number)
+    row_number = pie_number + 1
+
+    fig = plt.figure(figsize=(6 * column_number, 6 * row_number))
+    gs = GridSpec(row_number, column_number, figure=fig, hspace=0.35, wspace=0.25)
+
     for i, chrom in enumerate(unique_chromosomes):
-        row = (i // column_number) + 1
-        col = (i % column_number) + 1
-        
+        r = i // column_number
+        c = i % column_number
+        ax = fig.add_subplot(gs[r, c])
         chromosome_data = input_data[input_data.iloc[:, 0] == chrom]
-        score_strength = chromosome_data.iloc[:, 1].tolist()
-        percent_per_chrom = chromosome_data.iloc[:, 4].tolist()
-        
-        figure.add_trace(
-            go.Pie(
-                labels=score_strength,
-                values=percent_per_chrom,
-                name=f"Chromosome {i+1}",
-                automargin=True,
-                textposition="inside"
-            ),
-            row = row,
-            col = col
-            )
-    
-    
-    figure.add_trace(
-        go.Table(
-            header = dict(
-                values=["Recombination Rate(cM/Mb) Strength", "Lower Bound", "Upper Bound"],
-                align ="left",
-                fill_color="lightblue",
-                font=dict(size=13, color="black")),
-            cells=dict(
-                values=[score_ranges[col].round(2).tolist() for col in score_ranges.columns],
-                align="left",
-                font=dict(size=13, color="black")
-            ),
-        ),
+        labels = chromosome_data.iloc[:, 1].astype(str).tolist()
+        values = chromosome_data.iloc[:, 4].astype(float).tolist()
+        ax.pie(
+            values,
+            labels=labels,
+            autopct=lambda p: f"{p:.1f}%" if p > 0 else "",
+            startangle=90,
+            wedgeprops=dict(linewidth=0.5, edgecolor="white")
         )
-    figure.update_layout(
-        height=300 * pie_number,
-        width=300 * column_number,
-        title_text="Score Strength Percentages per Chromosome",
-        showlegend=True  # Turn off if you want individual legends per pie
+        ax.axis('equal')
+        ax.set_title(f"Chromosome {i+1}", fontsize=12)
+
+    table_ax = fig.add_subplot(gs[row_number - 1, :2])
+    table_ax.axis("off")
+    table_ax.set_title("Recombination Rate Strength Range", fontsize=14, pad=10)
+    cols = list(score_ranges.columns)
+    table_df = score_ranges.copy()
+    for col in cols[1:]:
+        if pd.api.types.is_numeric_dtype(table_df[col]):
+            table_df[col] = table_df[col].round(2)
+    table = table_ax.table(
+        cellText=table_df.values.tolist(),
+        colLabels=cols,
+        cellLoc="left",
+        loc="center"
     )
-    if save_figure == True:
-        figure.write_html("Rec_Rate_Strength_per_Chromosome.html")
-        figure.write_image("Rec_Rate_Strength_per_Chromosome.png", height=1600, width=1200, scale=3)
-    
-    figure.show()
-    
-def plot_genome_wide_rho(windows: List[pd.DataFrame], plot_name: str | None = None) -> None:
+    table.auto_set_font_size(False)
+    table.set_fontsize(10)
+    table.scale(1.0, 1.2)
+
+    if column_number > 2:
+        for c in range(2, column_number):
+            ax_empty = fig.add_subplot(gs[row_number - 1, c])
+            ax_empty.axis("off")
+
+    fig.suptitle("Score Strength Percentages per Chromosome", fontsize=16, y=0.995)
+    if save_figure:
+        fig.savefig("Rec_Rate_Strength_per_Chromosome.png", dpi=300, bbox_inches="tight")
+        fig.savefig("Rec_Rate_Strength_per_Chromosome.pdf", bbox_inches="tight")
+    plt.show()
+
+
+def plot_genome_wide_rho(
+    windows: List[pd.DataFrame],
+    plot_name: str | None = None) -> None:
     n = len(windows)
-    cols = 1
-    rows = n
-    
-    chrom_lengths = [df["midpoint"].max() - df["midpoint"].min() for df in windows]
+    if n == 0:
+        return
+    chrom_lengths = [(df["midpoint"].max() - df["midpoint"].min()) if not df.empty else 0 for df in windows]
     max_len = max(chrom_lengths)
-    
-    
-    figure = make_subplots(rows=rows, 
-                      cols=cols, 
-                      subplot_titles=[f"Chromosome {i}" for i in range(1, 34)], 
-                      shared_yaxes=True,
-                      shared_xaxes=False)
-    
-    for i, df in enumerate(windows):
-        tick_step = 10_000_000
-        tickvals = list(range(0, max_len + tick_step, tick_step))
-        ticktext = list(str(i // 10_000_000) for i in tickvals)
-        row = i + 1
-        
-        figure.add_trace(
-            go.Scatter(x = df["midpoint"].astype(int),
-                       y = df["cM/Mb"].astype(float),
-                       name = f"Chromosome {i}",
-                       mode='lines',
-                       line = dict(width=1, color="#722f37")),
-            row,
-            col = 1
-        )
-        
-        figure.update_xaxes(
-            title_text = "Genomic Position (Mb)",
-            title_font = dict(size = 14, color = "black"),
-            range=[0 - tick_step, max_len + tick_step],
-            tickvals=tickvals,
-            ticktext=ticktext,
-            tickfont = dict(size=12, color='black'),
-            ticks='outside',
-            showline=False,
-            linecolor='black',
-            linewidth=2,
-            row=row,
-            col=1,
-            gridcolor='white',
-            showgrid=False
-        )
-        
-    figure.update_layout(
-        height=300 * rows,
-        width=1900 * cols,
-        title = {
-            'text':'Recombination Rate over Genomic Positions',
-            'x': 0.5,
-            'y': 0.999,
-            'yanchor': 'top',
-            'xanchor': 'center',
-            'font': dict(size=26, color = "black")
-            },
-        showlegend=False,
-        margin=dict(t=80, l=20, r=20, b=20),
-        plot_bgcolor='#f5f5f5'
-    )
-       
-    figure.update_yaxes(
-        title_text="cM/Mb",
-        ticks='outside',
-        tickfont=dict(size=12, color='black'),
-        title_font = dict(size = 14, color = "black"),
-        showline=False,
-        linecolor='black',
-        linewidth=2,
-        gridcolor='white',
-        showgrid=False)
-    
+    tick_step = 10_000_000
+    tickvals = list(range(0, int(max_len) + tick_step, tick_step))
+    ticklabels = [str(tv // 1_000_000) for tv in tickvals]
+
+    fig, axes = plt.subplots(nrows=n, ncols=1, sharey=True, figsize=(19, 3 * n))
+    if n == 1:
+        axes = [axes]
+
+    for i, (ax, df) in enumerate(zip(axes, windows), start=1):
+        x = df["midpoint"].astype(float).values
+        y = df["cM/Mb"].astype(float).values
+        ax.plot(x, y, linewidth=1, color="#722f37")
+        ax.set_xlim(-tick_step, max_len + tick_step)
+        ax.set_xticks(tickvals)
+        ax.set_xticklabels(ticklabels)
+        ax.set_ylabel("cM/Mb", fontsize=10)
+        ax.set_title(f"Chromosome {i}", loc="left", fontsize=11)
+        if i == n:
+            ax.set_xlabel("Genomic Position (Mb)", fontsize=11)
+        ax.tick_params(direction="out", length=4)
+        ax.set_facecolor("#f5f5f5")
+
+    fig.suptitle("Recombination Rate over Genomic Positions", fontsize=18, y=0.995)
+    fig.subplots_adjust(top=0.95, left=0.06, right=0.98, hspace=0.25)
     if plot_name:
-        figure.write_html(plot_name, auto_open=True)
-    figure.show()
-    
-   
-def plot_rho_distribution(data: List[pd.DataFrame], plot_name: str | None = None):
+        fig.savefig(plot_name, dpi=300, bbox_inches="tight")
+    plt.show()
+
+
+def plot_rho_distribution(
+    data: List[pd.DataFrame],
+    plot_name: str | None = None) -> None:
     n = len(data)
+    if n == 0:
+        return
     cols = 4
-    rows = math.ceil(n/cols)
-    figure = make_subplots(rows=rows,
-                           cols=cols,
-                           subplot_titles=[df["chrom"].iat[0] for df in data],
-                           shared_yaxes=True)
-    
+    rows = math.ceil(n / cols)
+    fig, axes = plt.subplots(nrows=rows, ncols=cols, figsize=(6 * cols, 3.5 * rows), sharey=True)
+    axes = np.atleast_2d(axes)
     for i, df in enumerate(data):
-        row = i // cols + 1
-        col = i % cols + 1
-        
-        figure.add_trace(
-            go.Histogram(x=df["cM/Mb"].astype(float), name=f"{df['chrom'].iat[0]}", showlegend=False, histnorm="probability"),
-            row,
-            col
-        )
-        
-    figure.update_layout(
-        height=300 * rows,
-        width=300 * cols,
-        title_text="Recombination Rate (cM/Mb) Distribution by Chromosome",
-        bargap=0.2
-    )
-    figure.update_xaxes(title_text="cM/Mb")
-    figure.update_yaxes(title_text="Frequency")
-    
+        r = i // cols
+        c = i % cols
+        ax = axes[r, c]
+        x = df["cM/Mb"].astype(float).values
+        ax.hist(x, bins="auto", density=True)
+        title = str(df["chrom"].iat[0]) if not df.empty else f"Chrom {i+1}"
+        ax.set_title(title, fontsize=11)
+        ax.set_xlabel("cM/Mb")
+        if c == 0:
+            ax.set_ylabel("Frequency")
+
+    total_slots = rows * cols
+    for j in range(n, total_slots):
+        r = j // cols
+        c = j % cols
+        axes[r, c].axis("off")
+
+    fig.suptitle("Recombination Rate (cM/Mb) Distribution by Chromosome", fontsize=16, y=0.995)
+    fig.tight_layout(rect=(0, 0, 1, 0.97))
     if plot_name:
-        try:
-            figure.write_image(plot_name)
-        except Exception as e:
-            raise RuntimeError(f"Failed to save plot to {plot_name}: {e}")
-    
-    figure.show()
+        fig.savefig(plot_name, dpi=300, bbox_inches="tight")
+    plt.show()
 
 def plot_recombination_hotspots(
     smoothed_signal: npt.NDArray[np.float64],

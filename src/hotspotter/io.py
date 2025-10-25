@@ -16,8 +16,10 @@ import pyranges as pr
 from .transform import (
     concatenate_windows, 
     compute_gene_density,
-    preprocess_popgen_stats
-)
+    preprocess_popgen_stats,
+    make_windows,
+    sort_windows
+    )
 import sys
 
 def _check_file_type(input_files: list[str]) -> None:
@@ -28,7 +30,8 @@ def _check_file_type(input_files: list[str]) -> None:
         ".bed",
         ".tajimaD",
         ".snpden",
-        ".snpdens"
+        ".snpdens",
+        ".rmap"
     )
     if not any(file.endswith(allowed_suffixes) for file in input_files):
         print(f"Error: Only files ending with {allowed_suffixes} are allowed.")
@@ -41,8 +44,9 @@ def _classify_feature(label: str) -> str | None:
         return "gene density"
     if "gc content" in label_lower:
         return "gc content"
+    if "rec rate" in label_lower:
+        return "rec rate"
     return next((k for k in ("snp density", "tajima d", "window pi") if k in label_lower), None)
-
 
 def _normalize_paths(
     paths: list[str] | str
@@ -69,30 +73,33 @@ def load_and_prepare_feature(
 
     # Load all files into a list
     loaded_dfs: list[pd.DataFrame]
-    if len(file_paths) > 1:
-        # prefer your project’s loader if available
-        try:
-            loaded_dfs = load_bed_files(file_paths)  # type: ignore[name-defined]
-        except NameError:
-            loaded_dfs = [pd.read_csv(p, sep="\t", header=0) for p in file_paths]
-    else:
+    if len(file_paths) == 1:
         loaded_dfs = [pd.read_csv(file_paths[0], sep="\t", header=0)]
 
-    multiple = len(loaded_dfs) > 1
+    multiple = len(file_paths) > 1
+
 
     # ---- Dispatch per feature, concatenating ONLY if multiple files ----
     if feature_kind == "gene density":
+        loaded_dfs = load_bed_files(file_paths) 
         df_in = concatenate_windows(loaded_dfs) if multiple else loaded_dfs[0]  # type: ignore[name-defined]
         processed = compute_gene_density(  # type: ignore[name-defined]
             df_in,
             genome_sizes=genome_sizes_file,
             window_size=window_size
         )
+    elif feature_kind == "rec rate":
+        rec_rates = load_recombination_maps(file_paths)
+        rec_rates = [make_windows(df, window_size) for df in rec_rates]
+        sorted_rec_rates = sort_windows(rec_rates)
+        processed = concatenate_windows(sorted_rec_rates)
 
     elif feature_kind == "gc content":
+        loaded_dfs = load_bed_files(file_paths) 
         processed = concatenate_windows(loaded_dfs) if multiple else loaded_dfs[0]  # type: ignore[name-defined]
 
     elif feature_kind in ("snp density", "tajima d", "window pi"):
+        loaded_dfs = load_bed_files(file_paths) 
         preprocessed_list = preprocess_popgen_stats(  # type: ignore[name-defined]
             feature_dataframes=loaded_dfs
         )
@@ -105,7 +112,11 @@ def load_and_prepare_feature(
     else:
         # should be unreachable
         raise RuntimeError(f"Unhandled feature kind: {feature_kind!r}")
-
+    
+    if processed is None:
+        raise ValueError(f"No data processed for feature '{feature_kind}'")
+    if processed.empty:
+        raise ValueError(f"Processed feature '{feature_kind}' produced an empty DataFrame")
     # Normalize expected column names (no-op if already correct)
     processed = processed.rename(
         columns={"CHROM": "Chromosome", "START": "Start", "END": "End"},
@@ -120,7 +131,9 @@ def load_and_prepare_feature(
             f"Processed feature missing columns: {sorted(missing)}"
         )
 
-    return pr.PyRanges(df=processed)
+    range_object = pr.PyRanges(df=processed)
+
+    return range_object
 
 
 def save_hotspots_as_bed(

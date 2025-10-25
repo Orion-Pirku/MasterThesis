@@ -13,11 +13,11 @@ def parse_arguments() -> argparse.Namespace:
         description='Tool to clean raw GFF.'
     )
 
-    parser.add_argument('--gff', required=True, help='Path to the GFF file')
+    parser.add_argument('-gff', required=True, help='Path to the GFF file')
     parser.add_argument('--genome-size', required=True, help='Path to genome sizes file. Contains (Chrom - Chrom Size)')
     parser.add_argument('--accession-map', required=True, help='Path to genome accession file')
-    parser.add_argument('--feature', default='gene', help='Feature to extract (e.g., gene, exon)')
-    parser.add_argument('--output', required=True, default="genes.gff", help='Name of the output file')
+    parser.add_argument('-feature', default='gene', help='Feature to extract (e.g., gene, exon)')
+    parser.add_argument('-output', required=True, default="genes.gff", help='Name of the output file')
     
     if len(sys.argv) == 1:
         parser.print_help()
@@ -76,7 +76,7 @@ def main() -> None:
     df = clean_raw_gff(args.gff, args.feature, accession_map)
 
     try:
-        df.to_csv(f"{args.output}/bSylAtri_genes.bed", sep="\t", index=False, header=True)
+        df.to_csv(f"{args.output}/bSylAtri_{args.feature}.bed", sep="\t", index=False, header=True)
         save_per_chromosome(df, args.output, args.feature)
         print(f"[INFO] Cleaned data saved to {Path(args.output).resolve()}")
     except Exception as e:

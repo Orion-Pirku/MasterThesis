@@ -47,7 +47,6 @@ def compute_gene_density(
         )
     else:
         genome_df = genome_sizes.copy()
-    
     valid_chroms = set(gene_dataframe["CHROM"].unique())
     genome_df = genome_df[genome_df["CHROM"].isin(valid_chroms)]
 
@@ -82,7 +81,7 @@ def compute_gene_density(
         "CHROM": "Chromosome",
         "START": "Start",
         "END": "End"
-    })
+        })
     genes: pr.PyRanges = pr.PyRanges(df=gene_coords)     
 
     overlap_counts: pr.PyRanges = windows.count_overlaps(genes)
@@ -228,4 +227,10 @@ def concatenate_windows(windows: List[pd.DataFrame]) -> pd.DataFrame:
 
 def create_chromosome_mapping(genome_sizes: pd.DataFrame) -> Dict[str, str]:
     genome_sizes["chrom"] = [f"chr{i+1}" for i in range(len(genome_sizes))]
-    return dict(zip(genome_sizes.iloc[:, 0], genome_sizes.iloc[:, 2]))    
+    return dict(zip(genome_sizes.iloc[:, 0], genome_sizes.iloc[:, 2]))   
+
+def compute_midpoint(dataframe: pd.DataFrame) -> pd.DataFrame:
+    data_frame = dataframe.copy()
+    midpoint = (data_frame.iloc[:, 1] + data_frame.iloc[:, 2]) // 2
+    data_frame.insert(loc=3, column="MIDPOINT", value=midpoint)
+    return data_frame

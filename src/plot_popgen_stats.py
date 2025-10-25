@@ -6,31 +6,13 @@ from glob import glob
 import pandas as pd
 import argparse
 import sys
-from hotspotter.io import load_and_prepare_feature, load_recombination_maps
-from hotspotter.plotting import plot_pop_gen_stats
-from hotspotter.transform import (
-    preprocess_popgen_stats,
-    concatenate_windows,
-    sort_windows,
-    compute_gene_density,
-    make_windows
+from hotspotter.io import load_and_prepare_feature
+from hotspotter.plotting import (
+    plot_pop_gen_stats,
+    plot_score_strength_per_chrom
 )
 import pyranges as pr
-
-def _check_file_type(input_files: list[str]) -> None:
-    allowed_suffixes: tuple[str, ...] = (
-        ".pi",
-        ".windowpi",
-        ".D",
-        ".bed",
-        ".tajimaD",
-        ".snpden",
-        ".snpdens"
-    )
-    if not any(file.endswith(allowed_suffixes) for file in input_files):
-        print(f"Error: Only files ending with {allowed_suffixes} are allowed.")
-        sys.exit(1)
-
+import traceback
 
 def parse_arguments():
     plot_stats = argparse.ArgumentParser(
@@ -48,11 +30,11 @@ def parse_arguments():
             )
     plot_stats.add_argument(
         '-o',
-        '--output-file', 
+        '--output-dir', 
         required=False, 
         type=str,
-        default="plot.png",
-        help='Name of output file (plot), default: plot.png'
+        default="results",
+        help='Name of output directory, default: results'
     )
     plot_stats.add_argument(
         '-g',
@@ -118,15 +100,9 @@ def main():
             label, *files = feature_label
             if len(files) == 0:
                 raise ValueError(f"--feature {label} has no files")
-            if label in any("rho", "cM/Mb", "rec-rate"):
-                rec_rates = load_recombination_maps(files)
-                rec_rates = [make_windows(df, args.window_size) for df in rec_rates]
-                sorted_rec_rates = sort_windows(rec_rates)
-                concat_rec_rates = concatenate_windows(sorted_rec_rates)
-                features[label] = concat_rec_rates
             features[label] = load_and_prepare_feature(
-                label, 
-                files, 
+                label,
+                files,
                 window_size=args.window_size,
                 genome_sizes_file=args.genome_sizes
             ).df
@@ -153,6 +129,7 @@ def main():
 
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+        traceback.print_exc() 
         sys.exit(1)
     try:
         for label, df in features.items():
@@ -160,10 +137,14 @@ def main():
                 data_frame=df,
                 y_axis_title=label, 
                 plotLineColor=args.plot_color,
-                outFileName=f"{label}_{args.output_file}",
+                outFileName=f"{args.output_dir}/{label}.png",
                 outFileFormat=args.output_file_format,
                 title=args.figure_title
                 )
+            plot_score_strength_per_chrom(
+                    input_data=df,
+                    output_name=f"{args.output_dir}/{label}_strength_per_chrom.png"
+                    )
     except Exception as e:
         print(f"Could not generate plot! Error: {e}")
         sys.exit(1)

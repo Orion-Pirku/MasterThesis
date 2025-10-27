@@ -163,9 +163,15 @@ def _calculate_robust_sigma(
     sigma = 1.4826 * mad
     return float(sigma)
 
+
+
 def call_hotspots(raw_signal: npt.NDArray[np.float64]) -> tuple[npt.NDArray[np.float64], npt.NDArray[np.int64], dict[str, npt.NDArray[np.float64]]]:
-    smoothed_signal: npt.NDArray[np.float64] = ss.savgol_filter(raw_signal, window_length=2001, polyorder=1)
-    robust_sigma = float(_calculate_robust_sigma(smoothed_signal, window_size=50_001))
+    smoothed_signal: npt.NDArray[np.float64] = ss.savgol_filter(
+            raw_signal,
+            window_length=2001,
+            polyorder=1
+            )
+    robust_sigma = float(_calculate_robust_sigma(smoothed_signal, window_size=25_001))
     optimal_threshold = float(_compute_optimal_threshold(smoothed_signal, k_min=1, k_max=30, sigma=robust_sigma))
     peaks, properties = ss.find_peaks(
         smoothed_signal, 

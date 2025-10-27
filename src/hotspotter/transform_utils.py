@@ -84,7 +84,8 @@ def _split_by_feature(
 
 
 def _compute_midpoint(DataFrame: pd.DataFrame) -> pd.DataFrame:
-    DataFrame['Midpoint'] = (DataFrame['Start'] + DataFrame['End']) // 2
+    DataFrame['Midpoint'] = (DataFrame.iloc[:,1].astype(int) +
+                             DataFrame.iloc[:,2].astype(int)) // 2
     return DataFrame
 
 def _to_dataframe_any(input_windows: pd.DataFrame | pr.PyRanges) -> pd.DataFrame:

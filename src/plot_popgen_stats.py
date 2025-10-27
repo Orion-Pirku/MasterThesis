@@ -145,6 +145,8 @@ def main():
                     input_data=df,
                     output_name=f"{args.output_dir}/{label}_strength_per_chrom.png"
                     )
+            
+            
     except Exception as e:
         print(f"Could not generate plot! Error: {e}")
         sys.exit(1)

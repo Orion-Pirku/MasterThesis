@@ -1,0 +1,161 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bascon-cardozo_fine-scale_2024}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=316ee45d0caf67de7e019e838babc3d7}{%
+           family={Bascón-Cardozo},
+           familyi={B\bibinithyphendelim C\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c96b13406a983441193d503d9e758085}{%
+           family={Bours},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e87500477c7191885d528c5b1ffef7f9}{%
+           family={Manthey},
+           familyi={M\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4609cf2e5e633fe6a984cc019476ad49}{%
+           family={Durieux},
+           familyi={D\bibinitperiod},
+           given={Gillian},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95b2193a1103f0b42cc5dc257b6f8ab5}{%
+           family={Dutheil},
+           familyi={D\bibinitperiod},
+           given={Julien\bibnamedelima Y},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f26c672dbe01c97081aea8b12d45281}{%
+           family={Pruisscher},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36ff0dd21d75c337ce80f1bff3600eff}{%
+           family={Odenthal-Hesse},
+           familyi={O\bibinithyphendelim H\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6119e97f175ddfe63e2490aa17e16a39}{%
+           family={Liedvogel},
+           familyi={L\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eeb96c8658b66ff2e4cbac3b45ee7ecd}
+      \strng{fullhash}{2d9f35e3d41b6367d7138bba4a93ec51}
+      \strng{bibnamehash}{eeb96c8658b66ff2e4cbac3b45ee7ecd}
+      \strng{authorbibnamehash}{eeb96c8658b66ff2e4cbac3b45ee7ecd}
+      \strng{authornamehash}{eeb96c8658b66ff2e4cbac3b45ee7ecd}
+      \strng{authorfullhash}{2d9f35e3d41b6367d7138bba4a93ec51}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recombination is responsible for breaking up haplotypes, influencing genetic variability, and the efficacy of selection. Bird genomes lack the protein PR domain-containing protein 9, a key determinant of recombination dynamics in most metazoans. Historical recombination maps in birds show an apparent stasis in positioning recombination events. This highly conserved recombination pattern over long timescales may constrain the evolution of recombination in birds. At the same time, extensive variation in recombination rate is observed across the genome and between different species of birds. Here, we characterize the fine-scale historical recombination map of an iconic migratory songbird, the Eurasian blackcap (Sylvia atricapilla), using a linkage disequilibrium–based approach that accounts for population demography. Our results reveal variable recombination rates among and within chromosomes, which associate positively with nucleotide diversity and GC content and negatively with chromosome size. Recombination rates increased significantly at regulatory regions but not necessarily at gene bodies. CpG islands are associated strongly with recombination rates, though their specific position and local DNA methylation patterns likely influence this relationship. The association with retrotransposons varied according to specific family and location. Our results also provide evidence of heterogeneous intrachromosomal conservation of recombination maps between the blackcap and its closest sister taxon, the garden warbler. These findings highlight the considerable variability of recombination rates at different scales and the role of specific genomic features in shaping this variation. This study opens the possibility of further investigating the impact of recombination on specific population-genomic features.}
+      \field{issn}{1759-6653}
+      \field{journaltitle}{Genome Biology and Evolution}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Fine-{Scale} {Map} {Reveals} {Highly} {Variable} {Recombination} {Rates} {Associated} with {Genomic} {Features} in the {Eurasian} {Blackcap}}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{evad233}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/gbe/evad233
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/gbe/evad233
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/gbe/evad233
+      \endverb
+    \endentry
+    \entry{ishigohoka_high-recombining_2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=53f4737c84b924db6b7a6866f283833e}{%
+           family={Ishigohoka},
+           familyi={I\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6119e97f175ddfe63e2490aa17e16a39}{%
+           family={Liedvogel},
+           familyi={L\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{fullhash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{bibnamehash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{authorbibnamehash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{authornamehash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{authorfullhash}{390f34e9338543ad2e8e90878fc13224}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multiple methods of demography inference are based on the ancestral recombination graph. This powerful approach uses observed mutations to model local genealogies changing along chromosomes by historical recombination events. However, inference of underlying genealogies is difficult in regions with high recombination rate relative to mutation rate due to the lack of mutations representing genealogies. Despite the prevalence of high-recombining genomic regions in some organisms, such as birds, its impact on demography inference based on ancestral recombination graphs has not been well studied. Here, we use population genomic simulations to investigate the impact of high-recombining regions on demography inference based on ancestral recombination graphs. We demonstrate that inference of effective population size and the time of population split events is systematically affected when high-recombining regions cover wide breadths of the chromosomes. Excluding high-recombining genomic regions can practically mitigate this impact, and population genomic inference of recombination maps is informative in defining such regions although the estimated values of local recombination rate can be biased. Finally, we confirm the relevance of our findings in empirical analysis by contrasting demography inferences applied for a bird species, the Eurasian blackcap (Sylvia atricapilla), using different parts of the genome with high and low recombination rates. Our results suggest that demography inference methods based on ancestral recombination graphs should be carried out with caution when applied in species whose genomes contain long stretches of high-recombining regions.}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{1}
+      \field{title}{High-recombining genomic regions affect demography inference based on ancestral recombination graphs}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{iyaf004}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/genetics/iyaf004
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/genetics/iyaf004
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/genetics/iyaf004
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,17 +1,13 @@
 # io.py
-from tkinter.tix import InputOnly
 import pandas as pd
 from pathlib import Path
-from glob import glob
 from multiprocessing import Pool, cpu_count
-from typing import List, Dict, Union, Literal
-from pybedtools import BedTool
+from typing import List, Dict, Union
 from Bio import SeqIO
 from Bio.SeqRecord import SeqRecord
 import numpy.typing as npt
 import numpy as np
 import pandas as pd
-from regex import D
 import pyranges as pr
 from .transform import (
     concatenate_windows, 
@@ -21,6 +17,9 @@ from .transform import (
     sort_windows
     )
 import sys
+import os
+import re
+
 
 def _check_file_type(input_files: list[str]) -> None:
     allowed_suffixes: tuple[str, ...] = (
@@ -162,31 +161,25 @@ def save_hotspots_as_bed(
 
 
 def _parse_rmap_file(rmap_file: str) -> pd.DataFrame:
-    """
-    Parse a single recombination map file into a standardized DataFrame.
-
-    The chromosome is derived from the filename, assuming it follows the pattern:
-    something_chr10_1.txt → chromosome = "chr101"
-    """
+   
     rmap_file_path = Path(rmap_file)
-    parts = rmap_file_path.name.split(".")
-    chromosome = "".join(parts[1:3])  # e.g., ['chr10', '1'] → 'chr101'
-
-    df = pd.read_csv(rmap_file_path, sep="\t", header=None)
+    if match := re.search(r"(chr\d{1,2}A?)", str(rmap_file_path)):
+        chromosome = match.group(1)
+    else:
+        raise ValueError(
+        f"Could not find chromosome in filename:{rmap_file_path}"
+        )
+    df = pd.read_csv(
+            rmap_file_path,
+            sep="\t",
+            header=None,
+            comment="#"
+            )
     df.insert(0, "CHROM", chromosome)
     df.rename(columns={0: "START", 1: "END", 2: "RHO"}, inplace=True)
     return df
 
 def load_recombination_maps(rmap_files: str | list[str]) -> list[pd.DataFrame]:
-    """
-    Load and parse multiple recombination map files in parallel.
-
-    Args:
-        rmap_files (str or list[str]): Glob pattern matching recombination map files.
-
-    Returns:
-        List[pd.DataFrame]: List of DataFrames with parsed map data.
-    """
     
     with Pool(processes=max(1, cpu_count() // 2)) as pool:
         dataframes = pool.map(_parse_rmap_file, rmap_files)
@@ -251,3 +244,20 @@ def parse_and_rename_fasta_file(
     except Exception as e:
         print(f"Error renaming fasta file {e}")
         raise
+
+
+def load_accession_mapping(file: str) -> dict[str, str]:
+    try:
+        dataframe = pd.read_csv(file, sep='\t', header=None, names=["CHROM_NUM", "ACCESSION"])
+        dataframe["CHROM_NUM"] = "chr"+dataframe["CHROM_NUM"].astype(str)
+        return dict(zip(dataframe["ACCESSION"].astype(str), dataframe["CHROM_NUM"].astype(str)))
+    except Exception as e:
+        print(f"[ERROR] Failed to load accession mapping: {e}")
+        sys.exit(1)
+
+def save_per_chromosome(dataframe: pd.DataFrame, output_path: str, feature_name: str) -> None: 
+    for chrom, sub in dataframe.groupby("CHROM"):
+        chrom_str = "NA" if pd.isna(chrom) else str(chrom)
+        chrom_number = re.sub(r'[a-zA-Z_-]+', "", chrom_str)
+        file_path = os.path.join(output_path, f"chr_{chrom_number}_{feature_name}.bed")
+        sub.to_csv(file_path, sep='\t', index=False)

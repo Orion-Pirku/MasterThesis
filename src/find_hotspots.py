@@ -2,11 +2,21 @@
 from pathlib import Path
 from glob import glob
 import argparse
-from hotspotter.io import load_recombination_maps, save_hotspots_as_bed
-from hotspotter.transform import interpolate_recombination_rate, chr_sort_key
+from hotspotter.io import (
+        load_recombination_maps,
+        load_bed_files,
+        save_hotspots_as_bed
+)
+from hotspotter.transform import (
+    interpolate_recombination_rate,
+    chr_sort_key,
+    concatenate_windows
+)
 from hotspotter.recombination_rate_analyzer import call_hotspots
 from hotspotter.plotting import plot_recombination_hotspots
 import os, sys
+import re
+
 
 def parse_arguments() -> argparse.Namespace:
     
@@ -21,6 +31,13 @@ def parse_arguments() -> argparse.Namespace:
         required=True, 
         help='directory containing the raw recombination map files'
         )
+    parser.add_argument(
+            "-e",
+            "--effective-population-size",
+            type=float,
+            required=False,
+            help="effective population size for computation of cM/Mb"
+            )
     parser.add_argument(
         '--output-directory', 
         '-o', 
@@ -37,15 +54,23 @@ def main() -> None:
     os.makedirs(f"{arguments.output_directory}/bed", exist_ok=True)
     
     try:
-        input_files = arguments.input_files 
-        recombination_maps = load_recombination_maps(input_files)
+        input_files = arguments.input_files
+        suffix = Path(input_files[0]).suffix
+
+        if suffix == "bed":
+            recombination_maps = load_bed_files(input_files)
+        else:
+            recombination_maps = load_recombination_maps(input_files)
     except Exception as e:
         print(f"Failed to load recombination maps: {e}", file=sys.stderr)
         sys.exit(1)    
     
     sorted_recombination_maps = sorted(recombination_maps, key=chr_sort_key)
-    interp_rec_rate, genomic_bins = interpolate_recombination_rate(sorted_recombination_maps)
-    smoothed_rec_rate, peaks, props = zip(*[call_hotspots(rec_rate) for rec_rate in interp_rec_rate])
+    interp_rec_rate, genomic_bins=interpolate_recombination_rate(
+            sorted_recombination_maps,
+            arguments.effective_population_size
+            )
+    smoothed_rec_rate, peaks, _ = zip(*[call_hotspots(rec_rate) for rec_rate in interp_rec_rate])
     
     for i, (signal, peak_idxs, bins) in enumerate(zip(smoothed_rec_rate, peaks, genomic_bins)):
         output_path = f"{arguments.output_directory}/plots/recombination_hotspots_chr{i+1}.png"

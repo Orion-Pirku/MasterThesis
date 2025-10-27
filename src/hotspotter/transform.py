@@ -23,17 +23,25 @@ def _extract_feature_name(attribute: str) -> str | None:
     match = re.search(r"Name=([^;]+)", attribute)
     return match.group(1) if match else None 
 
-def clean_raw_gff(file_path: str, genomic_feature: str) -> pd.DataFrame:
+def clean_raw_gff(
+    file_path: str, 
+    genomic_feature: str,
+    genome_accession: dict[str, str]) -> pd.DataFrame:
     gff: pd.DataFrame = pd.read_csv(
-            file_path,
-            sep="\t",
-            comment="#",
+            file_path, 
+            sep="\t", 
+            comment="#", 
             header=None,
-            names=["SEQ_ID", "SOURCE", "TYPE", "START", "END", "SCORE", "STRAND", "PHASE", "ATTRIBUTES"]
+            names=["ACCESSION", "ASSEMBLY", "TYPE", "START", "END", "SCORE", "STRAND", "DOT", "SEQ_ID"]
             )
-    feature = gff[gff["TYPE"] == genomic_feature.lower()].copy()
-    feature["NAME"] = feature["ATTRIBUTES"].astype(str).apply(_extract_feature_name)
-    return feature[["SEQ_ID", "START", "END", "SCORE", "TYPE", "NAME"]]
+    feature = gff[gff["TYPE"].str.lower() == genomic_feature.lower()].copy()
+    feature["NAME"] = feature["SEQ_ID"].apply(_extract_feature_name)
+    feature["CHROM"] = feature["ACCESSION"].astype(str).map(genome_accession)
+    feature = feature.dropna(subset=["CHROM"])
+    feature['CHROM'] = feature["CHROM"].astype(str)
+    feature["START"] = feature["START"].astype(int)
+    feature["END"] = feature["END"].astype(int)
+    return feature[["CHROM", "START", "END", "STRAND", "TYPE", "NAME"]]
 
 
 def compute_gene_density(
@@ -121,22 +129,29 @@ def preprocess_popgen_stats(feature_dataframes: list[pd.DataFrame]) -> list[pd.D
 
 
 def interpolate_recombination_rate(
-        sorted_recombination_maps: list[pd.DataFrame] | pd.DataFrame
+        sorted_recombination_maps: list[pd.DataFrame] | pd.DataFrame,
+        effective_pop_size: float = 0.0
         ) -> tuple[list[npt.NDArray[np.float64]], list[npt.NDArray[np.int64]]]:
 
     if isinstance(sorted_recombination_maps, pd.DataFrame):
         sorted_recombination_maps = [sorted_recombination_maps]
     
     recombination_maps: list[pd.DataFrame] = [_compute_midpoint(df) for df in sorted_recombination_maps]
-    recombination_rates: list[npt.NDArray[np.float64]] = [df['Rho'].to_numpy(dtype=float) for df in recombination_maps]
-    midpoints: list[npt.NDArray[np.int64]] = [df['Midpoint'].to_numpy(dtype=int) for df in recombination_maps]
+    recombination_rates: list[npt.NDArray[np.float64]] = [df.iloc[:,3].to_numpy(dtype=float) for df in recombination_maps]
+    midpoints: list[npt.NDArray[np.int64]] = [df.iloc[:,4].to_numpy(dtype=int) for df in recombination_maps]
     genomic_bins: list[npt.NDArray[np.int64]] = [np.arange(mid.min(), mid.max() + 50, 50) for mid in midpoints]
     binned_rec_rates = [
         np.interp(bins, mid, rho)
         for bins, mid, rho in zip(genomic_bins, midpoints, recombination_rates)
     ] 
-    binned_rec_rates = [rec_rate * 1e8 for rec_rate in binned_rec_rates]
+    if float(effective_pop_size) > 0.0:
+        population_size = 4 * effective_pop_size
+        scaling_factor = 1e8/population_size
+        binned_rec_rates = [(rec_rate * scaling_factor)  for rec_rate in binned_rec_rates]
+    else:
+        binned_rec_rates = [rec_rate *1e8 for rec_rate in binned_rec_rates]
     return binned_rec_rates, genomic_bins
+
 
 def transform_gff_table(
     gff_object: Union[pd.DataFrame, BedTool, pr.PyRanges],
@@ -162,7 +177,10 @@ def split_bedtool_by_feature(
 
     return _split_by_feature(df, return_type) 
 
-def make_windows(df: pd.DataFrame, window_size: int) -> pd.DataFrame:
+def make_windows(
+        df: pd.DataFrame, window_size: int,
+        effective_pop_size: float = 0.0
+        ) -> pd.DataFrame:
     raw = df.to_numpy()
     start_raw = raw[:,1].astype(int)
     end_raw = raw[:,2].astype(int)
@@ -185,7 +203,13 @@ def make_windows(df: pd.DataFrame, window_size: int) -> pd.DataFrame:
     np.add.at(counts, bin_indeces, 1)
 
     means = np.divide(sums, counts, out=np.zeros_like(sums), where=counts!=0)
-    means = means * 100 * 1e6
+    if effective_pop_size > 0.0:
+        population_size = 4*effective_pop_size
+        scaling_factor = 1e8/population_size
+        means = means * scaling_factor 
+
+    else:
+        means = means * 1e8
 
     starts = bins[:-1]
     ends = bins[1:] - 1

@@ -11,11 +11,7 @@ from hotspotter.recombination_rate_analyzer import (
     compute_intersections,
     fill_correlation_matrices,
 )
-from hotspotter.transform import (
-    concatenate_windows,
-    make_windows,
-    sort_windows
-    )
+from hotspotter.transform import concatenate_windows, make_windows, sort_windows
 
 
 def parse_arguments() -> argparse.Namespace:

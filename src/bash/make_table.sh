@@ -1,5 +1,5 @@
 #!/bin/bash
- 
+
 #SBATCH --job-name=PYRHO_MAKE_TABLE_%J
 #SBATCH --ntasks=10
 #SBATCH --nodes=1
@@ -13,7 +13,6 @@
 
 module load gcc/6.2.1
 module load python/3.9.13
-
 
 source $HOME/pyrho/bin/activate
 export JOB_ID=$SLURM_JOB_ID
@@ -43,13 +42,12 @@ POP_SIZE="$3"
 MPOP_SIZE="$4"
 
 pyrho make_table --msmc_file input/msmc2_pop_size/"$INPUT_FILE" \
-	-n "$POP_SIZE" \
-	-N "$MPOP_SIZE" \
-	--mu 4.6e-9 \
-	--outfile lists/"$OUTPUT_FILE" \
-	--approx \
-	--decimate_rel_tol 0.1 \
-	--numthreads 10 \
-	--logfile "make_table_${JOB_ID}.log" \
-    --verbosity 50
-	
+  -n "$POP_SIZE" \
+  -N "$MPOP_SIZE" \
+  --mu 4.6e-9 \
+  --outfile lists/"$OUTPUT_FILE" \
+  --approx \
+  --decimate_rel_tol 0.1 \
+  --numthreads 10 \
+  --logfile "make_table_${JOB_ID}.log" \
+  --verbosity 50

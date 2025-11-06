@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --array=0-33%10  
+#SBATCH --array=0-33%10
 #SBATCH --job-name=PYRHO_OPTIMIZE_A%_a%
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=5
@@ -21,7 +21,7 @@ cd "$HOME/MasterThesis" || exit 1
 mkdir -p recombination_rate_inference/output/
 
 # 1) Build a sorted array of all your phased‐VCF paths:
-VCF_LIST=( vcf/filtered_vcf/*.phased.vcf.gz )
+VCF_LIST=(vcf/filtered_vcf/*.phased.vcf.gz)
 
 # 2) Pick exactly one VCF for this array index:
 VCF="${VCF_LIST[$SLURM_ARRAY_TASK_ID]}"
@@ -35,10 +35,10 @@ echo "[$(date '+%Y-%m-%d %H:%M:%S')] Array ID $SLURM_ARRAY_TASK_ID → running P
 
 pyrho optimize \
   --vcffile "$VCF" \
-  --tablefile recombination_rate_inference/lists/blackcap_n100_N100.hdf \
+  --tablefile recombination_rate_inference/lists/blackcap_n200_N200.hdf \
   --windowsize 100 \
   --blockpenalty 20 \
-  --ploidy 2 \
+  --ploidy 1 \
   --numthreads 5 \
   --outfile "recombination_rate_inference/output/${PREFIX}_W100_P20.rmap"
 

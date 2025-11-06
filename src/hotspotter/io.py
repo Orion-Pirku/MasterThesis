@@ -10,12 +10,12 @@ import numpy as np
 import pandas as pd
 import pyranges as pr
 from .transform import (
-    concatenate_windows, 
+    concatenate_windows,
     compute_gene_density,
     preprocess_popgen_stats,
     make_windows,
-    sort_windows
-    )
+    sort_windows,
+)
 import sys
 import os
 import re
@@ -30,7 +30,7 @@ def _check_file_type(input_files: list[str]) -> None:
         ".tajimaD",
         ".snpden",
         ".snpdens",
-        ".rmap"
+        ".rmap",
     )
     if not any(file.endswith(allowed_suffixes) for file in input_files):
         print(f"Error: Only files ending with {allowed_suffixes} are allowed.")
@@ -45,11 +45,12 @@ def _classify_feature(label: str) -> str | None:
         return "gc content"
     if "rec rate" in label_lower:
         return "rec rate"
-    return next((k for k in ("snp density", "tajima d", "window pi") if k in label_lower), None)
+    return next(
+        (k for k in ("snp density", "tajima d", "window pi") if k in label_lower), None
+    )
 
-def _normalize_paths(
-    paths: list[str] | str
-) -> list[str]:
+
+def _normalize_paths(paths: list[str] | str) -> list[str]:
     if isinstance(paths, str):
         return [paths]
     return paths
@@ -61,7 +62,6 @@ def load_and_prepare_feature(
     genome_sizes_file: str,
     window_size: int,
 ) -> pr.PyRanges:
-
     feature_kind = _classify_feature(label)
     if feature_kind is None:
         raise ValueError(f"Unrecognized feature label: {label!r}")
@@ -77,15 +77,12 @@ def load_and_prepare_feature(
 
     multiple = len(file_paths) > 1
 
-
     # ---- Dispatch per feature, concatenating ONLY if multiple files ----
     if feature_kind == "gene density":
-        loaded_dfs = load_bed_files(file_paths) 
+        loaded_dfs = load_bed_files(file_paths)
         df_in = concatenate_windows(loaded_dfs) if multiple else loaded_dfs[0]  # type: ignore[name-defined]
         processed = compute_gene_density(  # type: ignore[name-defined]
-            df_in,
-            genome_sizes=genome_sizes_file,
-            window_size=window_size
+            df_in, genome_sizes=genome_sizes_file, window_size=window_size
         )
     elif feature_kind == "rec rate":
         rec_rates = load_recombination_maps(file_paths)
@@ -94,11 +91,11 @@ def load_and_prepare_feature(
         processed = concatenate_windows(sorted_rec_rates)
 
     elif feature_kind == "gc content":
-        loaded_dfs = load_bed_files(file_paths) 
+        loaded_dfs = load_bed_files(file_paths)
         processed = concatenate_windows(loaded_dfs) if multiple else loaded_dfs[0]  # type: ignore[name-defined]
 
     elif feature_kind in ("snp density", "tajima d", "window pi"):
-        loaded_dfs = load_bed_files(file_paths) 
+        loaded_dfs = load_bed_files(file_paths)
         preprocessed_list = preprocess_popgen_stats(  # type: ignore[name-defined]
             feature_dataframes=loaded_dfs
         )
@@ -111,11 +108,13 @@ def load_and_prepare_feature(
     else:
         # should be unreachable
         raise RuntimeError(f"Unhandled feature kind: {feature_kind!r}")
-    
+
     if processed is None:
         raise ValueError(f"No data processed for feature '{feature_kind}'")
     if processed.empty:
-        raise ValueError(f"Processed feature '{feature_kind}' produced an empty DataFrame")
+        raise ValueError(
+            f"Processed feature '{feature_kind}' produced an empty DataFrame"
+        )
     # Normalize expected column names (no-op if already correct)
     processed = processed.rename(
         columns={"CHROM": "Chromosome", "START": "Start", "END": "End"},
@@ -126,9 +125,7 @@ def load_and_prepare_feature(
     required = {"Chromosome", "Start", "End"}
     missing = required.difference(processed.columns)
     if missing:
-        raise ValueError(
-            f"Processed feature missing columns: {sorted(missing)}"
-        )
+        raise ValueError(f"Processed feature missing columns: {sorted(missing)}")
 
     range_object = pr.PyRanges(df=processed)
 
@@ -136,54 +133,42 @@ def load_and_prepare_feature(
 
 
 def save_hotspots_as_bed(
-    chrom_name: str, 
+    chrom_name: str,
     genomic_midpoint: npt.NDArray[np.int64],
     smoothed_signal: npt.NDArray[np.float64],
     output_file_name: str,
-    hotspot_index: npt.NDArray[np.int64]) -> None:
+    hotspot_index: npt.NDArray[np.int64],
+) -> None:
     start: npt.NDArray[np.int64] = genomic_midpoint - 50
     end: npt.NDArray[np.int64] = genomic_midpoint + 50
     bed_object: pd.DataFrame = pd.DataFrame(
         {
-            'Chrom': [chrom_name] * len(hotspot_index), 
-            'Start': start[hotspot_index],
-            'End': end[hotspot_index], 
-            'cM/Mb': smoothed_signal[hotspot_index]
-        }).astype(
-            {
-                'Chrom': str,
-                'Start': int,
-                'End': int,
-                'cM/Mb': float
-                
-            })
-    return bed_object.to_csv(output_file_name, sep='\t', index=False)
+            "Chrom": [chrom_name] * len(hotspot_index),
+            "Start": start[hotspot_index],
+            "End": end[hotspot_index],
+            "cM/Mb": smoothed_signal[hotspot_index],
+        }
+    ).astype({"Chrom": str, "Start": int, "End": int, "cM/Mb": float})
+    return bed_object.to_csv(output_file_name, sep="\t", index=False, header=False)
 
 
 def _parse_rmap_file(rmap_file: str) -> pd.DataFrame:
-   
     rmap_file_path = Path(rmap_file)
     if match := re.search(r"(chr\d{1,2}A?)", str(rmap_file_path)):
         chromosome = match.group(1)
     else:
-        raise ValueError(
-        f"Could not find chromosome in filename:{rmap_file_path}"
-        )
-    df = pd.read_csv(
-            rmap_file_path,
-            sep="\t",
-            header=None,
-            comment="#"
-            )
+        raise ValueError(f"Could not find chromosome in filename:{rmap_file_path}")
+    df = pd.read_csv(rmap_file_path, sep="\t", header=None, comment="#")
     df.insert(0, "CHROM", chromosome)
     df.rename(columns={0: "START", 1: "END", 2: "RHO"}, inplace=True)
     return df
 
+
 def load_recombination_maps(rmap_files: str | list[str]) -> list[pd.DataFrame]:
-    
     with Pool(processes=max(1, cpu_count() // 2)) as pool:
         dataframes = pool.map(_parse_rmap_file, rmap_files)
     return dataframes
+
 
 def save_transformed_data(datasets: List[pd.DataFrame], prefix="transformed") -> None:
     for data in datasets:
@@ -192,25 +177,22 @@ def save_transformed_data(datasets: List[pd.DataFrame], prefix="transformed") ->
         filename = f"{prefix}_{chrom_name}_w{window_size}.tsv"
         data.to_csv(filename, sep="\t", header=True, index=False)
 
+
 def _parse_bed_file(file: str) -> pd.DataFrame:
     """
     Parse a BED file into a DataFrame with standardized columns.
     Assumes the first line is a header to skip.
     """
     file_path = Path(file)
-    data_frame = pd.read_csv(
-            file_path,
-            sep='\t',
-            header=0
-        )
-    if data_frame.iloc[:,0].str.contains("_").any():
-        data_frame.iloc[:,0] = data_frame.iloc[:,0].str.replace("_","", regex=False)
+    data_frame = pd.read_csv(file_path, sep="\t", header=None)
+    if data_frame.iloc[:, 0].str.contains("_").any():
+        data_frame.iloc[:, 0] = data_frame.iloc[:, 0].str.replace("_", "", regex=False)
         # Add 'END' column if missing
 
     return data_frame
 
+
 def load_bed_files(input_files: str | list[str]) -> list[pd.DataFrame]:
-    
     if isinstance(input_files, list):  # already expanded by shell
         matched_files = [str(p) for p in input_files if Path(p).exists()]
     else:
@@ -223,14 +205,15 @@ def load_bed_files(input_files: str | list[str]) -> list[pd.DataFrame]:
         dfs = pool.map(_parse_bed_file, matched_files)
     return dfs
 
+
 def load_fasta_file(fasta_file: str) -> List[SeqRecord]:
     fasta_file_path = Path(fasta_file)
     return list(SeqIO.parse(fasta_file_path, "fasta"))
 
+
 def parse_and_rename_fasta_file(
-    fasta_file: str,
-    mapping: Dict[str, str]) -> Union[int, Exception]:
-    
+    fasta_file: str, mapping: Dict[str, str]
+) -> Union[int, Exception]:
     loaded_fasta = load_fasta_file(fasta_file)
     modified_fasta: List[SeqRecord] = []
     try:
@@ -248,16 +231,23 @@ def parse_and_rename_fasta_file(
 
 def load_accession_mapping(file: str) -> dict[str, str]:
     try:
-        dataframe = pd.read_csv(file, sep='\t', header=None, names=["CHROM_NUM", "ACCESSION"])
-        dataframe["CHROM_NUM"] = "chr"+dataframe["CHROM_NUM"].astype(str)
-        return dict(zip(dataframe["ACCESSION"].astype(str), dataframe["CHROM_NUM"].astype(str)))
+        dataframe = pd.read_csv(
+            file, sep="\t", header=None, names=["CHROM_NUM", "ACCESSION"]
+        )
+        dataframe["CHROM_NUM"] = "chr" + dataframe["CHROM_NUM"].astype(str)
+        return dict(
+            zip(dataframe["ACCESSION"].astype(str), dataframe["CHROM_NUM"].astype(str))
+        )
     except Exception as e:
         print(f"[ERROR] Failed to load accession mapping: {e}")
         sys.exit(1)
 
-def save_per_chromosome(dataframe: pd.DataFrame, output_path: str, feature_name: str) -> None: 
+
+def save_per_chromosome(
+    dataframe: pd.DataFrame, output_path: str, feature_name: str
+) -> None:
     for chrom, sub in dataframe.groupby("CHROM"):
         chrom_str = "NA" if pd.isna(chrom) else str(chrom)
-        chrom_number = re.sub(r'[a-zA-Z_-]+', "", chrom_str)
+        chrom_number = re.sub(r"[a-zA-Z_-]+", "", chrom_str)
         file_path = os.path.join(output_path, f"chr_{chrom_number}_{feature_name}.bed")
-        sub.to_csv(file_path, sep='\t', index=False)
+        sub.to_csv(file_path, sep="\t", index=False)

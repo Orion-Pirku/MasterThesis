@@ -38,7 +38,7 @@ for file in $VCF_DIR/sorted_*; do
     output_name=$(basename "$file" .vcf.gz)
 
     # Loop over the different window sizes
-    for i in 100 500 1000 5000; do
+    for i in 1000 5000 10000 100000; do
         # Run vcftools for SNP density
         vcftools --gzvcf "$file" --SNPdensity "${i}" --out "$OUT_DIR/snp_density_${i}_${output_name}"
         if [ $? -ne 0 ]; then

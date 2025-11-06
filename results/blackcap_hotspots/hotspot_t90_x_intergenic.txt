@@ -1,0 +1,11 @@
+A.name	Hotspots
+B.name	5UTR
+A.interval_count	719
+B.interval_count	53869
+A.size	71789
+B.size	538567906
+A_or_B.size	538608180
+A_and_B.size	31515
+Coef	0.4390
+Coef_expected	0.3847
+Coef_95%_CI	0.3944,0.4574

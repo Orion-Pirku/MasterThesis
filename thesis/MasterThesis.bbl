@@ -1,0 +1,1386 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{bascon-cardozo_fine-scale_2024}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=316ee45d0caf67de7e019e838babc3d7}{%
+           family={Bascón-Cardozo},
+           familyi={B\bibinithyphendelim C\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c96b13406a983441193d503d9e758085}{%
+           family={Bours},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e87500477c7191885d528c5b1ffef7f9}{%
+           family={Manthey},
+           familyi={M\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4609cf2e5e633fe6a984cc019476ad49}{%
+           family={Durieux},
+           familyi={D\bibinitperiod},
+           given={Gillian},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95b2193a1103f0b42cc5dc257b6f8ab5}{%
+           family={Dutheil},
+           familyi={D\bibinitperiod},
+           given={Julien\bibnamedelima Y},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f26c672dbe01c97081aea8b12d45281}{%
+           family={Pruisscher},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36ff0dd21d75c337ce80f1bff3600eff}{%
+           family={Odenthal-Hesse},
+           familyi={O\bibinithyphendelim H\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6119e97f175ddfe63e2490aa17e16a39}{%
+           family={Liedvogel},
+           familyi={L\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eeb96c8658b66ff2e4cbac3b45ee7ecd}
+      \strng{fullhash}{2d9f35e3d41b6367d7138bba4a93ec51}
+      \strng{bibnamehash}{eeb96c8658b66ff2e4cbac3b45ee7ecd}
+      \strng{authorbibnamehash}{eeb96c8658b66ff2e4cbac3b45ee7ecd}
+      \strng{authornamehash}{eeb96c8658b66ff2e4cbac3b45ee7ecd}
+      \strng{authorfullhash}{2d9f35e3d41b6367d7138bba4a93ec51}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recombination is responsible for breaking up haplotypes, influencing genetic variability, and the efficacy of selection. Bird genomes lack the protein PR domain-containing protein 9, a key determinant of recombination dynamics in most metazoans. Historical recombination maps in birds show an apparent stasis in positioning recombination events. This highly conserved recombination pattern over long timescales may constrain the evolution of recombination in birds. At the same time, extensive variation in recombination rate is observed across the genome and between different species of birds. Here, we characterize the fine-scale historical recombination map of an iconic migratory songbird, the Eurasian blackcap (Sylvia atricapilla), using a linkage disequilibrium–based approach that accounts for population demography. Our results reveal variable recombination rates among and within chromosomes, which associate positively with nucleotide diversity and GC content and negatively with chromosome size. Recombination rates increased significantly at regulatory regions but not necessarily at gene bodies. CpG islands are associated strongly with recombination rates, though their specific position and local DNA methylation patterns likely influence this relationship. The association with retrotransposons varied according to specific family and location. Our results also provide evidence of heterogeneous intrachromosomal conservation of recombination maps between the blackcap and its closest sister taxon, the garden warbler. These findings highlight the considerable variability of recombination rates at different scales and the role of specific genomic features in shaping this variation. This study opens the possibility of further investigating the impact of recombination on specific population-genomic features.}
+      \field{issn}{1759-6653}
+      \field{journaltitle}{Genome Biology and Evolution}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Fine-{Scale} {Map} {Reveals} {Highly} {Variable} {Recombination} { Rates} {Associated} with {Genomic} {Features} in the {Eurasian} { Blackcap}}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{evad233}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/gbe/evad233
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/gbe/evad233
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/gbe/evad233
+      \endverb
+    \endentry
+    \entry{vcftools}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=d88c1b79e00da9e80637f97e15ad1ce6}{%
+           family={Danecek},
+           familyi={D\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed22aae1eecb03031944c475e8529a63}{%
+           family={Auton},
+           familyi={A\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8adf88b4bd2c9785ddad5bfa05221f24}{%
+           family={Abecasis},
+           familyi={A\bibinitperiod},
+           given={Goncalo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a2bde17dca2baf6623771747b342348}{%
+           family={Albers},
+           familyi={A\bibinitperiod},
+           given={Cornelis\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b87616973e0b048c3beb6624e96e5d73}{%
+           family={Banks},
+           familyi={B\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7ce1d2bf17f8517d6f394471447a37a}{%
+           family={DePristo},
+           familyi={D\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6833bc58b260283a2abfd64a064a7c77}{%
+           family={Handsaker},
+           familyi={H\bibinitperiod},
+           given={Robert\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d41f0b6ee7d2960b3eab2779e4dadb5}{%
+           family={Lunter},
+           familyi={L\bibinitperiod},
+           given={Gerton},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd3025d4de53f5a7ffd28a9f2b4cb0d0}{%
+           family={Marth},
+           familyi={M\bibinitperiod},
+           given={Gabor\bibnamedelima T.},
+           giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2c3de84a1548d29dbab5b5fa0fefb4d}{%
+           family={Sherry},
+           familyi={S\bibinitperiod},
+           given={Stephen\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26eddb5b50d498d6fbe63b58febda369}{%
+           family={McVean},
+           familyi={M\bibinitperiod},
+           given={Gilean},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=517afe729b2eb59735ba80628d943bb0}{%
+           family={Durbin},
+           familyi={D\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43ca435fb5980e772213fd1ea4a410c8}{%
+           family={Group},
+           familyi={G\bibinitperiod},
+           given={1000\bibnamedelimb Genomes\bibnamedelimb Project\bibnamedelima Analysis},
+           giveni={1\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f80c97e300d4387d2ebd0a9a5444d0fb}
+      \strng{fullhash}{0da5c44f0f612e00e0af3ba2a6abdb2e}
+      \strng{bibnamehash}{f80c97e300d4387d2ebd0a9a5444d0fb}
+      \strng{authorbibnamehash}{f80c97e300d4387d2ebd0a9a5444d0fb}
+      \strng{authornamehash}{f80c97e300d4387d2ebd0a9a5444d0fb}
+      \strng{authorfullhash}{0da5c44f0f612e00e0af3ba2a6abdb2e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summary: The variant call format (VCF) is a generic format for storing DNA polymorphism data such as SNPs, insertions, deletions and structural variants, together with rich annotations. VCF is usually stored in a compressed manner and can be indexed for fast data retrieval of variants from a range of positions on the reference genome. The format was developed for the 1000 Genomes Project, and has also been adopted by other projects such as UK10K, dbSNP and the NHLBI Exome Project. VCFtools is a software suite that implements various utilities for processing VCF files, including validation, merging, comparing and also provides a general Perl API.Availability: http://vcftools.sourceforge.netContact: rd@sanger.ac.uk}
+      \field{issn}{1367-4803}
+      \field{journaltitle}{Bioinformatics}
+      \field{month}{06}
+      \field{number}{15}
+      \field{title}{The variant call format and VCFtools}
+      \field{volume}{27}
+      \field{year}{2011}
+      \field{pages}{2156\bibrangedash 2158}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1093/bioinformatics/btr330
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/bioinformatics/article-pdf/27/15/2156/48863483/bioinformatics _27_15_2156.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/bioinformatics/btr330
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/bioinformatics/btr330
+      \endverb
+    \endentry
+    \entry{Mexican-hat-wavelet}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=d67634434849bdc2b8bb1fe4b2ea6726}{%
+           family={González-Nuevo},
+           familyi={G\bibinithyphendelim N\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62a51673400a218bd07612c8ab14ebb6}{%
+           family={Argüeso},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=347f830807ba274f1fb06be9b7397e5b}{%
+           family={López-Caniego},
+           familyi={L\bibinithyphendelim C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1a3aa45a52fba8b0bc50021ac46e97df}{%
+           family={Toffolatti},
+           familyi={T\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4619a973787e977b90f77dcf71288a46}{%
+           family={Sanz},
+           familyi={S\bibinitperiod},
+           given={J.\bibnamedelimi L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a27f92e5c4048e33b165c7b5b76a601}{%
+           family={Vielva},
+           familyi={V\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91f83f0d79c71a4fe7c4cb54551b8530}{%
+           family={Herranz},
+           familyi={H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2feda34cb89b576c5aa396c89f89d42a}
+      \strng{fullhash}{5ed9cb5c02eb7ab9c2ae3833cfea5720}
+      \strng{bibnamehash}{2feda34cb89b576c5aa396c89f89d42a}
+      \strng{authorbibnamehash}{2feda34cb89b576c5aa396c89f89d42a}
+      \strng{authornamehash}{2feda34cb89b576c5aa396c89f89d42a}
+      \strng{authorfullhash}{5ed9cb5c02eb7ab9c2ae3833cfea5720}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We propose a new detection technique in the plane based on an isotropic wavelet family. This family is naturally constructed as an extension of the Gaussian–Mexican hat wavelet pair and for that reason we call it the Mexican hat wavelet family (MHWF). We show the performance of these wavelets when dealing with the detection of extragalactic point sources in cosmic microwave background (CMB) maps: a very important issue within the most general problem of the component separation of the microwave sky. Specifically, flat two-dimensional simulations of the microwave sky comprising all astrophysical components plus instrumental noise have been analysed for the channels at 30, 44 and 70 GHz of the forthcoming ESA Planck mission Low Frequency Instrument (LFI). We adopt up-to-date cosmological evolution models of extragalactic sources able to fit well the new data on high-frequency radio surveys and we discuss our current results on point-source detection by comparing them with those obtained using the Mexican hat wavelet (MHW) technique, which has been already proven a suitable tool for detecting point sources. By assuming a 5 per cent reliability level, the first new members of the MHWF, at their ‘optimal scale’, provide three point-source catalogues on half of the sky (at Galactic latitude |b| \> 30°) at 30, 44 and 70 GHz of 639, 387 and 340 extragalactic sources, respectively. The corresponding flux detection limits are 0.38, 0.45 and 0.47 Jy. By using the same simulated sky patches and at the same frequencies as before, the MHW at its optimal scale provides 543, 322 and 311 sources with flux detection limits of 0.44, 0.51 and 0.50 Jy, respectively (5 per cent reliability level). These results show a clear improvement when we use the new members of the MHWF and, in particular, the MHW2 with respect to the MHW.}
+      \field{issn}{0035-8711}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{07}
+      \field{number}{4}
+      \field{title}{The Mexican hat wavelet family: application to point-source detection in cosmic microwave background maps}
+      \field{volume}{369}
+      \field{year}{2006}
+      \field{pages}{1603\bibrangedash 1610}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/j.1365-2966.2006.10442.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mnras/article-pdf/369/4/1603/3797826/mnras0369-1603.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1365-2966.2006.10442.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1365-2966.2006.10442.x
+      \endverb
+    \endentry
+    \entry{UCSC_2006_LiftOver}{article}{}
+      \name{author}{27}{}{%
+        {{un=0,uniquepart=base,hash=d8d7d147d395174839f042bd28a46fd6}{%
+           family={Hinrichs},
+           familyi={H\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddcb4dcca6e5b719c4f53edb5195a159}{%
+           family={Karolchik},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b23411083f090964f96f46f7cc1a583b}{%
+           family={Baertsch},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcca2a1e9c34f16c757b761ef2442611}{%
+           family={Barber},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d259f0e3c6f0ef80c77efc7fba4aeef9}{%
+           family={Bejerano},
+           familyi={B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebe8790e3178f6429360e421b7e04fd4}{%
+           family={Clawson},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36160c0d2317484656e748138cd1daf1}{%
+           family={Diekhans},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d89e0da44d4bfabebd08642d085a7019}{%
+           family={Furey},
+           familyi={F\bibinitperiod},
+           given={T.\bibnamedelimi S.},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4d08dcc08d9051115b1ad45c69fe99e}{%
+           family={Harte},
+           familyi={H\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=720efe532d1c658f76e6a50531f4a6ad}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f8491c1cecd484ff1007a04a198ede1}{%
+           family={Hillman-Jackson},
+           familyi={H\bibinithyphendelim J\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee5b01d294ce952d7f321abac9e87ea8}{%
+           family={Kuhn},
+           familyi={K\bibinitperiod},
+           given={R.\bibnamedelimi M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df41d9c50cfb94bfcc119b3c61998a74}{%
+           family={Pedersen},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e91244340c4fb1837a8b50afd4c8c2e}{%
+           family={Pohl},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e11fb6d198cb60766547f9600173e590}{%
+           family={Raney},
+           familyi={R\bibinitperiod},
+           given={B.\bibnamedelimi J.},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcf816b3186e6cae8169386225616bd7}{%
+           family={Rosenbloom},
+           familyi={R\bibinitperiod},
+           given={K.\bibnamedelimi R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f9b2940294481ff9f1c6c58c5eb2b2c}{%
+           family={Siepel},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c50f0f5e597631075950cafeee6e75bb}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={K.\bibnamedelimi E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d644f14040aa62e18fd36b51c4b42486}{%
+           family={Sugnet},
+           familyi={S\bibinitperiod},
+           given={C.\bibnamedelimi W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9c7ddfe08461d7a1cf57f4f57ff613a}{%
+           family={Sultan-Qurraie},
+           familyi={S\bibinithyphendelim Q\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=333dfc61a599eeaa4433835331b4337d}{%
+           family={Thomas},
+           familyi={T\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=573750324bf61fd710281f8e4ca94560}{%
+           family={Trumbower},
+           familyi={T\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47a3ddcc8a51bd142bbea031d2a0f4b2}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8935582f0db986beb79166a1e14e3ae7}{%
+           family={Weirauch},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c1959a15e4ae384569308bf87f2a6b1}{%
+           family={Zweig},
+           familyi={Z\bibinitperiod},
+           given={A.\bibnamedelimi S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=734876a7f15589c62aff6fc993332455}{%
+           family={Haussler},
+           familyi={H\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=385e63d32b8044a2dc8da2c934175ca3}{%
+           family={Kent},
+           familyi={K\bibinitperiod},
+           given={W.\bibnamedelimi J.},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b47534bd8a6368dee0feb46ec80c73d3}
+      \strng{fullhash}{265bc0ada5f00ef9e1f214753bd2c553}
+      \strng{bibnamehash}{b47534bd8a6368dee0feb46ec80c73d3}
+      \strng{authorbibnamehash}{b47534bd8a6368dee0feb46ec80c73d3}
+      \strng{authornamehash}{b47534bd8a6368dee0feb46ec80c73d3}
+      \strng{authorfullhash}{265bc0ada5f00ef9e1f214753bd2c553}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The University of California Santa Cruz Genome Browser Database (GBD) contains sequence and annotation data for the genomes of about a dozen vertebrate species and several major model organisms. Genome annotations typically include assembly data, sequence composition, genes and gene predictions, mRNA and expressed sequence tag evidence, comparative genomics, regulation, expression and variation data. The database is optimized to support fast interactive performance with web tools that provide powerful visualization and querying capabilities for mining the data. The Genome Browser displays a wide variety of annotations at all scales from single nucleotide level up to a full chromosome. The Table Browser provides direct access to the database tables and sequence data, enabling complex queries on genome-wide datasets. The Proteome Browser graphically displays protein properties. The Gene Sorter allows filtering and comparison of genes by several metrics including expression data and several gene properties. BLAT and In Silico PCR search for sequences in entire genomes in seconds. These tools are highly integrated and provide many hyperlinks to other databases and websites. The GBD, browsing tools, downloadable data files and links to documentation and other information can be found at http://genome.ucsc.edu/.}
+      \field{issn}{0305-1048}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{01}
+      \field{number}{suppl_1}
+      \field{title}{The UCSC Genome Browser Database: update 2006}
+      \field{volume}{34}
+      \field{year}{2006}
+      \field{pages}{D590\bibrangedash D598}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkj144
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/nar/article-pdf/34/suppl_ 1/D590/3926288/gkj144.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/nar/gkj144
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/nar/gkj144
+      \endverb
+    \endentry
+    \entry{ishigohoka_high-recombining_2025}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=53f4737c84b924db6b7a6866f283833e}{%
+           family={Ishigohoka},
+           familyi={I\bibinitperiod},
+           given={Jun},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6119e97f175ddfe63e2490aa17e16a39}{%
+           family={Liedvogel},
+           familyi={L\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{fullhash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{bibnamehash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{authorbibnamehash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{authornamehash}{390f34e9338543ad2e8e90878fc13224}
+      \strng{authorfullhash}{390f34e9338543ad2e8e90878fc13224}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multiple methods of demography inference are based on the ancestral recombination graph. This powerful approach uses observed mutations to model local genealogies changing along chromosomes by historical recombination events. However, inference of underlying genealogies is difficult in regions with high recombination rate relative to mutation rate due to the lack of mutations representing genealogies. Despite the prevalence of high-recombining genomic regions in some organisms, such as birds, its impact on demography inference based on ancestral recombination graphs has not been well studied. Here, we use population genomic simulations to investigate the impact of high-recombining regions on demography inference based on ancestral recombination graphs. We demonstrate that inference of effective population size and the time of population split events is systematically affected when high-recombining regions cover wide breadths of the chromosomes. Excluding high-recombining genomic regions can practically mitigate this impact, and population genomic inference of recombination maps is informative in defining such regions although the estimated values of local recombination rate can be biased. Finally, we confirm the relevance of our findings in empirical analysis by contrasting demography inferences applied for a bird species, the Eurasian blackcap (Sylvia atricapilla), using different parts of the genome with high and low recombination rates. Our results suggest that demography inference methods based on ancestral recombination graphs should be carried out with caution when applied in species whose genomes contain long stretches of high-recombining regions.}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{1}
+      \field{title}{High-recombining genomic regions affect demography inference based on ancestral recombination graphs}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{iyaf004}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/genetics/iyaf004
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/genetics/iyaf004
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/genetics/iyaf004
+      \endverb
+    \endentry
+    \entry{UCSC}{article}{}
+      \name{author}{18}{}{%
+        {{un=0,uniquepart=base,hash=e02073df7bc8290f1da56e9b4b25aaf3}{%
+           family={Perez},
+           familyi={P\bibinitperiod},
+           given={Gerardo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fc549599b5c0b09678ccdc998a2fe6a}{%
+           family={Barber},
+           familyi={B\bibinitperiod},
+           given={Galt\bibnamedelima P},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6a94f7b793861d81f44ac8af2091ce2}{%
+           family={Benet-Pages},
+           familyi={B\bibinithyphendelim P\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6cd8d596e37acc2e74db9a2212fa9ae}{%
+           family={Casper},
+           familyi={C\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ce9a6deddb85756a3c7a8bdc8985c47}{%
+           family={Clawson},
+           familyi={C\bibinitperiod},
+           given={Hiram},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=46ff3164c5acc63a76acba40e535237e}{%
+           family={Diekhans},
+           familyi={D\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dfb5b563b96b867e60eb207db307f38}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Clay},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=60e2e4e345f1edcce8511bd08e91c116}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Jairo\bibnamedelima Navarro},
+           giveni={J\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=44cce183427f711f4e3fa101ae9a0819}{%
+           family={Hinrichs},
+           familyi={H\bibinitperiod},
+           given={Angie\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=766bd513f5d82ef50ea6cb986e64ed12}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Christopher\bibnamedelima M},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1abf63ba14c285d32d3802b9bbfe915}{%
+           family={Nassar},
+           familyi={N\bibinitperiod},
+           given={Luis\bibnamedelima R},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8a6c8126a69fff21f0aacd106a306d9b}{%
+           family={Raney},
+           familyi={R\bibinitperiod},
+           given={Brian\bibnamedelima J},
+           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=167d0a647f6045ca09cb85ba507a24c7}{%
+           family={Speir},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima L},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1d9a8979cc9d8a247764da58e054b27}{%
+           family={Baren},
+           familyi={B\bibinitperiod},
+           given={Marijke\bibnamedelima J},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=6545083d971bed94b9ea9aa52c838172}{%
+           family={Vaske},
+           familyi={V\bibinitperiod},
+           given={Charles\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2ab6c3825f7511e8096e515df23c7e7}{%
+           family={Haussler},
+           familyi={H\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c30d0f129cfe2adb6f6ee1476d64467b}{%
+           family={Kent},
+           familyi={K\bibinitperiod},
+           given={W\bibnamedelima James},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79f490853d2af21a39c65039b8d426ec}{%
+           family={Haeussler},
+           familyi={H\bibinitperiod},
+           given={Maximilian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c4b9c84168ff6987550dd588927340f8}
+      \strng{fullhash}{72e371f0c584b53a8906870380c9b22e}
+      \strng{bibnamehash}{c4b9c84168ff6987550dd588927340f8}
+      \strng{authorbibnamehash}{c4b9c84168ff6987550dd588927340f8}
+      \strng{authornamehash}{c4b9c84168ff6987550dd588927340f8}
+      \strng{authorfullhash}{72e371f0c584b53a8906870380c9b22e}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The UCSC Genome Browser (https://genome.ucsc.edu) is a widely utilized web-based tool for visualization and analysis of genomic data, encompassing over 4000 assemblies from diverse organisms. Since its release in 2001, it has become an essential resource for genomics and bioinformatics research. Annotation data available on Genome Browser includes both internally created and maintained tracks as well as custom tracks and track hubs provided by the research community. This last year's updates include over 25 new annotation tracks such as the gnomAD 4.1 track on the human GRCh38/hg38 assembly, the addition of three new public hubs, and significant expansions to the Genome Archive[GenArk) system for interacting with the enormous variety of assemblies. We have also made improvements to our interface, including updates to the browser graphic page, such as a new popup dialog feature that now displays item details without requiring navigation away from the main Genome Browser page. GenePred tracks have been upgraded with right-click options for zooming and precise navigation, along with enhanced mouseOver functions. Additional improvements include a new grouping feature for track hubs and hub description info links. A new tutorial focusing on Clinical Genetics has also been added to the UCSC Genome Browser.}
+      \field{issn}{1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{10}
+      \field{number}{D1}
+      \field{title}{The UCSC Genome Browser database: 2025 update}
+      \field{volume}{53}
+      \field{year}{2024}
+      \field{pages}{D1243\bibrangedash D1249}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkae974
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/nar/article-pdf/53/D1/D1243/60120664/gkae974.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/nar/gkae974
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/nar/gkae974
+      \endverb
+    \endentry
+    \entry{NCBI}{article}{}
+      \name{author}{27}{}{%
+        {{un=0,uniquepart=base,hash=802b7c6da8c4ca86c32fd85808aa0e30}{%
+           family={Sayers},
+           familyi={S\bibinitperiod},
+           given={Eric\bibnamedelima W},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4497463c450cd098c8b37c962ff26690}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b49fe06d23ff9815a9d7e8a92b695fff}{%
+           family={Bolton},
+           familyi={B\bibinitperiod},
+           given={Evan\bibnamedelima E},
+           giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf90dcf7466c6ac28a5ed38c0ff7a978}{%
+           family={Brister},
+           familyi={B\bibinitperiod},
+           given={J\bibnamedelima Rodney},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=12c5b7ca9afc2dfc1fc80ec56022f63e}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bd00bb5d79fa122428071187c67aa351}{%
+           family={Connor},
+           familyi={C\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7c3cd5f4e821757cbc9113bece1e460}{%
+           family={Feldgarden},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1c7d8a4ec2f49fea6fc26e717ad53c4}{%
+           family={Fine},
+           familyi={F\bibinitperiod},
+           given={Anna\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e76b7c971e691b6a4f4e3841f990ecc}{%
+           family={Funk},
+           familyi={F\bibinitperiod},
+           given={Kathryn},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d3123ddb9c4fbc670fbfebdb4602bf6}{%
+           family={Hoffman},
+           familyi={H\bibinitperiod},
+           given={Jinna},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ae811802cc1b931fdc8eababbf09978}{%
+           family={Kannan},
+           familyi={K\bibinitperiod},
+           given={Sivakumar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd7b94618206a1c2fb963feddedda0cc}{%
+           family={Kelly},
+           familyi={K\bibinitperiod},
+           given={Christopher},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ae08082e27b482a54ceda2f968f559b0}{%
+           family={Klimke},
+           familyi={K\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03fd2567460f66228ee7a405a947f9b5}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Sunghwan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a764decdf542df8ec93f0702a51ad17e}{%
+           family={Lathrop},
+           familyi={L\bibinitperiod},
+           given={Stacy},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d47d4545a4445cfda108b09e034fcc19}{%
+           family={Marchler-Bauer},
+           familyi={M\bibinithyphendelim B\bibinitperiod},
+           given={Aron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=931b35d98fdc5f222ab135129a7d83b5}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Terence\bibnamedelima D},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fcf955b89deaa192c2c2a1d0b5b16022}{%
+           family={O’Sullivan},
+           familyi={O\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba47fe2a9b2c5a796d32f52697443025}{%
+           family={Schmieder},
+           familyi={S\bibinitperiod},
+           given={Erin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=054bc7d67d8bf82ed236dce24be78c58}{%
+           family={Skripchenko},
+           familyi={S\bibinitperiod},
+           given={Yuriy},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1913bb7f7c34de392093fc2285958d58}{%
+           family={Stine},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5bcc5d2d2150491ad5c122e67a81347}{%
+           family={Thibaud-Nissen},
+           familyi={T\bibinithyphendelim N\bibinitperiod},
+           given={Francoise},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6e8cb3a4bf918cb95447db412013a03}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jiyao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bbb57db06381de49c790d34012a42623}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=942ba27ae3fcb41113a7395cb13e3309}{%
+           family={Zellers},
+           familyi={Z\bibinitperiod},
+           given={Erin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ea6f424ef9bb3b0dedd0c2f3f7c0f86}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Valerie\bibnamedelima A},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec3750ff23affadb7b688bbbad84f103}{%
+           family={Pruitt},
+           familyi={P\bibinitperiod},
+           given={Kim\bibnamedelima D},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2a5de0ce7ce9d375cc878d3fce721a07}
+      \strng{fullhash}{28304302953530b31a7b92542a42a07e}
+      \strng{bibnamehash}{2a5de0ce7ce9d375cc878d3fce721a07}
+      \strng{authorbibnamehash}{2a5de0ce7ce9d375cc878d3fce721a07}
+      \strng{authornamehash}{2a5de0ce7ce9d375cc878d3fce721a07}
+      \strng{authorfullhash}{28304302953530b31a7b92542a42a07e}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The National Center for Biotechnology Information (NCBI) provides online information resources for biology, including the GenBank® nucleic acid sequence repository and the PubMed® repository of citations and abstracts published in life science journals. NCBI provides search and retrieval operations for most of these data from 31 distinct repositories and knowledgebases. The E-utilities serve as the programming interface for most of these. Resources receiving significant updates in the past year include PubMed, PubMed Central, Bookshelf, the NIH Comparative Genomics Resource, BLAST, Sequence Read Archive, Taxonomy, iCn3D, Conserved Domain Database, Pathogen Detection, antimicrobial resistance resources and PubChem. These resources can be accessed through the NCBI home page at https://www.ncbi.nlm.nih.gov.}
+      \field{issn}{1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{11}
+      \field{number}{D1}
+      \field{title}{Database resources of the National Center for Biotechnology Information in 2025}
+      \field{volume}{53}
+      \field{year}{2024}
+      \field{pages}{D20\bibrangedash D29}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkae979
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/nar/article-pdf/53/D1/D20/60586411/gkae979.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/nar/gkae979
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/nar/gkae979
+      \endverb
+    \endentry
+    \entry{Singh2022}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ea1f2bcf60809ab80264614320310cb8}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Abhishek},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e4f11b899cafb20b9adaac4dfb08cc4}{%
+           family={Rawat},
+           familyi={R\bibinitperiod},
+           given={Aparna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a41adbabe3be5371104ca0b8762b9478}{%
+           family={Raghuthaman},
+           familyi={R\bibinitperiod},
+           given={Nikhila},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{5}{}{%
+        {{hash=88d377504e0a235284bbe86dea549174}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Jagdev},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a550d8e716c2112d7c91090c2f310022}{%
+           family={Dutta},
+           familyi={D\bibinitperiod},
+           given={Hemen},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9855d0416cdbb5d666ea70e082b113ae}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Devendra},
+           giveni={D\bibinitperiod}}}%
+        {{hash=01865480b15eb68259be794a6a3fbad8}{%
+           family={Baleanu},
+           familyi={B\bibinitperiod},
+           given={Dumitru},
+           giveni={D\bibinitperiod}}}%
+        {{hash=20dca71aeb8d1a0447b56a8be91be2f0}{%
+           family={Hristov},
+           familyi={H\bibinitperiod},
+           given={Jordan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{234cb74993fff00ea3e7b5d6b7e2b603}
+      \strng{fullhash}{234cb74993fff00ea3e7b5d6b7e2b603}
+      \strng{bibnamehash}{234cb74993fff00ea3e7b5d6b7e2b603}
+      \strng{authorbibnamehash}{234cb74993fff00ea3e7b5d6b7e2b603}
+      \strng{authornamehash}{234cb74993fff00ea3e7b5d6b7e2b603}
+      \strng{authorfullhash}{234cb74993fff00ea3e7b5d6b7e2b603}
+      \strng{editorbibnamehash}{1be758da8ea860a18646715dde23c183}
+      \strng{editornamehash}{1be758da8ea860a18646715dde23c183}
+      \strng{editorfullhash}{1a33895e435a23458e7e1790aca28d26}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this chapter, we discuss a unique method to time-frequency analysis which gives a centralized way to represent discrete and continuous time-frequency. This serves as a straightforward way to include all possible (countable) discrete and continuous time scales in one model. We consider the Mexican hat wavelet which is one of the basic wavelet functions formulated by the second derivative of Gaussian function to define the Mexican hat wavelet transform (MHWT). Further, the theory of MHWT is implemented to obtain the Mexican hat wavelet Stieltjes transform (MHWST) of a bounded variation function. Some convenient properties of MHWST are also presented. Further, a standard method is introduced for representing functions of class B(m, n). Besides, an integral transform is constructed with the help of the Fourier summation kernel. This construction results in a flexible way to present some conditions that are necessary and sufficient for a function of class B(m, n) to be Mexican hat wavelet and MHWST.}
+      \field{booktitle}{Methods of Mathematical Modelling and Computation for Complex Systems}
+      \field{isbn}{978-3-030-77169-0}
+      \field{title}{Mexican Hat Wavelet Transform and Its Applications}
+      \field{year}{2022}
+      \field{pages}{299\bibrangedash 317}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1007/978-3-030-77169-0_12
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-030-77169-0_12
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-030-77169-0_12
+      \endverb
+    \endentry
+    \entry{singhal_2015}{article}{}
+      \name{author}{13}{}{%
+        {{un=0,uniquepart=base,hash=769822a303ef221186e1c445a42e49cc}{%
+           family={Singhal},
+           familyi={S\bibinitperiod},
+           given={Sonal},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=999bcafe3763f606d78f29c26376bfe6}{%
+           family={Leffler},
+           familyi={L\bibinitperiod},
+           given={Ellen\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=777bd296c91edcd75d5fb83f8200dba0}{%
+           family={Sannareddy},
+           familyi={S\bibinitperiod},
+           given={Keerthi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=740869a01e4a1baaa5379f32ab478f24}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2d863dedfaa194444933c3e9dd0e976}{%
+           family={Venn},
+           familyi={V\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a4f5cca4c876ef5bd6ff6915c8c0847}{%
+           family={Hooper},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27e44a0667c078176d4de1aafda044c2}{%
+           family={Strand},
+           familyi={S\bibinitperiod},
+           given={Alva\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c49cb84d2499522acc460613c8b5b283}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qiye},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e77042877e8c3428a00f0382b6d431a3}{%
+           family={Raney},
+           familyi={R\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9cc324ef5ac96ef75aa2a88dea72bece}{%
+           family={Balakrishnan},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima N.},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e81c241e0b4d64cc1599cbe33d74869}{%
+           family={Griffith},
+           familyi={G\bibinitperiod},
+           given={Simon\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee867f7b9dad34099817c34d2a3b4a0e}{%
+           family={McVean},
+           familyi={M\bibinitperiod},
+           given={Gil},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab6ede380dfdf54bef473b2c6fab16d1}{%
+           family={Przeworski},
+           familyi={P\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a17ad00638fdfc3c6e451cf6aed53512}
+      \strng{fullhash}{d144d31ea2f92def3295c65a2484cb90}
+      \strng{bibnamehash}{a17ad00638fdfc3c6e451cf6aed53512}
+      \strng{authorbibnamehash}{a17ad00638fdfc3c6e451cf6aed53512}
+      \strng{authornamehash}{a17ad00638fdfc3c6e451cf6aed53512}
+      \strng{authorfullhash}{d144d31ea2f92def3295c65a2484cb90}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Apes and mice have a specific gene, PRDM9, that is associated with genomic regions with high rates of recombination, called hotspots. In species with PRDM9, hotspots move rapidly within the genome, varying among populations and closely related species (see the Perspective by Lichten). To investigate recombination hotspots in species lacking PRDM9, Singhal et al. examined bird genomes, which lack a PRDM9 gene. They looked closely at the genomes of finch species and found that recombination was localized to the promoter regions of genes and highly conserved over millions of years. Similarly, Lam and Keeney examined recombination localization within yeast, which also lacks PRDM9. They found a similar more-or-less fixed pattern of hotspots. Thus, recombination in species lacking a PRDM9 gene shows similar patterns of hotspot localization and evolution. Science, this issue p. 913, p. 928; see also p. 932 DNA recombination hotspots in birds are localized to gene regulatory sequences and show evolutionary conservation. [Also see Perspective by Lichten] The DNA-binding protein PRDM9 has a critical role in specifying meiotic recombination hotspots in mice and apes, but it appears to be absent from other vertebrate species , including birds. To study the evolution and determinants of recombination in species lacking the gene that encodes PRDM9, we inferred fine-scale genetic maps from population resequencing data for two bird species: the zebra finch, Taeniopygia guttata, and the long-tailed finch, Poephila acuticauda. We found that both species have recombination hotspots, which are enriched near functional genomic elements. Unlike in mice and apes, most hotspots are shared between the two species, and their conservation seems to extend over tens of millions of years. These observations suggest that in the absence of PRDM9, recombination targets functional features that both enable access to the genome and constrain its evolution.}
+      \field{journaltitle}{Science}
+      \field{number}{6263}
+      \field{title}{Stable recombination hotspots in birds}
+      \field{volume}{350}
+      \field{year}{2015}
+      \field{pages}{928\bibrangedash 932}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1126/science.aad0843
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.aad0843
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.aad0843
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.aad0843
+      \endverb
+    \endentry
+    \entry{doi:10.1126/sciadv.aaw9206}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4dbea328908c15d306bbde1b3bc1561e}{%
+           family={Spence},
+           familyi={S\bibinitperiod},
+           given={Jeffrey\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4a3018cd42c47afe742b09431f70975}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yun\bibnamedelima S.},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e7bd21f92190f3fcdd5791ddd50e2ab0}
+      \strng{fullhash}{e7bd21f92190f3fcdd5791ddd50e2ab0}
+      \strng{bibnamehash}{e7bd21f92190f3fcdd5791ddd50e2ab0}
+      \strng{authorbibnamehash}{e7bd21f92190f3fcdd5791ddd50e2ab0}
+      \strng{authornamehash}{e7bd21f92190f3fcdd5791ddd50e2ab0}
+      \strng{authorfullhash}{e7bd21f92190f3fcdd5791ddd50e2ab0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recombination rates vary across the genome and across populations in a way that depends on PRDM9 and chromatin structure. Fine-scale rates of meiotic recombination vary by orders of magnitude across the genome and differ between species and even populations. Studying cross-population differences has been stymied by the confounding effects of demographic history. To address this problem , we developed a demography-aware method to infer fine-scale recombination rates and applied it to 26 diverse human populations, inferring population-specific recombination maps. These maps recapitulate many aspects of the history of these populations including signatures of the trans-Atlantic slave trade and the Iberian colonization of the Americas. We also investigated modulators of the local recombination rate, finding further evidence that Polycomb group proteins and the trimethylation of H3K27 elevate recombination rates. Further differences in the recombination landscape across the genome and between populations are driven by variation in the gene that encodes the DNA binding protein PRDM9, and we quantify the weak effect of meiotic drive acting to remove its binding sites.}
+      \field{journaltitle}{Science Advances}
+      \field{number}{10}
+      \field{title}{Inference and analysis of population-specific fine-scale recombination maps across 26 diverse human populations}
+      \field{volume}{5}
+      \field{year}{2019}
+      \field{pages}{eaaw9206}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1126/sciadv.aaw9206
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/sciadv.aaw9206
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/sciadv.aaw9206
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/sciadv.aaw9206
+      \endverb
+    \endentry
+    \entry{2020SciPy-NMeth}{article}{}
+      \name{author}{35}{}{%
+        {{un=0,uniquepart=base,hash=18703a2bb6a62484483c193a212da2f8}{%
+           family={Virtanen},
+           familyi={V\bibinitperiod},
+           given={Pauli},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d500f4849030f34359cdb3e1513acf83}{%
+           family={Oliphant},
+           familyi={O\bibinitperiod},
+           given={Travis\bibnamedelima E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35bb9c71f55048509a3e9018c349ed73}{%
+           family={Haberland},
+           familyi={H\bibinitperiod},
+           given={Matt},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbb0c40f5d70be8ce47ce9daafdf5749}{%
+           family={Reddy},
+           familyi={R\bibinitperiod},
+           given={Tyler},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fd9ed8466bbb96364ae008f2a665e6e}{%
+           family={Cournapeau},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09a667aa6a26526bfcccb2676a494e55}{%
+           family={Burovski},
+           familyi={B\bibinitperiod},
+           given={Evgeni},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d6efaaa3d9682e20787eb06ff70a3d7}{%
+           family={Peterson},
+           familyi={P\bibinitperiod},
+           given={Pearu},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4c7e4c94b846fa41e2fc0a88e0dc656d}{%
+           family={Weckesser},
+           familyi={W\bibinitperiod},
+           given={Warren},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7447cb057596bc2645d3980bb04f5c78}{%
+           family={Bright},
+           familyi={B\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b5d87f5a394ee92a6edb4c1de058cab}{%
+           family={{van der Walt}},
+           familyi={v\bibinitperiod},
+           given={Stéfan\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=626cc151613864abeb653c0d8172d98c}{%
+           family={Brett},
+           familyi={B\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57849e8550281b202bd611bf6f11e14b}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Joshua},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b053969d2c6a9ec8689980fb6463cd56}{%
+           family={Millman},
+           familyi={M\bibinitperiod},
+           given={K.\bibnamedelimi Jarrod},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbaf80580622bd40577f4a6d38021c0a}{%
+           family={Mayorov},
+           familyi={M\bibinitperiod},
+           given={Nikolay},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bcf847eaccba039f7a4523540673aea}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelimb R.\bibnamedelimi J.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b3d26f886661aa723985bcfd835ba18}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ad1d38817acd2f00cb7f324ec7d37ea}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d336f110675c46226ece1db501ce712}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65b1934a87acb0abe09c469aaf11c326}{%
+           family={Carey},
+           familyi={C\bibinitperiod},
+           given={C\bibnamedelima J},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9989e8a18827e34b15112d671f52bd35}{%
+           family={Polat},
+           familyi={P\bibinitperiod},
+           given={İlhan},
+           giveni={İ\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8b88d61c79de60e6e1b5d44e03f5dec}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf4be16325cb4f641345ca394443fd18}{%
+           family={Moore},
+           familyi={M\bibinitperiod},
+           given={Eric\bibnamedelima W.},
+           giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fd9a0e34f1b2adda41357c948d14986}{%
+           family={{ VanderPlas}},
+           familyi={_\bibinitperiod},
+           given={Jake},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6a95a8ced3b86b4e7e60a74bc6ebf5a}{%
+           family={Laxalde},
+           familyi={L\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=85242652d69220e83cf71ceb8d90a8cb}{%
+           family={Perktold},
+           familyi={P\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bca159e697db439e23b8947dfa4b614}{%
+           family={Cimrman},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70b659f5067a8a2efbee66f770681598}{%
+           family={Henriksen},
+           familyi={H\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa5163c76600eb11a4d07a28f0701cb0}{%
+           family={Quintero},
+           familyi={Q\bibinitperiod},
+           given={E.\bibnamedelimi A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db2b4761cc46be347b418e68660c9554}{%
+           family={Harris},
+           familyi={H\bibinitperiod},
+           given={Charles\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d86aea5ad1f2b4e27f2f014c71712c2}{%
+           family={Archibald},
+           familyi={A\bibinitperiod},
+           given={Anne\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b52b9458bf00c6464f3aee8ed36e1bb1}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Antonio\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bab4e5caee2d67831e464ce575022b37}{%
+           family={Pedregosa},
+           familyi={P\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8928c27c900ec0b05492cbba126c5196}{%
+           family={{van Mulbregt}},
+           familyi={v\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa8bf7a30651c7bc3d20ff02fc843dd9}{%
+           family={{SciPy 1.0 Contributors}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{fullhash}{2123a1ac8ce37463a451022d40b48709}
+      \strng{bibnamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authorbibnamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authornamehash}{f252038edd7f112d75da3bf0c1edecbc}
+      \strng{authorfullhash}{2123a1ac8ce37463a451022d40b48709}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{title}{{{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in Python}}
+      \field{volume}{17}
+      \field{year}{2020}
+      \field{pages}{261\bibrangedash 272}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1038/s41592-019-0686-2
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

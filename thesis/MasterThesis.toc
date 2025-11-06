@@ -1,0 +1,13 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
+\contentsline {section}{\numberline {2}Materials \& Methods}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Data Acquisition}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Population Genomics Statistics}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Inference of Recombination Rate Maps}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Analysis of Recombination Rate Landscape Over The Blackcap Genome}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Inference of Meiotic Recombination Hotspots}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}}{6}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Results}{6}{section.3}%
+\contentsline {section}{\numberline {4}Discussion}{6}{section.4}%
+\contentsline {section}{\numberline {5}References}{6}{section.5}%
+\contentsline {section}{\numberline {6}Declaration}{8}{section.6}%

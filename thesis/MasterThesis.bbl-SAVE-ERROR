@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
-    \entry{bascon-cardozo_fine-scale_2024}{article}{}
+    \entry{bascon-cardozo-fine-scale-2024}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=316ee45d0caf67de7e019e838babc3d7}{%
            family={Bascón-Cardozo},
@@ -199,7 +199,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Summary: The variant call format (VCF) is a generic format for storing DNA polymorphism data such as SNPs, insertions, deletions and structural variants, together with rich annotations. VCF is usually stored in a compressed manner and can be indexed for fast data retrieval of variants from a range of positions on the reference genome. The format was developed for the 1000 Genomes Project, and has also been adopted by other projects such as UK10K, dbSNP and the NHLBI Exome Project. VCFtools is a software suite that implements various utilities for processing VCF files, including validation, merging, comparing and also provides a general Perl API.Availability: http://vcftools.sourceforge.netContact: rd@sanger.ac.uk}
       \field{issn}{1367-4803}
       \field{journaltitle}{Bioinformatics}
       \field{month}{06}
@@ -551,6 +550,121 @@
       \verb https://doi.org/10.1093/genetics/iyaf004
       \endverb
     \endentry
+    \entry{ma_cobind_2023}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=511e11f06078454cb94dfab9a512bcaa}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8bd4e3e6873126fac423d253f161ebff}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Lingyun},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ba047be8a2eeabf208114c3fcb33628}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Huihuang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d59f767e7d8d06428b6e99ae80f9488}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Liguo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0e96ef50a8474c5bea2f63e8bd278b3f}
+      \strng{fullhash}{7e32ef7b433d16a258a5842e661f0a98}
+      \strng{bibnamehash}{0e96ef50a8474c5bea2f63e8bd278b3f}
+      \strng{authorbibnamehash}{0e96ef50a8474c5bea2f63e8bd278b3f}
+      \strng{authornamehash}{0e96ef50a8474c5bea2f63e8bd278b3f}
+      \strng{authorfullhash}{7e32ef7b433d16a258a5842e661f0a98}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Analyzing the overlap between two sets of genomic intervals is a frequent task in the field of bioinformatics. Typically, this is accomplished by counting the number (or proportion) of overlapped regions, which applies an arbitrary threshold to determine if two genomic intervals are overlapped. By making binary calls but disregarding the magnitude of the overlap, such an approach often leads to biased, non-reproducible, and incomparable results.We developed the cobind package, which incorporates six statistical measures: the Jaccard coefficient, Sørensen–Dice coefficient, Szymkiewicz–Simpson coefficient, collocation coefficient, pointwise mutual information (PMI), and normalized PMI. These measures allow for a quantitative assessment of the collocation strength between two sets of genomic intervals. To demonstrate the effectiveness of these methods, we applied them to analyze CTCF’s binding sites identified from ChIP-seq, cancer-specific open-chromatin regions (OCRs) identified from ATAC-seq of 17 cancer types, and oligodendrocytes-specific OCRs identified from scATAC-seq. Our results indicated that these new approaches effectively re-discover CTCF’s cofactors, as well as cancer-specific and oligodendrocytes-specific master regulators implicated in disease and cell type development.The cobind package is implemented in Python and freely available at https://cobind.readthedocs.io/en/latest/.}
+      \field{issn}{2635-0041}
+      \field{journaltitle}{Bioinformatics Advances}
+      \field{month}{1}
+      \field{number}{1}
+      \field{shorttitle}{Cobind}
+      \field{title}{Cobind: quantitative analysis of the genomic overlaps}
+      \field{urlday}{23}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{vbad104}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/bioadv/vbad104
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/W5FPIYD5/Ma et al. - 2023 - Cobind quantitative analysis of the genomic overl.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/bioadv/vbad104
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/bioadv/vbad104
+      \endverb
+    \endentry
+    \entry{nei-and-li-1979}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d99a17ef4bd866cc6d328e1c37603bd0}{%
+           family={Nei},
+           familyi={N\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f5944da1b98ed2dac339565ba069fa9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={W\bibnamedelima H},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{62a746ba11d5299e308f4b603219e016}
+      \strng{fullhash}{62a746ba11d5299e308f4b603219e016}
+      \strng{bibnamehash}{62a746ba11d5299e308f4b603219e016}
+      \strng{authorbibnamehash}{62a746ba11d5299e308f4b603219e016}
+      \strng{authornamehash}{62a746ba11d5299e308f4b603219e016}
+      \strng{authorfullhash}{62a746ba11d5299e308f4b603219e016}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A mathematical model for the evolutionary change of restriction sites in mitochondrial DNA is developed. Formulas based on this model are presented for estimating the number of nucleotide substitutions between two populations or species. To express the degree of polymorphism in a population at the nucleotide level, a measure called "nucleotide diversity" is proposed.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{10}
+      \field{title}{Mathematical model for studying genetic variation in terms of restriction endonucleases.}
+      \field{volume}{76}
+      \field{year}{1979}
+      \field{pages}{5269\bibrangedash 5273}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1073/pnas.76.10.5269
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.76.10.5269
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.76.10.5269
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.76.10.5269
+      \endverb
+    \endentry
     \entry{UCSC}{article}{}
       \name{author}{18}{}{%
         {{un=0,uniquepart=base,hash=e02073df7bc8290f1da56e9b4b25aaf3}{%
@@ -877,7 +991,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The National Center for Biotechnology Information (NCBI) provides online information resources for biology, including the GenBank® nucleic acid sequence repository and the PubMed® repository of citations and abstracts published in life science journals. NCBI provides search and retrieval operations for most of these data from 31 distinct repositories and knowledgebases. The E-utilities serve as the programming interface for most of these. Resources receiving significant updates in the past year include PubMed, PubMed Central, Bookshelf, the NIH Comparative Genomics Resource, BLAST, Sequence Read Archive, Taxonomy, iCn3D, Conserved Domain Database, Pathogen Detection, antimicrobial resistance resources and PubChem. These resources can be accessed through the NCBI home page at https://www.ncbi.nlm.nih.gov.}
       \field{issn}{1362-4962}
       \field{journaltitle}{Nucleic Acids Research}
       \field{month}{11}
@@ -1146,6 +1259,49 @@
       \endverb
       \verb{url}
       \verb https://www.science.org/doi/abs/10.1126/sciadv.aaw9206
+      \endverb
+    \endentry
+    \entry{Tajima-1989}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=808a624080973658e531475d2873a2ab}{%
+           family={Tajima},
+           familyi={T\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{808a624080973658e531475d2873a2ab}
+      \strng{fullhash}{808a624080973658e531475d2873a2ab}
+      \strng{bibnamehash}{808a624080973658e531475d2873a2ab}
+      \strng{authorbibnamehash}{808a624080973658e531475d2873a2ab}
+      \strng{authornamehash}{808a624080973658e531475d2873a2ab}
+      \strng{authorfullhash}{808a624080973658e531475d2873a2ab}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{11}
+      \field{number}{3}
+      \field{title}{Statistical method for testing the neutral mutation hypothesis by DNA polymorphism.}
+      \field{volume}{123}
+      \field{year}{1989}
+      \field{pages}{585\bibrangedash 595}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/genetics/123.3.585
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/genetics/article-pdf/123/3/585/34466400/genetics0585.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/genetics/123.3.585
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/genetics/123.3.585
       \endverb
     \endentry
     \entry{2020SciPy-NMeth}{article}{}

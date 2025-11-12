@@ -6,8 +6,8 @@
 \contentsline {subsection}{\numberline {2.3}Inference of Recombination Rate Maps}{3}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Analysis of Recombination Rate Landscape Over The Blackcap Genome}{4}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Inference of Meiotic Recombination Hotspots}{5}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}}{6}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Results}{6}{section.3}%
-\contentsline {section}{\numberline {4}Discussion}{6}{section.4}%
-\contentsline {section}{\numberline {5}References}{6}{section.5}%
-\contentsline {section}{\numberline {6}Declaration}{8}{section.6}%
+\contentsline {subsection}{\numberline {3.1}Population genomics statistics of the european blackcap metapopulation}{6}{subsection.3.1}%
+\contentsline {section}{\numberline {4}Discussion}{12}{section.4}%
+\contentsline {section}{\numberline {5}References}{12}{section.5}%
+\contentsline {section}{\numberline {6}Declaration}{14}{section.6}%

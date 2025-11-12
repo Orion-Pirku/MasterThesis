@@ -2369,17 +2369,20 @@
     <bcf:citekey order="4" intorder="1">singhal_2015</bcf:citekey>
     <bcf:citekey order="5" intorder="1">ishigohoka_high-recombining_2025</bcf:citekey>
     <bcf:citekey order="6" intorder="1">vcftools</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">Tajima-1989</bcf:citekey>
+    <bcf:citekey order="6" intorder="3">nei-and-li-1979</bcf:citekey>
     <bcf:citekey order="7" intorder="1">doi:10.1126/sciadv.aaw9206</bcf:citekey>
     <bcf:citekey order="8" intorder="1">doi:10.1126/sciadv.aaw9206</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">bascon-cardozo_fine-scale_2024</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">bascon-cardozo_fine-scale_2024</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">bascon-cardozo-fine-scale-2024</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">bascon-cardozo-fine-scale-2024</bcf:citekey>
     <bcf:citekey order="11" intorder="1">doi:10.1126/sciadv.aaw9206</bcf:citekey>
     <bcf:citekey order="12" intorder="1">doi:10.1126/sciadv.aaw9206</bcf:citekey>
     <bcf:citekey order="13" intorder="1">doi:10.1126/sciadv.aaw9206</bcf:citekey>
     <bcf:citekey order="14" intorder="1">2020SciPy-NMeth</bcf:citekey>
     <bcf:citekey order="15" intorder="1">Singh2022</bcf:citekey>
     <bcf:citekey order="15" intorder="2">Mexican-hat-wavelet</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">singhal_2015</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">ma_cobind_2023</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">singhal_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -1,11 +1,12 @@
-% !TEX TS-program = xelatex
+% !TEX program = xelatex
 \documentclass[12pt,a4paper]{article}
 \usepackage[section]{placeins} % keep floats within their section
-
+\usepackage[table]{xcolor}
+\usepackage{threeparttable}
 % --- Language & page ---
 \usepackage[english]{babel}
 \usepackage[a4paper,margin=2.5cm]{geometry}
-
+\usepackage{float}
 % --- Fonts (XeLaTeX) ---
 
 % --- Formatting helpers ---
@@ -141,6 +142,7 @@ blackcap, on 15 March 2025 I retrieved:
 As the demography data from \cite{ishigohoka_high-recombining_2025} was computed for each blackcap
 sub population, I merged the msmc2 table by taking the average of each input across all tables.
 I automated this process with a custom script \texttt{merge\_msmc2\_table.py}.
+
 \subsection{Population Genomics Statistics}
 To describe the different aspects of genomic variation, such as average pairwise sequence
 variation between individuals, frequency of polymorphic sites and deviation from natural evolution I
@@ -157,6 +159,7 @@ $\frac{Start + End}{2}$ \\ Lastly, divided the statistics into three equal
 quantile-based bins representing "low", "medium" and "high" values and
 visualized the proportion of each quantity per chromosome. I automated the
 visualization with a custom script called \texttt{plot\_popgen\_stats.py}.
+
 \subsection{Inference of Recombination Rate Maps}
 To compute the population scaled recombination rate maps in blackcaps, I
 utilized a demography- aware method to infer fine-scale recombination rates
@@ -195,29 +198,30 @@ with a block penalty of 20 I computed population\-scaled the recombination rate 
 This process was automated with a custom script called \texttt{pyrho\_optimize.sh}
 
 \subsection{Analysis of Recombination Rate Landscape Over The Blackcap Genome}
-To investigate the population scaled recombination rate landscape in blackcaps,
-I converted the raw recombination rate to \texttt{cM/Mb} by averaging over
+
+To investigate the population scaled recombination rate landscape in blackcaps, I
+converted the raw recombination rate to \texttt{cM/Mb} by averaging over
 genomic windows of 10 kilobases and multiplying by $10^8$. Then, I calculated
-the midpoint of the genomic coordinates by the formula: $\frac{Start +
-		End}{2}$. Lastly, I plotted the recombination rate in \texttt{cM/Mb} over the
-genomic midpoint coordinates. \\section I investigated the distribution of
+the midpoint of the genomic coordinates by the formula: $\frac{Start +End}{2}$.
+Lastly, I plotted the recombination rate in \texttt{cM/Mb} over the
+genomic midpoint coordinates. I investigated the distribution of
 recombination rate strength per chromosome. To do this, I sorted the
 recombination rate per chromosome by signal strength and divided it into equal
 tertiles ("low", "medium" and "high"). I visualized the data on a chromosomal
 basis using pie charts. \\
-
 To gain a more in\-depth understanding of the recombination landscape I
 incorporated the gene density and gc content into the analysis. I extracted the
 genes from the blackcap \texttt{gff} file using a custom script
-\texttt{clean\_raw\_gff.py} and computed the gene density over genomic windows
-ofsize $n$. I generated genomic bins of size $n$ using \texttt{PyRanges},
+\texttt{clean\_raw\_gff.py} and computed the gene density over genomic windows and divided
+by 1 Mb to get $\frac{genes}{Mb}$. I generated genomic bins of size $100000$ using \texttt{PyRanges},
 counted the number of genes overlapping with each window and divided by the
 window size and plotted the distribution of the gene density along the genome
 and binned the gene density into tertiles representing "low", "medium" and
-"high" to see the proportion To compute the gc content, I used \texttt{bedtools
-	makewindows} to make genomic windows per each chromosome, \texttt{bedtools nuc}
-to compute the gc content over the windows, which I automated with the script
-\texttt{compute\_gc\_content.sh}. Next, I plotted the gc content over each
+"high"
+.To compute the gc content, I used \texttt{bedtools makewindows} to make genomic windows
+per each chromosome, \texttt{bedtools nuc} to compute the gc content over the windows,
+which I automated with the script \texttt{compute\_gc\_content.sh}.
+Next, I plotted the gc content over each
 chromosome and binned it into three tertiles ("low", "medium" and "high")
 values to visualize how the gc content is distributed over the genome. I
 automated the plotting in the steps above using the script
@@ -263,7 +267,8 @@ identified using SciPy's \texttt{find_peaks} with a minimum peak prominence of
 at least the $90^{th}$ percentile. This process was automated using the script
 \texttt{find_hotspots.py}. Lastly, I used the package \texttt{cobind.py} to
 quantify the amount of overlap between the identified recombination hotspots
-and genomic features (UTRs', codons, genes, intergenic regions) \parencite{ma_cobind_2023} \\
+and genomic features (UTRs', codons, genes, intergenic regions) using the npmi metric which gives
+the enrichment of overlaps relative to what is expected at random \parencite{ma_cobind_2023} \\
 To test if the wavelet transform methodology is
 also applicable to other prdm9 independent recombining species I ran the same
 analysis on \texttt{LDHelmet} recombination maps generated by \cite{singhal_2015}.
@@ -280,21 +285,17 @@ relatively stable negative tajima $D$ values across the chromosomal body, with t
 peak in chromosomes  2 and 4 at \(\sim20 Mb\) with a tajima $D$ value of 0 and a sharp valley with a
 tajima $D$ value of over -2 at \(\sim7 Mb\) on chromosome 6, and the end of chromosome 12 that
 contained several peaks of positive tajima $D$ (Supplementary Figure 1). The chromosomal ends of
-these macrochromosomes had negative tajima $D$ values which were close to 0. \\
-
+these macrochromosomes had negative tajima $D$ values which were close to 0.
 The blackcap microchromosomes displayed opposite patterns, the subtelomeric regions had valleys
 beyond values of tajima $D:$ $-2$ while the chromosomal body showed stable yet tiny fluctuations in
 the tajima $D$ values, which were negative yet closer to 0 (Supplementary Figure 1).
 % --- Tajima's D ---
-\begin{figure}[htbp]
+\begin{figure}[H]
 	\centering
 	\begin{subfigure}{0.65\textwidth}
 		\includegraphics[width=\linewidth]{Figures/TajimaD_chr1.png}
-		\subcaption{}
 	\end{subfigure}\par\medskip
 	\begin{subfigure}{0.65\textwidth}
-		\includegraphics[width=\linewidth]{Figures/TajimaD_chr10.png}
-		\subcaption{}
 	\end{subfigure}\par\medskip
 	\begin{subfigure}{0.65\linewidth}
 		\includegraphics[width=\linewidth]{Figures/TajimaD_chr30.png}
@@ -307,14 +308,19 @@ the tajima $D$ values, which were negative yet closer to 0 (Supplementary Figure
 Compared to tajima's $D$, the SNP density and nucleotide diversity \(\pi\) displayed more visible
 patterns across the chromosomes (Figure 2). The macrochromosomes had an average SNP density and
 nuleotide diversity \(\pi\) of 50 and 0.005 over 100 Mb window bins, respectively
-(Figure 2; Supplementary Figure 2 \& 3). In addition to this, both values displayed  regularly
+(Figure 2; Supplementary Figure 2 \- 3). In addition to this, both values displayed  regularly
 interspaced sharp valleys occuring at \(\sim\) 10 Mb. Chromosome 1, in contrast to the other,
-macrochromosomes had a sharp peak in its chromosomal end (Supplementary Figures 2 \& 3). The
+macrochromosomes had a sharp peak in its chromosomal end (Supplementary Figures 2 \- 3). The
 microchromosomes, on the other hand, revealed stable patterns, with reduced signal in the
 subtelomeric regions with occasional valleys in SNP density and diversity $\pi$ along the chrmosomal
-axis (Supplementary Figures 2\&3). Here again, microchromosomes displayed increased SNP density and
+axis (Supplementary Figures 2\-3). Here again, microchromosomes displayed overall SNP density and
+diversity $\pi$ across the chromosomal axis relative to the macrochromosomes. Interestingly the
+trends of SNP density, diversity $\pi$ and tajima $D$ have a medium positive correlation (pearson
+correlation $r$; Figure 7) with each other and decreases in the signal of these metrics are observed
+to occur in similar genomic postions (Figure 1\-2, Supplementary Figures 1\-3)
+other,
 
-\begin{figure}
+\begin{figure}[H]
 
 	\begin{subfigure}{0.48\linewidth}
 		\centering
@@ -322,7 +328,7 @@ axis (Supplementary Figures 2\&3). Here again, microchromosomes displayed increa
 		\includegraphics[width=\linewidth]{Figures/SNPDensity_chr10.png}\par\medskip
 		\includegraphics[width=\linewidth]{Figures/SNPDensity_chr30.png}
 	\end{subfigure}
-	\hfill
+	\hspace{1.5cm}
 	% Right column: Pi
 	\begin{subfigure}{0.48\linewidth}
 		\centering
@@ -335,157 +341,305 @@ axis (Supplementary Figures 2\&3). Here again, microchromosomes displayed increa
 		and 30 in 100\,kb windows.}
 \end{figure}
 
+\subsection{Genomic Features of the blackcap metapopulation}
 
+To investigate the genomic features of the blackcap metapopulation as well as their
+relationship to the recombination landscape of the species, I computed the GC content and
+the gene density across the blackcap genome in 100 kb windows. The blackcap genome has and
+average GC content of 41.8\% across all autosomal chromosomes (Table 1, Figure 3, Supplementary Figure 4).
+Overall the GC content has two typs of patterns across the blakccap chromosomes.
+On chromosomes 1-12, it shows elevated GC content in the subtelomeric regions, with several valleys
+in the chromosomal body corresponding with low gc content (Figure 3, Supplementary Figure 4).
+The microchromosomes, contained another pattern. They showed elevated GC content over all
+the chromosomal body with gc content trends being over 50\% and relatively stable
+(Supplementary Figure 4). Furthermore, this trend in GC content values with decreasing
+chromosome size was even more pronounced when the values were binned into equal tertiles (Figure 3; Su
+pplementary Figure 4). Here, the microchromosomes had a larger proportion of high GC
+content as opposed to the macrochromosomes. \\
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 	\centering
 
 	% chr1
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GCContent_chr1.png}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.20\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GC_dist_chr1.png}
 	\end{subfigure}\par\medskip
 
 	% chr10
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GCContent_chr10.png}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.20\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GC_dist_chr10.png}
 	\end{subfigure}\par\medskip
 
 	% chr30
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GCContent_chr30.png}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.20\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GC_dist_chr30.png}
 	\end{subfigure}
 
-	\caption{\textbf{(left)} GC content across chromosomes 1, 10, and 30 in 100\,kb windows and
-		\textbf{(right)} GC content binned into equal tertiles (\emph{low}, \emph{medium}, \emph{high}).}
+	\caption{\textbf{(Left)} GC content across chromosomes 1, 10, and 30 in 100\,kb windows and
+		\textbf{(Right)} GC content binned into equal tertiles (\emph{low}, \emph{medium}, \emph{high}).}
 \end{figure}
 
-% --- Gene density (tracks + pies) ---
-\begin{figure}[htbp]
-	\centering
+The blakcap genome has an average gene density of 33.83 $\frac{genes}{Mb}$ (Table 1).
+The macrochromosomes show low gene density across their length, with
+elevated gene density in the subtelomeric regions (Figure 4, Supplementary Figure 5) and have
+average gene density lower than microchromosomes (Table 1).
+Microchromosomes, on the other hand, have an higher average gene density along their length and lower gene density in
+their subtelomeric regions compared to the macrochromosomes (Table 1, Figure 4, Supplementary Figure 5).
+Furthermore, the GC content and Gene Density showed medium positive correlation
+(pearson's $r \approx 0.6$, Figure 6), while the Gene density had a weak correlation, with tajima's $D$, diversity $\pi$ and SNP
+density ($r \approx 0.2$; Figure 6).
 
+
+
+% --- Gene density (tracks + pies) ---
+\begin{figure}[H]
+	\centering
 	% chr1
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GeneDensity_chr1.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.15\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GeneDensity_dist_chr1.png}
-		\subcaption{}
 	\end{subfigure}\par\medskip
 
 	% chr10
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GeneDensity_chr10.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.15\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GeneDensity_dist_chr10.png}
-		\subcaption{}
 	\end{subfigure}\par\medskip
 
 	% chr30
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GeneDensity_chr30.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.15\linewidth}
 		\includegraphics[width=\linewidth]{Figures/GeneDensity_dist_chr30.png}
-		\subcaption{}
 	\end{subfigure}
-
-	\caption{\textbf{a,c,e}: Gene density across chromosomes 1, 10, and 30 in 100\,kb windows. \textbf{b,d,f}: Gene density binned into equal tertiles (\emph{low}, \emph{medium}, \emph{high}).}
+	\caption{\textbf{(Left)}: Gene density across chromosomes 1, 10, and 30 in 100\,kb windows. \textbf{(Right)}: Gene density binned into equal tertiles (\emph{low}, \emph{medium}, \emph{high}).}
 \end{figure}
 
-% --- Gene density (tracks + pies) ---
-\begin{figure}[htbp]
+\subsection{Inference of meiotic recombination maps}
+To investigate the recombination landscape in european blackcaps and gain insights in the prdm9
+independent recombination that happens in organisms lacking prdm9 I computed meiotic
+recombination rate maps using \texttt{pyrho} \parencite{joseph_high_2024, cavassim_prdm9_2022, doi:10.1126/sciadv.aaw9206}.
+The recombination landscape on the blackcap population has a genome wide avarage of $0.48 \frac{cM}{Mb}$ (Table 1).
+Most of the high recombination rate signal is concenrated in the subtelomreic regions, as reported
+for other bird species (zebra finches and long tailed finches) and contained several spikes in
+recombination length over the chromosomal axis. \parencite{singhal_2015}.
+The recombination rate average per chromosome, seems to vary with chromosomal length, the
+microchromosomes had a higher proportion of high recombination rate regions and a higher
+recombination rate average then the macrochromosomes (Table 1, Figure 5, Supplementary Figure 6). \\
+
+To compare the recombination rate landscape with other genomic features I computed it's pearson
+correlation with the features mentioned above. The recombination rate seemed to have a medium
+positive correlation with the GC Content and window $\pi$ ($r \approx 0.5$), Gene density and
+SNP Density ($r \approx 0.4$) and a weak correlation with tajima's $D$ ($r \approx 0.25$). Next, to
+visualize the recombination landscape over functional genomic regions I computed the average
+profile and enrichment of the recombination rate. The recombination rate showed a narrow high peak
+on 5' UTRs with an average value of $\rho = 2.5\times10^{-7}$, small peaks on CDS and exons with an
+average $\rho = 1.3\times10^{-7}$ a flat background across genes and 3' UTRs' with $\rho = 1.3
+	\times 10^{-7}$ and no signal on intergenic regions (Figure 7)
+
+\begin{figure}[H]
 	\centering
 
 	% chr1
-	\begin{subfigure}[t]{0.74\linewidth}
-		\includegraphics[width=\linewidth]{Figures/GeneDensity_chr1.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
-		\includegraphics[width=\linewidth]{Figures/GeneDensity_dist_chr1.png}
-		\subcaption{}
-	\end{subfigure}\par\medskip
-
-	% chr10
-	\begin{subfigure}[t]{0.74\linewidth}
-		\includegraphics[width=\linewidth]{Figures/GeneDensity_chr10.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
-		\includegraphics[width=\linewidth]{Figures/GeneDensity_dist_chr10.png}
-		\subcaption{}
-	\end{subfigure}\par\medskip
-
-	% chr30
-	\begin{subfigure}[t]{0.74\linewidth}
-		\includegraphics[width=\linewidth]{Figures/GeneDensity_chr30.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
-		\includegraphics[width=\linewidth]{Figures/GeneDensity_dist_chr30.png}
-		\subcaption{}
-	\end{subfigure}
-
-	\caption{\textbf{a,c,e}: Gene density across chromosomes 1, 10, and 30 in 100\,kb windows. \textbf{b,d,f}: Gene density binned into equal tertiles (\emph{low}, \emph{medium}, \emph{high}).}
-\end{figure}
-
-
-
-\begin{figure}[htbp]
-	\centering
-
-	% chr1
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/Rho_chr1.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.20\linewidth}
 		\includegraphics[width=\linewidth]{Figures/Rho_dist_chr1.png}
-		\subcaption{}
 	\end{subfigure}\par\medskip
 
 	% chr10
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/Rho_chr10.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.20\linewidth}
 		\includegraphics[width=\linewidth]{Figures/Rho_dist_chr10.png}
-		\subcaption{}
 	\end{subfigure}\par\medskip
 
 	% chr30
-	\begin{subfigure}[t]{0.74\linewidth}
+	\begin{subfigure}[t]{0.54\linewidth}
 		\includegraphics[width=\linewidth]{Figures/Rho_chr30.png}
-		\subcaption{}
-	\end{subfigure}\hfill
-	\begin{subfigure}[t]{0.24\linewidth}
+	\end{subfigure}\hspace{1.5cm}
+	\begin{subfigure}[t]{0.20\linewidth}
 		\includegraphics[width=\linewidth]{Figures/Rho_dist_chr30.png}
-		\subcaption{}
 	\end{subfigure}
 
-	\caption{\textbf{a,c,e}: Recombination Rate $()\frac{cM}{Mb})$ across chromosomes 1, 10, and 30 in 100\,kb windows. \textbf{b,d,f}: Recombination Rate binned into equal tertiles (\emph{low}, \emph{medium}, \emph{high}).}
+	\caption{\textbf{(Left)}: Recombination Rate $(\frac{cM}{Mb})$ across chromosomes 1, 10, and 30 in 100\,kb windows. \textbf{(Right)}: Recombination Rate binned into equal tertiles (\emph{low}, \emph{medium}, \emph{high}).}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{table}[H]
+	\centering
+	\scriptsize % 10 pt text
+	\setlength{\tabcolsep}{6pt}
+	\renewcommand{\arraystretch}{1.1}
+	\caption{Genome-Wide and chromosome averages of European blackcaps genomic features}
+	\resizebox{0.75\textwidth}{!}{%
+		\begin{tabular}{lcccccc}
+			\hline
+			\textbf{Chromosome} & \textbf{GC Content} & \textbf{Genes/Mb} & \textbf{Tajima D} & \textbf{SNP Density} & \textbf{Window $\pi$} & \textbf{cM/Mb} \\
+			\hline
+			\textbf{chr1}       & 0.3920              & 11.0063           & -1.2269           & 52.7326              & 0.0050                & 0.1330         \\
+			\textbf{chr2}       & 0.3955              & 12.2712           & -1.1908           & 55.0293              & 0.0054                & 0.1515         \\
+			\textbf{chr3}       & 0.3988              & 13.2562           & -1.2196           & 53.0504              & 0.0051                & 0.1323         \\
+			\textbf{chr4}       & 0.3947              & 13.4057           & -1.0386           & 58.2552              & 0.0061                & 0.1767         \\
+			\textbf{chr5}       & 0.4036              & 15.53525          & -1.0859           & 56.4039              & 0.0058                & 0.1842         \\
+			\textbf{chr6}       & 0.4109              & 18.3237           & -1.1007           & 55.0354              & 0.0057                & 0.2055         \\
+			\textbf{chr7}       & 0.4151              & 15.9281           & -1.1474           & 54.7267              & 0.0055                & 0.2541         \\
+			\textbf{chr8}       & 0.4240              & 17.5278           & -1.1360           & 56.6891              & 0.0057                & 0.2557         \\
+			\textbf{chr9}       & 0.4275              & 20.4357           & -1.1152           & 54.1897              & 0.0055                & 0.2565         \\
+			\textbf{chr10}      & 0.4251              & 19.0993           & -1.1387           & 53.1731              & 0.0055                & 0.3346         \\
+			\textbf{chr11}      & 0.4273              & 18.7421           & -0.9772           & 54.6924              & 0.0060                & 0.3228         \\
+			\textbf{chr12}      & 0.4230              & 19.8661           & -0.9134           & 50.9150              & 0.0056                & 0.2761         \\
+			\textbf{chr13}      & 0.4400              & 21.7308           & -1.1483           & 52.9053              & 0.0053                & 0.3238         \\
+			\textbf{chr14}      & 0.4594              & 21.2564           & -1.0125           & 57.3052              & 0.0061                & 0.3725         \\
+			\textbf{chr15}      & 0.4616              & 29.8504           & -0.9730           & 59.3889              & 0.0065                & 0.3987         \\
+			\textbf{chr16}      & 0.4717              & 26.7848           & -1.0122           & 57.2724              & 0.0061                & 0.4225         \\
+			\textbf{chr17}      & 0.4746              & 28.6704           & -0.9908           & 57.1325              & 0.0061                & 0.4154         \\
+			\textbf{chr18}      & 0.4802              & 29.6759           & -0.8893           & 63.1249              & 0.0071                & 0.4832         \\
+			\textbf{chr19}      & 0.4891              & 28.1897           & -0.9552           & 58.2750              & 0.0062                & 0.4800         \\
+			\textbf{chr20}      & 0.4819              & 32.8829           & -1.0120           & 56.3063              & 0.0061                & 0.5021         \\
+			\textbf{chr21}      & 0.4521              & 24.7915           & -0.9043           & 60.4145              & 0.0068                & 0.5539         \\
+			\textbf{chr22}      & 0.4857              & 33.5450           & -0.9848           & 56.8038              & 0.0062                & 0.6170         \\
+			\textbf{chr23}      & 0.4991              & 30.3530           & -1.0390           & 60.4349              & 0.0065                & 0.7416         \\
+			\textbf{chr24}      & 0.5157              & 36.0876           & -1.0019           & 61.3774              & 0.0067                & 0.7132         \\
+			\textbf{chr25}      & 0.5230              & 43.5050           & -1.0224           & 59.2732              & 0.0063                & 0.8062         \\
+			\textbf{chr26}      & 0.5251              & 53.2288           & -1.1627           & 53.9661              & 0.0054                & 0.7040         \\
+			\textbf{chr27}      & 0.5197              & 61.1994           & -1.1095           & 54.7559              & 0.0056                & 0.6322         \\
+			\textbf{chr28}      & 0.5153              & 43.6125           & -0.9401           & 63.2349              & 0.0069                & 0.9955         \\
+			\textbf{chr29}      & 0.5610              & 65.4167           & -1.2606           & 53.1565              & 0.0049                & 1.1710         \\
+			\textbf{chr30}      & 0.5621              & 73.1818           & -1.0367           & 51.8019              & 0.0054                & 0.7643         \\
+			\textbf{chr31}      & 0.5306              & 59.5996           & -1.5640           & 41.0650              & 0.0033                & 0.5380         \\
+			\textbf{chr32}      & 0.4940              & 52.5460           & -1.9144           & 19.0520              & 0.0011                & 0.2737         \\
+			\textbf{chr33}      & 0.4957              & 136.1750          & -0.8891           & 79.6533              & 0.0088                & 1.3076         \\
+			\hline
+			\textbf{Average}    & 0.4540              & 33.8391           & -1.0572           & 53.9049              & 0.0056                & 0.4778         \\
+			\hline
+		\end{tabular}}
+\end{table}
+
+
+
+
+\begin{figure}[H]
 	\centering
 	\includegraphics[width=0.50\textwidth]{../results/rec_rate_stats/feature_correlation_plot_100000.png}
 	\caption{Heatmap showing the pearson correlation coefficient between several blackcap metapopulation features with corresponding \textit{p}--values. }
 
 \end{figure}
+
+\subsection{Wavelet transformation identifies meiotic recombination hotspots in blackcaps}
+To identify sharp peaks in the recombination rate, I applied a continious wavelet transformation.
+Continious wavelet transformations capture sharp, multi-scale differences in genomic signal
+intensity, making them suitable for detecting jumps in the recombination rate
+\parencite{Mexican-hat-wavelet, Lee2019}. \\
+Utilizing wavelet transform to identify the ridges of the recombination rate signal with a peak
+prominence threshold of 90 and 30, I identified 712, and 6145 putative recombination hotspots
+(See Materials \& Methods for details). The putative hotspots identified with a threshold of 90,
+are located mostly in the subtelomereic regions of chromosomes. Hotspots also appear along
+the chromosomal body, especially in the smaller chromosomes (Figure 8). The same trend is apparent in
+putative hotspots identified with a threshold of 30, although hotspots are also observed in the
+chromosomal body of the larger chromosomes, suggesting a broader distribution at lower detection
+thresholds (Figure 8, Supplementary Figures 9, 10). \\
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{../blackcap_rho_all_features_heatmap.png}
+	\caption{\textbf{(Top)} Average profile of the raw recombination rate $\rho$ over centered functional genomic features
+		(Genes, 5' UTRs, 3'UTRs, Exons, CDS and Intergenic regions) and \textbf{(bottom)} heatmap representing recombination
+		rate $\rho$ intensity per interval of functional genomic features computed on \texttt{deeptools}
+		\parencite{ramirez_deeptools2_2016}}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\begin{subfigure}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr1_t90.0.png}
+		\includegraphics[width=\linewidth]{../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr10_t90.0.png}
+		\includegraphics[width=\linewidth]{../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr30_t90.0.png}
+	\end{subfigure}
+	\hspace{0.5cm}
+	\begin{subfigure}[t]{0.45\linewidth}
+		\centering
+		\includegraphics[width=\linewidth]{../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr1_t30.0.png}
+		\includegraphics[width=\linewidth]{../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr10_t30.0.png}
+		\includegraphics[width=\linewidth]{../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr30_t30.0.png}
+	\end{subfigure}
+	\caption{Gaussian smoothed ($\sigma = 5$) recombination rate on chromosomes 1, 10, 30 of
+		blackcaps with recombination hotspot peaks called by "mexican hat" wavelet transform
+		(threshold 90) \textbf{(left)} and (threshold 30) \textbf{(right)}.}
+\end{figure}
+
+To compare if functional genomic regions show the same pattern of recombination hotspots enrichment,
+as the recombination rate (Figure 7), I computed the Normalized pointwise mutual information between
+the identified hotspots and the functional genomic features (Table 2). The NPMI revealed that 5'
+UTRs, Genes, CDS, and Exons are slightly more enriched in recombination hotspots (called with peak prominence threshold 90),
+than what would be expected under a null distribution (Table 2, left). However hotspots called with
+a peak promience threshold of 30, showed a higher NPMI, one order of magnitude higher for 5' UTRs,
+while the NPMI of hotspots on Genes, CDS and Exons remained relatively similar (Table 2, right).
+3' UTRs and intergenic regions were found to be less enriched in recombination hotspots than
+expected by chance (Table 2).
+\begin{table*}[hp]
+	\raggedright
+	\caption{Normalized pointwise mutual information (NPMI) between Blackcap recombination hotspots called with wavelet transform using prominence threshold 90 (left) and 30 (right), measured against functional genomic features.}
+
+	\begin{minipage}[t]{0.45\textwidth}
+		\centering
+		\small
+		\textbf{Threshold 90}\\[2mm]
+		\begin{tabular}{lrrrr}
+			\hline
+			Feature    & NPMI    & Exp.   & LCI     & UCI     \\
+			\hline
+			3'UTR      & -0.0369 & 0.0000 & -0.0665 & -0.0177 \\
+			5'UTR      & 0.0396  & 0.0000 & 0.0106  & 0.0617  \\
+			CDS        & 0.0460  & 0.0000 & 0.0176  & 0.0547  \\
+			Exons      & 0.0225  & 0.0000 & 0.0064  & 0.0390  \\
+			Genes      & 0.0157  & 0.0000 & 0.0050  & 0.0245  \\
+			Intergenic & -0.0113 & 0.0000 & -0.0181 & -0.0082 \\
+			\hline
+		\end{tabular}
+	\end{minipage}
+	\hspace{1cm}
+	\begin{minipage}[t]{0.45\textwidth}
+		\centering
+		\small
+		\textbf{Threshold 30}\\[2mm]
+		\begin{tabular}{lrrrr}
+			\hline
+			Feature    & NPMI    & Exp.    & LCI     & UCI     \\
+			\hline
+			3'UTR      & -0.0556 & -0.0000 & -0.0608 & -0.0464 \\
+			5'UTR      & 0.1694  & 0.0000  & 0.1670  & 0.1830  \\
+			CDS        & 0.0602  & 0.0000  & 0.0530  & 0.0612  \\
+			Exons      & 0.0618  & 0.0000  & 0.0573  & 0.0681  \\
+			Genes      & 0.0247  & 0.0000  & 0.0208  & 0.0298  \\
+			Intergenic & -0.0160 & 0.0000  & -0.0206 & -0.0132 \\
+			\hline
+		\end{tabular}
+	\end{minipage}
+
+	\par\vspace{2mm}
+	\noindent\small
+	Exp. = expected NPMI under random overlaps.
+	LCI/UCI = lower and upper 95\% confidence interval bounds, respectively.
+\end{table*}
+
 \section{Discussion}
 
 \section{References}

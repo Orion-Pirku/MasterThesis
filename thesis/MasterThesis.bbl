@@ -19,6 +19,244 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{abualia_natural_2024}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=39a0397248fba182941f95c007422ecf}{%
+           family={AbuAlia},
+           familyi={A\bibinitperiod},
+           given={Khawla\bibnamedelimb F\bibnamedelima N},
+           giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fce9348ed61491ff841ac693bdf1928c}{%
+           family={Damm},
+           familyi={D\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d7e3fdb71e1bfca5d4979c8df48f573b}{%
+           family={Ullrich},
+           familyi={U\bibinitperiod},
+           given={Kristian\bibnamedelima K},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7ddb4513137da6ed5a525d3482016c2}{%
+           family={Mukaj},
+           familyi={M\bibinitperiod},
+           given={Amisa},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b263ae490fca6884f28a731fd22154ae}{%
+           family={Parvanov},
+           familyi={P\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d29ffe3403f1480a0f54728af35129a8}{%
+           family={Forejt},
+           familyi={F\bibinitperiod},
+           given={Jiri},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36ff0dd21d75c337ce80f1bff3600eff}{%
+           family={Odenthal-Hesse},
+           familyi={O\bibinithyphendelim H\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6fb70890fce50e73aca20ce1f2e8f9a6}
+      \strng{fullhash}{d17c030ba7b05f304e787a8f93d54634}
+      \strng{bibnamehash}{6fb70890fce50e73aca20ce1f2e8f9a6}
+      \strng{authorbibnamehash}{6fb70890fce50e73aca20ce1f2e8f9a6}
+      \strng{authornamehash}{6fb70890fce50e73aca20ce1f2e8f9a6}
+      \strng{authorfullhash}{d17c030ba7b05f304e787a8f93d54634}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PRDM9-mediated reproductive isolation was first described in the progeny of Mus musculus musculus (MUS) PWD/Ph and Mus musculus domesticus (DOM) C57BL/6J inbred strains. These male F1 hybrids fail to complete chromosome synapsis and arrest meiosis at prophase I, due to incompatibilities between the Prdm9 gene and hybrid sterility locus Hstx2. We identified 14 alleles of Prdm9 in exon 12 , encoding the DNA-binding domain of the PRDM9 protein in outcrossed wild mouse populations from Europe, Asia, and the Middle East, 8 of which are novel. The same allele was found in all mice bearing introgressed t-haplotypes encompassing Prdm9. We asked whether 7 novel Prdm9 alleles in MUS populations and the t-haplotype allele in 1 MUS and 3 DOM populations induce Prdm9-mediated reproductive isolation. The results show that only combinations of the dom2 allele of DOM origin and the MUS msc1 allele ensure complete infertility of intersubspecific hybrids in outcrossed wild populations and inbred mouse strains examined so far. The results further indicate that MUS mice may share the erasure of PRDM9msc1 binding motifs in populations with different Prdm9 alleles, which implies that erased PRDM9 binding motifs may be uncoupled from their corresponding Prdm9 alleles at the population level. Our data corroborate the model of Prdm9-mediated hybrid sterility beyond inbred strains of mice and suggest that sterility alleles of Prdm9 may be rare.}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Natural {Variation} in the {Zinc}-{Finger}-{Encoding} {Exon} of { Prdm9} {Affects} {Hybrid} {Sterility} {Phenotypes} in {Mice}}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{226}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{iyae004}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/genetics/iyae004
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/AHI9RA7J/AbuAlia et al. - 2024 - Natural variation in the zinc-finger-encoding exon.pdf:application/pdf;Snapshot:/Users/orionpirku/Zotero/storage/25QFHNQT/7529178.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/genetics/iyae004
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/genetics/iyae004
+      \endverb
+    \endentry
+    \entry{auton_recombination_2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ed22aae1eecb03031944c475e8529a63}{%
+           family={Auton},
+           familyi={A\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ee867f7b9dad34099817c34d2a3b4a0e}{%
+           family={{McVean}},
+           familyi={M\bibinitperiod},
+           given={Gil},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{71854b74cb6ba283d2a16063a03e9b87}
+      \strng{fullhash}{71854b74cb6ba283d2a16063a03e9b87}
+      \strng{bibnamehash}{71854b74cb6ba283d2a16063a03e9b87}
+      \strng{authorbibnamehash}{71854b74cb6ba283d2a16063a03e9b87}
+      \strng{authornamehash}{71854b74cb6ba283d2a16063a03e9b87}
+      \strng{authorfullhash}{71854b74cb6ba283d2a16063a03e9b87}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Fine-scale estimation of recombination rates remains a challenging problem. Experimental techniques can provide accurate estimates at fine scales but are technically challenging and cannot be applied on a genome-wide scale. An alternative source of information comes from patterns of genetic variation. Several statistical methods have been developed to estimate recombination rates from randomly sampled chromosomes. However, most such methods either make poor assumptions about recombination rate variation, or simply assume that there is no rate variation. Since the discovery of recombination hotspots, it is clear that recombination rates can vary over many orders of magnitude at the fine scale. We present a method for the estimation of recombination rates in the presence of recombination hotspots. We demonstrate that the method is able to detect and accurately quantify recombination rate heterogeneity, and is a substantial improvement over a commonly used method. We then use the method to reanalyze genetic variation data from the { HLA} and {MS}32 regions of the human genome and demonstrate that the method is able to provide accurate rate estimates and simultaneously detect hotspots.}
+      \field{day}{1}
+      \field{issn}{1088-9051, 1549-5469}
+      \field{journaltitle}{Genome Research}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{note}{Company: Cold Spring Harbor Laboratory Press Distributor: Cold Spring Harbor Laboratory Press Institution: Cold Spring Harbor Laboratory Press Label: Cold Spring Harbor Laboratory Press Publisher: Cold Spring Harbor Lab}
+      \field{number}{8}
+      \field{shortjournal}{Genome Res.}
+      \field{title}{Recombination rate estimation in the presence of hotspots}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{17}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1219\bibrangedash 1227}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1101/gr.6386707
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/orion/Zotero/storage/VSLJ7SRW/Auton and McVean - 2007 - Recombination rate estimation in the presence of hotspots.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://genome.cshlp.org/content/17/8/1219
+      \endverb
+      \verb{url}
+      \verb http://genome.cshlp.org/content/17/8/1219
+      \endverb
+    \endentry
+    \entry{baker_prdm9_2015}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=37b169945fd9083fc35a80b7f06910e0}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=caf4a7ae3042ad63f09c1b4c9e94482d}{%
+           family={Kajita},
+           familyi={K\bibinitperiod},
+           given={Shimpei},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07141c11830222e4d2af38c6bc6ec4ba}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fb195169e21332aba7451c79176efc1}{%
+           family={Saxl},
+           familyi={S\bibinitperiod},
+           given={Ruth\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b651c499c4981e3289c000d9c1bcbe25}{%
+           family={Raghupathy},
+           familyi={R\bibinitperiod},
+           given={Narayanan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f1ccce85ea932406d35583459bf8e6d9}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Kwangbom},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23bca783cf86ae6c557a4853c1f1e3fa}{%
+           family={Petkov},
+           familyi={P\bibinitperiod},
+           given={Petko\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffeb01556ab80b88dce4c973a902bdae}{%
+           family={Paigen},
+           familyi={P\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{5b6a3abbd0fe3a64e71d6fee679684da}
+      \strng{fullhash}{2b5c51a39995dccff1d1f99103269f91}
+      \strng{bibnamehash}{5b6a3abbd0fe3a64e71d6fee679684da}
+      \strng{authorbibnamehash}{5b6a3abbd0fe3a64e71d6fee679684da}
+      \strng{authornamehash}{5b6a3abbd0fe3a64e71d6fee679684da}
+      \strng{authorfullhash}{2b5c51a39995dccff1d1f99103269f91}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meiotic recombination generates new genetic variation and assures the proper segregation of chromosomes in gametes. PRDM9, a zinc finger protein with histone methyltransferase activity, initiates meiotic recombination by binding DNA at recombination hotspots and directing the position of DNA double-strand breaks (DSB). The DSB repair mechanism suggests that hotspots should eventually self-destruct, yet genome-wide recombination levels remain constant , a conundrum known as the hotspot paradox. To test if PRDM9 drives this evolutionary erosion, we measured activity of the Prdm9Cst allele in two Mus musculus subspecies, M.m. castaneus, in which Prdm9Cst arose, and M.m. domesticus, into which Prdm9Cst was introduced experimentally. Comparing these two strains, we find that haplotype differences at hotspots lead to qualitative and quantitative changes in PRDM9 binding and activity. Using Mus spretus as an outlier, we found most variants affecting PRDM9Cst binding arose and were fixed in M.m. castaneus, suppressing hotspot activity. Furthermore, M.m. castaneus×M.m. domesticus F1 hybrids exhibit novel hotspots, with large haplotype biases in both PRDM9 binding and chromatin modification. These novel hotspots represent sites of historic evolutionary erosion that become activated in hybrids due to crosstalk between one parent's Prdm9 allele and the opposite parent's chromosome. Together these data support a model where haplotype-specific PRDM9 binding directs biased gene conversion at hotspots, ultimately leading to hotspot erosion.}
+      \field{issn}{1553-7404}
+      \field{journaltitle}{PLOS Genetics}
+      \field{month}{1}
+      \field{note}{Publisher: Public Library of Science}
+      \field{number}{1}
+      \field{title}{{PRDM9} {Drives} {Evolutionary} {Erosion} of {Hotspots} in {Mus} musculus through {Haplotype}-{Specific} {Initiation} of {Meiotic} { Recombination}}
+      \field{urlday}{6}
+      \field{urlmonth}{9}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{e1004916}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pgen.1004916
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/PLY6PMIH/Baker et al. - 2015 - PRDM9 Drives Evolutionary Erosion of Hotspots in M.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004916
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004916
+      \endverb
+      \keyw{DNA repair,DNA recombination,Haplotypes,Single nucleotide polymorphisms,Genomics,Sequence motif analysis,Evolutionary genetics,Mammalian genomics}
+    \endentry
     \entry{bascon-cardozo-fine-scale-2024}{article}{}
       \name{author}{8}{}{%
         {{un=0,uniquepart=base,hash=316ee45d0caf67de7e019e838babc3d7}{%
@@ -104,6 +342,828 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1093/gbe/evad233
+      \endverb
+    \endentry
+    \entry{baudat_meiotic_2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=7bbb4b77c32b14a8e70bbd0d0fe9997e}{%
+           family={Baudat},
+           familyi={B\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ae58a912f0c64aea5d376345048435d}{%
+           family={Imai},
+           familyi={I\bibinitperiod},
+           given={Yukiko},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aa0e458eb876c87b9fd4b0537eca6a2}{%
+           family={Massy},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{734b1d7f889967b2d56ec032a8412803}
+      \strng{fullhash}{734b1d7f889967b2d56ec032a8412803}
+      \strng{bibnamehash}{734b1d7f889967b2d56ec032a8412803}
+      \strng{authorbibnamehash}{734b1d7f889967b2d56ec032a8412803}
+      \strng{authornamehash}{734b1d7f889967b2d56ec032a8412803}
+      \strng{authorfullhash}{734b1d7f889967b2d56ec032a8412803}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Meiotic recombination is a major source of genetic diversity in a population.Recent advances in mapping recombination hot spots have shed light on the evolutionary dynamics of recombination hotspot localization and on the factors involved in their specification.The localization of meiotic recombination sites in humans and mice is determined by the DNA-binding specificity of PR domain-containing 9 (PRDM9), which is instrumental in the specification of recombination hot spots. The PRDM9 DNA-binding domain has quickly evolved under positive selection. This evolution may be linked to the erosion of PRDM9-binding sites owing to meiotic DNA double-strand break (DSB) repair..Meiotic DSBs are catalysed by the meiotic recombination protein SPO11 in humans and mice and are regulated by other proteins, which leads to the regulation of recombination.Several factors required for DSB formation are localized on chromosome axes, and this association with chromosome axes regulates meiotic recombination, from the formation of DSBs to their resolution into final recombination products that are formed from either crossover or non-crossover intermediates.In mammals, the proteins RING finger protein 212 (RNF212) and human enhancer of invasion 10 (HEI10) have a key role in promoting DSB repair towards crossovers from a subset of recombination intermediates. These findings provide new insights into the control of crossover frequency.}
+      \field{issn}{1471-0064}
+      \field{journaltitle}{Nature Reviews Genetics}
+      \field{month}{11}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{11}
+      \field{shorttitle}{Meiotic recombination in mammals}
+      \field{title}{Meiotic recombination in mammals: localization and regulation}
+      \field{urlday}{10}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{794\bibrangedash 806}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1038/nrg3573
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nrg3573
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nrg3573
+      \endverb
+      \keyw{Meiosis,Homologous recombination,Chromosome segregation,Molecular evolution}
+    \endentry
+    \entry{baumdicker_efficient_2022}{article}{}
+      \name{author}{32}{}{%
+        {{un=0,uniquepart=base,hash=3af769c68fb5f0a256d02bee87292434}{%
+           family={Baumdicker},
+           familyi={B\bibinitperiod},
+           given={Franz},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ad2c440a26c3bac21331dab4d50c6b8}{%
+           family={Bisschop},
+           familyi={B\bibinitperiod},
+           given={Gertjan},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa4ad70d293ee67ea091f10e548b781d}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f69b8f2c9f64e4bfd1eebff50edf8da}{%
+           family={Gower},
+           familyi={G\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb4f2da57a62ff98aacd94f3864109e9}{%
+           family={Ragsdale},
+           familyi={R\bibinitperiod},
+           given={Aaron\bibnamedelima P},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fa02ad3b9a6d4095ac1613a8c0cef211}{%
+           family={Tsambos},
+           familyi={T\bibinitperiod},
+           given={Georgia},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bad528d4793ecf1792b97bcd6f0d3383}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Sha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bb9a7b4a053b460bd4eb547adb4ceb6}{%
+           family={Eldon},
+           familyi={E\bibinitperiod},
+           given={Bjarki},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7f46a029e046b56ebcbd610e3219200}{%
+           family={Ellerman},
+           familyi={E\bibinitperiod},
+           given={E\bibnamedelima Castedo},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7307865883e3bbde8f6cd19954e68e38}{%
+           family={Galloway},
+           familyi={G\bibinitperiod},
+           given={Jared\bibnamedelima G},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8906309837ea08350db30e67274a51d3}{%
+           family={Gladstein},
+           familyi={G\bibinitperiod},
+           given={Ariella\bibnamedelima L},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7064d262bfbd1c716184e8cbe2ec2d28}{%
+           family={Gorjanc},
+           familyi={G\bibinitperiod},
+           given={Gregor},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45b2db4ef9c60acac20b2f2e9ecc599f}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Bing},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8af659bb89a1dd6004e4d38e6427f847}{%
+           family={Jeffery},
+           familyi={J\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83a53247e8ffbc7dd9a7acf67246b314}{%
+           family={Kretzschumar},
+           familyi={K\bibinitperiod},
+           given={Warren\bibnamedelima W},
+           giveni={W\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb4ae696a8f27c98a52c3774d6e1f7ff}{%
+           family={Lohse},
+           familyi={L\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d885dacb4e5be74edeaae96a2af5d2b3}{%
+           family={Matschiner},
+           familyi={M\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=45fb3aefb2d7369fa13120f420f1c78b}{%
+           family={Nelson},
+           familyi={N\bibinitperiod},
+           given={Dominic},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71d2e3084cd43d4dd7a4c98c1f4dfd1a}{%
+           family={Pope},
+           familyi={P\bibinitperiod},
+           given={Nathaniel\bibnamedelima S},
+           giveni={N\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ced478c89f2dd3e6b68e6adf74aad7c}{%
+           family={Quinto-Cortés},
+           familyi={Q\bibinithyphendelim C\bibinitperiod},
+           given={Consuelo\bibnamedelima D},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61e5becb4bc29eaa344aa1029e5ee322}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Murillo\bibnamedelima F},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=674fdaa1b94063cf29a55e4b7d2365fd}{%
+           family={Saunack},
+           familyi={S\bibinitperiod},
+           given={Kumar},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36c4c48cca6d979f70976ba7a458dac3}{%
+           family={Sellinger},
+           familyi={S\bibinitperiod},
+           given={Thibaut},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=222d9a99dade7b305541918f54237f17}{%
+           family={Thornton},
+           familyi={T\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb70dda1bd5fdc48037baaec7d5f7d5f}{%
+           family={Kemenade},
+           familyi={K\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=59deeb7694578c2dfc0e757f5438d554}{%
+           family={Wohns},
+           familyi={W\bibinitperiod},
+           given={Anthony\bibnamedelima W},
+           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f78c25d01700dc55c0af08afffade7b6}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cde99e968bb0a30c9f3172f6906dd7d}{%
+           family={Gravel},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=721fad37ca5bf9136a6114b135ebc428}{%
+           family={Kern},
+           familyi={K\bibinitperiod},
+           given={Andrew\bibnamedelima D},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9b74b02c1ef5fc6fd3d8f21b8ce9be68}{%
+           family={Koskela},
+           familyi={K\bibinitperiod},
+           given={Jere},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0500b1d8cb84764b209ac236d027bbbe}{%
+           family={Ralph},
+           familyi={R\bibinitperiod},
+           given={Peter\bibnamedelima L},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83f02287b564fc5af8fb22f43bc2e95a}{%
+           family={Kelleher},
+           familyi={K\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{213504fcfe34fd8d3624e054c3a5ecca}
+      \strng{fullhash}{36122117b4613f19f366e88e0483e0ac}
+      \strng{bibnamehash}{213504fcfe34fd8d3624e054c3a5ecca}
+      \strng{authorbibnamehash}{213504fcfe34fd8d3624e054c3a5ecca}
+      \strng{authornamehash}{213504fcfe34fd8d3624e054c3a5ecca}
+      \strng{authorfullhash}{36122117b4613f19f366e88e0483e0ac}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Stochastic simulation is a key tool in population genetics, since the models involved are often analytically intractable and simulation is usually the only way of obtaining ground-truth data to evaluate inferences. Because of this, a large number of specialized simulation programs have been developed, each filling a particular niche, but with largely overlapping functionality and a substantial duplication of effort. Here, we introduce msprime version 1.0, which efficiently implements ancestry and mutation simulations based on the succinct tree sequence data structure and the tskit library. We summarize msprime’s many features, and show that its performance is excellent, often many times faster and more memory efficient than specialized alternatives. These high-performance features have been thoroughly tested and validated , and built using a collaborative, open source development model, which reduces duplication of effort and promotes software quality via community engagement.}
+      \field{day}{1}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{3}
+      \field{number}{3}
+      \field{shortjournal}{Genetics}
+      \field{title}{Efficient ancestry and mutation simulation with msprime 1.0}
+      \field{urlday}{19}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{220}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{iyab229}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/genetics/iyab229
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/home/orion/Zotero/storage/UCJ5KJ4E/Baumdicker et al. - 2022 - Efficient ancestry and mutation simulation with msprime 1.0.pdf:application/pdf;Snapshot:/home/orion/Zotero/storage/9J7B2NEU/iyab229.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/genetics/iyab229
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/genetics/iyab229
+      \endverb
+    \endentry
+    \entry{berg_prdm9_2010}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=90f2adec9194211fdeccb2aa6b308c22}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Ingrid\bibnamedelima L.},
+           giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2f747d62319c09b0cdc408a2962705f}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={Rita},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cd192cfff005eb13543f7b69ff2de6b}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Kwan-Wood\bibnamedelima G.},
+           giveni={K\bibinithyphendelim W\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8be276b30e34b6c1a35b138f998f5d0b}{%
+           family={Sarbajna},
+           familyi={S\bibinitperiod},
+           given={Shriparna},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36ff0dd21d75c337ce80f1bff3600eff}{%
+           family={Odenthal-Hesse},
+           familyi={O\bibinithyphendelim H\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1af74c26a93efde9561c63b90faec57f}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Celia\bibnamedelima A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8faaf6f7454924d3ba8a2970e1b8114e}{%
+           family={Jeffreys},
+           familyi={J\bibinitperiod},
+           given={Alec\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{9fc9ba015b23622f5d36d119fac6619c}
+      \strng{fullhash}{ec1770a2879b0019042405fc5d8062a6}
+      \strng{bibnamehash}{9fc9ba015b23622f5d36d119fac6619c}
+      \strng{authorbibnamehash}{9fc9ba015b23622f5d36d119fac6619c}
+      \strng{authornamehash}{9fc9ba015b23622f5d36d119fac6619c}
+      \strng{authorfullhash}{ec1770a2879b0019042405fc5d8062a6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Alec Jeffreys and colleagues report that variation at PRDM9 in humans influences sperm recombination hotspot activity, independent of a consensus binding motif, as well as meiotic genome instability.}
+      \field{issn}{1546-1718}
+      \field{journaltitle}{Nature Genetics}
+      \field{month}{10}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{10}
+      \field{title}{{PRDM9} variation strongly influences recombination hot-spot activity and meiotic instability in humans}
+      \field{urlday}{15}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{42}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{859\bibrangedash 863}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/ng.658
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/ng.658
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/ng.658
+      \endverb
+      \keyw{DNA recombination,Genetic variation,Genomic instability,Spermatogenesis}
+    \endentry
+    \entry{Bird1986}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a7333d1392d5d901497c3e4de043b505}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={Adrian\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a7333d1392d5d901497c3e4de043b505}
+      \strng{fullhash}{a7333d1392d5d901497c3e4de043b505}
+      \strng{bibnamehash}{a7333d1392d5d901497c3e4de043b505}
+      \strng{authorbibnamehash}{a7333d1392d5d901497c3e4de043b505}
+      \strng{authornamehash}{a7333d1392d5d901497c3e4de043b505}
+      \strng{authorfullhash}{a7333d1392d5d901497c3e4de043b505}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{number}{6067}
+      \field{title}{CpG-rich islands and the function of DNA methylation}
+      \field{volume}{321}
+      \field{year}{1986}
+      \field{pages}{209\bibrangedash 213}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/321209a0
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/321209a0
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/321209a0
+      \endverb
+    \endentry
+    \entry{Bolivar2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=05c7867f4837fc99b0d43abe894c0298}{%
+           family={Bolívar},
+           familyi={B\bibinitperiod},
+           given={Paulina},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b13f05f1cfa18821d619ba652ef0859}{%
+           family={Guéguen},
+           familyi={G\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4dce73861d73c22047ef8c03605c1be1}{%
+           family={Duret},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ada314c313a74e38a7283ccfcc5140e4}{%
+           family={Ellegren},
+           familyi={E\bibinitperiod},
+           given={Hans},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06c88536180f8a6442cbfa5b820501dc}{%
+           family={Mugal},
+           familyi={M\bibinitperiod},
+           given={Carina\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{20ecceb95350585344432d16ebff89a3}
+      \strng{fullhash}{fd4e1cf85445d18bbfde43c02c8caf44}
+      \strng{bibnamehash}{20ecceb95350585344432d16ebff89a3}
+      \strng{authorbibnamehash}{20ecceb95350585344432d16ebff89a3}
+      \strng{authornamehash}{20ecceb95350585344432d16ebff89a3}
+      \strng{authorfullhash}{fd4e1cf85445d18bbfde43c02c8caf44}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1474-760X}
+      \field{journaltitle}{Genome Biology}
+      \field{number}{1}
+      \field{title}{GC-biased gene conversion conceals the prediction of the nearly neutral theory in avian genomes}
+      \field{volume}{20}
+      \field{year}{2019}
+      \field{pages}{5}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1186/s13059-018-1613-z
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1186/s13059-018-1613-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1186/s13059-018-1613-z
+      \endverb
+    \endentry
+    \entry{borner_crossovernoncrossover_2004}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b0ec5b177b503134bf712503a37da3eb}{%
+           family={Börner},
+           familyi={B\bibinitperiod},
+           given={G.\bibnamedelimi Valentin},
+           giveni={G\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f0e3eee4e165bd04ff724b5216a40c9}{%
+           family={Kleckner},
+           familyi={K\bibinitperiod},
+           given={Nancy},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea432e81130b6e6d440663047cec3d9f}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a90d607fc9569384b3c8f0f8ca36fcb3}
+      \strng{fullhash}{a90d607fc9569384b3c8f0f8ca36fcb3}
+      \strng{bibnamehash}{a90d607fc9569384b3c8f0f8ca36fcb3}
+      \strng{authorbibnamehash}{a90d607fc9569384b3c8f0f8ca36fcb3}
+      \strng{authornamehash}{a90d607fc9569384b3c8f0f8ca36fcb3}
+      \strng{authorfullhash}{a90d607fc9569384b3c8f0f8ca36fcb3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Yeast mutants lacking meiotic proteins Zip1, Zip2, Zip3, Mer3, and/or Msh5 (ZMMs) were analyzed for recombination, synaptonemal complex (SC), and meiotic progression. At 33°C, recombination-initiating double-strand breaks (DSBs) and noncrossover products (NCRs) form normally while formation of single-end invasion strand exchange intermediates (SEIs), double Holliday junctions, crossover products (CRs), and SC are coordinately defective. Thus, during wild-type meiosis, recombinational interactions are differentiated into CR and NCR types very early, prior to onset of stable strand exchange and independent of SC. By implication, crossover interference does not require SC formation. We suggest that SC formation may require interference. Subsequently, CR-designated DSBs undergo a tightly coupled, ZMM-promoted transition that yields SEI-containing recombination complexes embedded in patches of SC. zmm mutant phenotypes differ strikingly at 33°C and 23°C, implicating higher temperature as a positive effector of recombination and identifying a checkpoint that monitors local CR-specific events, not SC formation, at late leptotene.}
+      \field{issn}{0092-8674}
+      \field{journaltitle}{Cell}
+      \field{month}{4}
+      \field{number}{1}
+      \field{title}{Crossover/{Noncrossover} {Differentiation}, {Synaptonemal} {Complex} {Formation}, and {Regulatory} {Surveillance} at the {Leptotene}/{ Zygotene} {Transition} of {Meiosis}}
+      \field{urlday}{24}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{117}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{29\bibrangedash 45}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/S0092-8674(04)00292-2
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/orionpirku/Zotero/storage/BRC7CSNB/Börner et al. - 2004 - CrossoverNoncrossover Differentiation, Synaptonem.pdf:application/pdf;ScienceDirect Snapshot:/Users/orionpirku/Zotero/storage/RMW2G7YF/S0092867404002922.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0092867404002922
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0092867404002922
+      \endverb
+    \endentry
+    \entry{bours_blackcap_2023}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c96b13406a983441193d503d9e758085}{%
+           family={Bours},
+           familyi={B\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f26c672dbe01c97081aea8b12d45281}{%
+           family={Pruisscher},
+           familyi={P\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=316ee45d0caf67de7e019e838babc3d7}{%
+           family={Bascón-Cardozo},
+           familyi={B\bibinithyphendelim C\bibinitperiod},
+           given={Karen},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36ff0dd21d75c337ce80f1bff3600eff}{%
+           family={Odenthal-Hesse},
+           familyi={O\bibinithyphendelim H\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6119e97f175ddfe63e2490aa17e16a39}{%
+           family={Liedvogel},
+           familyi={L\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2de30ff8815bb42d88321d45f23908a8}
+      \strng{fullhash}{c8116716a6dc0042e2a75add9cfab7ac}
+      \strng{bibnamehash}{2de30ff8815bb42d88321d45f23908a8}
+      \strng{authorbibnamehash}{2de30ff8815bb42d88321d45f23908a8}
+      \strng{authornamehash}{2de30ff8815bb42d88321d45f23908a8}
+      \strng{authorfullhash}{c8116716a6dc0042e2a75add9cfab7ac}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Transposable elements (TEs) are mobile genetic elements that can move around the genome, and as such are a source of genomic variability. Based on their characteristics we can annotate TEs within the host genome and classify them into specific TE types and families. The increasing number of available high-quality genome references in recent years provides an excellent resource that will enhance the understanding of the role of recently active TEs on genetic variation and phenotypic evolution. Here we showcase the use of a high-quality TE annotation to understand the distinct effect of recent and ancient TE insertions on the evolution of genomic variation, within our study species the Eurasian blackcap (Sylvia atricapilla). We investigate how these distinct TE categories are distributed along the genome and evaluate how their coverage across the genome is correlated with four genomic features: recombination rate, gene coverage, CpG island coverage and GC content. We found within the recent TE insertions an accumulation of LTRs previously not seen in birds. While the coverage of recent TE insertions was negatively correlated with both GC content and recombination rate, the correlation with recombination rate disappeared and turned positive for GC content when considering ancient TE insertions.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{month}{9}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{1}
+      \field{title}{The blackcap ({Sylvia} atricapilla) genome reveals a recent accumulation of {LTR} retrotransposons}
+      \field{urlday}{4}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{13}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{16471}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-023-43090-1
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41598-023-43090-1
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41598-023-43090-1
+      \endverb
+      \keyw{Evolutionary genetics,Genome,Genomics,Molecular evolution}
+    \endentry
+    \entry{cavassim_prdm9_2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=35f06ef241599140b604c6d26bba135a}{%
+           family={Cavassim},
+           familyi={C\bibinitperiod},
+           given={Maria\bibnamedelimb Izabel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ffc366ded3b9703f7fad6adf30f9ac8}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c633bb1aaa2e3c6552538b93c1296fb6}{%
+           family={Hoge},
+           familyi={H\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f9f7c525e4b0212b0d4b205d84037d9}{%
+           family={Schierup},
+           familyi={S\bibinitperiod},
+           given={Mikkel\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4365c45816ca26eb63062b697496962}{%
+           family={Schumer},
+           familyi={S\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab6ede380dfdf54bef473b2c6fab16d1}{%
+           family={Przeworski},
+           familyi={P\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de1c44eeaf1bdf1f87d83ce8baf27517}
+      \strng{fullhash}{9b4f123cdb51951cd2be52d2f5c707ae}
+      \strng{bibnamehash}{de1c44eeaf1bdf1f87d83ce8baf27517}
+      \strng{authorbibnamehash}{de1c44eeaf1bdf1f87d83ce8baf27517}
+      \strng{authornamehash}{de1c44eeaf1bdf1f87d83ce8baf27517}
+      \strng{authorfullhash}{9b4f123cdb51951cd2be52d2f5c707ae}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In most mammals and likely throughout vertebrates, the gene PRDM9 specifies the locations of meiotic double strand breaks; in mice and humans at least, it also aids in their repair. For both roles, many of the molecular partners remain unknown. Here, we take a phylogenetic approach to identify genes that may be interacting with PRDM9 by leveraging the fact that PRDM9 arose before the origin of vertebrates but was lost many times, either partially or entirely—and with it, its role in recombination. As a first step, we characterize PRDM9 domain composition across 446 vertebrate species, inferring at least 13 independent losses. We then use the interdigitation of PRDM9 orthologs across vertebrates to test whether it coevolved with any of 241 candidate genes coexpressed with PRDM9 in mice or associated with recombination phenotypes in mammals. Accounting for the phylogenetic relationship among a subsample of 189 species, we find two genes whose presence and absence is unexpectedly coincident with that of PRDM9: ZCWPW1, which was recently shown to facilitate double strand break repair, and its paralog ZCWPW2, as well as, more tentatively, TEX15 and FBXO47. ZCWPW2 is expected to be recruited to sites of PRDM9 binding; its tight coevolution with PRDM9 across vertebrates suggests that it is a key interactor within mammals and beyond, with a role either in recruiting the recombination machinery or in double strand break repair.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{3}
+      \field{note}{Publisher: Proceedings of the National Academy of Sciences}
+      \field{number}{9}
+      \field{title}{{PRDM9} losses in vertebrates are coupled to those of paralogs { ZCWPW1} and {ZCWPW2}}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{119}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{e2114401119}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2114401119
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/6CFTTWCS/Cavassim et al. - 2022 - PRDM9 losses in vertebrates are coupled to those o.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.2114401119
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.2114401119
+      \endverb
+    \endentry
+    \entry{10.1371/journal.pgen.1003090}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=48062b2507786efa98e673ca305c5e0d}{%
+           family={Chan},
+           familyi={C\bibinitperiod},
+           given={Andrew\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bf5296142fe74c91a4fd89421285e9f}{%
+           family={Jenkins},
+           familyi={J\bibinitperiod},
+           given={Paul\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4a3018cd42c47afe742b09431f70975}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Yun\bibnamedelima S.},
+           giveni={Y\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{e4a460cdab9c04042dfe8805323eebfe}
+      \strng{fullhash}{e4a460cdab9c04042dfe8805323eebfe}
+      \strng{bibnamehash}{e4a460cdab9c04042dfe8805323eebfe}
+      \strng{authorbibnamehash}{e4a460cdab9c04042dfe8805323eebfe}
+      \strng{authornamehash}{e4a460cdab9c04042dfe8805323eebfe}
+      \strng{authorfullhash}{e4a460cdab9c04042dfe8805323eebfe}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Estimating fine-scale recombination maps of Drosophila from population genomic data is a challenging problem, in particular because of the high background recombination rate. In this paper, a new computational method is developed to address this challenge. Through an extensive simulation study, it is demonstrated that the method allows more accurate inference, and exhibits greater robustness to the effects of natural selection and noise, compared to a well-used previous method developed for studying fine-scale recombination rate variation in the human genome. As an application , a genome-wide analysis of genetic variation data is performed for two Drosophila melanogaster populations, one from North America (Raleigh, USA) and the other from Africa (Gikongoro, Rwanda). It is shown that fine-scale recombination rate variation is widespread throughout the D. melanogaster genome, across all chromosomes and in both populations. At the fine-scale, a conservative, systematic search for evidence of recombination hotspots suggests the existence of a handful of putative hotspots each with at least a tenfold increase in intensity over the background rate. A wavelet analysis is carried out to compare the estimated recombination maps in the two populations and to quantify the extent to which recombination rates are conserved. In general, similarity is observed at very broad scales, but substantial differences are seen at fine scales. The average recombination rate of the X chromosome appears to be higher than that of the autosomes in both populations , and this pattern is much more pronounced in the African population than the North American population. The correlation between various genomic features—including recombination rates, diversity, divergence, GC content, gene content, and sequence quality—is examined using the wavelet analysis, and it is shown that the most notable difference between D. melanogaster and humans is in the correlation between recombination and diversity.}
+      \field{journaltitle}{PLOS Genetics}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Genome-Wide Fine-Scale Recombination Rate Variation in Drosophila melanogaster}
+      \field{volume}{8}
+      \field{year}{2012}
+      \field{pages}{1\bibrangedash 28}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1371/journal.pgen.1003090
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pgen.1003090
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pgen.1003090
+      \endverb
+    \endentry
+    \entry{Chen2006}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1cb3b9a02ed00f7d7ca1328c0b45dbaa}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Jin-Feng},
+           giveni={J\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abd9b9e3ba52134358eebe419218499d}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e5666733264f0f179e91a7b0b62fda2}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Su-Shing},
+           giveni={S\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5877edd06ef52f03a29bc6c28816234e}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Shi-Heng},
+           giveni={S\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f463002ed7987b0235cf754e193e8d4e}
+      \strng{fullhash}{b3968becbd0bfab9cccbabbdaeddf77a}
+      \strng{bibnamehash}{f463002ed7987b0235cf754e193e8d4e}
+      \strng{authorbibnamehash}{f463002ed7987b0235cf754e193e8d4e}
+      \strng{authornamehash}{f463002ed7987b0235cf754e193e8d4e}
+      \strng{authorfullhash}{b3968becbd0bfab9cccbabbdaeddf77a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper establishes that recombination drives the evolution of GC content in a significant way. Because the human P-arm pseudoautosomal region (PAR1) has been shown to have a high recombination rate, at least 20-fold more frequent than the genomic average of ~1 cM/Mb, this region provides an ideal system to study the role of recombination in the evolution of base composition. Nine non-coding regions of PAR1 are analyzed in this study. We have observed a highly significant positive correlation between the recombination rate and GC content (ρ = 0.837, p ≤ 0.005). Five regions that lie in the distal part of PAR1 are shown to be significantly higher than genomic average divergence. By comparing the intra- and inter-specific AT→GC – GC→AT ratios, we have detected no fixation bias toward GC alleles except for L254915, which has excessive AT→GC changes in the human lineage. Thus, we conclude that the high GC content of the PAR1 genes better fits the biased gene conversion (BGC) model.Key words: pseudoautosomal region, GC content, base composition, evolution, recombination.}
+      \field{journaltitle}{Genome}
+      \field{note}{PMID: 16767166}
+      \field{number}{5}
+      \field{title}{Significant positive correlation between the recombination rate and GC content in the human pseudoautosomal region}
+      \field{volume}{49}
+      \field{year}{2006}
+      \field{pages}{413\bibrangedash 419}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1139/g05-124
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1139/g05-124
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1139/g05-124
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1139/g05-124
       \endverb
     \endentry
     \entry{vcftools}{article}{}
@@ -221,6 +1281,99 @@
       \verb https://doi.org/10.1093/bioinformatics/btr330
       \endverb
     \endentry
+    \entry{DuretGaltier2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4dce73861d73c22047ef8c03605c1be1}{%
+           family={Duret},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02d166a328c50137b9e2e680bb4f4ae2}{%
+           family={Galtier},
+           familyi={G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3e3b67935e7a59eb337b23f4abbcc053}
+      \strng{fullhash}{3e3b67935e7a59eb337b23f4abbcc053}
+      \strng{bibnamehash}{3e3b67935e7a59eb337b23f4abbcc053}
+      \strng{authorbibnamehash}{3e3b67935e7a59eb337b23f4abbcc053}
+      \strng{authornamehash}{3e3b67935e7a59eb337b23f4abbcc053}
+      \strng{authorfullhash}{3e3b67935e7a59eb337b23f4abbcc053}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1545-293X}
+      \field{journaltitle}{Annual Review of Genomics and Human Genetics}
+      \field{title}{Biased gene conversion and the evolution of mammalian genomic landscapes}
+      \field{volume}{10}
+      \field{year}{2009}
+      \field{pages}{285\bibrangedash 311}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1146/annurev-genom-082908-150001
+      \endverb
+    \endentry
+    \entry{Fullerton2001}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=007bf715e4decb8af9c140e27d8831eb}{%
+           family={Fullerton},
+           familyi={F\bibinitperiod},
+           given={Stephanie\bibnamedelima M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e90fd6c561a296b29c3047d5405258aa}{%
+           family={Bernardo\bibnamedelima Carvalho},
+           familyi={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0139f56ee7f0fff13f710ce8a1c15237}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{00067e08e3aced57f2d61ddc70f81897}
+      \strng{fullhash}{00067e08e3aced57f2d61ddc70f81897}
+      \strng{bibnamehash}{00067e08e3aced57f2d61ddc70f81897}
+      \strng{authorbibnamehash}{00067e08e3aced57f2d61ddc70f81897}
+      \strng{authornamehash}{00067e08e3aced57f2d61ddc70f81897}
+      \strng{authorfullhash}{00067e08e3aced57f2d61ddc70f81897}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0737-4038}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{month}{06}
+      \field{number}{6}
+      \field{title}{Local Rates of Recombination Are Positively Correlated with GC Content in the Human Genome}
+      \field{volume}{18}
+      \field{year}{2001}
+      \field{pages}{1139\bibrangedash 1142}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1093/oxfordjournals.molbev.a003886
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mbe/article-pdf/18/6/1139/23448607/i0737-4038-018-06-1139.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/oxfordjournals.molbev.a003886
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/oxfordjournals.molbev.a003886
+      \endverb
+    \endentry
     \entry{Mexican-hat-wavelet}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=d67634434849bdc2b8bb1fe4b2ea6726}{%
@@ -300,6 +1453,211 @@
       \verb{url}
       \verb https://doi.org/10.1111/j.1365-2966.2006.10442.x
       \endverb
+    \endentry
+    \entry{handel_genetics_2010}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=52db40cf2a49cffc83cafb70d3676523}{%
+           family={Handel},
+           familyi={H\bibinitperiod},
+           given={Mary\bibnamedelima Ann},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11ae2a52dc5c8298d29487dd2b01dad9}{%
+           family={Schimenti},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{b198e2d2dcf7be4888ab606d5a2783bc}
+      \strng{fullhash}{b198e2d2dcf7be4888ab606d5a2783bc}
+      \strng{bibnamehash}{b198e2d2dcf7be4888ab606d5a2783bc}
+      \strng{authorbibnamehash}{b198e2d2dcf7be4888ab606d5a2783bc}
+      \strng{authornamehash}{b198e2d2dcf7be4888ab606d5a2783bc}
+      \strng{authorfullhash}{b198e2d2dcf7be4888ab606d5a2783bc}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Meiosis is a defining event of mammalian gametogenesis, and errors of meiosis lead to infertility or aneuploidy.Recombination, chromosome pairing and segregation are key events of meiosis that are coupled to each other.Recombination is initiated by induction of genetically programmed double-strand breaks. These breaks are concentrated at 'hot spots' that are are genetically and epigenetically determined, and influence haplotype structure.Meiotic recombination occurs between chromatids on homologous chromosomes and results in crossovers (at least one per chromosome) and non-crossover exchanges. Recombination between sister chromatids is suppressed.The synaptonemal complex and sister-chromatid cohesion are essential for maintaining chromosome pairing and promoting recombination.Rigorous assessment of meiotic events is crucial for the successful application of assisted reproductive technologies and efforts directed to in vitro derivation of gametes.}
+      \field{issn}{1471-0064}
+      \field{journaltitle}{Nature Reviews Genetics}
+      \field{month}{2}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{2}
+      \field{shorttitle}{Genetics of mammalian meiosis}
+      \field{title}{Genetics of mammalian meiosis: regulation, dynamics and impact on fertility}
+      \field{urlday}{15}
+      \field{urlmonth}{7}
+      \field{urlyear}{2025}
+      \field{volume}{11}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{124\bibrangedash 136}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1038/nrg2723
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nrg2723
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nrg2723
+      \endverb
+      \keyw{DNA recombination,Development,Meiosis,Reproductive biology}
+    \endentry
+    \entry{Hershberg2010}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7d80f92f39d3bb8fe975c023d754089b}{%
+           family={Hershberg},
+           familyi={H\bibinitperiod},
+           given={Ruth},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d6b44c75e3cbe888ea03c418a686128}{%
+           family={Petrov},
+           familyi={P\bibinitperiod},
+           given={Dmitri\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1b9d5cc25c833d2b2e951368a8f320f}
+      \strng{fullhash}{a1b9d5cc25c833d2b2e951368a8f320f}
+      \strng{bibnamehash}{a1b9d5cc25c833d2b2e951368a8f320f}
+      \strng{authorbibnamehash}{a1b9d5cc25c833d2b2e951368a8f320f}
+      \strng{authornamehash}{a1b9d5cc25c833d2b2e951368a8f320f}
+      \strng{authorfullhash}{a1b9d5cc25c833d2b2e951368a8f320f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1553-7390}
+      \field{journaltitle}{PLoS Genetics}
+      \field{number}{9}
+      \field{title}{Evidence that mutation is universally biased towards AT in bacteria}
+      \field{volume}{6}
+      \field{year}{2010}
+      \field{pages}{e1001115}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pgen.1001115
+      \endverb
+    \endentry
+    \entry{hinch_configuration_2020}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=da2228019ecaf5a4891f9d1456d03632}{%
+           family={Hinch},
+           familyi={H\bibinitperiod},
+           given={Anjali\bibnamedelima Gupta},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50a65f1e996d0744bd7c8ab932535847}{%
+           family={Becker},
+           familyi={B\bibinitperiod},
+           given={Philipp\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38f3efe34cb29092007fe04331b383a3}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db0f1986553bc92b92b46b5919e1ff71}{%
+           family={Moralli},
+           familyi={M\bibinitperiod},
+           given={Daniela},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2bb09edbdad94eed554a0d86a76d6e5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=636b163e9f394cad875dd0484c971e3f}{%
+           family={Bycroft},
+           familyi={B\bibinitperiod},
+           given={Clare},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=246679b6c7095738e760d08dc34275cd}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de3f593c61e2f865a7d1d54ba51e6b63}{%
+           family={Keeney},
+           familyi={K\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7c40c19197818e98caaeeaae35629e14}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Qinghua},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=360f824ea3f914f2b91004dd33148b24}{%
+           family={Davies},
+           familyi={D\bibinitperiod},
+           given={Benjamin},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffc72dcaaa64555b3bb01df342b2fc53}{%
+           family={Donnelly},
+           familyi={D\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{e556f260df657e8b40a5effc8721c8d4}
+      \strng{fullhash}{dad8bc0823df17a15a7e3f57d4737ef6}
+      \strng{bibnamehash}{e556f260df657e8b40a5effc8721c8d4}
+      \strng{authorbibnamehash}{e556f260df657e8b40a5effc8721c8d4}
+      \strng{authornamehash}{e556f260df657e8b40a5effc8721c8d4}
+      \strng{authorfullhash}{dad8bc0823df17a15a7e3f57d4737ef6}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1097-2765}
+      \field{journaltitle}{Molecular Cell}
+      \field{month}{8}
+      \field{note}{Number: 4 Publisher: Elsevier}
+      \field{number}{4}
+      \field{title}{The {Configuration} of {RPA}, {RAD51}, and {DMC1} {Binding} in { Meiosis} {Reveals} the {Nature} of {Critical} {Recombination} { Intermediates}}
+      \field{urlday}{28}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{volume}{79}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{689\bibrangedash 701.e10}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.molcel.2020.06.015
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cell.com/molecular-cell/abstract/S1097-2765(20)30400-7
+      \endverb
+      \verb{url}
+      \verb https://www.cell.com/molecular-cell/abstract/S1097-2765(20)30400-7
+      \endverb
+      \keyw{D-loop,DMC1,DNA double-strand breaks,DNA repair,RAD51,RPA,crossover,meiosis,recombination,strand invasion}
     \endentry
     \entry{UCSC_2006_LiftOver}{article}{}
       \name{author}{27}{}{%
@@ -501,6 +1859,144 @@
       \verb https://doi.org/10.1093/nar/gkj144
       \endverb
     \endentry
+    \entry{hunter_meiotic_2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ea432e81130b6e6d440663047cec3d9f}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={Neil},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ea432e81130b6e6d440663047cec3d9f}
+      \strng{fullhash}{ea432e81130b6e6d440663047cec3d9f}
+      \strng{bibnamehash}{ea432e81130b6e6d440663047cec3d9f}
+      \strng{authorbibnamehash}{ea432e81130b6e6d440663047cec3d9f}
+      \strng{authornamehash}{ea432e81130b6e6d440663047cec3d9f}
+      \strng{authorfullhash}{ea432e81130b6e6d440663047cec3d9f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The study of homologous recombination has its historical roots in meiosis. In this context, recombination occurs as a programmed event that culminates in the formation of crossovers, which are essential for accurate chromosome segregation and create new combinations of parental alleles. Thus, meiotic recombination underlies both the independent assortment of parental chromosomes and genetic linkage. This review highlights the features of meiotic recombination that distinguish it from recombinational repair in somatic cells, and how the molecular processes of meiotic recombination are embedded and interdependent with the chromosome structures that characterize meiotic prophase. A more in-depth review presents our understanding of how crossover and noncrossover pathways of meiotic recombination are differentiated and regulated. The final section of this review summarizes the studies that have defined defective recombination as a leading cause of pregnancy loss and congenital disease in humans.}
+      \field{issn}{, 1943-0264}
+      \field{journaltitle}{Cold Spring Harbor Perspectives in Biology}
+      \field{month}{1}
+      \field{note}{Company: Cold Spring Harbor Laboratory Press Distributor: Cold Spring Harbor Laboratory Press Institution: Cold Spring Harbor Laboratory Press Label: Cold Spring Harbor Laboratory Press Publisher: Cold Spring Harbor Lab}
+      \field{number}{12}
+      \field{shorttitle}{Meiotic {Recombination}}
+      \field{title}{Meiotic {Recombination}: {The} {Essence} of {Heredity}}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{a016618}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1101/cshperspect.a016618
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/SU8C2LTV/Hunter - 2015 - Meiotic Recombination The Essence of Heredity.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://cshperspectives.cshlp.org/content/7/12/a016618
+      \endverb
+      \verb{url}
+      \verb http://cshperspectives.cshlp.org/content/7/12/a016618
+      \endverb
+    \endentry
+    \entry{imai_prdm9_2017}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=4ae58a912f0c64aea5d376345048435d}{%
+           family={Imai},
+           familyi={I\bibinitperiod},
+           given={Yukiko},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bbb4b77c32b14a8e70bbd0d0fe9997e}{%
+           family={Baudat},
+           familyi={B\bibinitperiod},
+           given={Frédéric},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d65bc94f9bb5eb7007ae8a2d81d1995c}{%
+           family={Taillepierre},
+           familyi={T\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fc501acd80cd4a50296d465e5f58f4f}{%
+           family={Stanzione},
+           familyi={S\bibinitperiod},
+           given={Marcello},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=947f9652b8ac28ac928a205c41c9d3fb}{%
+           family={Toth},
+           familyi={T\bibinitperiod},
+           given={Attila},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7aa0e458eb876c87b9fd4b0537eca6a2}{%
+           family={Massy},
+           familyi={M\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dbc0327fe397b46ecb11ba1f12c5f8bf}
+      \strng{fullhash}{5b81f20a37a4944f642f34967ffb77e2}
+      \strng{bibnamehash}{dbc0327fe397b46ecb11ba1f12c5f8bf}
+      \strng{authorbibnamehash}{dbc0327fe397b46ecb11ba1f12c5f8bf}
+      \strng{authornamehash}{dbc0327fe397b46ecb11ba1f12c5f8bf}
+      \strng{authorfullhash}{5b81f20a37a4944f642f34967ffb77e2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{PR domain-containing protein 9 (PRDM9) is a major regulator of the localization of meiotic recombination hotspots in the human and mouse genomes. This role involves its DNA-binding domain, which is composed of a tandem array of zinc fingers, and PRDM9-dependent trimethylation of histone H3 at lysine 4. PRDM9 is a member of the PRDM family of transcription regulators, but unlike other family members, it contains a Krüppel-associated box (KRAB)-related domain that is predicted to be a potential protein interaction domain. Here, we show that truncation of the KRAB domain of mouse PRDM9 leads to loss of PRDM9 function and altered meiotic prophase and gametogenesis. In addition, we identified proteins that interact with the KRAB domain of PRDM9 in yeast two-hybrid assay screens, particularly CXXC1, a member of the COMPASS complex. We also show that CXXC1 interacts with IHO1, an essential component of the meiotic double-strand break (DSB) machinery. As CXXC1 is orthologous to Saccharomyces cerevisiae Spp1 that links DSB sites to the DSB machinery on the chromosome axis, we propose that these molecular interactions involved in the regulation of meiotic DSB formation are conserved in mouse meiosis.}
+      \field{issn}{1432-0886}
+      \field{journaltitle}{Chromosoma}
+      \field{month}{12}
+      \field{number}{6}
+      \field{title}{The {PRDM9} {KRAB} domain is required for meiosis and involved in protein interactions}
+      \field{urlday}{23}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{126}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{681\bibrangedash 695}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1007/s00412-017-0631-z
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/UVJC98RN/Imai et al. - 2017 - The PRDM9 KRAB domain is required for meiosis and .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s00412-017-0631-z
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s00412-017-0631-z
+      \endverb
+      \keyw{Meiosis,Recombination,CXXC1,IHO1,PRDM9 KRAB domain,Protein interactions}
+    \endentry
     \entry{ishigohoka_high-recombining_2025}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=53f4737c84b924db6b7a6866f283833e}{%
@@ -548,6 +2044,580 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1093/genetics/iyaf004
+      \endverb
+    \endentry
+    \entry{10.1093/molbev/msae112}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0eedbf7b76f0c0cf010d6653992e1c1}{%
+           family={Johnston},
+           familyi={J\bibinitperiod},
+           given={Susan\bibnamedelima E},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d0eedbf7b76f0c0cf010d6653992e1c1}
+      \strng{fullhash}{d0eedbf7b76f0c0cf010d6653992e1c1}
+      \strng{bibnamehash}{d0eedbf7b76f0c0cf010d6653992e1c1}
+      \strng{authorbibnamehash}{d0eedbf7b76f0c0cf010d6653992e1c1}
+      \strng{authornamehash}{d0eedbf7b76f0c0cf010d6653992e1c1}
+      \strng{authorfullhash}{d0eedbf7b76f0c0cf010d6653992e1c1}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meiotic recombination is a fundamental feature of sexually reproducing species. It is often required for proper chromosome segregation and plays important role in adaptation and the maintenance of genetic diversity. The molecular mechanisms of recombination are remarkably conserved across eukaryotes, yet meiotic genes and proteins show substantial variation in their sequence and function, even between closely related species. Furthermore, the rate and distribution of recombination shows a huge diversity within and between chromosomes, individuals, sexes, populations, and species. This variation has implications for many molecular and evolutionary processes, yet how and why this diversity has evolved is not well understood. A key step in understanding trait evolution is to determine its genetic basis—that is, the number, effect sizes, and distribution of loci underpinning variation. In this perspective, I discuss past and current knowledge on the genetic basis of variation in recombination rate and distribution, explore its evolutionary implications, and present open questions for future research.}
+      \field{issn}{1537-1719}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{month}{07}
+      \field{number}{7}
+      \field{title}{Understanding the Genetic Basis of Variation in Meiotic Recombination: Past, Present, and Future}
+      \field{volume}{41}
+      \field{year}{2024}
+      \field{pages}{msae112}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/molbev/msae112
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/mbe/article-pdf/41/7/msae112/58685648/msae112.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/molbev/msae112
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/molbev/msae112
+      \endverb
+    \endentry
+    \entry{joseph_high_2024}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c225f5dd7f8a02772b84a17f00469db7}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3cc9c085bf4235304446be5889b4fe0}{%
+           family={Prentout},
+           familyi={P\bibinitperiod},
+           given={Djivan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48b9e67a8744b98d23f259420211fba3}{%
+           family={Laverré},
+           familyi={L\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bef44585a5c5883835af25fbb271009}{%
+           family={Tricou},
+           familyi={T\bibinitperiod},
+           given={Théo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4dce73861d73c22047ef8c03605c1be1}{%
+           family={Duret},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d55087640cedcffca8fa63700a2a0e36}
+      \strng{fullhash}{11921d1bc5a606f870385fa59ac51d04}
+      \strng{bibnamehash}{d55087640cedcffca8fa63700a2a0e36}
+      \strng{authorbibnamehash}{d55087640cedcffca8fa63700a2a0e36}
+      \strng{authornamehash}{d55087640cedcffca8fa63700a2a0e36}
+      \strng{authorfullhash}{11921d1bc5a606f870385fa59ac51d04}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In many mammals, recombination events are concentrated in hotspots directed by a sequence-specific DNA-binding protein named PRDM9. Intriguingly, PRDM9 has been lost several times in vertebrates, and notably among mammals, it has been pseudogenized in the ancestor of canids. In the absence of PRDM9, recombination hotspots tend to occur in promoter-like features such as CpG islands. It has thus been proposed that one role of PRDM9 could be to direct recombination away from PRDM9-independent hotspots. However, the ability of PRDM9 to direct recombination hotspots has been assessed in only a handful of species, and a clear picture of how much recombination occurs outside of PRDM9-directed hotspots in mammals is still lacking. In this study, we derived an estimator of past recombination activity based on signatures of GC-biased gene conversion in substitution patterns. We quantified recombination activity in PRDM9-independent hotspots in 52 species of boreoeutherian mammals. We observe a wide range of recombination rates at these loci: several species (such as mice, humans, some felids, or cetaceans) show a deficit of recombination, while a majority of mammals display a clear peak of recombination. Our results demonstrate that PRDM9-directed and PRDM9-independent hotspots can coexist in mammals and that their coexistence appears to be the rule rather than the exception. Additionally, we show that the location of PRDM9-independent hotspots is relatively more stable than that of PRDM9-directed hotspots, but that PRDM9-independent hotspots nevertheless evolve slowly in concert with DNA hypomethylation.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{6}
+      \field{number}{23}
+      \field{title}{High prevalence of {PRDM9}-independent recombination hotspots in placental mammals}
+      \field{urlday}{11}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{121}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e2401973121}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2401973121
+      \endverb
+      \verb{file}
+      \verb PubMed Central Full Text PDF:/Users/orionpirku/Zotero/storage/Q4D9PDJ2/Joseph et al. - 2024 - High prevalence of PRDM9-independent recombination hotspots in placental mammals.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pnas.org/doi/10.1073/pnas.2401973121
+      \endverb
+      \verb{url}
+      \verb https://pnas.org/doi/10.1073/pnas.2401973121
+      \endverb
+    \endentry
+    \entry{kiktev2018}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=3bc91420ec8f112b4eaffc06966566d0}{%
+           family={Kiktev},
+           familyi={K\bibinitperiod},
+           given={Denis\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=df1c5e28695adba99748687404158b73}{%
+           family={Sheng},
+           familyi={S\bibinitperiod},
+           given={Ziwei},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=017b31e5c4df8306b9e6f90cd8b77623}{%
+           family={Lobachev},
+           familyi={L\bibinitperiod},
+           given={Kirill\bibnamedelima S.},
+           giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a61085e2655a53599b5dc1310d3bce0}{%
+           family={Petes},
+           familyi={P\bibinitperiod},
+           given={Thomas\bibnamedelima D.},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b823cad88dfd77f01a75372b75277a0}
+      \strng{fullhash}{42c6c485b442fb5989c2a010921b3616}
+      \strng{bibnamehash}{2b823cad88dfd77f01a75372b75277a0}
+      \strng{authorbibnamehash}{2b823cad88dfd77f01a75372b75277a0}
+      \strng{authornamehash}{2b823cad88dfd77f01a75372b75277a0}
+      \strng{authorfullhash}{42c6c485b442fb5989c2a010921b3616}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Chromosomes of most organisms have regions of high GC content interspersed with regions of low GC content. We constructed three variants of the yeast URA3 gene with GC contents of 31\%, 43\%, and 63\%. We found that the high-GC URA3 gene had a substantially elevated rate of mutations, both single-base substitutions and deletions. The elevated base substitutions require an error-prone DNA polymerase, and the high rate of deletions occurs as a consequence of DNA polymerase slippage. The high-GC gene also had substantially elevated rates of mitotic and meiotic recombination. These observations indicate that GC content is an important parameter influencing genome evolution. The chromosomes of many eukaryotes have regions of high GC content interspersed with regions of low GC content. In the yeast Saccharomyces cerevisiae, high-GC regions are often associated with high levels of meiotic recombination. In this study, we constructed URA3 genes that differ substantially in their base composition [URA3-AT (31\% GC), URA3-WT (43\% GC), and URA3-GC (63\% GC)] but encode proteins with the same amino acid sequence. The strain with URA3-GC had an approximately sevenfold elevated rate of ura3 mutations compared with the strains with URA3-WT or URA3-AT. About half of these mutations were single-base substitutions and were dependent on the error-prone DNA polymerase ζ. About 30\% were deletions or duplications between short (5–10 base) direct repeats resulting from DNA polymerase slippage. The URA3-GC gene also had elevated rates of meiotic and mitotic recombination relative to the URA3-AT or URA3-WT genes. Thus, base composition has a substantial effect on the basic parameters of genome stability and evolution.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{30}
+      \field{title}{GC content elevates mutation and recombination rates in the yeast <i>Saccharomyces cerevisiae</i>}
+      \field{volume}{115}
+      \field{year}{2018}
+      \field{pages}{E7109\bibrangedash E7118}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.1807334115
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.1807334115
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1807334115
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.1807334115
+      \endverb
+    \endentry
+    \entry{lam_cell-type-specific_2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=2200059ac4c4a79f61a2b0f7e1dd5779}{%
+           family={Lam},
+           familyi={L\bibinitperiod},
+           given={Kwan-Wood\bibnamedelima Gabriel},
+           giveni={K\bibinithyphendelim W\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cce62a44bf394162ed62b7910aee9366}{%
+           family={Brick},
+           familyi={B\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=421032d2190d40b6f8bfacfad643f218}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Gang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7a92b75b3c1ad4b75f22c54f67907c9}{%
+           family={Pratto},
+           familyi={P\bibinitperiod},
+           given={Florencia},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71db13f47f596d3f8add5fcadbd4d4f8}{%
+           family={Camerini-Otero},
+           familyi={C\bibinithyphendelim O\bibinitperiod},
+           given={R.\bibnamedelimi Daniel},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{51fe1a0e7769fb436dbeb209694f6b7c}
+      \strng{fullhash}{266dfc1f583a7e6cbb68e7466a0ba93b}
+      \strng{bibnamehash}{51fe1a0e7769fb436dbeb209694f6b7c}
+      \strng{authorbibnamehash}{51fe1a0e7769fb436dbeb209694f6b7c}
+      \strng{authornamehash}{51fe1a0e7769fb436dbeb209694f6b7c}
+      \strng{authorfullhash}{266dfc1f583a7e6cbb68e7466a0ba93b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{8}
+      \field{note}{Number: 1 Publisher: Nature Publishing Group}
+      \field{number}{1}
+      \field{title}{Cell-type-specific genomics reveals histone modification dynamics in mammalian meiosis}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{10}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{3821}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-019-11820-7
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/S4CNA6D7/Lam et al. - 2019 - Cell-type-specific genomics reveals histone modifi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41467-019-11820-7
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41467-019-11820-7
+      \endverb
+      \keyw{Development,Chromatin immunoprecipitation}
+    \endentry
+    \entry{lange_landscape_2016}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=06f8b8edcd6527d27aceefa31530e2f8}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21c45dbaeaac43e4dd48e9dfc7ad1cb9}{%
+           family={Yamada},
+           familyi={Y\bibinitperiod},
+           given={Shintaro},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb186c391f2e1368b0c72cff0d64de78}{%
+           family={Tischfield},
+           familyi={T\bibinitperiod},
+           given={Sam\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=387e4dbca181fb86e2e2de719709f681}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1cef00ef63e7123e3cda00ea20389896}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seoyoung},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ece2de24c4f96348551e3079ead1fcbe}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=be884d61bde8534f6c78ef99170b6ca9}{%
+           family={Socci},
+           familyi={S\bibinitperiod},
+           given={Nicholas\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8c9948a07e5253e5897ac5e331b2cce7}{%
+           family={Jasin},
+           familyi={J\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de3f593c61e2f865a7d1d54ba51e6b63}{%
+           family={Keeney},
+           familyi={K\bibinitperiod},
+           given={Scott},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{27d732f5a26a76ff4564500d634a3780}
+      \strng{fullhash}{12dc5d1a96a48c821d822ec9683cc405}
+      \strng{bibnamehash}{27d732f5a26a76ff4564500d634a3780}
+      \strng{authorbibnamehash}{27d732f5a26a76ff4564500d634a3780}
+      \strng{authornamehash}{27d732f5a26a76ff4564500d634a3780}
+      \strng{authorfullhash}{12dc5d1a96a48c821d822ec9683cc405}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{<}h2{>}Summary{<}/h2{>}{ <}p{>}Heritability and genome stability are shaped by meiotic recombination, which is initiated via hundreds of DNA double-strand breaks (DSBs). The distribution of DSBs throughout the genome is not random, but mechanisms molding this landscape remain poorly understood. Here, we exploit genome-wide maps of mouse DSBs at unprecedented nucleotide resolution to uncover previously invisible spatial features of recombination. At fine scale, we reveal a stereotyped hotspot structure—DSBs occur within narrow zones between methylated nucleosomes—and identify relationships between SPO11, chromatin, and the histone methyltransferase PRDM9. At large scale, DSB formation is suppressed on non-homologous portions of the sex chromosomes via the DSB-responsive kinase ATM, which also shapes the autosomal DSB landscape at multiple size scales. We also provide a genome-wide analysis of exonucleolytic DSB resection lengths and elucidate spatial relationships between DSBs and recombination products. Our results paint a comprehensive picture of features governing successive steps in mammalian meiotic recombination.{<}/p{ >}}
+      \field{issn}{0092-8674, 1097-4172}
+      \field{journaltitle}{Cell}
+      \field{month}{10}
+      \field{note}{Publisher: Elsevier}
+      \field{number}{3}
+      \field{title}{The {Landscape} of {Mouse} {Meiotic} {Double}-{Strand} {Break} { Formation}, {Processing}, and {Repair}}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{167}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{695\bibrangedash 708.e16}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1016/j.cell.2016.09.035
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/WEHWEUYN/Lange et al. - 2016 - The Landscape of Mouse Meiotic Double-Strand Break.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cell.com/cell/abstract/S0092-8674(16)31317-4
+      \endverb
+      \verb{url}
+      \verb https://www.cell.com/cell/abstract/S0092-8674(16)31317-4
+      \endverb
+    \endentry
+    \entry{Lee2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=235032fbc12d47e45283ca9a714aeda7}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Gregory\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea0d04d6116f32d9972212ee8291bc0b}{%
+           family={Waselewski},
+           familyi={W\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf74ca2831658bbe63d81a29b0c87b35}{%
+           family={Wohlfahrt},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42519b61954d303f9b66ce864ab9edd2}{%
+           family={O'Leary},
+           familyi={O\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Open Journal}%
+      }
+      \strng{namehash}{0884f92252b923c06f464f1249cdbed8}
+      \strng{fullhash}{d9c0f154690b55ea4fa3ef6f31c9f429}
+      \strng{bibnamehash}{0884f92252b923c06f464f1249cdbed8}
+      \strng{authorbibnamehash}{0884f92252b923c06f464f1249cdbed8}
+      \strng{authornamehash}{0884f92252b923c06f464f1249cdbed8}
+      \strng{authorfullhash}{d9c0f154690b55ea4fa3ef6f31c9f429}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{36}
+      \field{title}{PyWavelets: A Python package for wavelet analysis}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{pages}{1237}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.01237
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.21105/joss.01237
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.21105/joss.01237
+      \endverb
+    \endentry
+    \entry{lee_ewsr1_2019}{article}{}
+      \name{author}{10}{}{%
+        {{un=1,uniquepart=given,hash=99d26c90c27d007b8711dc9ef6662a23}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Junghee},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=419fbbb8278dd69dd7d6f01728c9d3e2}{%
+           family={Nguyen},
+           familyi={N\bibinitperiod},
+           given={Phuong\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ba1c42f911fdd68c05b144cf533d7685}{%
+           family={Shim},
+           familyi={S\bibinitperiod},
+           given={Hyun\bibnamedelima Soo},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e65317334d3eeed48f983c1852099d6}{%
+           family={Hyeon},
+           familyi={H\bibinitperiod},
+           given={Seung\bibnamedelima Jae},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a9e109f3d01d1c6349fbbdca62afcabd}{%
+           family={Im},
+           familyi={I\bibinitperiod},
+           given={Hyeonjoo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41365166d06a4070bcefb16e2df3bde6}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Mi-Hyun},
+           giveni={M\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88c411ed636fdbf29c962817871602cb}{%
+           family={Chung},
+           familyi={C\bibinitperiod},
+           given={Sooyoung},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=61f6a9ab7706f642046fa5fd901d5f56}{%
+           family={Kowall},
+           familyi={K\bibinitperiod},
+           given={Neil\bibnamedelima W.},
+           giveni={N\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38026d45a7c1c72cac6e1f047d5200f2}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Sean\bibnamedelima Bong},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f49be298662e9a3df21779e92ffebad}{%
+           family={Ryu},
+           familyi={R\bibinitperiod},
+           given={Hoon},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{74d3c674a9f9fecdd2bc7b92ec541edc}
+      \strng{fullhash}{ebb15e04e27c24391ce42b9a67136017}
+      \strng{bibnamehash}{74d3c674a9f9fecdd2bc7b92ec541edc}
+      \strng{authorbibnamehash}{74d3c674a9f9fecdd2bc7b92ec541edc}
+      \strng{authornamehash}{74d3c674a9f9fecdd2bc7b92ec541edc}
+      \strng{authorfullhash}{ebb15e04e27c24391ce42b9a67136017}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ewing's sarcoma (EWS) is a bone cancer arising predominantly in young children. EWSR1 (Ewing Sarcoma breakpoint region 1/EWS RNA binding protein 1) gene is ubiquitously expressed in most cell types, indicating it has diverse roles in various cellular processes and organ development. Recently, several studies have shown that missense mutations of EWSR1 genes are known to be associated with central nervous system disorders such as amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD). Otherwise, EWSR1 plays epigenetic roles in gene expression, RNA processing, and cellular signal transduction. Interestingly, EWSR1 controls micro RNA (miRNA) levels via Drosha, leading to autophagy dysfunction and impaired dermal development. Ewsr1 deficiency also leads to premature senescence of blood cells and gamete cells with a high rate of apoptosis due to the abnormal meiosis. Despite these roles of EWSR1 in various cellular functions , the exact mechanisms are not yet understood. In this context, the current review overviews a large body of evidence and discusses on what EWSR1 genetic mutations are associated with brain diseases and on how EWSR1 modulates cellular function via the epigenetic pathway. This will provide a better understanding of bona fide roles of EWSR1 in aging and its association with brain disorders.}
+      \field{issn}{0925-4439}
+      \field{journaltitle}{Biochimica et Biophysica Acta (BBA) - Molecular Basis of Disease}
+      \field{month}{7}
+      \field{number}{7}
+      \field{series}{Genetic and epigenetic regulation of aging and longevity}
+      \field{title}{{EWSR1}, a multifunctional protein, regulates cellular function and aging via genetic and epigenetic pathways}
+      \field{urlday}{30}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{1865}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1938\bibrangedash 1945}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1016/j.bbadis.2018.10.042
+      \endverb
+      \verb{file}
+      \verb Accepted Version:/Users/orionpirku/Zotero/storage/TCHTJCJY/Lee et al. - 2019 - EWSR1, a multifunctional protein, regulates cellul.pdf:application/pdf;ScienceDirect Snapshot:/Users/orionpirku/Zotero/storage/5FWAJ3P5/S0925443918304794.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925443918304794
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0925443918304794
+      \endverb
+      \keyw{EWSR1,Autophagy,Brain disorders,Epigenetic function,Genetic mutation,miRNA}
+    \endentry
+    \entry{Li-and-Sadler-1991}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4f5944da1b98ed2dac339565ba069fa9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={W\bibnamedelima H},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3006b448d531e3e0283a54b8b3284a32}{%
+           family={Sadler},
+           familyi={S\bibinitperiod},
+           given={L\bibnamedelima A},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{fullhash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{bibnamehash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{authorbibnamehash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{authornamehash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{authorfullhash}{0295cccc3bee091a1cb6edf1d1067504}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The nucleotide diversity (pi) in humans is studied by using published cDNA and genomic sequences that have been carefully checked for sequencing accuracy. This measure of genetic variability is defined as the number of nucleotide differences per site between two randomly chosen sequences from a population. A total of more than 75,000 base pairs from 49 loci are compared. The DNA regions studied are the 5' and 3' untranslated regions and the amino acid coding regions. The coding regions are divided into nondegenerate sites (i.e., sites at which all possible changes are nonsynonymous), twofold degenerate sites (i.e., sites at each of which one of the three possible changes is synonymous) and fourfold degenerate sites (i.e., sites at which all three possible changes are synonymous). The pi values estimated are, respectively, 0.03 and 0.04\% for the 5' and 3' UT regions, and 0.03, 0.06 and 0.11\% for nondegenerate, twofold degenerate and fourfold degenerate sites. Since the highest pi value is only 0.11\%, which is about one order of magnitude lower than those in Drosophila populations, the nucleotide diversity in humans is very low. The low diversity is probably due to a relatively small long-term effective population size rather than any severe bottleneck during human evolution.}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{Low nucleotide diversity in man.}
+      \field{volume}{129}
+      \field{year}{1991}
+      \field{pages}{513\bibrangedash 523}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/genetics/129.2.513
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/genetics/article-pdf/129/2/513/34556637/genetics0513.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/genetics/129.2.513
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/genetics/129.2.513
       \endverb
     \endentry
     \entry{ma_cobind_2023}{article}{}
@@ -617,6 +2687,161 @@
       \verb https://doi.org/10.1093/bioadv/vbad104
       \endverb
     \endentry
+    \entry{10.1093/genetics/160.3.1231}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=ee867f7b9dad34099817c34d2a3b4a0e}{%
+           family={McVean},
+           familyi={M\bibinitperiod},
+           given={Gil},
+           giveni={G\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8d9459a3bcdb9818dd52f49fa0de3662}{%
+           family={Awadalla},
+           familyi={A\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2d637bf71149fe879204a2bb21e932f}{%
+           family={Fearnhead},
+           familyi={F\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e3e5954cbcb78a5934f81268e5bcf481}
+      \strng{fullhash}{e3e5954cbcb78a5934f81268e5bcf481}
+      \strng{bibnamehash}{e3e5954cbcb78a5934f81268e5bcf481}
+      \strng{authorbibnamehash}{e3e5954cbcb78a5934f81268e5bcf481}
+      \strng{authornamehash}{e3e5954cbcb78a5934f81268e5bcf481}
+      \strng{authorfullhash}{e3e5954cbcb78a5934f81268e5bcf481}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Determining the amount of recombination in the genealogical history of a sample of genes is important to both evolutionary biology and medical population genetics. However, recurrent mutation can produce patterns of genetic diversity similar to those generated by recombination and can bias estimates of the population recombination rate. Hudson (2001) has suggested an approximate-likelihood method based on coalescent theory to estimate the population recombination rate, 4Ner, under an infinite-sites model of sequence evolution. Here we extend the method to the estimation of the recombination rate in genomes, such as those of many viruses and bacteria, where the rate of recurrent mutation is high. In addition, we develop a powerful permutation-based method for detecting recombination that is both more powerful than other permutation-based methods and robust to misspecification of the model of sequence evolution. We apply the method to sequence data from viruses, bacteria, and human mitochondrial DNA. The extremely high level of recombination detected in both HIV1 and HIV2 sequences demonstrates that recombination cannot be ignored in the analysis of viral population genetic data.}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{03}
+      \field{number}{3}
+      \field{title}{A Coalescent-Based Method for Detecting and Estimating Recombination From Gene Sequences}
+      \field{volume}{160}
+      \field{year}{2002}
+      \field{pages}{1231\bibrangedash 1241}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/genetics/160.3.1231
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/genetics/article-pdf/160/3/1231/42036591/genetics1231.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/genetics/160.3.1231
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/genetics/160.3.1231
+      \endverb
+    \endentry
+    \entry{mcvean_genealogical_2002}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=17224aa8e27ed3805b04b6c1cf40bf30}{%
+           family={{McVean}},
+           familyi={M\bibinitperiod},
+           given={Gilean\bibnamedelimb A\bibnamedelima T},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{17224aa8e27ed3805b04b6c1cf40bf30}
+      \strng{fullhash}{17224aa8e27ed3805b04b6c1cf40bf30}
+      \strng{bibnamehash}{17224aa8e27ed3805b04b6c1cf40bf30}
+      \strng{authorbibnamehash}{17224aa8e27ed3805b04b6c1cf40bf30}
+      \strng{authornamehash}{17224aa8e27ed3805b04b6c1cf40bf30}
+      \strng{authorfullhash}{17224aa8e27ed3805b04b6c1cf40bf30}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The degree of association between alleles at different loci, or linkage disequilibrium, is widely used to infer details of evolutionary processes. Here I explore how associations between alleles relate to properties of the underlying genealogy of sequences. Under the neutral, inﬁnite-sites assumption I show that there is a direct correspondence between the covariance in coalescence times at different parts of the genome and the degree of linkage disequilibrium. These covariances can be calculated exactly under the standard neutral model and by Monte Carlo simulation under different demographic models. I show that the effects of population growth, population bottlenecks, and population structure on linkage disequilibrium can be described through their effects on the covariance in coalescence times.}
+      \field{day}{1}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{A Genealogical Interpretation of Linkage Disequilibrium}
+      \field{urlday}{19}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{162}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{987\bibrangedash 991}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1093/genetics/162.2.987
+      \endverb
+      \verb{file}
+      \verb PDF:/home/orion/Zotero/storage/IT5226LS/McVean - 2002 - A Genealogical Interpretation of Linkage Disequilibrium.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/genetics/article/162/2/987/6049967
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/genetics/article/162/2/987/6049967
+      \endverb
+    \endentry
+    \entry{MustonenLaessig2005}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=9ad9e55e911c55e03a73c664d5fa3a48}{%
+           family={Mustonen},
+           familyi={M\bibinitperiod},
+           given={Ville},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e4b72e882dada7e4185648afecd40c2}{%
+           family={Lässig},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{27aea4a1e0149808a508d801987e70a7}
+      \strng{fullhash}{27aea4a1e0149808a508d801987e70a7}
+      \strng{bibnamehash}{27aea4a1e0149808a508d801987e70a7}
+      \strng{authorbibnamehash}{27aea4a1e0149808a508d801987e70a7}
+      \strng{authornamehash}{27aea4a1e0149808a508d801987e70a7}
+      \strng{authorfullhash}{27aea4a1e0149808a508d801987e70a7}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the evolution of transcription factor-binding sites in prokaryotes, using an empirically grounded model with point mutations and genetic drift. Selection acts on the site sequence via its binding affinity to the corresponding transcription factor. Calibrating the model with populations of functional binding sites, we verify this form of selection and show that typical sites are under substantial selection pressure for functionality: for cAMP response protein sites in Escherichia coli, the product of fitness difference and effective population size takes values 2NΔF of order 10. We apply this model to cross-species comparisons of binding sites in bacteria and obtain a prediction method for binding sites that uses evolutionary information in a quantitative way. At the same time, this method predicts the functional histories of orthologous sites in a phylogeny, evaluating the likelihood for conservation or loss or gain of function during evolution. We have performed, as an example, a cross-species analysis of E. coli, Salmonella typhimurium, and Yersinia pseudotuberculosis. Detailed lists of predicted sites and their functional phylogenies are available.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{44}
+      \field{title}{Evolutionary population genetics of promoters: Predicting binding sites and functional phylogenies}
+      \field{volume}{102}
+      \field{year}{2005}
+      \field{pages}{15936\bibrangedash 15941}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1073/pnas.0505537102
+      \endverb
+      \verb{eprint}
+      \verb https://www.pnas.org/doi/pdf/10.1073/pnas.0505537102
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.0505537102
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/abs/10.1073/pnas.0505537102
+      \endverb
+    \endentry
     \entry{nei-and-li-1979}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d99a17ef4bd866cc6d328e1c37603bd0}{%
@@ -663,6 +2888,348 @@
       \endverb
       \verb{url}
       \verb https://www.pnas.org/doi/abs/10.1073/pnas.76.10.5269
+      \endverb
+    \endentry
+    \entry{nielsen2013introduction}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5a4054bc1b252f52cc956a914b7129b5}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=8366a64ada038839896524128a9e67b8}{%
+           family={Slatkin},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+      }
+      \list{publisher}{1}{%
+        {Sinauer}%
+      }
+      \strng{namehash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{fullhash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{bibnamehash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{authorbibnamehash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{authornamehash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{authorfullhash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781605351537}
+      \field{title}{An Introduction to Population Genetics: Theory and Applications}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://books.google.de/books?id=Iy08kgEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.de/books?id=Iy08kgEACAAJ
+      \endverb
+    \endentry
+    \entry{paiano_atm_2020}{article}{}
+      \name{author}{11}{}{%
+        {{un=0,uniquepart=base,hash=94256d35ed84556d75200a90d3198953}{%
+           family={Paiano},
+           familyi={P\bibinitperiod},
+           given={Jacob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bb2d83991df51fab82e334ba89d1132}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21c45dbaeaac43e4dd48e9dfc7ad1cb9}{%
+           family={Yamada},
+           familyi={Y\bibinitperiod},
+           given={Shintaro},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=72cded4697eca61a7c8f3c90dec7fd37}{%
+           family={Sciascia},
+           familyi={S\bibinitperiod},
+           given={Nicholas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=528d01f0611bcea9f35a7b75d136cd42}{%
+           family={Callen},
+           familyi={C\bibinitperiod},
+           given={Elsa},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb9c2dc105a2c468bf14175866ebcd78}{%
+           family={Paola\bibnamedelima Cotrim},
+           familyi={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac4b999f93e5faa4d8569bf4d04d0db7}{%
+           family={Deshpande},
+           familyi={D\bibinitperiod},
+           given={Rajashree\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f3bba32392c85a73d99144ec4255192}{%
+           family={Maman},
+           familyi={M\bibinitperiod},
+           given={Yaakov},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=845c7800e27c20c241152cea6af9ec66}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a425640a9a6d08a31423dd328b62d478}{%
+           family={Paull},
+           familyi={P\bibinitperiod},
+           given={Tanya\bibnamedelima T.},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6673cf2dd7a916387afbd5319a1c3f4f}{%
+           family={Nussenzweig},
+           familyi={N\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{83476e1763a56fe84be1fab9140c7d0d}
+      \strng{fullhash}{6c739f751569d04f6044b9f63a293aea}
+      \strng{bibnamehash}{83476e1763a56fe84be1fab9140c7d0d}
+      \strng{authorbibnamehash}{83476e1763a56fe84be1fab9140c7d0d}
+      \strng{authornamehash}{83476e1763a56fe84be1fab9140c7d0d}
+      \strng{authorfullhash}{6c739f751569d04f6044b9f63a293aea}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meiotic recombination is initiated by SPO11-induced double-strand breaks (DSBs). In most mammals, the methyltransferase PRDM9 guides SPO11 targeting, and the ATM kinase controls meiotic DSB numbers. Following MRE11 nuclease removal of SPO11, the DSB is resected and loaded with DMC1 filaments for homolog invasion. Here, we demonstrate the direct detection of meiotic DSBs and resection using END-seq on mouse spermatocytes with low sample input. We find that DMC1 limits both minimum and maximum resection lengths, whereas 53BP1, BRCA1 and EXO1 play surprisingly minimal roles. Through enzymatic modifications to END-seq, we identify a SPO11-bound meiotic recombination intermediate (SPO11-RI) present at all hotspots. We propose that SPO11-RI forms because chromatin-bound PRDM9 asymmetrically blocks MRE11 from releasing SPO11. In Atm–/– spermatocytes, trapped SPO11 cleavage complexes accumulate due to defective MRE11 initiation of resection. Thus, in addition to governing SPO11 breakage, ATM and PRDM9 are critical local regulators of mammalian SPO11 processing.}
+      \field{issn}{2041-1723}
+      \field{journaltitle}{Nature Communications}
+      \field{month}{2}
+      \field{note}{Number: 1 Publisher: Nature Publishing Group}
+      \field{number}{1}
+      \field{title}{{ATM} and {PRDM9} regulate {SPO11}-bound recombination intermediates during meiosis}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{857}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41467-020-14654-w
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/3KYUTV9X/Paiano et al. - 2020 - ATM and PRDM9 regulate SPO11-bound recombination i.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41467-020-14654-w
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41467-020-14654-w
+      \endverb
+      \keyw{DNA recombination,DNA damage and repair}
+    \endentry
+    \entry{parvanov_prdm9_2016}{misc}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=9eec929ece08f7162a4cb76cf01ee6d4}{%
+           family={Parvanov},
+           familyi={P\bibinitperiod},
+           given={Emil\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d58c39b35e0173fd9903edf3f63986cf}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94c26803e8b229fa742a6ab1e8aa14b9}{%
+           family={Billings},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fb195169e21332aba7451c79176efc1}{%
+           family={Saxl},
+           familyi={S\bibinitperiod},
+           given={Ruth\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a8c830fd40309470bd7ed8febe17976}{%
+           family={Spruce},
+           familyi={S\bibinitperiod},
+           given={Catrina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a89061b373307bc19bd794a7c4682eb3}{%
+           family={Aithal},
+           familyi={A\bibinitperiod},
+           given={Rakesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cc93afc57f2b2802b0b9798b9bff642}{%
+           family={Krejci},
+           familyi={K\bibinitperiod},
+           given={Lumir},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffeb01556ab80b88dce4c973a902bdae}{%
+           family={Paigen},
+           familyi={P\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23bca783cf86ae6c557a4853c1f1e3fa}{%
+           family={Petkov},
+           familyi={P\bibinitperiod},
+           given={Petko\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e13d72ed70e4bbec6b665af933329e5c}
+      \strng{fullhash}{20007b703b7fc51cc110db2dd84d8188}
+      \strng{bibnamehash}{e13d72ed70e4bbec6b665af933329e5c}
+      \strng{authorbibnamehash}{e13d72ed70e4bbec6b665af933329e5c}
+      \strng{authornamehash}{e13d72ed70e4bbec6b665af933329e5c}
+      \strng{authorfullhash}{20007b703b7fc51cc110db2dd84d8188}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In mammals, meiotic recombination occurs at 1-2 kb genomic regions termed hotspots, whose positions and activities are determined by PRDM9, a DNA-binding histone methyltransferase. We now show that the KRAB domain of PRDM9 forms complexes with additional proteins to allow hotspots to proceed into the next phase of recombination. By a combination of yeast-two hybrid assay, in vitro binding, and co-immunoprecipitation from mouse spermatocytes, we identified four proteins that directly interact with PRDM9’s KRAB domain, namely CXXC1, EWSR1, EHMT2, and CDYL. These proteins are co-expressed in spermatocytes at the early stages of meiotic prophase I, the limited period when PRDM9 is expressed. We also detected association of PRDM9-bound complexes with the meiotic cohesin REC8 and the synaptonemal complex proteins SYCP3 and SYCP1. Our results suggest a model in which PRDM9-bound hotspot DNA is brought to the chromosomal axis by the action of these proteins, ensuring the proper chromatin and spatial environment for subsequent recombination events.}
+      \field{month}{6}
+      \field{title}{{PRDM9} forms a multiprotein complex tethering recombination hotspots to the chromosomal axis}
+      \field{urlday}{19}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1101/056713
+      \endverb
+      \verb{urlraw}
+      \verb http://biorxiv.org/lookup/doi/10.1101/056713
+      \endverb
+      \verb{url}
+      \verb http://biorxiv.org/lookup/doi/10.1101/056713
+      \endverb
+    \endentry
+    \entry{parvanov_prdm9_2017}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=9eec929ece08f7162a4cb76cf01ee6d4}{%
+           family={Parvanov},
+           familyi={P\bibinitperiod},
+           given={Emil\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d58c39b35e0173fd9903edf3f63986cf}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94c26803e8b229fa742a6ab1e8aa14b9}{%
+           family={Billings},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fb195169e21332aba7451c79176efc1}{%
+           family={Saxl},
+           familyi={S\bibinitperiod},
+           given={Ruth\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a8c830fd40309470bd7ed8febe17976}{%
+           family={Spruce},
+           familyi={S\bibinitperiod},
+           given={Catrina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a89061b373307bc19bd794a7c4682eb3}{%
+           family={Aithal},
+           familyi={A\bibinitperiod},
+           given={Rakesh},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8cc93afc57f2b2802b0b9798b9bff642}{%
+           family={Krejci},
+           familyi={K\bibinitperiod},
+           given={Lumir},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffeb01556ab80b88dce4c973a902bdae}{%
+           family={Paigen},
+           familyi={P\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23bca783cf86ae6c557a4853c1f1e3fa}{%
+           family={Petkov},
+           familyi={P\bibinitperiod},
+           given={Petko\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e13d72ed70e4bbec6b665af933329e5c}
+      \strng{fullhash}{20007b703b7fc51cc110db2dd84d8188}
+      \strng{bibnamehash}{e13d72ed70e4bbec6b665af933329e5c}
+      \strng{authorbibnamehash}{e13d72ed70e4bbec6b665af933329e5c}
+      \strng{authornamehash}{e13d72ed70e4bbec6b665af933329e5c}
+      \strng{authorfullhash}{20007b703b7fc51cc110db2dd84d8188}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In mammals, meiotic recombination occurs at 1- to 2-kb genomic regions termed hotspots, whose positions and activities are determined by PRDM9, a DNA-binding histone methyltransferase. We show that the KRAB domain of PRDM9 forms complexes with additional proteins to allow hotspots to proceed into the next phase of recombination. By a combination of yeast-two hybrid assay, in vitro binding, and coimmunoprecipitation from mouse spermatocytes, we identified four proteins that directly interact with PRDM9’s KRAB domain, namely CXXC1, EWSR1, EHMT2, and CDYL. These proteins are coexpressed in spermatocytes at the early stages of meiotic prophase I, the limited period when PRDM9 is expressed. We also detected association of PRDM9-bound complexes with the meiotic cohesin REC8 and the synaptonemal complex proteins SYCP3 and SYCP1. Our results suggest a model in which PRDM9-bound hotspot DNA is brought to the chromosomal axis by the action of these proteins, ensuring the proper chromatin and spatial environment for subsequent recombination events.}
+      \field{issn}{1059-1524}
+      \field{journaltitle}{Molecular Biology of the Cell}
+      \field{month}{2}
+      \field{note}{Publisher: American Society for Cell Biology (mboc)}
+      \field{number}{3}
+      \field{title}{{PRDM9} interactions with other proteins provide a link between recombination hotspots and the chromosomal axis in meiosis}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{28}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{488\bibrangedash 499}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1091/mbc.e16-09-0686
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/orionpirku/Zotero/storage/Q5S93HRJ/Parvanov et al. - 2017 - PRDM9 interactions with other proteins provide a l.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.molbiolcell.org/doi/full/10.1091/mbc.e16-09-0686
+      \endverb
+      \verb{url}
+      \verb https://www.molbiolcell.org/doi/full/10.1091/mbc.e16-09-0686
       \endverb
     \endentry
     \entry{UCSC}{article}{}
@@ -812,6 +3379,236 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1093/nar/gkae974
+      \endverb
+    \endentry
+    \entry{pigozzi_chromosomes_2016}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45f8c870e09d9836bdacca26ca90ed1a}{%
+           family={Pigozzi},
+           familyi={P\bibinitperiod},
+           given={María\bibnamedelima I.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45f8c870e09d9836bdacca26ca90ed1a}
+      \strng{fullhash}{45f8c870e09d9836bdacca26ca90ed1a}
+      \strng{bibnamehash}{45f8c870e09d9836bdacca26ca90ed1a}
+      \strng{authorbibnamehash}{45f8c870e09d9836bdacca26ca90ed1a}
+      \strng{authornamehash}{45f8c870e09d9836bdacca26ca90ed1a}
+      \strng{authorfullhash}{45f8c870e09d9836bdacca26ca90ed1a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The cytological analysis of meiotic chromosomes is an exceptional tool to approach complex processes such as synapsis and recombination during the division. Chromosome studies of meiosis have been especially valuable in birds, where naturally occurring mutants or experimental knock-out animals are not available to fully investigate the basic mechanisms of major meiotic events. This review highlights the main contributions of synaptonemal complex and lampbrush chromosome research to the current knowledge of avian meiosis, with special emphasis on the organization of chromosomes during prophase I, the impact of chromosome rearrangements during meiosis, and distinctive features of the ZW pair.}
+      \field{issn}{1424-8581}
+      \field{journaltitle}{Cytogenetic and Genome Research}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{The {Chromosomes} of {Birds} during {Meiosis}}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{150}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{128\bibrangedash 138}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1159/000453541
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/JEE76IE6/Pigozzi - 2016 - The Chromosomes of Birds during Meiosis.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1159/000453541
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1159/000453541
+      \endverb
+    \endentry
+    \entry{powers_meiotic_2016}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=83dd65109d2c8d98c8e637afb98d30c9}{%
+           family={Powers},
+           familyi={P\bibinitperiod},
+           given={Natalie\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9eec929ece08f7162a4cb76cf01ee6d4}{%
+           family={Parvanov},
+           familyi={P\bibinitperiod},
+           given={Emil\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37b169945fd9083fc35a80b7f06910e0}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima L.},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07141c11830222e4d2af38c6bc6ec4ba}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23bca783cf86ae6c557a4853c1f1e3fa}{%
+           family={Petkov},
+           familyi={P\bibinitperiod},
+           given={Petko\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffeb01556ab80b88dce4c973a902bdae}{%
+           family={Paigen},
+           familyi={P\bibinitperiod},
+           given={Kenneth},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d04a1c757350be7fd85df97cc991b4ec}
+      \strng{fullhash}{60fa1e4c4fff80905b6609d6b812d644}
+      \strng{bibnamehash}{d04a1c757350be7fd85df97cc991b4ec}
+      \strng{authorbibnamehash}{d04a1c757350be7fd85df97cc991b4ec}
+      \strng{authornamehash}{d04a1c757350be7fd85df97cc991b4ec}
+      \strng{authorfullhash}{60fa1e4c4fff80905b6609d6b812d644}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In many mammals, including humans and mice, the zinc finger histone methyltransferase PRDM9 performs the first step in meiotic recombination by specifying the locations of hotspots, the sites of genetic recombination. PRDM9 binds to DNA at hotspots through its zinc finger domain and activates recombination by trimethylating histone H3K4 on adjacent nucleosomes through its PR/SET domain. Recently, the isolated PR/SET domain of PRDM9 was shown capable of also trimethylating H3K36 in vitro, raising the question of whether this reaction occurs in vivo during meiosis, and if so, what its function might be. Here, we show that full-length PRDM9 does trimethylate H3K36 in vivo in mouse spermatocytes. Levels of H3K4me3 and H3K36me3 are highly correlated at hotspots, but mutually exclusive elsewhere. In vitro, we find that although PRDM9 trimethylates H3K36 much more slowly than it does H3K4, PRDM9 is capable of placing both marks on the same histone molecules. In accord with these results, we also show that PRDM9 can trimethylate both K4 and K36 on the same nucleosomes in vivo, but the ratio of K4me3/K36me3 is much higher for the pair of nucleosomes adjacent to the PRDM9 binding site compared to the next pair further away. Importantly, H3K4me3/H3K36me3-double-positive nucleosomes occur only in regions of recombination: hotspots and the pseudoautosomal (PAR) region of the sex chromosomes. These double-positive nucleosomes are dramatically reduced when PRDM9 is absent, showing that this signature is PRDM9-dependent at hotspots; the residual double-positive nucleosomes most likely come from the PRDM9-independent PAR. These results, together with the fact that PRDM9 is the only known mammalian histone methyltransferase with both H3K4 and H3K36 trimethylation activity, suggest that trimethylation of H3K36 plays an important role in the recombination process. Given the known requirement of H3K36me3 for double strand break repair by homologous recombination in somatic cells, we suggest that it may play the same role in meiosis.}
+      \field{issn}{1553-7404}
+      \field{journaltitle}{PLOS Genetics}
+      \field{month}{6}
+      \field{note}{Publisher: Public Library of Science}
+      \field{number}{6}
+      \field{title}{The {Meiotic} {Recombination} {Activator} {PRDM9} {Trimethylates} { Both} {H3K36} and {H3K4} at {Recombination} {Hotspots} {In} {Vivo}}
+      \field{urlday}{16}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{12}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{e1006146}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pgen.1006146
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/KY4SE34B/Powers et al. - 2016 - The Meiotic Recombination Activator PRDM9 Trimethy.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006146
+      \endverb
+      \verb{url}
+      \verb https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1006146
+      \endverb
+      \keyw{Histones,Methylation,DNA repair,Spermatocytes,DNA recombination,Immunoprecipitation,Methyltransferases,Nucleosomes}
+    \endentry
+    \entry{ramirez_deeptools2_2016}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=5c87afd046b55b7ce22e12de6f91ed41}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={Fidel},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d04a3b1092866f8a33fc1de3c20d3bc1}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={Devon\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bbd312a54cc817e39c6e845b872a978}{%
+           family={Grüning},
+           familyi={G\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4a665913463b6c3ead3592010d69226}{%
+           family={Bhardwaj},
+           familyi={B\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e136b30bbfd6b0f7c65a463f6c89ff0b}{%
+           family={Kilpert},
+           familyi={K\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dec1a340e7a9a6f0316e96e663f41e7}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Andreas\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d5ce871ee55ab6797fe975a1c7f0e9e}{%
+           family={Heyne},
+           familyi={H\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b87add36137801cab0603cc9510e698}{%
+           family={Dündar},
+           familyi={D\bibinitperiod},
+           given={Friederike},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52d7ff59f8937b2a743fccbb98eab071}{%
+           family={Manke},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e9798d37744fccba00476bc3f110aaa7}
+      \strng{fullhash}{707cace05eb7ceb2b5076e35a0796dee}
+      \strng{bibnamehash}{e9798d37744fccba00476bc3f110aaa7}
+      \strng{authorbibnamehash}{e9798d37744fccba00476bc3f110aaa7}
+      \strng{authornamehash}{e9798d37744fccba00476bc3f110aaa7}
+      \strng{authorfullhash}{707cace05eb7ceb2b5076e35a0796dee}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0305-1048, 1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{7}
+      \field{number}{W1}
+      \field{shorttitle}{{deepTools2}}
+      \field{title}{{deepTools2}: a next generation web server for deep-sequencing data analysis}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{44}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{W160\bibrangedash W165}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkw257
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/orionpirku/Zotero/storage/MQMRVRUT/Ramírez et al. - 2016 - deepTools2 a next generation web server for deep-sequencing data analysis.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkw257
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkw257
       \endverb
     \endentry
     \entry{NCBI}{article}{}
@@ -1213,6 +4010,56 @@
       \verb https://www.science.org/doi/abs/10.1126/science.aad0843
       \endverb
     \endentry
+    \entry{slatkin_linkage_2008}{article}{}
+      \name{author}{1}{}{%
+        {{un=2,uniquepart=given,hash=a2e6f3f014cb8aca7e954bf74ff1ac86}{%
+           family={Slatkin},
+           familyi={S\bibinitperiod},
+           given={Montgomery},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
+      }
+      \strng{namehash}{a2e6f3f014cb8aca7e954bf74ff1ac86}
+      \strng{fullhash}{a2e6f3f014cb8aca7e954bf74ff1ac86}
+      \strng{bibnamehash}{a2e6f3f014cb8aca7e954bf74ff1ac86}
+      \strng{authorbibnamehash}{a2e6f3f014cb8aca7e954bf74ff1ac86}
+      \strng{authornamehash}{a2e6f3f014cb8aca7e954bf74ff1ac86}
+      \strng{authorfullhash}{a2e6f3f014cb8aca7e954bf74ff1ac86}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1471-0056, 1471-0064}
+      \field{journaltitle}{Nature Reviews Genetics}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shortjournal}{Nat Rev Genet}
+      \field{title}{Linkage disequilibrium — understanding the evolutionary past and mapping the medical future}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{477\bibrangedash 485}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1038/nrg2361
+      \endverb
+      \verb{file}
+      \verb PDF:/home/orion/Zotero/storage/X6ZL2EIW/Slatkin - 2008 - Linkage disequilibrium — understanding the evolutionary past and mapping the medical future.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/nrg2361
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/nrg2361
+      \endverb
+    \endentry
     \entry{doi:10.1126/sciadv.aaw9206}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=4dbea328908c15d306bbde1b3bc1561e}{%
@@ -1302,6 +4149,117 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1093/genetics/123.3.585
+      \endverb
+    \endentry
+    \entry{tian_ewsr1_2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d58c39b35e0173fd9903edf3f63986cf}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94c26803e8b229fa742a6ab1e8aa14b9}{%
+           family={Billings},
+           familyi={B\bibinitperiod},
+           given={Timothy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23bca783cf86ae6c557a4853c1f1e3fa}{%
+           family={Petkov},
+           familyi={P\bibinitperiod},
+           given={Petko\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6a8f5125cef9738229a26d042cca7c24}
+      \strng{fullhash}{6a8f5125cef9738229a26d042cca7c24}
+      \strng{bibnamehash}{6a8f5125cef9738229a26d042cca7c24}
+      \strng{authorbibnamehash}{6a8f5125cef9738229a26d042cca7c24}
+      \strng{authornamehash}{6a8f5125cef9738229a26d042cca7c24}
+      \strng{authorfullhash}{6a8f5125cef9738229a26d042cca7c24}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meiotic recombination in most mammals requires recombination hotspot activation through the action of the histone 3 Lys-4 and Lys-36 methyltransferase PRDM9 to ensure successful double-strand-break initiation and repair. Here we show that EWSR1, a protein whose role in meiosis was not previously clarified in detail, binds to both PRDM9 and pREC8, a phosphorylated meiosis-specific cohesin, in male meiotic cells. We created a Ewsr1 conditional knockout mouse model to deplete EWSR1 before the onset of meiosis and found that absence of EWSR1 causes meiotic arrest with decreased histone trimethylation at meiotic hotspots, impaired DNA double-strand-break repair, and reduced crossover number. Our results demonstrate that EWSR1 is essential for promoting PRDM9-dependent histone methylation and normal meiotic progress, possibly by facilitating the linking between PRDM9-bound hotspots and the nascent chromosome axis through its component cohesin pREC8.}
+      \field{issn}{1059-1524}
+      \field{journaltitle}{Molecular Biology of the Cell}
+      \field{month}{1}
+      \field{note}{Publisher: American Society for Cell Biology (mboc)}
+      \field{number}{1}
+      \field{title}{{EWSR1} affects {PRDM9}-dependent histone 3 methylation and provides a link between recombination hotspots and the chromosome axis protein {REC8}}
+      \field{urlday}{19}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{32}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 14}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1091/mbc.E20-09-0604
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/QSGIW3GM/Tian et al. - 2021 - EWSR1 affects PRDM9-dependent histone 3 methylatio.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.molbiolcell.org/doi/10.1091/mbc.E20-09-0604
+      \endverb
+      \verb{url}
+      \verb https://www.molbiolcell.org/doi/10.1091/mbc.E20-09-0604
+      \endverb
+    \endentry
+    \entry{UbedaWilkins2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cb048e2aa9f233638e9fe876691b5334}{%
+           family={Úbeda},
+           familyi={Ú\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ee54e5750157cd6e3b213a0d656a09fd}{%
+           family={Wilkins},
+           familyi={W\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{828f023605b14856a76849b62f5071cd}
+      \strng{fullhash}{828f023605b14856a76849b62f5071cd}
+      \strng{bibnamehash}{828f023605b14856a76849b62f5071cd}
+      \strng{authorbibnamehash}{828f023605b14856a76849b62f5071cd}
+      \strng{authornamehash}{828f023605b14856a76849b62f5071cd}
+      \strng{authorfullhash}{828f023605b14856a76849b62f5071cd}
+      \field{sortinit}{Ú}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recombination hotspots are small chromosomal regions, where meiotic crossover events happen with high frequency. Recombination is initiated by a double‐strand break (DSB) that requires the intervention of the molecular repair mechanism. The DSB repair mechanism may result in the exchange of homologous chromosomes (crossover) and the conversion of the allelic sequence that breaks into the one that does not break (biased gene conversion). Biased gene conversion results in a transmission advantage for the allele that does not break, thus preventing recombination and rendering recombination hotspots transient. How is it possible that recombination hotspots persist over evolutionary time (maintaining the average chromosomal crossover rate) when they are self‐destructive? This fundamental question is known as the recombination hotspot paradox and has attracted much attention in recent years. Yet, that attention has not translated into a fully satisfactory answer. No existing model adequately explains all aspects of the recombination hotspot paradox. Here, we formulate an intragenomic conflict model resulting in Red Queen dynamics that fully accounts for all empirical observations regarding the molecular mechanisms of recombination hotspots, the nonrandom targeting of the recombination machinery to hotspots and the evolutionary dynamics of hotspot turnover.}
+      \field{issn}{1010-061X}
+      \field{journaltitle}{Journal of Evolutionary Biology}
+      \field{month}{03}
+      \field{number}{3}
+      \field{title}{The Red Queen theory of recombination hotspots}
+      \field{volume}{24}
+      \field{year}{2011}
+      \field{pages}{541\bibrangedash 553}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1111/j.1420-9101.2010.02187.x
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/jeb/article-pdf/24/3/541/54172857/jevbio0541.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1111/j.1420-9101.2010.02187.x
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1111/j.1420-9101.2010.02187.x
       \endverb
     \endentry
     \entry{2020SciPy-NMeth}{article}{}
@@ -1534,6 +4492,57 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1038/s41592-019-0686-2
+      \endverb
+    \endentry
+    \entry{wooldridge_rapid_2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=27f236ca48d64dfcb2ee6ccdc8e72d1e}{%
+           family={Wooldridge},
+           familyi={W\bibinitperiod},
+           given={Lydia\bibnamedelima K},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=205c63e4c85df052a265ae88b90a95ca}{%
+           family={Dumont},
+           familyi={D\bibinitperiod},
+           given={Beth\bibnamedelima L},
+           giveni={B\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cffa9d07361405ab60a2c6f249caa0e3}
+      \strng{fullhash}{cffa9d07361405ab60a2c6f249caa0e3}
+      \strng{bibnamehash}{cffa9d07361405ab60a2c6f249caa0e3}
+      \strng{authorbibnamehash}{cffa9d07361405ab60a2c6f249caa0e3}
+      \strng{authornamehash}{cffa9d07361405ab60a2c6f249caa0e3}
+      \strng{authorfullhash}{cffa9d07361405ab60a2c6f249caa0e3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Meiotic recombination is an important evolutionary force and an essential meiotic process. In many species, recombination events concentrate into hotspots defined by the site-specific binding of PRMD9. Rapid evolution of Prdm9's zinc finger DNA-binding array leads to remarkably abrupt shifts in the genomic distribution of hotspots between species, but the question of how Prdm9 allelic variation shapes the landscape of recombination between populations remains less well understood. Wild house mice (Mus musculus) harbor exceptional Prdm9 diversity, with \>150 alleles identified to date, and pose a particularly powerful system for addressing this open question. We employed a coalescent-based approach to construct broad- and fine-scale sex-averaged recombination maps from contemporary patterns of linkage disequilibrium in nine geographically isolated wild house mouse populations, including multiple populations from each of three subspecies. Comparing maps between wild mouse populations and subspecies reveals several themes. First, we report weak fine- and broad-scale recombination map conservation across subspecies and populations, with genetic divergence offering no clear prediction for recombination map divergence. Second, most hotspots are unique to one population, an outcome consistent with minimal sharing of Prdm9 alleles between surveyed populations. Finally, by contrasting aggregate hotspot activity on the X versus autosomes, we uncover evidence for population-specific differences in the degree and direction of sex dimorphism for recombination. Overall, our findings illuminate the variability of both the broad- and fine-scale recombination landscape in M. musculus and underscore the functional impact of Prdm9 allelic variation in wild mouse populations.}
+      \field{issn}{1537-1719}
+      \field{journaltitle}{Molecular Biology and Evolution}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Rapid {Evolution} of the {Fine}-scale {Recombination} {Landscape} in {Wild} {House} {Mouse} ({Mus} musculus) {Populations}}
+      \field{urlday}{3}
+      \field{urlmonth}{9}
+      \field{urlyear}{2025}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{msac267}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/molbev/msac267
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/molbev/msac267
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/molbev/msac267
       \endverb
     \endentry
   \enddatalist

@@ -1,9 +1,10 @@
 INFO:  latexindent version 3.23.6, 2024-01-17, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Tue Nov 11 16:59:28 2025
-       Filename: MasterThesis.tex
+       Wed Nov 12 15:53:39 2025
+       Reading input from STDIN
 INFO:  Processing switches:
-       -o|--outputfile: output to file
+       -w|--overwrite: Overwrite mode active, will make a back up before overwriting
+       -m|--modifylinebreaks: modify line breaks
 INFO:  Directory for backup files and indent.log:
        .
 INFO:  YAML settings read: defaultSettings.yaml
@@ -12,13 +13,20 @@ INFO:  YAML reading settings
        Home directory is /home/orion
        latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
        see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
-INFO:  -o switch active: output file check
-INFO:  Phase 1: searching for objects
-INFO:  Phase 2: finding surrounding indentation
-INFO:  Phase 3: indenting objects
-INFO:  Phase 4: final indentation check
-INFO:  Output routine:
-       Outputting to file MasterThesis.tex
+INFO:  -l switch used without filename, will search for the following files in turn:
+       localSettings.yaml,latexindent.yaml,.localSettings.yaml,.latexindent.yaml
+INFO:  YAML settings read: -l switch
+       Multiple localSettings found, separated by commas:
+       localSettings.yaml, latexindent.yaml, .localSettings.yaml, .latexindent.yaml
+WARN:  yaml file not found: localSettings.yaml not found. Proceeding without it.
+WARN:  yaml file not found: latexindent.yaml not found. Proceeding without it.
+WARN:  yaml file not found: .localSettings.yaml not found. Proceeding without it.
+WARN:  yaml file not found: .latexindent.yaml not found. Proceeding without it.
+INFO:  Backup procedure (-w flag active):
+       Backing up - to ./-.bak0...
+       - will be overwritten after indentation
+FATAL Could not write to backup file ./-.bak0. Please check permissions.
+      Exiting, no indentation done.
        --------------
 INFO:  Please direct all communication/issues to:
         https://github.com/cmhughes/latexindent.pl

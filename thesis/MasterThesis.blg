@@ -1,15 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MasterThesis.blg'
-[35] biber:340> INFO - === Wed Nov 12, 2025, 13:18:48
-[43] Biber.pm:419> INFO - Reading 'MasterThesis.bcf'
-[72] Biber.pm:979> INFO - Found 14 citekeys in bib section 0
-[78] Biber.pm:4419> INFO - Processing section 0
-[84] Biber.pm:4610> INFO - Looking for bibtex file 'Citations.bib' for section 0
-[94] bibtex.pm:1713> INFO - LaTeX decoding ...
-[178] bibtex.pm:1519> INFO - Found BibTeX data source 'Citations.bib'
-[332] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[332] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[332] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[332] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[345] bbl.pm:660> INFO - Writing 'MasterThesis.bbl' with encoding 'UTF-8'
-[357] bbl.pm:763> INFO - Output to MasterThesis.bbl
+[41] biber:340> INFO - === Fri Nov 14, 2025, 13:43:59
+[49] Biber.pm:419> INFO - Reading 'MasterThesis.bcf'
+[89] Biber.pm:979> INFO - Found 56 citekeys in bib section 0
+[96] Biber.pm:4419> INFO - Processing section 0
+[102] Biber.pm:4610> INFO - Looking for bibtex file 'Citations.bib' for section 0
+[114] bibtex.pm:1713> INFO - LaTeX decoding ...
+[219] bibtex.pm:1519> INFO - Found BibTeX data source 'Citations.bib'
+[625] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[625] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[625] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[625] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[666] bbl.pm:660> INFO - Writing 'MasterThesis.bbl' with encoding 'UTF-8'
+[697] bbl.pm:763> INFO - Output to MasterThesis.bbl
+[697] Biber.pm:131> WARN - Duplicate entry key: 'Lee2019' in file 'Citations.bib', skipping ...
+[698] Biber.pm:133> INFO - WARNINGS: 1

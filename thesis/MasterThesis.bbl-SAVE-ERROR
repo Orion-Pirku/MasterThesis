@@ -106,6 +106,84 @@
       \verb https://doi.org/10.1093/gbe/evad233
       \endverb
     \endentry
+    \entry{cavassim_prdm9_2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=35f06ef241599140b604c6d26bba135a}{%
+           family={Cavassim},
+           familyi={C\bibinitperiod},
+           given={Maria\bibnamedelimb Izabel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ffc366ded3b9703f7fad6adf30f9ac8}{%
+           family={Baker},
+           familyi={B\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c633bb1aaa2e3c6552538b93c1296fb6}{%
+           family={Hoge},
+           familyi={H\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9f9f7c525e4b0212b0d4b205d84037d9}{%
+           family={Schierup},
+           familyi={S\bibinitperiod},
+           given={Mikkel\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a4365c45816ca26eb63062b697496962}{%
+           family={Schumer},
+           familyi={S\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab6ede380dfdf54bef473b2c6fab16d1}{%
+           family={Przeworski},
+           familyi={P\bibinitperiod},
+           given={Molly},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{de1c44eeaf1bdf1f87d83ce8baf27517}
+      \strng{fullhash}{9b4f123cdb51951cd2be52d2f5c707ae}
+      \strng{bibnamehash}{de1c44eeaf1bdf1f87d83ce8baf27517}
+      \strng{authorbibnamehash}{de1c44eeaf1bdf1f87d83ce8baf27517}
+      \strng{authornamehash}{de1c44eeaf1bdf1f87d83ce8baf27517}
+      \strng{authorfullhash}{9b4f123cdb51951cd2be52d2f5c707ae}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In most mammals and likely throughout vertebrates, the gene PRDM9 specifies the locations of meiotic double strand breaks; in mice and humans at least, it also aids in their repair. For both roles, many of the molecular partners remain unknown. Here, we take a phylogenetic approach to identify genes that may be interacting with PRDM9 by leveraging the fact that PRDM9 arose before the origin of vertebrates but was lost many times, either partially or entirely—and with it, its role in recombination. As a first step, we characterize PRDM9 domain composition across 446 vertebrate species, inferring at least 13 independent losses. We then use the interdigitation of PRDM9 orthologs across vertebrates to test whether it coevolved with any of 241 candidate genes coexpressed with PRDM9 in mice or associated with recombination phenotypes in mammals. Accounting for the phylogenetic relationship among a subsample of 189 species, we find two genes whose presence and absence is unexpectedly coincident with that of PRDM9: ZCWPW1, which was recently shown to facilitate double strand break repair, and its paralog ZCWPW2, as well as, more tentatively, TEX15 and FBXO47. ZCWPW2 is expected to be recruited to sites of PRDM9 binding; its tight coevolution with PRDM9 across vertebrates suggests that it is a key interactor within mammals and beyond, with a role either in recruiting the recombination machinery or in double strand break repair.}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{3}
+      \field{note}{Publisher: Proceedings of the National Academy of Sciences}
+      \field{number}{9}
+      \field{title}{{PRDM9} losses in vertebrates are coupled to those of paralogs { ZCWPW1} and {ZCWPW2}}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{volume}{119}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{e2114401119}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2114401119
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/orionpirku/Zotero/storage/6CFTTWCS/Cavassim et al. - 2022 - PRDM9 losses in vertebrates are coupled to those o.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.2114401119
+      \endverb
+      \verb{url}
+      \verb https://www.pnas.org/doi/full/10.1073/pnas.2114401119
+      \endverb
+    \endentry
     \entry{vcftools}{article}{}
       \name{author}{13}{}{%
         {{un=0,uniquepart=base,hash=d88c1b79e00da9e80637f97e15ad1ce6}{%
@@ -550,6 +628,196 @@
       \verb https://doi.org/10.1093/genetics/iyaf004
       \endverb
     \endentry
+    \entry{joseph_high_2024}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c225f5dd7f8a02772b84a17f00469db7}{%
+           family={Joseph},
+           familyi={J\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a3cc9c085bf4235304446be5889b4fe0}{%
+           family={Prentout},
+           familyi={P\bibinitperiod},
+           given={Djivan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=48b9e67a8744b98d23f259420211fba3}{%
+           family={Laverré},
+           familyi={L\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3bef44585a5c5883835af25fbb271009}{%
+           family={Tricou},
+           familyi={T\bibinitperiod},
+           given={Théo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4dce73861d73c22047ef8c03605c1be1}{%
+           family={Duret},
+           familyi={D\bibinitperiod},
+           given={Laurent},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d55087640cedcffca8fa63700a2a0e36}
+      \strng{fullhash}{11921d1bc5a606f870385fa59ac51d04}
+      \strng{bibnamehash}{d55087640cedcffca8fa63700a2a0e36}
+      \strng{authorbibnamehash}{d55087640cedcffca8fa63700a2a0e36}
+      \strng{authornamehash}{d55087640cedcffca8fa63700a2a0e36}
+      \strng{authorfullhash}{11921d1bc5a606f870385fa59ac51d04}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In many mammals, recombination events are concentrated in hotspots directed by a sequence-specific DNA-binding protein named PRDM9. Intriguingly, PRDM9 has been lost several times in vertebrates, and notably among mammals, it has been pseudogenized in the ancestor of canids. In the absence of PRDM9, recombination hotspots tend to occur in promoter-like features such as CpG islands. It has thus been proposed that one role of PRDM9 could be to direct recombination away from PRDM9-independent hotspots. However, the ability of PRDM9 to direct recombination hotspots has been assessed in only a handful of species, and a clear picture of how much recombination occurs outside of PRDM9-directed hotspots in mammals is still lacking. In this study, we derived an estimator of past recombination activity based on signatures of GC-biased gene conversion in substitution patterns. We quantified recombination activity in PRDM9-independent hotspots in 52 species of boreoeutherian mammals. We observe a wide range of recombination rates at these loci: several species (such as mice, humans, some felids, or cetaceans) show a deficit of recombination, while a majority of mammals display a clear peak of recombination. Our results demonstrate that PRDM9-directed and PRDM9-independent hotspots can coexist in mammals and that their coexistence appears to be the rule rather than the exception. Additionally, we show that the location of PRDM9-independent hotspots is relatively more stable than that of PRDM9-directed hotspots, but that PRDM9-independent hotspots nevertheless evolve slowly in concert with DNA hypomethylation.}
+      \field{issn}{0027-8424, 1091-6490}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{month}{6}
+      \field{number}{23}
+      \field{title}{High prevalence of {PRDM9}-independent recombination hotspots in placental mammals}
+      \field{urlday}{11}
+      \field{urlmonth}{1}
+      \field{urlyear}{2025}
+      \field{volume}{121}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{e2401973121}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1073/pnas.2401973121
+      \endverb
+      \verb{file}
+      \verb PubMed Central Full Text PDF:/Users/orionpirku/Zotero/storage/Q4D9PDJ2/Joseph et al. - 2024 - High prevalence of PRDM9-independent recombination hotspots in placental mammals.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pnas.org/doi/10.1073/pnas.2401973121
+      \endverb
+      \verb{url}
+      \verb https://pnas.org/doi/10.1073/pnas.2401973121
+      \endverb
+    \endentry
+    \entry{Lee2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=235032fbc12d47e45283ca9a714aeda7}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Gregory\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=646fbfe08374cc41c2f9bd971d8c4725}{%
+           family={Gommers},
+           familyi={G\bibinitperiod},
+           given={Ralf},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea0d04d6116f32d9972212ee8291bc0b}{%
+           family={Waselewski},
+           familyi={W\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf74ca2831658bbe63d81a29b0c87b35}{%
+           family={Wohlfahrt},
+           familyi={W\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=42519b61954d303f9b66ce864ab9edd2}{%
+           family={O'Leary},
+           familyi={O\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {The Open Journal}%
+      }
+      \strng{namehash}{0884f92252b923c06f464f1249cdbed8}
+      \strng{fullhash}{d9c0f154690b55ea4fa3ef6f31c9f429}
+      \strng{bibnamehash}{0884f92252b923c06f464f1249cdbed8}
+      \strng{authorbibnamehash}{0884f92252b923c06f464f1249cdbed8}
+      \strng{authornamehash}{0884f92252b923c06f464f1249cdbed8}
+      \strng{authorfullhash}{d9c0f154690b55ea4fa3ef6f31c9f429}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{36}
+      \field{title}{PyWavelets: A Python package for wavelet analysis}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{pages}{1237}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.01237
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.21105/joss.01237
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.21105/joss.01237
+      \endverb
+    \endentry
+    \entry{Li-and-Sadler-1991}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4f5944da1b98ed2dac339565ba069fa9}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={W\bibnamedelima H},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3006b448d531e3e0283a54b8b3284a32}{%
+           family={Sadler},
+           familyi={S\bibinitperiod},
+           given={L\bibnamedelima A},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{fullhash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{bibnamehash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{authorbibnamehash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{authornamehash}{0295cccc3bee091a1cb6edf1d1067504}
+      \strng{authorfullhash}{0295cccc3bee091a1cb6edf1d1067504}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The nucleotide diversity (pi) in humans is studied by using published cDNA and genomic sequences that have been carefully checked for sequencing accuracy. This measure of genetic variability is defined as the number of nucleotide differences per site between two randomly chosen sequences from a population. A total of more than 75,000 base pairs from 49 loci are compared. The DNA regions studied are the 5' and 3' untranslated regions and the amino acid coding regions. The coding regions are divided into nondegenerate sites (i.e., sites at which all possible changes are nonsynonymous), twofold degenerate sites (i.e., sites at each of which one of the three possible changes is synonymous) and fourfold degenerate sites (i.e., sites at which all three possible changes are synonymous). The pi values estimated are, respectively, 0.03 and 0.04\% for the 5' and 3' UT regions, and 0.03, 0.06 and 0.11\% for nondegenerate, twofold degenerate and fourfold degenerate sites. Since the highest pi value is only 0.11\%, which is about one order of magnitude lower than those in Drosophila populations, the nucleotide diversity in humans is very low. The low diversity is probably due to a relatively small long-term effective population size rather than any severe bottleneck during human evolution.}
+      \field{issn}{1943-2631}
+      \field{journaltitle}{Genetics}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{Low nucleotide diversity in man.}
+      \field{volume}{129}
+      \field{year}{1991}
+      \field{pages}{513\bibrangedash 523}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1093/genetics/129.2.513
+      \endverb
+      \verb{eprint}
+      \verb https://academic.oup.com/genetics/article-pdf/129/2/513/34556637/genetics0513.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/genetics/129.2.513
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/genetics/129.2.513
+      \endverb
+    \endentry
     \entry{ma_cobind_2023}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=511e11f06078454cb94dfab9a512bcaa}{%
@@ -663,6 +931,46 @@
       \endverb
       \verb{url}
       \verb https://www.pnas.org/doi/abs/10.1073/pnas.76.10.5269
+      \endverb
+    \endentry
+    \entry{nielsen2013introduction}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=5a4054bc1b252f52cc956a914b7129b5}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8366a64ada038839896524128a9e67b8}{%
+           family={Slatkin},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Sinauer}%
+      }
+      \strng{namehash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{fullhash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{bibnamehash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{authorbibnamehash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{authornamehash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \strng{authorfullhash}{af4b1a60eb8aaa717b5f51c5bb6391d5}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9781605351537}
+      \field{title}{An Introduction to Population Genetics: Theory and Applications}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://books.google.de/books?id=Iy08kgEACAAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.de/books?id=Iy08kgEACAAJ
       \endverb
     \endentry
     \entry{UCSC}{article}{}
@@ -812,6 +1120,105 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1093/nar/gkae974
+      \endverb
+    \endentry
+    \entry{ramirez_deeptools2_2016}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=5c87afd046b55b7ce22e12de6f91ed41}{%
+           family={Ramírez},
+           familyi={R\bibinitperiod},
+           given={Fidel},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d04a3b1092866f8a33fc1de3c20d3bc1}{%
+           family={Ryan},
+           familyi={R\bibinitperiod},
+           given={Devon\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5bbd312a54cc817e39c6e845b872a978}{%
+           family={Grüning},
+           familyi={G\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4a665913463b6c3ead3592010d69226}{%
+           family={Bhardwaj},
+           familyi={B\bibinitperiod},
+           given={Vivek},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e136b30bbfd6b0f7c65a463f6c89ff0b}{%
+           family={Kilpert},
+           familyi={K\bibinitperiod},
+           given={Fabian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3dec1a340e7a9a6f0316e96e663f41e7}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Andreas\bibnamedelima S},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d5ce871ee55ab6797fe975a1c7f0e9e}{%
+           family={Heyne},
+           familyi={H\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b87add36137801cab0603cc9510e698}{%
+           family={Dündar},
+           familyi={D\bibinitperiod},
+           given={Friederike},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52d7ff59f8937b2a743fccbb98eab071}{%
+           family={Manke},
+           familyi={M\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e9798d37744fccba00476bc3f110aaa7}
+      \strng{fullhash}{707cace05eb7ceb2b5076e35a0796dee}
+      \strng{bibnamehash}{e9798d37744fccba00476bc3f110aaa7}
+      \strng{authorbibnamehash}{e9798d37744fccba00476bc3f110aaa7}
+      \strng{authornamehash}{e9798d37744fccba00476bc3f110aaa7}
+      \strng{authorfullhash}{707cace05eb7ceb2b5076e35a0796dee}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0305-1048, 1362-4962}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{7}
+      \field{number}{W1}
+      \field{shorttitle}{{deepTools2}}
+      \field{title}{{deepTools2}: a next generation web server for deep-sequencing data analysis}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2024}
+      \field{volume}{44}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{W160\bibrangedash W165}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1093/nar/gkw257
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/orionpirku/Zotero/storage/MQMRVRUT/Ramírez et al. - 2016 - deepTools2 a next generation web server for deep-sequencing data analysis.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkw257
+      \endverb
+      \verb{url}
+      \verb https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkw257
       \endverb
     \endentry
     \entry{NCBI}{article}{}

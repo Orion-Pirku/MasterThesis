@@ -119,7 +119,47 @@
 %=============================
 %   MAIN DOCUMENT
 %=============================
+
+%=============================
+% ABSTRACT
+%=============================
+\section{Abstract}
+\textbf{Ever since its discovery, the role of \textit{prdm9} has been described as detrimental to
+	successful propagation of meiotic recombination in sexually reproducing eukaryotes. \textit{Prdm9}'s
+	key role is the trimethylating of histone 3 lysine 4 and histone 3 lysine 36, which indicate the
+	locations where recombination should take place, thus moving the so called hotspots away from functional genome elements,
+	such as genes and promoters. Recently studies have uncovered that not all sexually
+	reproducing organisms carry the gene, yet still undergo recombination successfully, most notably \textit{Aves, Crocodilia, Canes, \& Percomorpha}.
+	Moreover, it was discovered that \textit{prdm9} independent recombination hotspots occur even in
+	species carrying the gene. This finding underscores the important of understanding the underlying
+	mechanism of \textit{prdm9} independent recombination. In this study I seek to computationally investigate this
+	alternate pathway of recombination by computing the population scaled recombination rate of
+	\textit{Sylvia atricapilla} (European blackcap), investigating the recombination landscape and identifying hotspots from recombination rate map.
+	To do so I utilize \texttt{pyrho}, a software able to compute demography informed populuation scaled
+	recombination rate as well as continuous wavelet transformation which I use to call hotspot peaks
+	from local background noise via a peak prominence threshold, ultimately detecting 712 hotspots when
+	using a threshold of 90\% percentile of recombination values and 6142 hotspots when using a
+	threshold of 30\% percentile of recombination values}
+%==============================
+% INTRODUCTION
+%==============================
+
 \section{Introduction}
+\subsection{Overview of Meiosis}
+Meiosis is a specialized cell division process that generates haploid gametes from diploid germ cells in sexually reproducing organisms \parencite{handel_genetics_2010}. Following a single round of DNA replication, two sequential divisions take place, during which homologous chromosomes segregate. A key feature of meiosis is \textbf{meiotic recombination}, which takes place during Prophase I of meiosis and reshuffles alleles between homologous (parental) chromosomes, ultimately enhancing genetic diversity \parencite{hunter_meiotic_2015, baudat_meiotic_2013}. Recombination is a complicated process, involving the induction of programmed DNA double-strand breaks (DSBs), $5'$ stand resection, homologous strand invasion, Holliday junction formation, and resolution into crossover (CO) or non-crossover (NCO) events, including DSBs repair \parencite{lange_landscape_2016, borner_crossovernoncrossover_2004}. These events occur at specific chromosomal loci termed \textbf{recombination hotspots}. Recombination hotspots are essential for meiosis, as at least one recombination event has to occur per chromosome in order for gametogenesis to be successful \parencite{lange_landscape_2016}.
+
+\subsection{Meiotic Recombination Hotspots and \textit{prdm9}}
+In most mammals, the location of recombination hotspots is largely determined by \textbf{PRDM9} \parencite{powers_meiotic_2016, imai_prdm9_2017, cavassim_prdm9_2022, abualia_natural_2024}. PRDM9 is a histone methyl--transferase consisting of three domains: 1. The KRAB domain that recruits the recombination machinery; 2. The PR/SET domain that catalyzes the trimethylation of H3K4 and H3K36 hence marking the hotspot locations; 3. The hypervariable $C_2H_2$ zinc finger array that binds to specific DNA motifs \parencite{powers_meiotic_2016, imai_prdm9_2017, cavassim_prdm9_2022}. Once bound to its DNA motifs, PRDM9 trimethylates H3K4 and H3K36; recruits factors such as SPO11, MLH1, DMC1/RAD51, and ZCWPW1/2 to initiate double-strand breaks, promote homologous strand exchange, and ensure DSBs repair \parencite{parvanov_prdm9_2017, tian_ewsr1_2021}. However, with every meiotic event, PRDM9 imposes evolutionary pressure on itself: with each repair of DSBs at its DNA binding sites, \textit{prdm9} motif mutations can accumulate, gradually eroding motifs and forcing a continuous turnover of PRDM9's zinc finger array \parencite{baker_prdm9_2015}.
+
+\subsection{Recombination occurs even in the absence of \textit{prdm9}}
+While the presence of the \textit{prdm9} gene is a must in humans, mice, apes etc.; some organisms such as birds undergo meiotic recombination even the absence of \textit{prdm9} \parencite{cavassim_prdm9_2022, pigozzi_chromosomes_2016}. In birds the \textit{prdm9} gene has been lost during evolution, yet their chromosomes undergo meiotic recombination seamlessly \parencite{pigozzi_chromosomes_2016}. Furthermore, a recent study \parencite{joseph_high_2024} showed the prevalence of \textit{prdm9}--independent recombination hotspots even in organisms that carry the \textit{prdm9} gene. These findings raise relevant questions such as: 1. Why do organisms carrying \textit{prdm9} retain \textit{prdm9}--independent recombination hotspots? 2. Do any cross--over/non--crossover events take place in \textit{prdm9}--independent recombination hotspots? 3. What are the underlying recombination mechanisms in \textit{prdm9}--independent hotspots?
+4. Are these \textit{prdm9}--independent hotspots evolutionary conserved and if so why?
+\subsection{Methods for Studying Meiotic Recombination Hotspots}
+The traditional methodology for studying meiotic recombination involves the use of cytological methods, conducted on spermatocytes or oocytes. The methods include immuno--staining of meiotic markers (such as PRDM9, MLH1, SYCP3, SYCP1, HORMAD1/2) as well as Histone Modifications (such as H3K4me3/36) \parencite{lee_ewsr1_2019, parvanov_prdm9_2016, lam_cell-type-specific_2019, hinch_configuration_2020, pigozzi_chromosomes_2016}. While the immuno--staining methods provide a good broad--scale overview of meiosis it also has several drawbacks. They lack of resolution, are unable to quantify the strength of a recombination event, have limited ability to determine the evolutionary history of recombination events across the genome, as well as difficulty to establish a baseline as the recombination landscape if meiosis factors differ in different species, such as the presence/absance of \textit{prdm9} \parencite{pigozzi_chromosomes_2016, baudat_meiotic_2013}. However, there is another angle at which meiotic recombination can be studied. Computational methods utilizing linkage disequilibrium, that is the degree of non--random association between two alleles, are a good alternative for determining the location of recombination events along the genome \parencite{10.1093/molbev/msae112, mcvean_genealogical_2002}.\texttt{LDhat} estimates the composite likelihood of recombination rates being observed at a genomic position by modeling recombination rates under the assumption of constant population sizes; \texttt{LDhot} is a extension of \texttt{LDhat} which determines the presence of recombination hotspots given a recombination rate via a likelihood ratio test and \texttt{LDhelmet} which is a re--implementation of \texttt{LDhat} that makes it possible to analyze highly divergent species \parencite{slatkin_linkage_2008, 10.1093/genetics/160.3.1231, auton_recombination_2007, 10.1371/journal.pgen.1003090}. While these tools yield fine scale resolution of recombination hotspots, they neither account for the complicated demographic history such as bottlenecks, recent expansions or population structure nor are they computationally feasible for large scale population studies \parencite{doi:10.1126/sciadv.aaw9206}. \texttt{Pyrho} solves this issue by taking advantage of two locus sample likelihood and computes recombination rates by maximizing a composite likelihood built from two-SNP haplotype probabilities, where those probabilities are derived under a demography-aware coalescent model, such as one simulated through \texttt{msprime} \parencite{doi:10.1126/sciadv.aaw9206, baumdicker_efficient_2022}.
+
+\subsection{Main objectives}
+In this study I seek investigate the fine scale \textit{prdm9}--independent meiotic recombination landscape. To this end, I will extend the analysis of the recombination rate landscape previously conducted on 30 European blackcap (\textit{Sylvia atricapilla}) individuals to a larger dataset of 100 individuals \parencite{bascon-cardozo-fine-scale-2024}. European Blackcaps are a excellent choice of for a model organism as there are extensive genome sequences, demography models and previous studies which have been conducted on blackcaps, albeit at a lower scale \parencite{ishigohoka_high-recombining_2025, bascon-cardozo-fine-scale-2024, bours_blackcap_2023}. The population scaled recombination rate landscape will be estimated through \texttt{pyrho} using previously published demography models via \texttt{msprime} and individual genetic variation data\parencite{ishigohoka_high-recombining_2025, bascon-cardozo-fine-scale-2024}. Following this the distribution of the recombination rate along the landscape of european blackcaps, overlap with genomic functional elements, GC content, genes, intergenic regions ,UTRs, exons, codons, Nucleotide $\pi$, SNP count, tajimas $D$ \parencite{bascon-cardozo-fine-scale-2024, singhal_2015}.Lastly, to identify the most likely recombination hotspots in the blackcap genome, I will use an alternative to the sliding-window approach of \cite{wooldridge_rapid_2023}. Rather than averaging recombination rates over large sliding windows and loosing resolution as well as risk flattening peaks, I will utilize continuous wavelet transformation which circumvent these issues \parencite{Mexican-hat-wavelet} to identify peaks that persist across several genomic windows starting at small 50 bp and going up to 10000 bp.
+
 %=============================
 %   MATERIALS AND METHODS
 %=============================
@@ -594,7 +634,7 @@ a peak promience threshold of 30, showed a higher NPMI, one order of magnitude h
 while the NPMI of hotspots on Genes, CDS and Exons remained relatively similar (Table 2, right).
 3' UTRs and intergenic regions were found to be less enriched in recombination hotspots than
 expected by chance (Table 2).
-\begin{table*}[hp]
+\begin{table*}[htp]
 	\raggedright
 	\caption{Normalized pointwise mutual information (NPMI) between Blackcap recombination hotspots called with wavelet transform using prominence threshold 90 (left) and 30 (right), measured against functional genomic features.}
 
@@ -640,11 +680,161 @@ expected by chance (Table 2).
 	LCI/UCI = lower and upper 95\% confidence interval bounds, respectively.
 \end{table*}
 
-\section{Discussion}
 
+\begin{figure}[hp]
+	\centering
+	\includegraphics[width=0.5\linewidth]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr1_t30.0.png}
+	\includegraphics[width=0.5\linewidth]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr10_t30.0.png}
+	\includegraphics[width=0.5\linewidth]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr28_t30.0.png}
+	\caption{Gaussian smoothed ($\sigma = 5$) recombination rate on chromosomes 1, 10, 30 of
+		zebrafinches with recombination hotspot peaks called by "mexican hat" wavelet transform (threshold 30). Data from
+		\parencite{singhal_2015}.}
+\end{figure}
+
+
+
+\section{Discussion}
+\subsection{Recent population expansion and high diversity in the blackcap genome}
+When conducting a population genomics study, especially in non-model organisms such as \textit{European blackcaps},
+it is important to investigate general statistics such as tajima's $D$, nucleotide diversity
+$\pi$ and SNP density \parencite{Tajima-1989, nei-and-li-1979}. These measures yield important
+information about the genome. Firstly, Nucleotide diversity $\pi$ measures the average pairwise differences per site
+between chromosomes, which reflects the amount of variation retained withing a genomic region
+\parencite{nielsen2013introduction, nei-and-li-1979}. High $\pi$ is an indicator of effective
+breaks in the linkage between sites, which is a result of high recombination. Conversly, low $\pi$
+is expected in low recombining regions where background selection or hitchhiking are more prominent.
+The blackcap population has a genome wide nucleotide $\pi$ of 0.0056, which is 0.44 percentage points
+higher than in humans ($\pi = 0.0011$) (Table 1) \parencite{Li-and-Sadler-1991}. Furthermore, the
+$\pi$ values were higher in the microchromosomes, with chromosome 33 having the highest value of
+0.0088 (Table 1). These high $\pi$ values imply high recombination activity in the
+genomes of blackcaps. \\
+Secondly, Tajima's $D$, another statistic in population genomics, measures the difference between the
+nuleotide $\pi$ and the number of segregating sites $\theta_{w}$, mirroring the shape of the allele
+frequency spectrum \parencite{nielsen2013introduction, Tajima-1989}. A negative $D$ is a indicator
+of excess low frequency alleles, that arise from recent selective sweeps, reduced recombination or
+recent population expansions \parencite{nielsen2013introduction, Tajima-1989}. Values near zero
+reflect neutral equilibrium while positive values result from balancing selection. The blackcap
+genome has an average tajima's $D$ of -1.0572, which remains relatively stable accross chromosomes
+(Table 1). Local negative tajima's $D$ values could indicate selective sweeps or reduced
+recombination, however since the tajima'S $D$ doesnt show extreme drops accross the chromosomes and
+retains a negative value it indicates a recent population expansion event or low frequency alleles
+that are continiously generated and removed via background selection and/or recombination events (Figure 1, Supplementary
+Figure 1).\\
+Thirdly, the SNP density represents the number of polymorphic sites per genomic window
+\parencite{nielsen2013introduction}. Regions with high SNP Density reflect high recombination or
+weaker purifying selection, and vice versa. The blackcap genome has $\approx 54 \frac{Variants}{kb}$;
+the microchromosomes having a higher SNP density than macrochromosomes (Table 1, Figure 2). As high
+SNP density is indicative of standing variation. \\
+Lastly, incorporating these three measurements together one can suggest that the blackcaps are a
+large, high recombining population that maintain their high genetic diversity with a
+recent demographic expansion.
+
+\subsection{Strong correlation between gc content and recombination rate in blackcaps}
+The GC content has been repeatedly shown to have a strong correlation with the recombination rate in
+organisms from yeast to humans \parencite{kiktev2018, Chen2006, Fullerton2001}. To check if this is
+also the case in blackcaps I computed the gc content in 100 kb windows and computed the pearson
+correlation coefficient (Figure 6). The resuting value of $r \approx 0.55$ is consistent with what
+has been reported before in humans, mice and yeasts. Mainly strong correlation between gc content
+and recombination rate \parencite{kiktev2018, Chen2006, Fullerton2001}. There are several
+possibilities that could explain this correlation. \\
+Firstly, during the repair of DNA double stranded breaks needed to form recombination hotspots a
+bias towards preferential DSB repair with GC over AT nucleotides could arise, which is known as GC
+Biased Gene Conversion \parencite{Bolivar2019,
+	DuretGaltier2009}. Secondly, blackcaps could have a mutation bias towards GC nucleotides. Such
+events where organisms have preferential dinucleotides to which their genome mutates over time have
+been observed in both prokaryotes \parencite{Hershberg2010}. Thirdly, the high GC content on the
+blackcap genome could be due to selection for stable DNA. GC pairs have 3 hydrogen bonds as opposed
+to 2 between AT pairs, thus rendering them more stable towards excessive double stranded breaks as
+birds do not have the \textit{prdm9} gene, which also plays a role in controlling excessive DNA
+breaks during recombination \parencite{paiano_atm_2020, MustonenLaessig2005}. Lastly, the high GC
+Content could be attributed to high gene density and functional elements \parencite{Bird1986}, which
+is supported by a correlation coefficient of $r \approx 0.7$ (Figure 6)
+
+\subsection{Blackcap 5' UTRs are enriched in recombination hotspots}
+In organisms carrying \textit{prdm9}, recombination is directed away from functional genomic
+elements, by the trimethylation of histones 3 lysine 4 (H3K4me3) and histone 3 lysine 36 (H3K36me3)
+\parencite{cavassim_prdm9_2022, parvanov_prdm9_2017, lange_landscape_2016, baker_prdm9_2015, berg_prdm9_2010}.
+However birds lack the \textit{prdm9} gene completely \parencite{cavassim_prdm9_2022}.
+To investigate if the absence of \textit{prdm9} leads to enriched recombination rate in functional
+genomic features I computed the enrichment and average profile of the recombination rate over genes,
+UTR's, CDS, exons and intergenic regions. The recombination rate had a sharp prominent peak in the
+center of 5' UTRs ($\rho \approx 2.5^10{-7}$), followed by small peaks on cds and exons while
+showing weak or no signal intergenic regions and the center of genes (Figure 7).\\
+An important observation is that the recombination rate is elevated in subtelomeric regions, with some peaks
+along the chromosomal axis, characteristics which have been previously described in zebra finches
+and long tailed finches, pointing towards possible evolutionary conservation of recombination
+hotspots \parencite{singhal_2015}. However this hypothesis could not be tested due to the absence
+lift over files needed to map the genomic intervals of finches to the genome blackcaps caused by
+lack of funding in the team of \texttt{UCSC} Genome Browser needed to generate such files. \\
+
+Recombination maps, computed by pyrho, convey information about all historic recombination
+activity across the genome, because the calculation incorporates demographic history information to infer recombination
+rates \parencite{doi:10.1126/sciadv.aaw9206}. As recombination activity is turned over with time,
+the most recent recombination hotspots are expected to have higher recombination rates than older
+hotspots\parencite{UbedaWilkins2011}. So one needs to identify large jumps in recombination rate
+values over a local background. Previously recombination hotspots were called from
+recombination maps inferred through LD methods with a sliding window approach \parencite{wooldridge_rapid_2023}.
+However, the sliding window approach lacks multi scale resolution and risks flattening peaks as it
+computes an average over a large window, loosing fine scale resolution. To circumvene these
+limitations I applied the continuous wavelet transformation \parencite{Mexican-hat-wavelet}. \\
+
+The continuous wavelet transformation consists of a "mother" wavelet function that is slid
+across a signal over multiple scales and computes how well a signal fits the wavelet at that
+position and scale. After computing the wavelet coefficient, I retained  the coefficients that persisted over at least 30\% of the scales.
+Next I applied another level of thresholding by computing the per scale Z-Score and selecting only those coefficients with A $Z >
+	2.0$. Finally, the coefficients representing the same peak over several scales are collapsed into a
+single coefficient, that is used to call identify peaks based on its prominence over neighbouring
+coefficients. \\
+
+I was able to identify 712 putative hotspots when using a
+peak prominence threshold equal to the 90th percentile of recombination rate values and 6145 when
+using a threshold of 30. When computing the normalized pointwise mutual information, it was clearly
+seen that hotspots followed the trend of having the highest enrichment in 5' UTRs as opposed to
+other genomic features, although this signal was more prominent in the hotspots identified with a
+threshold of 30 (Table 2). This jump in NPMI in the lower threshold of 30, which is observed between
+hotspots and 5' UTRs could be an artifact of the mathematics behind normalized mutual pointwise
+information, which when comparing the quantifying the enrichment of only a few intervals (712 windows) within a
+larger quantity of windows such as 5' UTRs (42816 windows) might underestimate the true value\\
+
+To test if this methodology is also applicable to other datasets which were not generated through
+pyrho, I utilized the recombination rate maps from \cite{singhal_2015} that were generated through
+\texttt{LDhot}. In this case the wavelet coefficients still identified recombination hotspots which
+were mostly localized in the subtelomeric regions with occasional ones along the chromosomal axis
+(Figure 9)
+
+\subsection{Conclusions}
+This thesis seeked to extend the analysis of the meiotic recombination landscape of blackcap
+populations from 30 individuals \parencite{bascon-cardozo-fine-scale-2024} to 100 as well as
+establish a novel, accurate methodology for calling present recombination hotspots from historic
+recombination rate data. Using population genome statistics such as Tajima's $D$,
+nucleotide $\pi$ and snp density; Blackcap \texttt{GFF} files (containing location of genes,
+UTRs, exons and codons), computing the GC content and gene density as well the recombination rate
+with pyrho, I was able to uncover that the blackcap genome although it shows recent population expansions
+still has relatively high diversity, high gc content and high recombination activity (Table 1). Futhermore
+these features showed extreme values at subtelomeric regions (Figures 1 - 5, Supplementary Figures
+1-6), with the recombination rate, gene density, gc content, $\pi$ and gene density increasing in the microchromosomes.
+Recombination rate achieved the highest average enrichment over 5' UTRs ($\rho = 2.5 \times 10^{-7}$),
+with small peaks in codons and exons ($\rho \approx 1.2 \times 10^{-7}$) while no recombination rate
+was found in intragenic regions as it has been observed in species carrying \textit{prdm9}
+\parencite{wooldridge_rapid_2023, lange_landscape_2016, baker_prdm9_2015}. Furthermore the presence
+of strong recombination rate signal in the subtelomeric regions mirrored findings in zebra finches
+and long tailed finches \parencite{singhal_2015}. Finally wavelet transformation provides a novel,
+more accurate and computationally efficient methodology to identify hotspots from recombination rate
+maps, as they are able to analyze the signal at a multi-scale level thus yielding fine scale
+resolution and robust noise handling (Figure 8) as well as being persistent in datasets generated by
+LD methods (Figure 9)(\parencite{singhal_2015}).
 \section{References}
 
 \printbibliography[heading=none]
+
+
+\section{Appendix}
+
+\begin{figure}
+	\centering
+	\includegraphics[height=\textheight, keepaspectratio]{"../results/rec_rate_stats/Tajima_D.png"}
+	\caption*{\textbf{Supplementary Figure 1.} }
+\end{figure}
 
 \newpage
 % ==========================

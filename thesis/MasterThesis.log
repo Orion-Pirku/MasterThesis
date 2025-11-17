@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.10.27)  14 NOV 2025 14:56
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.10.27)  17 NOV 2025 10:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -129,25 +129,27 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks22
 \@floatcapt=\box55
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
-Package: xurl 2022/01/09 v 0.10 modify URL breaks
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip16
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count198
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip53
-\enit@outerparindent=\dimen152
-\enit@toks=\toks23
-\enit@inbox=\box56
-\enit@count@id=\count198
-\enitdp@description=\count199
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
-Package: setspace 2022/12/04 v6.7b set line spacing
-)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -162,35 +164,87 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: xetex.def on input line 107.
 )
-\Gin@req@height=\dimen153
-\Gin@req@width=\dimen154
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+)
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box56
+)
+\tc@llx=\dimen154
+\tc@lly=\dimen155
+\tc@urx=\dimen156
+\tc@ury=\dimen157
+Package trimclip Info: Using driver 'tc-xetex.def'.
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen158
+\adjbox@Height=\dimen159
+\adjbox@Depth=\dimen160
+\adjbox@Totalheight=\dimen161
+\adjbox@pwidth=\dimen162
+\adjbox@pheight=\dimen163
+\adjbox@pdepth=\dimen164
+\adjbox@ptotalheight=\dimen165
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count199
+)
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count266
+\@vwid@loff=\dimen166
+\@vwid@roff=\dimen167
+))
+(/usr/share/texlive/texmf-dist/tex/latex/xurl/xurl.sty
+Package: xurl 2022/01/09 v 0.10 modify URL breaks
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen168
+\enit@toks=\toks25
+\enit@inbox=\box58
+\enit@count@id=\count267
+\enitdp@description=\count268
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen155
-\captionmargin=\dimen156
-\caption@leftmargin=\dimen157
-\caption@rightmargin=\dimen158
-\caption@width=\dimen159
-\caption@indent=\dimen160
-\caption@parindent=\dimen161
-\caption@hangindent=\dimen162
+\caption@tempdima=\dimen169
+\captionmargin=\dimen170
+\caption@leftmargin=\dimen171
+\caption@rightmargin=\dimen172
+\caption@width=\dimen173
+\caption@indent=\dimen174
+\caption@parindent=\dimen175
+\caption@hangindent=\dimen176
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count266
-\c@continuedfloat=\count267
+\c@caption@flags=\count269
+\c@continuedfloat=\count270
 Package caption Info: float package is loaded.
 Package caption Info: threeparttable package is loaded.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count268
+\c@subfigure=\count271
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count269
+\c@subtable=\count272
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
@@ -236,15 +290,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count270
+\c@section@level=\count273
 )
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count271
+\etb@tempcnta=\count274
 )
-\@linkdim=\dimen163
-\Hy@linkcounter=\count272
-\Hy@pagecounter=\count273
+\@linkdim=\dimen177
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
@@ -252,7 +306,7 @@ File: pd1enc.def 2024-01-20 v7.01h Hyperref: PDFDocEncoding definition (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count274
+\Hy@SavedSpaceFactor=\count277
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-01-20 v7.01h Hyperref: PDF Unicode definition (HO)
@@ -264,9 +318,9 @@ Package hyperref Info: Plain pages OFF on input line 4194.
 Package hyperref Info: Backreferencing OFF on input line 4199.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4446.
-\c@Hy@tempcnt=\count275
+\c@Hy@tempcnt=\count278
 LaTeX Info: Redefining \url on input line 4784.
-\XeTeXLinkMargin=\dimen164
+\XeTeXLinkMargin=\dimen178
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -275,9 +329,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count276
-\Field@Width=\dimen165
-\Fld@charsize=\dimen166
+\Fld@menulength=\count279
+\Field@Width=\dimen179
+\Fld@charsize=\dimen180
 Package hyperref Info: Hyper figures OFF on input line 6063.
 Package hyperref Info: Link nesting OFF on input line 6068.
 Package hyperref Info: Hyper index ON on input line 6071.
@@ -290,9 +344,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6093.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count277
-\c@Item=\count278
-\c@Hfootnote=\count279
+\Hy@abspage=\count280
+\c@Item=\count281
+\c@Hfootnote=\count282
 )
 Package hyperref Info: Driver (autodetected): hxetex.
 
@@ -303,11 +357,11 @@ File: hxetex.def 2024-01-20 v7.01h Hyperref driver for XeTeX
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box57
-\c@Hy@AnnotLevel=\count280
-\HyField@AnnotCount=\count281
-\Fld@listcount=\count282
-\c@bookmark@seq@number=\count283
+\pdfm@box=\box59
+\c@Hy@AnnotLevel=\count283
+\HyField@AnnotCount=\count284
+\Fld@listcount=\count285
+\c@bookmark@seq@number=\count286
 
 (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -325,14 +379,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip54
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 43.
+Package hyperref Info: Option `colorlinks' set `true' on input line 44.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count284
+\lrq@indent=\count287
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -340,49 +394,49 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count285
-\c@listtotal=\count286
-\c@listcount=\count287
-\c@liststart=\count288
-\c@liststop=\count289
-\c@citecount=\count290
-\c@citetotal=\count291
-\c@multicitecount=\count292
-\c@multicitetotal=\count293
-\c@instcount=\count294
-\c@maxnames=\count295
-\c@minnames=\count296
-\c@maxitems=\count297
-\c@minitems=\count298
-\c@citecounter=\count299
-\c@maxcitecounter=\count300
-\c@savedcitecounter=\count301
-\c@uniquelist=\count302
-\c@uniquename=\count303
-\c@refsection=\count304
-\c@refsegment=\count305
-\c@maxextratitle=\count306
-\c@maxextratitleyear=\count307
-\c@maxextraname=\count308
-\c@maxextradate=\count309
-\c@maxextraalpha=\count310
-\c@abbrvpenalty=\count311
-\c@highnamepenalty=\count312
-\c@lownamepenalty=\count313
-\c@maxparens=\count314
-\c@parenlevel=\count315
-\blx@tempcnta=\count316
-\blx@tempcntb=\count317
-\blx@tempcntc=\count318
-\c@blx@maxsection=\count319
-\blx@maxsegment@0=\count320
-\blx@notetype=\count321
-\blx@parenlevel@text=\count322
-\blx@parenlevel@foot=\count323
-\blx@sectionciteorder@0=\count324
-\blx@sectionciteorderinternal@0=\count325
-\blx@entrysetcounter=\count326
-\blx@biblioinstance=\count327
+\c@tabx@nest=\count288
+\c@listtotal=\count289
+\c@listcount=\count290
+\c@liststart=\count291
+\c@liststop=\count292
+\c@citecount=\count293
+\c@citetotal=\count294
+\c@multicitecount=\count295
+\c@multicitetotal=\count296
+\c@instcount=\count297
+\c@maxnames=\count298
+\c@minnames=\count299
+\c@maxitems=\count300
+\c@minitems=\count301
+\c@citecounter=\count302
+\c@maxcitecounter=\count303
+\c@savedcitecounter=\count304
+\c@uniquelist=\count305
+\c@uniquename=\count306
+\c@refsection=\count307
+\c@refsegment=\count308
+\c@maxextratitle=\count309
+\c@maxextratitleyear=\count310
+\c@maxextraname=\count311
+\c@maxextradate=\count312
+\c@maxextraalpha=\count313
+\c@abbrvpenalty=\count314
+\c@highnamepenalty=\count315
+\c@lownamepenalty=\count316
+\c@maxparens=\count317
+\c@parenlevel=\count318
+\blx@tempcnta=\count319
+\blx@tempcntb=\count320
+\blx@tempcntc=\count321
+\c@blx@maxsection=\count322
+\blx@maxsegment@0=\count323
+\blx@notetype=\count324
+\blx@parenlevel@text=\count325
+\blx@parenlevel@foot=\count326
+\blx@sectionciteorder@0=\count327
+\blx@sectionciteorderinternal@0=\count328
+\blx@entrysetcounter=\count329
+\blx@biblioinstance=\count330
 \labelnumberwidth=\skip55
 \labelalphawidth=\skip56
 \biblabelsep=\skip57
@@ -394,9 +448,9 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language15
-\c@mincomprange=\count328
-\c@maxcomprange=\count329
-\c@mincompwidth=\count330
+\c@mincomprange=\count331
+\c@maxcomprange=\count332
+\c@mincompwidth=\count333
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -407,74 +461,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count331
-\c@savedafterword=\count332
-\c@annotator=\count333
-\c@savedannotator=\count334
-\c@author=\count335
-\c@savedauthor=\count336
-\c@bookauthor=\count337
-\c@savedbookauthor=\count338
-\c@commentator=\count339
-\c@savedcommentator=\count340
-\c@editor=\count341
-\c@savededitor=\count342
-\c@editora=\count343
-\c@savededitora=\count344
-\c@editorb=\count345
-\c@savededitorb=\count346
-\c@editorc=\count347
-\c@savededitorc=\count348
-\c@foreword=\count349
-\c@savedforeword=\count350
-\c@holder=\count351
-\c@savedholder=\count352
-\c@introduction=\count353
-\c@savedintroduction=\count354
-\c@namea=\count355
-\c@savednamea=\count356
-\c@nameb=\count357
-\c@savednameb=\count358
-\c@namec=\count359
-\c@savednamec=\count360
-\c@translator=\count361
-\c@savedtranslator=\count362
-\c@shortauthor=\count363
-\c@savedshortauthor=\count364
-\c@shorteditor=\count365
-\c@savedshorteditor=\count366
-\c@labelname=\count367
-\c@savedlabelname=\count368
-\c@institution=\count369
-\c@savedinstitution=\count370
-\c@lista=\count371
-\c@savedlista=\count372
-\c@listb=\count373
-\c@savedlistb=\count374
-\c@listc=\count375
-\c@savedlistc=\count376
-\c@listd=\count377
-\c@savedlistd=\count378
-\c@liste=\count379
-\c@savedliste=\count380
-\c@listf=\count381
-\c@savedlistf=\count382
-\c@location=\count383
-\c@savedlocation=\count384
-\c@organization=\count385
-\c@savedorganization=\count386
-\c@origlocation=\count387
-\c@savedoriglocation=\count388
-\c@origpublisher=\count389
-\c@savedorigpublisher=\count390
-\c@publisher=\count391
-\c@savedpublisher=\count392
-\c@language=\count393
-\c@savedlanguage=\count394
-\c@origlanguage=\count395
-\c@savedoriglanguage=\count396
-\c@pageref=\count397
-\c@savedpageref=\count398
+\c@afterword=\count334
+\c@savedafterword=\count335
+\c@annotator=\count336
+\c@savedannotator=\count337
+\c@author=\count338
+\c@savedauthor=\count339
+\c@bookauthor=\count340
+\c@savedbookauthor=\count341
+\c@commentator=\count342
+\c@savedcommentator=\count343
+\c@editor=\count344
+\c@savededitor=\count345
+\c@editora=\count346
+\c@savededitora=\count347
+\c@editorb=\count348
+\c@savededitorb=\count349
+\c@editorc=\count350
+\c@savededitorc=\count351
+\c@foreword=\count352
+\c@savedforeword=\count353
+\c@holder=\count354
+\c@savedholder=\count355
+\c@introduction=\count356
+\c@savedintroduction=\count357
+\c@namea=\count358
+\c@savednamea=\count359
+\c@nameb=\count360
+\c@savednameb=\count361
+\c@namec=\count362
+\c@savednamec=\count363
+\c@translator=\count364
+\c@savedtranslator=\count365
+\c@shortauthor=\count366
+\c@savedshortauthor=\count367
+\c@shorteditor=\count368
+\c@savedshorteditor=\count369
+\c@labelname=\count370
+\c@savedlabelname=\count371
+\c@institution=\count372
+\c@savedinstitution=\count373
+\c@lista=\count374
+\c@savedlista=\count375
+\c@listb=\count376
+\c@savedlistb=\count377
+\c@listc=\count378
+\c@savedlistc=\count379
+\c@listd=\count380
+\c@savedlistd=\count381
+\c@liste=\count382
+\c@savedliste=\count383
+\c@listf=\count384
+\c@savedlistf=\count385
+\c@location=\count386
+\c@savedlocation=\count387
+\c@organization=\count388
+\c@savedorganization=\count389
+\c@origlocation=\count390
+\c@savedoriglocation=\count391
+\c@origpublisher=\count392
+\c@savedorigpublisher=\count393
+\c@publisher=\count394
+\c@savedpublisher=\count395
+\c@language=\count396
+\c@savedlanguage=\count397
+\c@origlanguage=\count398
+\c@savedoriglanguage=\count399
+\c@pageref=\count400
+\c@savedpageref=\count401
 \shorthandwidth=\skip63
 \shortjournalwidth=\skip64
 \shortserieswidth=\skip65
@@ -504,19 +558,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count399
-\c@textcitetotal=\count400
-\c@textcitemaxnames=\count401
-\c@biburlbigbreakpenalty=\count402
-\c@biburlbreakpenalty=\count403
-\c@biburlnumpenalty=\count404
-\c@biburlucpenalty=\count405
-\c@biburllcpenalty=\count406
+\c@textcitecount=\count402
+\c@textcitetotal=\count403
+\c@textcitemaxnames=\count404
+\c@biburlbigbreakpenalty=\count405
+\c@biburlbreakpenalty=\count406
+\c@biburlnumpenalty=\count407
+\c@biburlucpenalty=\count408
+\c@biburllcpenalty=\count409
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count407
+\c@smartand=\count410
 )
 Package biblatex Info: Trying to load bibliography style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.bbx' found.
@@ -528,8 +582,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count408
-\c@bbx:relatedtotal=\count409
+\c@bbx:relatedcount=\count411
+\c@bbx:relatedtotal=\count412
 ))
 Package biblatex Info: Trying to load citation style 'authoryear'...
 Package biblatex Info: ... file 'authoryear.cbx' found.
@@ -559,11 +613,11 @@ Package: expl3 2024-01-22 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-01-04 L3 backend support: XeTeX
-\g__graphics_track_int=\count410
-\l__pdf_internal_box=\box58
-\g__pdf_backend_object_int=\count411
-\g__pdf_backend_annotation_int=\count412
-\g__pdf_backend_link_int=\count413
+\g__graphics_track_int=\count413
+\l__pdf_internal_box=\box60
+\g__pdf_backend_object_int=\count414
+\g__pdf_backend_annotation_int=\count415
+\g__pdf_backend_link_int=\count416
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2024-01-22 L3 programming layer (loader) 
@@ -578,13 +632,13 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2022-09-14 v5.2n context-sensitive quotations (JAW)
-\csq@reset=\count414
-\csq@gtype=\count415
-\csq@glevel=\count416
-\csq@qlevel=\count417
-\csq@maxlvl=\count418
-\csq@tshold=\count419
-\csq@ltx@everypar=\toks24
+\csq@reset=\count417
+\csq@gtype=\count418
+\csq@glevel=\count419
+\csq@qlevel=\count420
+\csq@maxlvl=\count421
+\csq@tshold=\count422
+\csq@ltx@everypar=\toks26
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
 File: csquotes.def 2022-09-14 v5.2n csquotes generic definitions (JAW)
@@ -609,20 +663,20 @@ Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count420
-\l__fontspec_language_int=\count421
-\l__fontspec_strnum_int=\count422
-\l__fontspec_tmp_int=\count423
-\l__fontspec_tmpa_int=\count424
-\l__fontspec_tmpb_int=\count425
-\l__fontspec_tmpc_int=\count426
-\l__fontspec_em_int=\count427
-\l__fontspec_emdef_int=\count428
-\l__fontspec_strong_int=\count429
-\l__fontspec_strongdef_int=\count430
-\l__fontspec_tmpa_dim=\dimen167
-\l__fontspec_tmpb_dim=\dimen168
-\l__fontspec_tmpc_dim=\dimen169
+\l__fontspec_script_int=\count423
+\l__fontspec_language_int=\count424
+\l__fontspec_strnum_int=\count425
+\l__fontspec_tmp_int=\count426
+\l__fontspec_tmpa_int=\count427
+\l__fontspec_tmpb_int=\count428
+\l__fontspec_tmpc_int=\count429
+\l__fontspec_em_int=\count430
+\l__fontspec_emdef_int=\count431
+\l__fontspec_strong_int=\count432
+\l__fontspec_strongdef_int=\count433
+\l__fontspec_tmpa_dim=\dimen181
+\l__fontspec_tmpb_dim=\dimen182
+\l__fontspec_tmpc_dim=\dimen183
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -670,31 +724,31 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 (./MasterThesis.aux)
 \openout1 = `MasterThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 6
-3.
+4.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
-LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -733,7 +787,7 @@ LaTeX Font Info:    ... okay on input line 63.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 63.
+Package hyperref Info: Link coloring ON on input line 64.
 (./MasterThesis.out) (./MasterThesis.out)
 \@outlinefile=\write4
 \openout4 = `MasterThesis.out'.
@@ -754,72 +808,72 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MasterThesis.bbl' found.
 
 (./MasterThesis.bbl)
-Package biblatex Info: Reference section=0 on input line 63.
-Package biblatex Info: Reference segment=0 on input line 63.
+Package biblatex Info: Reference section=0 on input line 64.
+Package biblatex Info: Reference segment=0 on input line 64.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 63.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 63.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 63.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 63.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 63.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 63.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 63.
-LaTeX Font Info:    Redeclaring math accent \check on input line 63.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 63.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 63.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 63.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 63.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 64.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 64.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 64.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 64.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 64.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 64.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 64.
+LaTeX Font Info:    Redeclaring math accent \check on input line 64.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 64.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 64.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 64.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 64.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 63.
+(Font)              `operators' in the math version `normal' on input line 64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 6
-3.
+4.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 63.
+(Font)              `operators' in the math version `bold' on input line 64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 
-63.
+64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on 
-input line 63.
+input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line
- 63.
+ 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/b/n on input line 
-63.
+64.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 63.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 63.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 64.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/b/n on 
-input line 63.
+input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/b/it on input lin
-e 63.
+e 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 63.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 64.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 63.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 64.
  [1
 
 ] (./MasterThesis.toc
@@ -835,31 +889,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [1]
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 142.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 143.
  [2] [3] [4] [5]
-Overfull \hbox (2.2928pt too wide) in paragraph at lines 204--211
+Overfull \hbox (2.2928pt too wide) in paragraph at lines 205--212
 \TU/TimesNewRoman(0)/m/n/12 To compute the population scaled recombination rate
  maps in blackcaps, I utilized a demography-
  []
 
 [6]
-Overfull \hbox (12.35266pt too wide) in paragraph at lines 240--240
+Overfull \hbox (12.35266pt too wide) in paragraph at lines 242--242
 []\TU/TimesNewRoman(0)/b/n/14.4 Analysis of Recombination Rate Landscape Over T
 he Blackcap Genome 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--269
+Underfull \hbox (badness 10000) in paragraph at lines 244--271
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 270--277
+Underfull \hbox (badness 10000) in paragraph at lines 272--279
 
  []
 
 
-Overfull \hbox (0.6639pt too wide) in paragraph at lines 278--288
+Overfull \hbox (0.6639pt too wide) in paragraph at lines 280--290
 []\TU/TimesNewRoman(0)/m/n/12 Lastly, I investigated the average profile of the
  recombination rate over genomic features (UTR’s,
  []
@@ -883,16 +937,15 @@ File: Figures/WindowPI_chr10.png Graphic file (type bmp)
 File: Figures/WindowPI_chr30.png Graphic file (type bmp)
 <Figures/WindowPI_chr30.png>
 
-Overfull \hbox (28.46544pt too wide) in paragraph at lines 365--379
+Overfull \hbox (28.46544pt too wide) in paragraph at lines 372--386
 [][]   [] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--399
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 393--406
 
  []
 
-[10]
 File: Figures/GCContent_chr1.png Graphic file (type bmp)
 <Figures/GCContent_chr1.png>
 File: Figures/GC_dist_chr1.png Graphic file (type bmp)
@@ -905,7 +958,7 @@ File: Figures/GCContent_chr30.png Graphic file (type bmp)
 <Figures/GCContent_chr30.png>
 File: Figures/GC_dist_chr30.png Graphic file (type bmp)
 <Figures/GC_dist_chr30.png>
- [11]
+[11]
 File: Figures/GeneDensity_chr1.png Graphic file (type bmp)
 <Figures/GeneDensity_chr1.png>
 File: Figures/GeneDensity_dist_chr1.png Graphic file (type bmp)
@@ -918,12 +971,12 @@ File: Figures/GeneDensity_chr30.png Graphic file (type bmp)
 <Figures/GeneDensity_chr30.png>
 File: Figures/GeneDensity_dist_chr30.png Graphic file (type bmp)
 <Figures/GeneDensity_dist_chr30.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 473--483
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 480--490
 
  []
 
-[12]
+[13]
 File: Figures/Rho_chr1.png Graphic file (type bmp)
 <Figures/Rho_chr1.png>
 File: Figures/Rho_dist_chr1.png Graphic file (type bmp)
@@ -937,17 +990,17 @@ File: Figures/Rho_chr30.png Graphic file (type bmp)
 File: Figures/Rho_dist_chr30.png Graphic file (type bmp)
 <Figures/Rho_dist_chr30.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 571.
- [13]
+(Font)              <5> on input line 578.
+ [14]
 File: ../results/rec_rate_stats/feature_correlation_plot_100000.png Graphic fil
 e (type bmp)
 <../results/rec_rate_stats/feature_correlation_plot_100000.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 585--597
+Underfull \hbox (badness 10000) in paragraph at lines 592--604
 
  []
 
-[14]
+[15]
 File: ../blackcap_rho_all_features_heatmap.png Graphic file (type bmp)
 <../blackcap_rho_all_features_heatmap.png>
 File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
@@ -974,16 +1027,16 @@ File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
 r30_t30.0.png Graphic file (type bmp)
 <../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr30_t
 30.0.png>
- [15]
+ [16]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 645.
+(Font)              <10.95> on input line 652.
 
-Overfull \hbox (30.71576pt too wide) in paragraph at lines 645--657
+Overfull \hbox (30.71576pt too wide) in paragraph at lines 652--664
  [][] 
  []
 
 
-Overfull \hbox (34.3622pt too wide) in paragraph at lines 663--675
+Overfull \hbox (34.3622pt too wide) in paragraph at lines 670--682
  [][] 
  []
 
@@ -999,120 +1052,110 @@ File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
 chr28_t30.0.png Graphic file (type bmp)
 <../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr28
 _t30.0.png>
-[16] [17]
-Overfull \hbox (6.81442pt too wide) in paragraph at lines 697--697
+[17] [18]
+Overfull \hbox (6.81442pt too wide) in paragraph at lines 704--704
 []\TU/TimesNewRoman(0)/b/n/14.4 Recent population expansion and high diversity 
 in the blackcap genome 
  []
 
-[18]
-Overfull \hbox (5.11989pt too wide) in paragraph at lines 732--732
+[19]
+Overfull \hbox (5.11989pt too wide) in paragraph at lines 739--739
 []\TU/TimesNewRoman(0)/b/n/14.4 Strong correlation between gc content and recom
 bination rate in black-
  []
 
 
-Overfull \hbox (11.88364pt too wide) in paragraph at lines 754--769
+Overfull \hbox (11.88364pt too wide) in paragraph at lines 761--776
 \TU/TimesNewRoman(0)/m/n/12 ments, by the trimethylation of histones 3 lysine 4
  (H3K4me3) and histone 3 lysine 36 (H3K36me3)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 754--769
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 770--780
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 781--788
+Underfull \hbox (badness 10000) in paragraph at lines 761--776
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 789--798
+Underfull \hbox (badness 10000) in paragraph at lines 777--787
 
  []
 
-[21] [22]
-Overfull \hbox (6.9476pt too wide) in paragraph at lines 828--828
+
+Underfull \hbox (badness 10000) in paragraph at lines 788--795
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 796--805
+
+ []
+
+[22] [23]
+Overfull \hbox (6.9476pt too wide) in paragraph at lines 835--835
 [][]\TU/TimesNewRoman(0)/m/n/12 Baumdicker, Franz et al. (Mar. 1, 2022). “  Eff
 icient ancestry and mutation simulation with msprime
  []
 
-[23]
-Overfull \hbox (6.32849pt too wide) in paragraph at lines 828--828
+[24]
+Overfull \hbox (6.32849pt too wide) in paragraph at lines 835--835
 \TU/TimesNewRoman(0)/m/n/12 malian genomic landscapes”. In: \TU/TimesNewRoman(0
 )/m/it/12 Annual Review of Genomics and Human Genetics \TU/TimesNewRoman(0)/m/n
 /12 10, pp. 285–
  []
 
-[24]
-Overfull \hbox (11.66335pt too wide) in paragraph at lines 828--828
+[25]
+Overfull \hbox (11.66335pt too wide) in paragraph at lines 835--835
 [][]\TU/TimesNewRoman(0)/m/n/12 Joseph, Julien et al. (June 2024). “  High prev
 alence of PRDM9-independent recombination hotspots
  []
 
-[25] [26]
-Overfull \hbox (8.35938pt too wide) in paragraph at lines 828--828
+[26] [27]
+Overfull \hbox (8.35938pt too wide) in paragraph at lines 835--835
 [] [] [][][][][][][][] [] [][][] [] [][][] [] [][][][][][][][] [] [][][][][][][
 ] [][] [][][] [] [][][] [] [] [] [][][][] [] [][][][][][][][] [] [][][][][][][]
 [][][][][] []
  []
 
 
-Overfull \hbox (1.22778pt too wide) in paragraph at lines 828--828
+Overfull \hbox (1.22778pt too wide) in paragraph at lines 835--835
 \TU/TimesNewRoman(0)/m/n/12 Predicting binding sites and functional phylogenies
 ”. In: \TU/TimesNewRoman(0)/m/it/12 Proceedings of the National Academy
  []
 
 
-Overfull \hbox (6.21521pt too wide) in paragraph at lines 828--828
+Overfull \hbox (6.21521pt too wide) in paragraph at lines 835--835
 \TU/TimesNewRoman(0)/m/n/12 striction endonucleases.” In: \TU/TimesNewRoman(0)/
 m/it/12 Proceedings of the National Academy of Sciences \TU/TimesNewRoman(0)/m/
 n/12 76.10, pp. 5269–
  []
 
-[27]
-Overfull \hbox (5.13635pt too wide) in paragraph at lines 828--828
+[28]
+Overfull \hbox (5.13635pt too wide) in paragraph at lines 835--835
 [][][][][][][] [] [][][][] [] [][][][][][][]$[][]\TU/TimesNewRoman(0)/m/n/12 . 
 URL: [][]$[][][][][] [] [] [] [][][][][][][][] [] [][][][] [] [][][] [] [][][][
 ][][][][][][][][] [] [][][][][][][] []
  []
 
-[28]
-Overfull \hbox (12.48422pt too wide) in paragraph at lines 828--828
+[29]
+Overfull \hbox (12.48422pt too wide) in paragraph at lines 835--835
 \TU/TimesNewRoman(0)/m/n/12 polymorphism.” In: \TU/TimesNewRoman(0)/m/it/12 Gen
 etics \TU/TimesNewRoman(0)/m/n/12 123.3, pp. 585–595. ISSN: 1943-2631. DOI: [][
 ]$[][] [] [][][][] [] [][][][][][][][] []
  []
 
 
-Overfull \hbox (11.65573pt too wide) in paragraph at lines 828--828
+Overfull \hbox (11.65573pt too wide) in paragraph at lines 835--835
 [][]\TU/TimesNewRoman(0)/m/n/12 Tian, Hui, Timothy Billings, and Petko M. Petko
 v (Jan. 2021). “  EWSR1 affects PRDM9-dependent
  []
 
-[29] [30]
-Underfull \hbox (badness 10000) in paragraph at lines 835--836
+[30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 841--842
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 837--841
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 844--845
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 846--848
+Underfull \hbox (badness 10000) in paragraph at lines 843--847
 
  []
 
@@ -1121,24 +1164,342 @@ Underfull \hbox (badness 10000) in paragraph at lines 850--851
 
  []
 
-[31] (./MasterThesis.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--854
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 856--857
+
+ []
+
+[32]
+File: ../results/rec_rate_stats/TajimaD_part1.png Graphic file (type bmp)
+<../results/rec_rate_stats/TajimaD_part1.png>
+File: ../results/rec_rate_stats/TajimaD_part2.png Graphic file (type bmp)
+<../results/rec_rate_stats/TajimaD_part2.png>
+ [33]
+File: ../results/rec_rate_stats/SNP_Density_part1.png Graphic file (type bmp)
+<../results/rec_rate_stats/SNP_Density_part1.png>
+File: ../results/rec_rate_stats/SNP_Density_part2.png Graphic file (type bmp)
+<../results/rec_rate_stats/SNP_Density_part2.png>
+ [34]
+File: ../results/rec_rate_stats/Window_PI_part1.png Graphic file (type bmp)
+<../results/rec_rate_stats/Window_PI_part1.png>
+File: ../results/rec_rate_stats/Window_PI_part2.png Graphic file (type bmp)
+<../results/rec_rate_stats/Window_PI_part2.png>
+ [35]
+File: ../results/rec_rate_stats/GC_content_part1.png Graphic file (type bmp)
+<../results/rec_rate_stats/GC_content_part1.png>
+File: ../results/rec_rate_stats/GC_Content_part2.png Graphic file (type bmp)
+<../results/rec_rate_stats/GC_Content_part2.png>
+ [36]
+File: ../results/rec_rate_stats/GC_Content_strength_per_chrom.png Graphic file 
+(type bmp)
+<../results/rec_rate_stats/GC_Content_strength_per_chrom.png>
+ [37]
+File: ../results/rec_rate_stats/Gene_density_part1.png Graphic file (type bmp)
+<../results/rec_rate_stats/Gene_density_part1.png>
+File: ../results/rec_rate_stats/Gene_Density_part2.png Graphic file (type bmp)
+<../results/rec_rate_stats/Gene_Density_part2.png>
+ [38]
+File: ../results/rec_rate_stats/Gene_Density_strength_per_chrom.png Graphic fil
+e (type bmp)
+<../results/rec_rate_stats/Gene_Density_strength_per_chrom.png>
+ [39]
+File: ../results/rec_rate_stats/Rec_Rate_part1.png Graphic file (type bmp)
+<../results/rec_rate_stats/Rec_Rate_part1.png>
+File: ../results/rec_rate_stats/Rec_rate_part2.png Graphic file (type bmp)
+<../results/rec_rate_stats/Rec_rate_part2.png>
+ [40]
+File: ../results/rec_rate_stats/Gene_Density_strength_per_chrom.png Graphic fil
+e (type bmp)
+<../results/rec_rate_stats/Gene_Density_strength_per_chrom.png>
+ [41]
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r1_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr1_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r2_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr2_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r1_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr1_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r2_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr2_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r3_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr3_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r4_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr4_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r3_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr3_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r4_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr4_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r5_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr5_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r6_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr6_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r5_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr5_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r6_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr6_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r7_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr7_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r8_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr8_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r7_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr7_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r8_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr8_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r9_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr9_t9
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r10_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr10_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r9_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr9_t3
+0.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r10_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr10_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r11_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr11_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r12_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr12_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r11_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr11_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r12_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr12_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r13_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr13_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r14_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr14_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r13_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr13_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r14_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr14_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r15_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr15_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r16_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr16_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r15_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr15_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r16_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr16_t
+30.0.png>
+ [42]
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r17_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr17_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r18_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr18_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r17_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr17_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r18_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr18_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r19_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr19_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r20_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr20_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r19_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr19_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r20_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr20_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r21_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr21_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r22_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr22_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r21_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr21_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r22_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr22_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r23_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr23_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r24_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr24_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r23_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr23_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r24_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr24_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r25_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr25_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r26_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr26_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r25_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr25_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r26_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr26_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r27_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr27_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r28_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr28_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r27_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr27_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r28_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr28_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r29_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr29_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r30_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr30_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r29_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr29_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r30_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr30_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r31_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr31_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r32_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr32_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r31_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr31_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r32_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr32_t
+30.0.png>
+File: ../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_ch
+r33_t90.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_90/plots/recombination_hotspots_chr33_t
+90.0.png>
+File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
+r33_t30.0.png Graphic file (type bmp)
+<../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr33_t
+30.0.png>
+ [43] (./MasterThesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `MasterThesis.out' has not changed.
-(rerunfilecheck)             Checksum: DCB07C24D89D7FF1CC01C4F43BE42BE2;6020.
+(rerunfilecheck)             Checksum: CE80620646BE3435A11ADD707F003461;6250.
 Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 \openout1 = `MasterThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23425 strings out of 476802
- 474275 string characters out of 5801750
- 1948627 words of memory out of 5000000
- 45061 multiletter control sequences out of 15000+600000
+ 25215 strings out of 476802
+ 547369 string characters out of 5801750
+ 1949627 words of memory out of 5000000
+ 46744 multiletter control sequences out of 15000+600000
  562329 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 72i,12n,81p,2707b,5248s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,12n,117p,2707b,5320s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MasterThesis.xdv (32 pages, 744452 bytes).
+Output written on MasterThesis.xdv (44 pages, 795192 bytes).

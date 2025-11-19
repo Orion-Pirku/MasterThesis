@@ -1,4 +1,5 @@
 # io.py
+from __future__ import annotations
 import pandas as pd
 from pathlib import Path
 from multiprocessing import Pool, cpu_count
@@ -19,9 +20,16 @@ from .transform import (
 import sys
 import os
 import re
+from collections.abc import Iterable, Sequence
+from typing import Literal
 
 
-def _check_file_type(input_files: list[str]) -> None:
+FeatureKind = Literal[
+    "gene density", "gc content", "rec rate", "snp density", "tajima d", "window pi"
+]
+
+
+def _check_file_type(input_files: Sequence[Path]) -> None:
     allowed_suffixes: tuple[str, ...] = (
         ".pi",
         ".windowpi",
@@ -32,12 +40,12 @@ def _check_file_type(input_files: list[str]) -> None:
         ".snpdens",
         ".rmap",
     )
-    if not any(file.endswith(allowed_suffixes) for file in input_files):
-        print(f"Error: Only files ending with {allowed_suffixes} are allowed.")
-        sys.exit(1)
+    if not any(f.name.endswith(allowed_suffixes) for f in input_files):
+        suffix_str = ", ".join(allowed_suffixes)
+        raise ValueError(f"Only files ending with one of ({suffix_str}) are allowed.")
 
 
-def _classify_feature(label: str) -> str | None:
+def _classify_feature(label: str) -> FeatureKind | None:
     label_lower = label.lower().replace("_", " ")
     if "gene density" in label_lower or "genes" in label_lower:
         return "gene density"
@@ -45,20 +53,99 @@ def _classify_feature(label: str) -> str | None:
         return "gc content"
     if "rec rate" in label_lower:
         return "rec rate"
-    return next(
-        (k for k in ("snp density", "tajima d", "window pi") if k in label_lower), None
+    for key in ("snp density", "tajima d", "window pi"):
+        if key in label_lower:
+            return key
+    return None
+
+
+def _normalize_paths(paths: str | Path | Iterable[str | Path]) -> list[Path]:
+    if isinstance(paths, (str, Path)):
+        return [Path(paths)]
+    return [Path(p) for p in paths]
+
+
+def _ensure_non_empty_dataframe(
+    df: pd.DataFrame, feature_kind: FeatureKind
+) -> pd.DataFrame:
+    if df.empty:
+        raise ValueError(
+            f"Processed feature '{feature_kind}' produced an empty DataFrame"
+        )
+    return df
+
+
+def _rename_genomic_columns(df: pd.DataFrame) -> pd.DataFrame:
+    renamed = df.rename(
+        columns={"CHROM": "Chromosome", "START": "Start", "END": "End"},
+        errors="ignore",
     )
+    required = {"Chromosome", "Start", "End"}
+    missing = required.difference(renamed.columns)
+    if missing:
+        raise ValueError(f"Processed feature missing columns: {sorted(missing)}")
+    return renamed
 
 
-def _normalize_paths(paths: list[str] | str) -> list[str]:
-    if isinstance(paths, str):
-        return [paths]
-    return paths
+def _process_gene_density(
+    file_paths: Sequence[Path],
+    genome_sizes_file: str,
+    window_size: int,
+) -> pd.DataFrame:
+    loaded_dfs = load_bed_files([str(p) for p in file_paths])
+    df_in = concatenate_windows(loaded_dfs) if len(loaded_dfs) > 1 else loaded_dfs[0]
+    processed = compute_gene_density(
+        df_in,
+        genome_sizes=genome_sizes_file,
+        window_size=window_size,
+    )
+    processed.to_csv(
+        "blackcap_gene_density.bed",
+        sep="\t",
+        index=False,
+        header=True,
+    )
+    return processed
+
+
+def _process_rec_rate(
+    file_paths: Sequence[Path],
+    window_size: int,
+) -> pd.DataFrame:
+    rec_rates = load_recombination_maps([str(p) for p in file_paths])
+    rec_rates_windows = [make_windows(df, window_size) for df in rec_rates]
+    sorted_rec_rates = sort_windows(rec_rates_windows)
+    return concatenate_windows(sorted_rec_rates)
+
+
+def _process_gc_content(file_paths: Sequence[Path]) -> pd.DataFrame:
+    loaded_dfs = load_bed_files([str(p) for p in file_paths])
+    return concatenate_windows(loaded_dfs) if len(loaded_dfs) > 1 else loaded_dfs[0]
+
+
+def _process_popgen_stat(
+    file_paths: Sequence[Path],
+    feature_kind: Literal["snp density", "tajima d", "window pi"],
+) -> pd.DataFrame:
+    loaded_dfs = load_bed_files([str(p) for p in file_paths])
+    preprocessed_list = preprocess_popgen_stats(feature_dataframes=loaded_dfs)
+    processed = (
+        concatenate_windows(preprocessed_list)
+        if len(preprocessed_list) > 1
+        else preprocessed_list[0]
+    )
+    out = feature_kind.replace(" ", "_")
+    processed.to_csv(
+        f"blackcap_{out}.bed",
+        sep="\t",
+        index=False,
+    )
+    return processed
 
 
 def load_and_prepare_feature(
     label: str,
-    paths: list[str] | str,
+    paths: str | Path | Iterable[str | Path],
     genome_sizes_file: str,
     window_size: int,
 ) -> pr.PyRanges:
@@ -70,66 +157,32 @@ def load_and_prepare_feature(
     if not file_paths:
         raise ValueError("No input paths provided.")
 
-    # Load all files into a list
-    loaded_dfs: list[pd.DataFrame]
-    if len(file_paths) == 1:
-        loaded_dfs = [pd.read_csv(file_paths[0], sep="\t", header=0)]
+    _check_file_type(file_paths)
 
-    multiple = len(file_paths) > 1
+    match feature_kind:
+        case "gene density":
+            processed = _process_gene_density(
+                file_paths=file_paths,
+                genome_sizes_file=genome_sizes_file,
+                window_size=window_size,
+            )
+        case "rec rate":
+            processed = _process_rec_rate(
+                file_paths=file_paths,
+                window_size=window_size,
+            )
+        case "gc content":
+            processed = _process_gc_content(file_paths)
+        case "snp density" | "tajima d" | "window pi":
+            processed = _process_popgen_stat(
+                file_paths=file_paths,
+                feature_kind=feature_kind,
+            )
 
-    # ---- Dispatch per feature, concatenating ONLY if multiple files ----
-    if feature_kind == "gene density":
-        loaded_dfs = load_bed_files(file_paths)
-        df_in = concatenate_windows(loaded_dfs) if multiple else loaded_dfs[0]  # type: ignore[name-defined]
-        processed = compute_gene_density(  # type: ignore[name-defined]
-            df_in, genome_sizes=genome_sizes_file, window_size=window_size
-        )
-    elif feature_kind == "rec rate":
-        rec_rates = load_recombination_maps(file_paths)
-        rec_rates = [make_windows(df, window_size) for df in rec_rates]
-        sorted_rec_rates = sort_windows(rec_rates)
-        processed = concatenate_windows(sorted_rec_rates)
+    processed = _ensure_non_empty_dataframe(processed, feature_kind)
+    processed = _rename_genomic_columns(processed)
 
-    elif feature_kind == "gc content":
-        loaded_dfs = load_bed_files(file_paths)
-        processed = concatenate_windows(loaded_dfs) if multiple else loaded_dfs[0]  # type: ignore[name-defined]
-
-    elif feature_kind in ("snp density", "tajima d", "window pi"):
-        loaded_dfs = load_bed_files(file_paths)
-        preprocessed_list = preprocess_popgen_stats(  # type: ignore[name-defined]
-            feature_dataframes=loaded_dfs
-        )
-        processed = (
-            concatenate_windows(preprocessed_list)  # type: ignore[name-defined]
-            if len(preprocessed_list) > 1
-            else preprocessed_list[0]
-        )
-
-    else:
-        # should be unreachable
-        raise RuntimeError(f"Unhandled feature kind: {feature_kind!r}")
-
-    if processed is None:
-        raise ValueError(f"No data processed for feature '{feature_kind}'")
-    if processed.empty:
-        raise ValueError(
-            f"Processed feature '{feature_kind}' produced an empty DataFrame"
-        )
-    # Normalize expected column names (no-op if already correct)
-    processed = processed.rename(
-        columns={"CHROM": "Chromosome", "START": "Start", "END": "End"},
-        errors="ignore",
-    )
-
-    # Validate required columns exist before building PyRanges
-    required = {"Chromosome", "Start", "End"}
-    missing = required.difference(processed.columns)
-    if missing:
-        raise ValueError(f"Processed feature missing columns: {sorted(missing)}")
-
-    range_object = pr.PyRanges(df=processed)
-
-    return range_object
+    return pr.PyRanges(df=processed)
 
 
 def save_hotspots_as_bed(
@@ -184,11 +237,18 @@ def _parse_bed_file(file: str) -> pd.DataFrame:
     Assumes the first line is a header to skip.
     """
     file_path = Path(file)
-    data_frame = pd.read_csv(file_path, sep="\t", header=None)
+    data_frame = pd.read_csv(file_path, sep="\t", header=0)
     if data_frame.iloc[:, 0].str.contains("_").any():
         data_frame.iloc[:, 0] = data_frame.iloc[:, 0].str.replace("_", "", regex=False)
-        # Add 'END' column if missing
+    column_names = [col.lower() for col in data_frame.columns]
+    if not any("end" in column for column in column_names):
+        start = data_frame.iloc[:, 1]
+        bin_size = start.iloc[1] - start.iloc[0]
 
+        end = start.shift(-1) - 1
+        end.iloc[-1] = start.iloc[-1] + bin_size - 1  # fix last NaN
+
+        data_frame.insert(2, "End", end.astype(int))
     return data_frame
 
 
@@ -206,7 +266,27 @@ def load_bed_files(input_files: str | list[str]) -> list[pd.DataFrame]:
     return dfs
 
 
-def load_fasta_file(fasta_file: str) -> List[SeqRecord]:
+def _parse_hotspots_bed_file(file: str) -> pd.DataFrame:
+    file_path = Path(file)
+    data_frame = pd.read_csv(file_path, sep="\t", header=None)
+    return data_frame
+
+
+def load_hotspots_bed_files(input_files: str | list[str]) -> list[pd.DataFrame]:
+    if isinstance(input_files, list):
+        matched_files = [str(p) for p in input_files if Path(p).exists()]
+    else:
+        raise TypeError("input_files must be a str or list of str objects.")
+
+    if not matched_files:
+        raise FileNotFoundError(f"No BED files found for pattern(s): {input_files}")
+
+    with Pool(processes=max(1, cpu_count() // 2)) as pool:
+        dfs = pool.map(_parse_hotspots_bed_file, matched_files)
+    return dfs
+
+
+def _load_fasta_file(fasta_file: str) -> List[SeqRecord]:
     fasta_file_path = Path(fasta_file)
     return list(SeqIO.parse(fasta_file_path, "fasta"))
 
@@ -214,7 +294,7 @@ def load_fasta_file(fasta_file: str) -> List[SeqRecord]:
 def parse_and_rename_fasta_file(
     fasta_file: str, mapping: Dict[str, str]
 ) -> Union[int, Exception]:
-    loaded_fasta = load_fasta_file(fasta_file)
+    loaded_fasta = _load_fasta_file(fasta_file)
     modified_fasta: List[SeqRecord] = []
     try:
         for record in loaded_fasta:

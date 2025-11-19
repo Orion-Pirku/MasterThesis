@@ -23,13 +23,14 @@ def parse_arguments() -> argparse.Namespace:
         help="Path to genome sizes file. Contains (Chrom - Chrom Size)",
     )
     parser.add_argument(
-        "--accession-map", required=True, help="Path to genome accession file"
-    )
-    parser.add_argument(
         "-feature", default="gene", help="Feature to extract (e.g., gene, exon)"
     )
     parser.add_argument(
-        "-output", required=True, default="genes.gff", help="Name of the output file"
+        "-output",
+        type=str,
+        required=True,
+        default="genes.gff",
+        help="Name of the output file",
     )
 
     if len(sys.argv) == 1:
@@ -39,19 +40,18 @@ def parse_arguments() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_arguments()
-    os.makedirs(args.output, exist_ok=True)
 
-    for file_arg in [args.gff, args.genome_size, args.accession_map]:
+    for file_arg in [args.gff, args.genome_size]:
         if not Path(file_arg).is_file():
             print(f"[ERROR] File does not exist: {file_arg}")
             sys.exit(1)
 
-    accession_map = load_accession_mapping(args.accession_map)
-    df = clean_raw_gff(args.gff, args.feature, accession_map)
+    os.makedirs(args.output, exist_ok=True)
+    df = clean_raw_gff(args.gff, args.feature)
 
     try:
         df.to_csv(
-            f"{args.output}/bSylAtri_{args.feature}.bed",
+            f"{args.output}.bed",
             sep="\t",
             index=False,
             header=True,

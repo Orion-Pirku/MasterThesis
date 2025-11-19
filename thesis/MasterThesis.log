@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.10.27)  17 NOV 2025 10:45
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.10.27)  18 NOV 2025 10:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -972,7 +972,7 @@ File: Figures/GeneDensity_chr30.png Graphic file (type bmp)
 File: Figures/GeneDensity_dist_chr30.png Graphic file (type bmp)
 <Figures/GeneDensity_dist_chr30.png>
  [12]
-Underfull \hbox (badness 10000) in paragraph at lines 480--490
+Underfull \hbox (badness 10000) in paragraph at lines 480--489
 
  []
 
@@ -990,13 +990,13 @@ File: Figures/Rho_chr30.png Graphic file (type bmp)
 File: Figures/Rho_dist_chr30.png Graphic file (type bmp)
 <Figures/Rho_dist_chr30.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 578.
+(Font)              <5> on input line 577.
  [14]
 File: ../results/rec_rate_stats/feature_correlation_plot_100000.png Graphic fil
 e (type bmp)
 <../results/rec_rate_stats/feature_correlation_plot_100000.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 592--604
+Underfull \hbox (badness 10000) in paragraph at lines 591--603
 
  []
 
@@ -1029,14 +1029,14 @@ r30_t30.0.png Graphic file (type bmp)
 30.0.png>
  [16]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 652.
+(Font)              <10.95> on input line 651.
 
-Overfull \hbox (30.71576pt too wide) in paragraph at lines 652--664
+Overfull \hbox (30.71576pt too wide) in paragraph at lines 651--663
  [][] 
  []
 
 
-Overfull \hbox (34.3622pt too wide) in paragraph at lines 670--682
+Overfull \hbox (34.3622pt too wide) in paragraph at lines 669--681
  [][] 
  []
 
@@ -1053,124 +1053,124 @@ chr28_t30.0.png Graphic file (type bmp)
 <../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr28
 _t30.0.png>
 [17] [18]
-Overfull \hbox (6.81442pt too wide) in paragraph at lines 704--704
+Overfull \hbox (6.81442pt too wide) in paragraph at lines 703--703
 []\TU/TimesNewRoman(0)/b/n/14.4 Recent population expansion and high diversity 
 in the blackcap genome 
  []
 
 [19]
-Overfull \hbox (5.11989pt too wide) in paragraph at lines 739--739
+Overfull \hbox (5.11989pt too wide) in paragraph at lines 738--738
 []\TU/TimesNewRoman(0)/b/n/14.4 Strong correlation between gc content and recom
 bination rate in black-
  []
 
 
-Overfull \hbox (11.88364pt too wide) in paragraph at lines 761--776
+Overfull \hbox (11.88364pt too wide) in paragraph at lines 760--775
 \TU/TimesNewRoman(0)/m/n/12 ments, by the trimethylation of histones 3 lysine 4
  (H3K4me3) and histone 3 lysine 36 (H3K36me3)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 761--776
+Underfull \hbox (badness 10000) in paragraph at lines 760--775
 
  []
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 777--787
+Underfull \hbox (badness 10000) in paragraph at lines 776--786
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 788--795
+Underfull \hbox (badness 10000) in paragraph at lines 787--794
 
  []
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 796--805
+Underfull \hbox (badness 10000) in paragraph at lines 795--804
 
  []
 
 [22] [23]
-Overfull \hbox (6.9476pt too wide) in paragraph at lines 835--835
+Overfull \hbox (6.9476pt too wide) in paragraph at lines 834--834
 [][]\TU/TimesNewRoman(0)/m/n/12 Baumdicker, Franz et al. (Mar. 1, 2022). “  Eff
 icient ancestry and mutation simulation with msprime
  []
 
 [24]
-Overfull \hbox (6.32849pt too wide) in paragraph at lines 835--835
+Overfull \hbox (6.32849pt too wide) in paragraph at lines 834--834
 \TU/TimesNewRoman(0)/m/n/12 malian genomic landscapes”. In: \TU/TimesNewRoman(0
 )/m/it/12 Annual Review of Genomics and Human Genetics \TU/TimesNewRoman(0)/m/n
 /12 10, pp. 285–
  []
 
 [25]
-Overfull \hbox (11.66335pt too wide) in paragraph at lines 835--835
+Overfull \hbox (11.66335pt too wide) in paragraph at lines 834--834
 [][]\TU/TimesNewRoman(0)/m/n/12 Joseph, Julien et al. (June 2024). “  High prev
 alence of PRDM9-independent recombination hotspots
  []
 
 [26] [27]
-Overfull \hbox (8.35938pt too wide) in paragraph at lines 835--835
+Overfull \hbox (8.35938pt too wide) in paragraph at lines 834--834
 [] [] [][][][][][][][] [] [][][] [] [][][] [] [][][][][][][][] [] [][][][][][][
 ] [][] [][][] [] [][][] [] [] [] [][][][] [] [][][][][][][][] [] [][][][][][][]
 [][][][][] []
  []
 
 
-Overfull \hbox (1.22778pt too wide) in paragraph at lines 835--835
+Overfull \hbox (1.22778pt too wide) in paragraph at lines 834--834
 \TU/TimesNewRoman(0)/m/n/12 Predicting binding sites and functional phylogenies
 ”. In: \TU/TimesNewRoman(0)/m/it/12 Proceedings of the National Academy
  []
 
 
-Overfull \hbox (6.21521pt too wide) in paragraph at lines 835--835
+Overfull \hbox (6.21521pt too wide) in paragraph at lines 834--834
 \TU/TimesNewRoman(0)/m/n/12 striction endonucleases.” In: \TU/TimesNewRoman(0)/
 m/it/12 Proceedings of the National Academy of Sciences \TU/TimesNewRoman(0)/m/
 n/12 76.10, pp. 5269–
  []
 
 [28]
-Overfull \hbox (5.13635pt too wide) in paragraph at lines 835--835
+Overfull \hbox (5.13635pt too wide) in paragraph at lines 834--834
 [][][][][][][] [] [][][][] [] [][][][][][][]$[][]\TU/TimesNewRoman(0)/m/n/12 . 
 URL: [][]$[][][][][] [] [] [] [][][][][][][][] [] [][][][] [] [][][] [] [][][][
 ][][][][][][][][] [] [][][][][][][] []
  []
 
 [29]
-Overfull \hbox (12.48422pt too wide) in paragraph at lines 835--835
+Overfull \hbox (12.48422pt too wide) in paragraph at lines 834--834
 \TU/TimesNewRoman(0)/m/n/12 polymorphism.” In: \TU/TimesNewRoman(0)/m/it/12 Gen
 etics \TU/TimesNewRoman(0)/m/n/12 123.3, pp. 585–595. ISSN: 1943-2631. DOI: [][
 ]$[][] [] [][][][] [] [][][][][][][][] []
  []
 
 
-Overfull \hbox (11.65573pt too wide) in paragraph at lines 835--835
+Overfull \hbox (11.65573pt too wide) in paragraph at lines 834--834
 [][]\TU/TimesNewRoman(0)/m/n/12 Tian, Hui, Timothy Billings, and Petko M. Petko
 v (Jan. 2021). “  EWSR1 affects PRDM9-dependent
  []
 
 [30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 841--842
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 843--847
+Underfull \hbox (badness 10000) in paragraph at lines 842--846
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 850--851
+Underfull \hbox (badness 10000) in paragraph at lines 849--850
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 852--854
+Underfull \hbox (badness 10000) in paragraph at lines 851--853
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 856--857
+Underfull \hbox (badness 10000) in paragraph at lines 855--856
 
  []
 
@@ -1482,7 +1482,124 @@ File: ../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_ch
 r33_t30.0.png Graphic file (type bmp)
 <../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr33_t
 30.0.png>
- [43] (./MasterThesis.aux)
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr1_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr1_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr2_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr2_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr3_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr3_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr4_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr4_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr5_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr5_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr6_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr6_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr7_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr7_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr8_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr8_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr9_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr9_
+t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr10_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr10
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr11_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr11
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr12_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr12
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr13_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr13
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr14_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr14
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr15_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr15
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr16_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr16
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr17_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr17
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr18_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr18
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr19_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr19
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr20_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr20
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr21_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr21
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr22_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr22
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr23_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr23
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr24_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr24
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr25_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr25
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr26_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr26
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr27_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr27
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr28_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr28
+_t30.0.png>
+File: ../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_
+chr29_t30.0.png Graphic file (type bmp)
+<../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr29
+_t30.0.png>
+ [43] [44]
+(./MasterThesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1494,12 +1611,12 @@ Package logreq Info: Writing requests to 'MasterThesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25215 strings out of 476802
- 547369 string characters out of 5801750
- 1949627 words of memory out of 5000000
- 46744 multiletter control sequences out of 15000+600000
+ 25422 strings out of 476802
+ 566949 string characters out of 5801750
+ 1948627 words of memory out of 5000000
+ 46951 multiletter control sequences out of 15000+600000
  562329 words of font info for 80 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  86i,12n,117p,2707b,5320s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on MasterThesis.xdv (44 pages, 795192 bytes).
+Output written on MasterThesis.xdv (45 pages, 803228 bytes).

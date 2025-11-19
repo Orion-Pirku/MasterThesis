@@ -326,7 +326,7 @@ All results including scripts, figures and BED files are available on my github 
 To investigate the deviation from neutral evolution, average pairwise nucleotide diversity and snp
 density I computed three population genomics statistics: tajima $D$, diversity \(\pi\) and SNP
 density across the autosomal chromosomes on a blackcap metapopulation consisting of 100 individuals.
-Tajima's $D$ showed two types of patterns across each of the 33 blackcap autosomal
+Tajima's $D$  had a genome wide average of -1.05 (Table 1) showed two types of patterns across each of the 33 blackcap autosomal
 chromosomes (Figure 1, Supplementary Figure 1). The large chromosomes one through 12, showed
 relatively stable negative tajima $D$ values across the chromosomal body, with the exception of one
 peak in chromosomes  2 and 4 at \(\sim20 Mb\) with a tajima $D$ value of 0 and a sharp valley with a
@@ -334,7 +334,7 @@ tajima $D$ value of over -2 at \(\sim7 Mb\) on chromosome 6, and the end of chro
 contained several peaks of positive tajima $D$ (Supplementary Figure 1). The chromosomal ends of
 these macrochromosomes had negative tajima $D$ values which were close to 0.
 The blackcap microchromosomes displayed opposite patterns, the subtelomeric regions had valleys
-beyond values of tajima $D:$ $-2$ while the chromosomal body showed stable yet tiny fluctuations in
+beyond values of tajima $D:$ $-1.9$ (Table 1) while the chromosomal body showed stable yet tiny fluctuations in
 the tajima $D$ values, which were negative yet closer to 0 (Supplementary Figure 1).
 % --- Tajima's D ---
 \begin{figure}[H]
@@ -354,12 +354,12 @@ the tajima $D$ values, which were negative yet closer to 0 (Supplementary Figure
 
 Compared to tajima's $D$, the SNP density and nucleotide diversity \(\pi\) displayed more visible
 patterns across the chromosomes (Figure 2). The macrochromosomes had an average SNP density and
-nuleotide diversity \(\pi\) of 50 and 0.005 over 100 Mb window bins, respectively
+nuleotide diversity \(\pi\) of 54 and 0.005 over 100 Mb window bins, respectively
 (Figure 2; Supplementary Figure 2 \- 3). In addition to this, both values displayed  regularly
 interspaced sharp valleys occuring at \(\sim\) 10 Mb. Chromosome 1, in contrast to the other,
 macrochromosomes had a sharp peak in its chromosomal end (Supplementary Figures 2 \- 3). The
 microchromosomes, on the other hand, revealed stable patterns, with reduced signal in the
-subtelomeric regions with occasional valleys in SNP density and diversity $\pi$ along the chrmosomal
+subtelomeric regions with occasional valleys in SNP density and diversity $\pi$ along the chromosomal
 axis (Supplementary Figures 2\-3). Here again, microchromosomes displayed overall SNP density and
 diversity $\pi$ across the chromosomal axis relative to the macrochromosomes. Interestingly the
 trends of SNP density, diversity $\pi$ and tajima $D$ have a medium positive correlation (pearson
@@ -401,7 +401,7 @@ The microchromosomes, contained another pattern. They showed elevated GC content
 the chromosomal body with gc content trends being over 50\% and relatively stable
 (Supplementary Figure 4). Furthermore, this trend in GC content values with decreasing
 chromosome size was even more pronounced when the values were binned into equal tertiles (Figure 3; Su
-pplementary Figure 4). Here, the microchromosomes had a larger proportion of high GC
+pplementary Figure 5). Here, the microchromosomes had a larger proportion of high GC
 content as opposed to the macrochromosomes. \\
 
 \begin{figure}[H]
@@ -437,10 +437,10 @@ content as opposed to the macrochromosomes. \\
 
 The blakcap genome has an average gene density of 33.83 $\frac{genes}{Mb}$ (Table 1).
 The macrochromosomes show low gene density across their length, with
-elevated gene density in the subtelomeric regions (Figure 4, Supplementary Figure 5) and have
+elevated gene density in the subtelomeric regions (Figure 4, Supplementary Figure 6) and have
 average gene density lower than microchromosomes (Table 1).
 Microchromosomes, on the other hand, have an higher average gene density along their length and lower gene density in
-their subtelomeric regions compared to the macrochromosomes (Table 1, Figure 4, Supplementary Figure 5).
+their subtelomeric regions compared to the macrochromosomes (Table 1, Figure 4, Supplementary Figure 6).
 Furthermore, the GC content and Gene Density showed medium positive correlation
 (pearson's $r \approx 0.6$, Figure 6), while the Gene density had a weak correlation, with tajima's $D$, diversity $\pi$ and SNP
 density ($r \approx 0.2$; Figure 6).
@@ -481,12 +481,11 @@ To investigate the recombination landscape in european blackcaps and gain insigh
 independent recombination that happens in organisms lacking prdm9 I computed meiotic
 recombination rate maps using \texttt{pyrho} \parencite{joseph_high_2024, cavassim_prdm9_2022, doi:10.1126/sciadv.aaw9206}.
 The recombination landscape on the blackcap population has a genome wide avarage of $0.48 \frac{cM}{Mb}$ (Table 1).
-Most of the high recombination rate signal is concenrated in the subtelomreic regions, as reported
-for other bird species (zebra finches and long tailed finches) and contained several spikes in
-recombination length over the chromosomal axis. \parencite{singhal_2015}.
-The recombination rate average per chromosome, seems to vary with chromosomal length, the
+Most of the high recombination rate signal is concenrated in the subtelomreic regions and contained several spikes in
+recombination length over the chromosomal axis (Figure 5, Supplementary Figure 7).
+The recombination rate average per chromosome, seems to vary with chromosomal selectingth, the
 microchromosomes had a higher proportion of high recombination rate regions and a higher
-recombination rate average then the macrochromosomes (Table 1, Figure 5, Supplementary Figure 6). \\
+recombination rate average then the macrochromosomes (Table 1, Figure 5, Supplementary Figure 8). \\
 
 To compare the recombination rate landscape with other genomic features I computed it's pearson
 correlation with the features mentioned above. The recombination rate seemed to have a medium
@@ -596,11 +595,11 @@ intensity, making them suitable for detecting jumps in the recombination rate
 Utilizing wavelet transform to identify the ridges of the recombination rate signal with a peak
 prominence threshold of 90 and 30, I identified 712, and 6145 putative recombination hotspots
 (See Materials \& Methods for details). The putative hotspots identified with a threshold of 90,
-are located mostly in the subtelomereic regions of chromosomes. Hotspots also appear along
-the chromosomal body, especially in the smaller chromosomes (Figure 8). The same trend is apparent in
+are located mostly in the subtelomeric regions of chromosomes. Hotspots also appear along
+the chromosomal body, especially in the smaller chromosomes (Figure 8, Supplementary Figure 8-9). The same trend is apparent in
 putative hotspots identified with a threshold of 30, although hotspots are also observed in the
 chromosomal body of the larger chromosomes, suggesting a broader distribution at lower detection
-thresholds (Figure 8, Supplementary Figures 9, 10). \\
+thresholds (Figure 8, Supplementary Figures 8-9). \\
 
 \begin{figure}[H]
 	\centering
@@ -782,7 +781,7 @@ hotspots\parencite{UbedaWilkins2011}. So one needs to identify large jumps in re
 values over a local background. Previously recombination hotspots were called from
 recombination maps inferred through LD methods with a sliding window approach \parencite{wooldridge_rapid_2023}.
 However, the sliding window approach lacks multi scale resolution and risks flattening peaks as it
-computes an average over a large window, loosing fine scale resolution. To circumvene these
+computes an average over a large window, loosing fine scale resolution. To circumvent these
 limitations I applied the continuous wavelet transformation \parencite{Mexican-hat-wavelet}. \\
 
 The continuous wavelet transformation consists of a "mother" wavelet function that is slid
@@ -807,7 +806,7 @@ To test if this methodology is also applicable to other datasets which were not 
 pyrho, I utilized the recombination rate maps from \cite{singhal_2015} that were generated through
 \texttt{LDhot}. In this case the wavelet coefficients still identified recombination hotspots which
 were mostly localized in the subtelomeric regions with occasional ones along the chromosomal axis
-(Figure 9)
+(Figure 9, Supplementary Figure 10)
 
 \subsection{Conclusions}
 This thesis seeked to extend the analysis of the meiotic recombination landscape of blackcap
@@ -819,7 +818,7 @@ UTRs, exons and codons), computing the GC content and gene density as well the r
 with pyrho, I was able to uncover that the blackcap genome although it shows recent population expansions
 still has relatively high diversity, high gc content and high recombination activity (Table 1). Futhermore
 these features showed extreme values at subtelomeric regions (Figures 1 - 5, Supplementary Figures
-1-6), with the recombination rate, gene density, gc content, $\pi$ and gene density increasing in the microchromosomes.
+1-7), with the recombination rate, gene density, gc content, $\pi$ and gene density increasing in the microchromosomes.
 Recombination rate achieved the highest average enrichment over 5' UTRs ($\rho = 2.5 \times 10^{-7}$),
 with small peaks in codons and exons ($\rho \approx 1.2 \times 10^{-7}$) while no recombination rate
 was found in intragenic regions as it has been observed in species carrying \textit{prdm9}
@@ -913,7 +912,7 @@ Datum, Unterschrift\\ \textit{Date, Signature}
 		\includegraphics[width=\textwidth, keepaspectratio]{"../results/rec_rate_stats/Window_PI_part2.png"}
 	\end{subfigure}
 
-	\caption*{\textbf{Supplementary Figure 4.} GC Content of the blackcap metapopulation consisting of
+	\caption*{\textbf{Supplementary Figure 3.} Nucleotide $\pi$ of the blackcap metapopulation consisting of
 		100 individuals from the island and continental populations, computed over 100 kb windows.}
 \end{figure}
 
@@ -1148,6 +1147,60 @@ Datum, Unterschrift\\ \textit{Date, Signature}
 		european blackcap metapopulation, identified through wavelet
 		transformation from the recombination rate maps generated by pyrho with a peak prominence
 		threshold of $90^{th}$ percentile \textbf{(left)} and $30^{th}$ percentile \textbf{(right)}}
+\end{figure}
+
+\begin{figure}[!hp]
+	\centering
+	\begin{tabular}{cccc}
+		% ===== chr1–4 =====
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr1_t30.0.png}  &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr2_t30.0.png}  &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr3_t30.0.png}  &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr4_t30.0.png}        \\[4pt]
+
+		% ===== chr5–8 =====
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr5_t30.0.png}  &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr6_t30.0.png}  &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr7_t30.0.png}  &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr8_t30.0.png}        \\[4pt]
+
+		% ===== chr9–12 =====
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr9_t30.0.png}  &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr10_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr11_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr12_t30.0.png}       \\[4pt]
+
+		% ===== chr13–16 =====
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr13_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr14_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr15_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr16_t30.0.png}       \\[4pt]
+
+		% ===== chr17–20 =====
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr17_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr18_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr19_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr20_t30.0.png}       \\[4pt]
+
+		% ===== chr21–24 =====
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr21_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr22_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr23_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr24_t30.0.png}       \\[4pt]
+
+		% ===== chr25–28 =====
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr25_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr26_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr27_t30.0.png} &
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr28_t30.0.png}       \\[4pt]
+
+		% ===== chr29 (alone) =====
+		\includegraphics[height=0.065\textheight]{../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr29_t30.0.png} &
+		                                                                                                                                    &   & \\
+	\end{tabular}
+	\caption*{\textbf{Supplementary Figure 10.} Recombination hotspots on chromosomes 1–29 of the zebrafinch,
+		identified through wavelet transformation from recombination rate maps from \cite{singhal_2015} using a peak prominence threshold of $30^{th}$ percentile.}
+
 \end{figure}
 
 

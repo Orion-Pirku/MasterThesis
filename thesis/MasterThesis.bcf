@@ -2433,53 +2433,54 @@
     <bcf:citekey order="42" intorder="1">joseph_high_2024</bcf:citekey>
     <bcf:citekey order="42" intorder="2">cavassim_prdm9_2022</bcf:citekey>
     <bcf:citekey order="42" intorder="3">doi:10.1126/sciadv.aaw9206</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">singhal_2015</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">Mexican-hat-wavelet</bcf:citekey>
-    <bcf:citekey order="44" intorder="2">Lee2019</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">Mexican-hat-wavelet</bcf:citekey>
+    <bcf:citekey order="43" intorder="2">Lee2019</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">ramirez_deeptools2_2016</bcf:citekey>
     <bcf:citekey order="45" intorder="1">ramirez_deeptools2_2016</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">ramirez_deeptools2_2016</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">singhal_2015</bcf:citekey>
     <bcf:citekey order="47" intorder="1">singhal_2015</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">singhal_2015</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">Tajima-1989</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">Tajima-1989</bcf:citekey>
+    <bcf:citekey order="48" intorder="2">nei-and-li-1979</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">nielsen2013introduction</bcf:citekey>
     <bcf:citekey order="49" intorder="2">nei-and-li-1979</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">nielsen2013introduction</bcf:citekey>
-    <bcf:citekey order="50" intorder="2">nei-and-li-1979</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Li-and-Sadler-1991</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">Li-and-Sadler-1991</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">nielsen2013introduction</bcf:citekey>
+    <bcf:citekey order="51" intorder="2">Tajima-1989</bcf:citekey>
     <bcf:citekey order="52" intorder="1">nielsen2013introduction</bcf:citekey>
     <bcf:citekey order="52" intorder="2">Tajima-1989</bcf:citekey>
     <bcf:citekey order="53" intorder="1">nielsen2013introduction</bcf:citekey>
-    <bcf:citekey order="53" intorder="2">Tajima-1989</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">nielsen2013introduction</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">kiktev2018</bcf:citekey>
+    <bcf:citekey order="54" intorder="2">Chen2006</bcf:citekey>
+    <bcf:citekey order="54" intorder="3">Fullerton2001</bcf:citekey>
     <bcf:citekey order="55" intorder="1">kiktev2018</bcf:citekey>
     <bcf:citekey order="55" intorder="2">Chen2006</bcf:citekey>
     <bcf:citekey order="55" intorder="3">Fullerton2001</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">kiktev2018</bcf:citekey>
-    <bcf:citekey order="56" intorder="2">Chen2006</bcf:citekey>
-    <bcf:citekey order="56" intorder="3">Fullerton2001</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">Bolivar2019</bcf:citekey>
-    <bcf:citekey order="57" intorder="2">DuretGaltier2009</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">Hershberg2010</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">paiano_atm_2020</bcf:citekey>
-    <bcf:citekey order="59" intorder="2">MustonenLaessig2005</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">Bird1986</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">Bolivar2019</bcf:citekey>
+    <bcf:citekey order="56" intorder="2">DuretGaltier2009</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">Hershberg2010</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">paiano_atm_2020</bcf:citekey>
+    <bcf:citekey order="58" intorder="2">MustonenLaessig2005</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">Bird1986</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">cavassim_prdm9_2022</bcf:citekey>
+    <bcf:citekey order="60" intorder="2">parvanov_prdm9_2017</bcf:citekey>
+    <bcf:citekey order="60" intorder="3">lange_landscape_2016</bcf:citekey>
+    <bcf:citekey order="60" intorder="4">baker_prdm9_2015</bcf:citekey>
+    <bcf:citekey order="60" intorder="5">berg_prdm9_2010</bcf:citekey>
     <bcf:citekey order="61" intorder="1">cavassim_prdm9_2022</bcf:citekey>
-    <bcf:citekey order="61" intorder="2">parvanov_prdm9_2017</bcf:citekey>
-    <bcf:citekey order="61" intorder="3">lange_landscape_2016</bcf:citekey>
-    <bcf:citekey order="61" intorder="4">baker_prdm9_2015</bcf:citekey>
-    <bcf:citekey order="61" intorder="5">berg_prdm9_2010</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">cavassim_prdm9_2022</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">singhal_2015</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">doi:10.1126/sciadv.aaw9206</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">UbedaWilkins2011</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">wooldridge_rapid_2023</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">Mexican-hat-wavelet</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">singhal_2015</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">bascon-cardozo-fine-scale-2024</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">wooldridge_rapid_2023</bcf:citekey>
-    <bcf:citekey order="70" intorder="2">lange_landscape_2016</bcf:citekey>
-    <bcf:citekey order="70" intorder="3">baker_prdm9_2015</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">singhal_2015</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">doi:10.1126/sciadv.aaw9206</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">UbedaWilkins2011</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">wooldridge_rapid_2023</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">Mexican-hat-wavelet</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">singhal_2015</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">bascon-cardozo-fine-scale-2024</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">wooldridge_rapid_2023</bcf:citekey>
+    <bcf:citekey order="69" intorder="2">lange_landscape_2016</bcf:citekey>
+    <bcf:citekey order="69" intorder="3">baker_prdm9_2015</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">singhal_2015</bcf:citekey>
     <bcf:citekey order="71" intorder="1">singhal_2015</bcf:citekey>
     <bcf:citekey order="72" intorder="1">singhal_2015</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">singhal_2015</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

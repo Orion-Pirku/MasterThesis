@@ -1,0 +1,7 @@
+Genomic_Feature	NPMI	NPMI_Expected	Lower_95_CI	Upper_95CI
+blackcap_3_UTR	-0.0556	-0.0000	-0.0608	-0.0464
+blackcap_5_UTR	0.1694	0.0000	0.1670	0.1830
+blackcap_cds	0.0602	0.0000	0.0530	0.0612
+blackcap_exon	0.0618	0.0000	0.0573	0.0681
+blackcap_genes	0.0247	0.0000	0.0208	0.0298
+blackcap_intergenic	-0.0160	0.0000	-0.0206	-0.0132

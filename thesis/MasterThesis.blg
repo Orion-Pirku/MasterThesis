@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MasterThesis.blg'
-[52] biber:340> INFO - === Mon Nov 17, 2025, 10:45:17
-[62] Biber.pm:419> INFO - Reading 'MasterThesis.bcf'
-[112] Biber.pm:979> INFO - Found 56 citekeys in bib section 0
-[120] Biber.pm:4419> INFO - Processing section 0
-[127] Biber.pm:4610> INFO - Looking for bibtex file 'Citations.bib' for section 0
-[143] bibtex.pm:1713> INFO - LaTeX decoding ...
-[270] bibtex.pm:1519> INFO - Found BibTeX data source 'Citations.bib'
-[760] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[760] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[760] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
-[760] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[808] bbl.pm:660> INFO - Writing 'MasterThesis.bbl' with encoding 'UTF-8'
-[845] bbl.pm:763> INFO - Output to MasterThesis.bbl
-[845] Biber.pm:131> WARN - Duplicate entry key: 'Lee2019' in file 'Citations.bib', skipping ...
-[846] Biber.pm:133> INFO - WARNINGS: 1
+[65] biber:340> INFO - === Tue Nov 18, 2025, 10:43:02
+[80] Biber.pm:419> INFO - Reading 'MasterThesis.bcf'
+[143] Biber.pm:979> INFO - Found 56 citekeys in bib section 0
+[155] Biber.pm:4419> INFO - Processing section 0
+[164] Biber.pm:4610> INFO - Looking for bibtex file 'Citations.bib' for section 0
+[185] bibtex.pm:1713> INFO - LaTeX decoding ...
+[355] bibtex.pm:1519> INFO - Found BibTeX data source 'Citations.bib'
+[1017] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1018] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1018] Biber.pm:4239> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1018] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1084] bbl.pm:660> INFO - Writing 'MasterThesis.bbl' with encoding 'UTF-8'
+[1136] bbl.pm:763> INFO - Output to MasterThesis.bbl
+[1136] Biber.pm:131> WARN - Duplicate entry key: 'Lee2019' in file 'Citations.bib', skipping ...
+[1136] Biber.pm:133> INFO - WARNINGS: 1

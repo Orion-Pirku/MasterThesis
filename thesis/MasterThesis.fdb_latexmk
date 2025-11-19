@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber MasterThesis"] 1763372717.49046 "MasterThesis.bcf" "MasterThesis.bbl" "MasterThesis" 1763372784.46941 0
+["biber MasterThesis"] 1763458981.83198 "MasterThesis.bcf" "MasterThesis.bbl" "MasterThesis" 1763459344.48998 0
   "Citations.bib" 1763116919.13414 228733 4f07ea736fe4a62ca3c84cf5056a08ae ""
-  "MasterThesis.bcf" 1763372724.31009 116592 dd7b4b6b89c6c9c89fbc898942816af8 "xelatex"
+  "MasterThesis.bcf" 1763459249.75733 116660 8cc03197002ac3860fb1379c61fd54f8 "xelatex"
   (generated)
   "MasterThesis.bbl"
   "MasterThesis.blg"
   (rewritten before read)
-["xdvipdfmx"] 1763372724.41527 "MasterThesis.xdv" "MasterThesis.pdf" "MasterThesis" 1763372784.47219 0
-  "MasterThesis.xdv" 1763372724.31109 795192 f474862ba7edb5c250a794ad9eb4a3b8 "xelatex"
+["xdvipdfmx"] 1763459249.91049 "MasterThesis.xdv" "MasterThesis.pdf" "MasterThesis" 1763459344.49485 0
+  "MasterThesis.xdv" 1763459249.75833 803228 67f2543acb6fafcf0e1c5068d3d264a3 "xelatex"
   (generated)
   "MasterThesis.pdf"
   (rewritten before read)
-["xelatex"] 1763372721.62935 "MasterThesis.tex" "MasterThesis.xdv" "MasterThesis" 1763372784.46952 0
+["xelatex"] 1763459246.02102 "MasterThesis.tex" "MasterThesis.xdv" "MasterThesis" 1763459344.49017 0
   "../blackcap_rho_all_features_heatmap.png" 1763029231.64521 751136 21d98f209aeb37e3ba92ab36c7608caa ""
   "../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr10_t30.0.png" 1762876979.97522 146642 0f1f3e30ee000c78031a75b886dc095d ""
   "../results/blackcap_hotspots/threshold_30/plots/recombination_hotspots_chr11_t30.0.png" 1762877004.41435 129216 4c86e46c8eacea67d3309674193f655e ""
@@ -95,8 +95,34 @@
   "../results/rec_rate_stats/Window_PI_part2.png" 1763132554.33886 1032747 fca3813129c499b022056aa50e1fdb62 ""
   "../results/rec_rate_stats/feature_correlation_plot_100000.png" 1761211264.09439 128330 a4e6f972879ddc10a86405fd2771ff7e ""
   "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr10_t30.0.png" 1762875028.34687 118143 720515bbebefc8024e235ebf69a3125a ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr11_t30.0.png" 1762875037.67091 130564 a6b08d4e823f57cb1fc31ee365430f9d ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr12_t30.0.png" 1762875042.77393 106452 edaf631a816cfa89de9442cd17a6753d ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr13_t30.0.png" 1762875047.88695 117072 4ad1969c9dfde6b6ad8100711df531ad ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr14_t30.0.png" 1762875052.92597 114962 becf8c44324b1bf7330afc4ceb887f48 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr15_t30.0.png" 1762875057.60499 138033 2971e4eea6c3093a8a75c2446842eef2 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr16_t30.0.png" 1762875062.116 100393 65b3df7c4297fa42c44c8b8f89c09c49 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr17_t30.0.png" 1762875066.52002 99318 347fdb897ece286bf5b901167282726f ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr18_t30.0.png" 1762875071.12404 92755 9bc3b5f36a345c5de77defcaa473e39b ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr19_t30.0.png" 1762875073.85905 80828 33d480caed2cd4e8ded81c57d8e3f31a ""
   "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr1_t30.0.png" 1762874763.65486 113553 d122eea3ca3fdecb0d5d58c7be3ce471 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr20_t30.0.png" 1762875076.52606 91382 a6706719fedb644655e2d09c119b818a ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr21_t30.0.png" 1762875080.77308 94407 b5b4e00f014a1c3777c0f3d7974f3120 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr22_t30.0.png" 1762875082.42608 78226 7c083488a28eea02e148e8edec2384dc ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr23_t30.0.png" 1762875083.78109 76086 e38c091a53845ffefd05bcd6b4b165b6 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr24_t30.0.png" 1762875085.37709 77448 57b0ea72094fad399f1124a2963bfb91 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr25_t30.0.png" 1762875088.01811 76520 2c975cbe0b70113c218fd5a30d9b1c46 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr26_t30.0.png" 1762875088.90211 64408 f8055f11e4ce98898444ab30e2b06ddf ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr27_t30.0.png" 1762875090.44611 86280 5f2a63df962ab121e63d9d46cae2503c ""
   "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr28_t30.0.png" 1762875092.10812 82076 ab2ea1b7f253fce1bb4c734a067111a7 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr29_t30.0.png" 1762875093.91313 81097 1eec239bfa1b269ef033061aad032c40 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr2_t30.0.png" 1762874819.67607 124652 d52b688a3ff487a61ebb32f25166b382 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr3_t30.0.png" 1762874878.8153 121595 e4776508dfee63cb38ac4e61050dd949 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr4_t30.0.png" 1762874938.41753 118028 5eb8f8ed9e5e719490c4a18b74cbee9a ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr5_t30.0.png" 1762874944.15155 115444 7d0cf9a81114713e7e554330b764bfa5 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr6_t30.0.png" 1762874970.61365 131999 fcc573e12c5ca7324f9eb455980b457f ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr7_t30.0.png" 1762874999.33676 112661 d6525e4d3e2ad0c58b17afd475458e7d ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr8_t30.0.png" 1762875009.1448 121374 3112a3bc9aca5d9d16fd70e30aba86a7 ""
+  "../results/zebrafinch_hotspots/threshold_30/plots/recombination_hotspots_chr9_t30.0.png" 1762875019.22084 123350 1b7b33416d0bdd98956cdecd3969cefe ""
   "/etc/texmf/web2c/texmf.cnf" 1761567730.73697 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -238,12 +264,12 @@
   "Figures/WindowPi_chr1.png" 1762777752.02845 149033 a93253db8b6182fd5903c657bcff027a ""
   "Figures/WindowPi_chr10.png" 1762777766.14653 69230 a1789f64b933c8e0df8ad077517d9521 ""
   "Figures/WindowPi_chr30.png" 1762777785.98664 51108 55ff097d30cf233f59b438b78133e2c2 ""
-  "MasterThesis.aux" 1763372724.29009 25027 dd8d13a57c0747ccc6cfc582ecb1752b "xelatex"
-  "MasterThesis.bbl" 1763372718.73695 232101 50512fd73b7972ea72553f494378c84a "biber MasterThesis"
-  "MasterThesis.out" 1763372724.30709 6250 ce80620646be3435a11add707f003461 "xelatex"
-  "MasterThesis.run.xml" 1763372724.31109 2401 cd896cc9cd309a3c1ea099d3ce42ee30 "xelatex"
-  "MasterThesis.tex" 1763372709.2977 77014 6d21928c6159863125b13c008c740d3a ""
-  "MasterThesis.toc" 1763372724.31109 2671 728c68bcc31efac29b9e85b49935a1c7 "xelatex"
+  "MasterThesis.aux" 1763459249.73233 25069 dcd7c02dd578e8ff88f94d9b204cf017 "xelatex"
+  "MasterThesis.bbl" 1763458983.50871 232101 50512fd73b7972ea72553f494378c84a "biber MasterThesis"
+  "MasterThesis.out" 1763459249.75333 6250 ce80620646be3435a11add707f003461 "xelatex"
+  "MasterThesis.run.xml" 1763459249.75833 2401 cd896cc9cd309a3c1ea099d3ce42ee30 "xelatex"
+  "MasterThesis.tex" 1763459244.73209 81809 eda39aabd7fa640d705f8f6e4268d5ed ""
+  "MasterThesis.toc" 1763459249.75833 2671 728c68bcc31efac29b9e85b49935a1c7 "xelatex"
   (generated)
   "MasterThesis.aux"
   "MasterThesis.bcf"

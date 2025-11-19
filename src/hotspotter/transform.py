@@ -20,13 +20,11 @@ import numpy.typing as npt
 
 
 def _extract_feature_name(attribute: str) -> str | None:
-    match = re.search(r"Name=([^;]+)", attribute)
+    match = re.search(r"Ontology_term=([^;]+)", attribute)
     return match.group(1) if match else None
 
 
-def clean_raw_gff(
-    file_path: str, genomic_feature: str, genome_accession: dict[str, str]
-) -> pd.DataFrame:
+def clean_raw_gff(file_path: str, genomic_feature: str) -> pd.DataFrame:
     gff: pd.DataFrame = pd.read_csv(
         file_path,
         sep="\t",
@@ -43,11 +41,13 @@ def clean_raw_gff(
             "DOT",
             "SEQ_ID",
         ],
+        dtype=str,
     )
     feature = gff[gff["TYPE"].str.lower() == genomic_feature.lower()].copy()
+    feature = feature[feature["ACCESSION"].isin([f"chr_{i}" for i in range(1, 34)])]
+
+    feature["CHROM"] = feature["ACCESSION"].str.replace("chr_", "chr", regex=False)
     feature["NAME"] = feature["SEQ_ID"].apply(_extract_feature_name)
-    feature["CHROM"] = feature["ACCESSION"].astype(str).map(genome_accession)
-    feature = feature.dropna(subset=["CHROM"])
     feature["CHROM"] = feature["CHROM"].astype(str)
     feature["START"] = feature["START"].astype(int)
     feature["END"] = feature["END"].astype(int)
@@ -99,7 +99,7 @@ def compute_gene_density(
 
     # --- Compute density ---
     overlap_df["WINDOW_SIZE"] = overlap_df["End"] - overlap_df["Start"]
-    overlap_df["GENE_DENSITY"] = overlap_df["GENE_COUNT"] / overlap_df["WINDOW_SIZE"]
+    overlap_df["GENE_DENSITY"] = overlap_df["GENE_COUNT"] / (overlap_df["WINDOW_SIZE"] / 1_000_000)
 
     # --- Standardize columns ---
     return overlap_df[["Chromosome", "Start", "End", "GENE_COUNT", "GENE_DENSITY"]]

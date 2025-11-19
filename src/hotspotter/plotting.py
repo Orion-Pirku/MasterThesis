@@ -37,7 +37,7 @@ def plot_correlation_matrix(
         square=True,
         annot=annot_df,
         fmt="",
-        annot_kws={"size": 12, "fontweight": "bold"},
+        annot_kws={"size": 114, "fontweight": "bold"},
         cbar_kws={"label": "Pearson Correlation"},
     )
     cbar = ax.collections[0].colorbar
@@ -45,9 +45,9 @@ def plot_correlation_matrix(
         "Pearson Correlation", size=12, weight="bold", labelpad=25
     )
 
-    plt.xticks(fontsize=12, rotation=45, ha="right", fontweight="bold")
+    plt.xticks(fontsize=14, rotation=45, ha="right", fontweight="bold")
 
-    plt.yticks(fontsize=12, rotation=0, fontweight="bold")
+    plt.yticks(fontsize=14, rotation=0, fontweight="bold")
 
     plt.tight_layout()
 
@@ -110,8 +110,8 @@ def plot_pop_gen_stats(
         fig, ax = plt.subplots(figsize=(10, 4), constrained_layout=True)
         ax.plot(x, y, color=plotLineColor, lw=1)
         chrom_label = re.sub(r"[-_A-Za-z]+", "", str(chrom))
-        ax.set_xlabel(f"Chromosome {chrom_label}", fontsize=9, weight="bold")
-        ax.set_ylabel(re.sub(r"[-_]", " ", y_axis_title), fontsize=9, weight="bold")
+        ax.set_xlabel(f"Chromosome {chrom_label}", fontsize=14, weight="bold")
+        ax.set_ylabel(re.sub(r"[-_]", " ", y_axis_title), fontsize=14, weight="bold")
         ax.grid(True, alpha=0.3)
         fig.suptitle(title, fontsize=14, weight="bold")
 
@@ -132,9 +132,13 @@ def plot_pop_gen_stats(
             ax = axes[i]
             ax.plot(x, y, color=plotLineColor, lw=1)
             ax.set_xlabel(
-                f"Chromosome {str(chrom).replace('chr', '')}", fontsize=8, weight="bold"
+                f"Chromosome {str(chrom).replace('chr', '')}",
+                fontsize=14,
+                fontweight="bold",
             )
-            ax.set_ylabel(re.sub(r"[-_]", " ", y_axis_title), fontsize=8, weight="bold")
+            ax.set_ylabel(
+                re.sub(r"[-_]", " ", y_axis_title), fontsize=14, fontweight="bold"
+            )
             ax.set_xlim(-tick_step, max_len + tick_step)
             ax.set_xticks(tickvals)
             ax.set_xticklabels(ticklabels)
@@ -344,7 +348,7 @@ def plot_score_distribution(
         x = df.select_dtypes(include=["float64"])
         ax.hist(x, bins="auto", density=True, color="firebrick")
         title = str(df.iloc[0, 0]) if not df.empty else f"Chrom {i + 1}"
-        ax.set_title(title, fontsize=11)
+        ax.set_title(title, fontsize=12)
         ax.set_xlabel(x_label)
         if i % cols == 0:
             ax.set_ylabel("Frequency")
@@ -412,8 +416,8 @@ def plot_recombination_hotspots(
         s=10,
         color="red",
     )
-    plt.xlabel("Genomic Position")
-    plt.ylabel(r"Recombination Rate  $\rho$")
+    plt.xlabel(f"Chromosome {chromosome_number}", fontsize=14, fontweight="bold")
+    plt.ylabel(r"Recombination Rate  $\rho$", fontsize=14, fontweight="bold")
     plt.title(f"Chromosome {chromosome_number}")
     plt.tight_layout()
     plt.savefig(output_name)
